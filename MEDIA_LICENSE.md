@@ -11,7 +11,7 @@ The project owner confirmed the right to redistribute the following included med
 | `kits/remotion/public/sfx/dvstory-key-*.wav` | Key taps synthesized by `scripts/make-key-sfx.py` | MIT |
 | `kits/remotion/public/music/maple-leaf-rag.ogg` | Scott Joplin, *Maple Leaf Rag* (1899), recording by Gnissah via Wikimedia Commons | Public domain |
 | `kits/remotion/public/music/*.beats.json`, `sources.json` | Beat analysis and track records; Mixkit audio itself is **not** included | MIT |
-| `docs/assets/*.jpg`, `docs/assets/*.mp4` | Frames and clips from local template renders using the demo media above | Picture MIT; soundtrack as below |
+| `docs/assets/*.jpg`, `docs/assets/*.mp4` | Full-length template renders and their posters, using the demo media above | Picture MIT; soundtrack as below |
 | `docs/assets/loops/*.webp` | Silent 4-second loops cut from those previews for the README (`album-vertical.webp` frames the 9:16 short in 16:9) | MIT |
 | `docs/assets/art/` | Illustrations generated with an image model for vibevision.video, cropped as README banners | MIT |
 | `docs/assets/brand/` | VVV logo, vector redraws and promotional illustrations; generation prompts in `generation.json` | MIT |

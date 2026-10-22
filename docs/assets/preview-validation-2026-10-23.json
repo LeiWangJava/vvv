@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-23",
+  "scope": "Full-length gallery previews of Album (16:9 and 9:16), Comedy, Doodle and DV Story, rendered at half scale from the current template code. Starter keeps its 2026-10-21 full-length preview. Automated checks plus a review of frames sampled every 4 s; not a frame-by-frame or subjective listening acceptance.",
+  "renders": [
+    {
+      "compositionId": "VVV-Doodle",
+      "video": "doodle.mp4",
+      "durationSeconds": 142.016,
+      "width": 960,
+      "height": 540,
+      "renderCommand": "npx remotion render examples/cases.tsx VVV-Doodle OUT.mp4 --scale=0.5 --crf=24 --audio-bitrate=128k",
+      "encodeCommand": "ffmpeg -i OUT.mp4 -c:v libx264 -preset slow -crf 28 -profile:v high -pix_fmt yuv420p -movflags +faststart -c:a copy PUBLIC.mp4",
+      "highlightSeconds": [
+        1.5,
+        24.5
+      ],
+      "sourceFingerprintFile": "template-source-2026-10-23-doodle.json",
+      "checks": [
+        {
+          "code": "RESOLUTION",
+          "status": "warning",
+          "message": "Short side is 540px; review delivery quality at 1080px or more."
+        },
+        {
+          "code": "AUDIO",
+          "status": "passed",
+          "message": "Mean level -16.5 dBFS.",
+          "meanDbfs": -16.5,
+          "longestSilenceSeconds": 3.5
+        },
+        {
+          "code": "STILL",
+          "status": "passed",
+          "message": "No still stretch longer than 3s.",
+          "runs": [],
+          "stillShare": 0.04
+        },
+        {
+          "code": "BEAT_SYNC",
+          "status": "passed",
+          "message": "Strongest visual changes sit 44 ms from the nearest beat on average.",
+          "peaks": 18,
+          "meanMs": 44,
+          "within66ms": 0.94
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositionId": "VVV-Album",
+      "video": "album.mp4",
+      "durationSeconds": 197.504,
+      "width": 960,
+      "height": 540,
+      "renderCommand": "npx remotion render examples/cases.tsx VVV-Album OUT.mp4 --scale=0.5 --crf=24 --audio-bitrate=128k",
+      "encodeCommand": "ffmpeg -i OUT.mp4 -c:v libx264 -preset slow -crf 28 -profile:v high -pix_fmt yuv420p -movflags +faststart -c:a copy PUBLIC.mp4",
+      "highlightSeconds": [
+        3.0,
+        26.733333333333334
+      ],
+      "sourceFingerprintFile": "template-source-2026-10-23-album.json",
+      "checks": [
+        {
+          "code": "RESOLUTION",
+          "status": "warning",
+          "message": "Short side is 540px; review delivery quality at 1080px or more."
+        },
+        {
+          "code": "AUDIO",
+          "status": "passed",
+          "message": "Mean level -17.1 dBFS.",
+          "meanDbfs": -17.1,
+          "longestSilenceSeconds": 3.0
+        },
+        {
+          "code": "STILL",
+          "status": "passed",
+          "message": "No still stretch longer than 3s.",
+          "runs": [],
+          "stillShare": 0.09
+        },
+        {
+          "code": "BEAT_SYNC",
+          "status": "passed",
+          "message": "Strongest visual changes sit 25 ms from the nearest beat on average.",
+          "peaks": 30,
+          "meanMs": 25,
+          "within66ms": 0.97
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositionId": "VVV-Album-Vertical",
+      "video": "album-vertical.mp4",
+      "durationSeconds": 49.813,
+      "width": 540,
+      "height": 960,
+      "renderCommand": "npx remotion render examples/cases.tsx VVV-Album-Vertical OUT.mp4 --scale=0.5 --crf=24 --audio-bitrate=128k",
+      "encodeCommand": "ffmpeg -i OUT.mp4 -c:v libx264 -preset slow -crf 28 -profile:v high -pix_fmt yuv420p -movflags +faststart -c:a copy PUBLIC.mp4",
+      "highlightSeconds": [
+        26.0,
+        48.6
+      ],
+      "sourceFingerprintFile": "template-source-2026-10-23-album.json",
+      "checks": [
+        {
+          "code": "RESOLUTION",
+          "status": "warning",
+          "message": "Short side is 540px; review delivery quality at 1080px or more."
+        },
+        {
+          "code": "AUDIO",
+          "status": "passed",
+          "message": "Mean level -18.1 dBFS.",
+          "meanDbfs": -18.1,
+          "longestSilenceSeconds": 2.5
+        },
+        {
+          "code": "STILL",
+          "status": "passed",
+          "message": "No still stretch longer than 3s.",
+          "runs": [],
+          "stillShare": 0.0
+        },
+        {
+          "code": "BEAT_SYNC",
+          "status": "passed",
+          "message": "Strongest visual changes sit 46 ms from the nearest beat on average.",
+          "peaks": 10,
+          "meanMs": 46,
+          "within66ms": 0.8
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositionId": "VVV-DVStory",
+      "video": "dv-story.mp4",
+      "durationSeconds": 182.549,
+      "width": 960,
+      "height": 540,
+      "renderCommand": "npx remotion render examples/cases.tsx VVV-DVStory OUT.mp4 --scale=0.5 --crf=24 --audio-bitrate=128k",
+      "encodeCommand": "ffmpeg -i OUT.mp4 -c:v libx264 -preset slow -crf 28 -profile:v high -pix_fmt yuv420p -movflags +faststart -c:a copy PUBLIC.mp4",
+      "highlightSeconds": [
+        70.0,
+        90.0
+      ],
+      "sourceFingerprintFile": "template-source-2026-10-23-dv.json",
+      "checks": [
+        {
+          "code": "RESOLUTION",
+          "status": "warning",
+          "message": "Short side is 540px; review delivery quality at 1080px or more."
+        },
+        {
+          "code": "AUDIO",
+          "status": "passed",
+          "message": "Mean level -28.0 dBFS.",
+          "meanDbfs": -28.0,
+          "longestSilenceSeconds": 0.5
+        },
+        {
+          "code": "STILL",
+          "status": "passed",
+          "message": "No still stretch longer than 3s.",
+          "runs": [],
+          "stillShare": 0.13
+        },
+        {
+          "code": "BEAT_SYNC",
+          "status": "passed",
+          "message": "Strongest visual changes sit 43 ms from the nearest beat on average.",
+          "peaks": 30,
+          "meanMs": 43,
+          "within66ms": 0.9
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "compositionId": "VVV-Comedy",
+      "video": "comedy.mp4",
+      "durationSeconds": 212.011,
+      "width": 960,
+      "height": 540,
+      "renderCommand": "npx remotion render examples/cases.tsx VVV-Comedy OUT.mp4 --scale=0.5 --crf=24 --audio-bitrate=128k",
+      "encodeCommand": "ffmpeg -i OUT.mp4 -c:v libx264 -preset slow -crf 28 -profile:v high -pix_fmt yuv420p -movflags +faststart -c:a copy PUBLIC.mp4",
+      "highlightSeconds": [
+        62.6,
+        76.9
+      ],
+      "sourceFingerprintFile": "template-source-2026-10-23-comedy.json",
+      "checks": [
+        {
+          "code": "RESOLUTION",
+          "status": "warning",
+          "message": "Short side is 540px; review delivery quality at 1080px or more."
+        },
+        {
+          "code": "AUDIO",
+          "status": "passed",
+          "message": "Mean level -23.0 dBFS.",
+          "meanDbfs": -23.0,
+          "longestSilenceSeconds": 1.0
+        },
+        {
+          "code": "STILL",
+          "status": "passed",
+          "message": "No still stretch longer than 3s.",
+          "runs": [],
+          "stillShare": 0.16
+        },
+        {
+          "code": "BEAT_SYNC",
+          "status": "passed",
+          "message": "Strongest visual changes sit 14 ms from the nearest beat on average.",
+          "peaks": 30,
+          "meanMs": 14,
+          "within66ms": 1.0
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "beatMaps": "Film-time beat maps built like vvv check --project: the fixture track minus trimBeforeSec, plus later tracks from catalog check.tracks (Comedy switches to When in Love at 110.82 s).",
+  "changes": [
+    "Doodle: hits.json recalibrated with scripts/calibrate.py; the stored hits predated the current page choreography and sat 0.17–0.37 s off.",
+    "Doodle: design-beat warp anchors are dropped within 1.5 beats of measured peaks that sit off the design grid, so those page changes can move onto the music. Full-film beat sync went from 111 ms to 44 ms mean."
+  ],
+  "visualReview": "Frames every 4 s of each public file reviewed as tiled sheets: complete, no black or frozen frames outside the designed intros, Doodle page motion unchanged in character after the warp change."
+}

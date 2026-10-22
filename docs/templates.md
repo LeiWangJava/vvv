@@ -1,6 +1,6 @@
 # Templates
 
-VVV currently ships five editable Remotion templates, all wedding films, and one reusable effect. List them with `vvv.py templates --kit kits/remotion`, see one template's inputs with `vvv.py describe --kit kits/remotion --template ID`, and choose the template and format at `init`. The published previews are 1280 × 720 (Album 9:16: 720 × 1280) and pass `vvv check` for format, audio, still stretches and beat alignment; that does not certify every frame of the full films.
+VVV currently ships five editable Remotion templates, all wedding films, and one reusable effect. List them with `vvv.py templates --kit kits/remotion`, see one template's inputs with `vvv.py describe --kit kits/remotion --template ID`, and choose the template and format at `init`. Each published preview is the complete film, at 960 × 540 (Album 9:16: 540 × 960; Starter: 1280 × 720), and passes `vvv check` for audio, still stretches and beat alignment; that does not certify every frame.
 
 | Template | What it makes | Formats | Published preview |
 |---|---|---|---|
@@ -28,7 +28,7 @@ State who the film is for, which memories matter, the format, the available phot
 
 [![Doodle: garden photographs, a hand-drawn flower and a poem on white paper](assets/doodle.jpg)](assets/doodle.mp4)
 
-[Watch the excerpt](assets/doodle.mp4) · [Inputs](../kits/remotion/examples/doodle-wedding.json) · [Scene source](../kits/remotion/src/templates/doodle/scenes.tsx)
+[Watch the full film](assets/doodle.mp4) · [Inputs](../kits/remotion/examples/doodle-wedding.json) · [Scene source](../kits/remotion/src/templates/doodle/scenes.tsx)
 
 White watercolor paper and black marker doodles: a pink heart blooms behind "We're married!", the couple dances in, a record card rolls past, doodle avatars introduce them, nine pages of photos glide across the paper, and the couple bows to "THANK YOU FOR COMING". The default track *Dance with Me* is download-only (`npm run music`). Composition: `VVV-Doodle`.
 
@@ -44,7 +44,7 @@ The 16:9 film needs 40 story photos plus its gallery. The 9:16 short uses only t
 
 [![DV Story: travel photographs on the PLAY screen](assets/dv-story.jpg)](assets/dv-story.mp4)
 
-[Watch the excerpt](assets/dv-story.mp4) · [Inputs](../kits/remotion/examples/dv-our-story.json) · [Template notes](../kits/remotion/src/templates/dv-story/README.md)
+[Watch the full film](assets/dv-story.mp4) · [Inputs](../kits/remotion/examples/dv-our-story.json) · [Template notes](../kits/remotion/src/templates/dv-story/README.md)
 
 Typed welcome lines, a camcorder viewfinder, a PLAY screen, sticker cards, photo pages, a 35 mm wedding strip and a typed last line. The default track is *Fifth of February* (download-only). Composition: `VVV-DVStory`.
 
@@ -52,7 +52,7 @@ Typed welcome lines, a camcorder viewfinder, a PLAY screen, sticker cards, photo
 
 [![Comedy: the groom name reveal after the wrong-clip gag](assets/comedy.jpg)](assets/comedy.mp4)
 
-[Watch the groom gag](assets/comedy.mp4) · [Inputs](../kits/remotion/examples/comedy-wedding.json) · [Template notes](../kits/remotion/src/templates/comedy/README.md)
+[Watch the full film](assets/comedy.mp4) · [Inputs](../kits/remotion/examples/comedy-wedding.json) · [Template notes](../kits/remotion/src/templates/comedy/README.md)
 
 A Chinese comedy opener with host narration, house-rule gags, a wrong-clip record scratch, a bride reveal, the 99% love bar, red-and-gold photos and an applause countdown. Music and effects are download-only (`npm run music`). Composition: `VVV-Comedy`.
 
@@ -96,4 +96,4 @@ npx remotion render examples/cases.tsx VVV-Comedy out/comedy.mp4 --frames=1878-2
 npx remotion render examples/cases.tsx VVV-Starter out/starter.mp4
 ```
 
-The published previews were rendered at 1920 × 1080 (1080 × 1920 for 9:16) on 2026-10-21, then encoded at 1280 × 720 (720 × 1280) as H.264 high profile, CRF 22–24, with AAC 160 kbps audio, short audio fades at the edges and a 0.6 s fade-out. Frame ranges, filters and hashes are in [preview metadata](assets/previews.json) and the [validation record](assets/preview-validation-2026-10-21.json); review notes are in [verification](verification.md#preview-review). Demo photo provenance is in [assets.json](../kits/remotion/assets.json); see [media licensing](../MEDIA_LICENSE.md).
+The published previews are complete films. Album, Comedy, Doodle and DV Story were rendered in full on 2026-10-23 at half scale and encoded as H.264 high profile, CRF 28, with the rendered AAC 128 kbps audio; Starter's full 35-second reel is the 2026-10-21 render at 1280 × 720. Commands, hashes and check results are in [preview metadata](assets/previews.json) and the [validation record](assets/preview-validation-2026-10-23.json); review notes are in [verification](verification.md#preview-review). Demo photo provenance is in [assets.json](../kits/remotion/assets.json); see [media licensing](../MEDIA_LICENSE.md).

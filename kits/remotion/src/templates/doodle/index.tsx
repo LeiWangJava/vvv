@@ -58,7 +58,14 @@ const span = (from: number, to: number) => ({ from: from - Bt(2) - 0.05, to: to 
  * Re-run the calibration after changing the motion.
  */
 const BEAT_ANCHORS: Anchor[] = Array.from({ length: Math.floor((DESIGN_SECONDS - B(0)) / Bt(1)) }, (_, n): Anchor => ({ t: B(n), kind: "beat" }));
-const ANCHORS: Anchor[] = mergeAnchors(hits as Hit[], BEAT_ANCHORS);
+// A few page changes peak about half a beat off the design grid; the design beats right beside them
+// would pin the warp in place, so those peaks get a beat and a half of room to move onto the music.
+const offGrid = (t: number) => Math.abs((t - B(0)) / Bt(1) - Math.round((t - B(0)) / Bt(1))) > 0.3;
+const LOOSE = (hits as Hit[]).filter((h) => offGrid(h.t)).map((h) => h.t);
+const ANCHORS: Anchor[] = mergeAnchors(
+  hits as Hit[],
+  BEAT_ANCHORS.filter((a) => LOOSE.every((t) => Math.abs(t - a.t) > Bt(1.5))),
+);
 
 const DoodleFilm: React.FC<Props> = ({ couple, photos, copy, music }) => {
   const beats = useBeatMap(beatsPathFor(music.src));

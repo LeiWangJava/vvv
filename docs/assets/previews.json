@@ -5,29 +5,29 @@
     "video": "doodle.mp4",
     "poster": "doodle.jpg",
     "sourceRangeSeconds": [
-      1.5,
-      24.5
+      0,
+      142.016
     ],
     "sourceFramesInclusive": [
-      45,
-      734
+      0,
+      4259
     ],
     "compositionId": "VVV-Doodle",
     "fullCompositionSeconds": 142.0,
     "fixture": "kits/remotion/examples/doodle-wedding.json",
     "entryPoint": "kits/remotion/examples/cases.tsx",
-    "posterOffsetSeconds": 5.5,
-    "width": 1280,
-    "height": 720,
+    "posterOffsetSeconds": 7.0,
+    "width": 960,
+    "height": 540,
     "fps": 30,
     "audio": "Dance with Me by Ahjay Stelino (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed",
     "content": "fictional generated demo photographs and original doodle artwork",
     "mediaTerms": "Photos and artwork MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md",
-    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "evidence": "Full composition rendered on 2026-10-23 at half scale (960x540) from the current template code with Remotion CRF 24 and AAC 128k, then re-encoded to H.264 high profile CRF 28 (preset slow, faststart) with the audio stream copied. vvv check passed audio, still-hold (3 s) and beat sync against the film-time beat map; the 540px short side gives the expected resolution warning. Frames sampled every 4 s were reviewed as tiled sheets. See validationFile for exact scope.",
     "decode": "passed",
-    "sourceFingerprintFile": "template-source-2026-10-21-doodle.json",
-    "validationFile": "preview-validation-2026-10-21.json",
-    "sha256": "42f96a2a01f1f8e071bc8af1d4b3bdd0efc555c9330be5cff28c6eb99166bbf3",
+    "sourceFingerprintFile": "template-source-2026-10-23-doodle.json",
+    "validationFile": "preview-validation-2026-10-23.json",
+    "sha256": "ad00484bce526c8ad0d300f94a2adfe9df126c6b9e35c1850f25b61a40104256",
     "posterSha256": "f2cae76e0f5fd16d0f9cbe62f0912880ca2597580221aad67cbf11ca48fa8c46",
     "metadata": {
       "programs": [],
@@ -37,23 +37,29 @@
           "codec_name": "h264",
           "profile": "100",
           "codec_type": "video",
-          "width": 1280,
-          "height": 720,
+          "width": 960,
+          "height": 540,
           "pix_fmt": "yuv420p",
           "r_frame_rate": "30/1",
-          "nb_frames": "690"
+          "bit_rate": "337943",
+          "duration": "142.000000"
         },
         {
           "codec_name": "aac",
           "profile": "1",
           "codec_type": "audio",
           "r_frame_rate": "0/0",
-          "nb_frames": "1080"
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": "125375",
+          "duration": "142.016000"
         }
       ],
       "format": {
-        "duration": "23.018000",
-        "size": "2759636"
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "142.016000",
+        "size": "8379179",
+        "bit_rate": "472013"
       }
     },
     "sourceVideoSha256": "0152369948a5fd5bf91699ef65a253b58fda0c4abe998374362460c033bf6893",
@@ -66,7 +72,11 @@
       "movflags": "+faststart",
       "posterJpegQuality": 85,
       "sourceRenderCrf": 16
-    }
+    },
+    "highlightSeconds": [
+      1.5,
+      24.5
+    ]
   },
   {
     "template": "album",
@@ -74,12 +84,12 @@
     "video": "album.mp4",
     "poster": "album.jpg",
     "sourceRangeSeconds": [
-      3.0,
-      26.733333333333334
+      0,
+      197.504
     ],
     "sourceFramesInclusive": [
-      90,
-      801
+      0,
+      5924
     ],
     "fixture": "kits/remotion/examples/album-wedding.json",
     "entryPoint": "kits/remotion/examples/cases.tsx",
@@ -87,16 +97,16 @@
     "audio": "Skyline by Eugenio Mininni (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed",
     "content": "fictional generated demo photographs",
     "mediaTerms": "Photos MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md and kits/remotion/public/music/sources.json",
-    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 24 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "evidence": "Full composition rendered on 2026-10-23 at half scale (960x540) from the current template code with Remotion CRF 24 and AAC 128k, then re-encoded to H.264 high profile CRF 28 (preset slow, faststart) with the audio stream copied. vvv check passed audio, still-hold (3 s) and beat sync against the film-time beat map; the 540px short side gives the expected resolution warning. Frames sampled every 4 s were reviewed as tiled sheets. See validationFile for exact scope.",
     "decode": "passed",
-    "sourceFingerprintFile": "template-source-2026-10-21-album.json",
+    "sourceFingerprintFile": "template-source-2026-10-23-album.json",
     "compositionId": "VVV-Album",
     "fullCompositionSeconds": 197.5,
-    "posterOffsetSeconds": 0.6,
-    "width": 1280,
-    "height": 720,
-    "validationFile": "preview-validation-2026-10-21.json",
-    "sha256": "15a062011785101cdc9528cef3ac9110800ab487473da3c45db6c68bfb41b411",
+    "posterOffsetSeconds": 3.6,
+    "width": 960,
+    "height": 540,
+    "validationFile": "preview-validation-2026-10-23.json",
+    "sha256": "d7e68d9c6919edbfdd04bf470a3adb2792c339fc233e53354945abe412cce846",
     "posterSha256": "23d1b67e28c8dabdb2e5c137b10615fd6f4a19cc936180bb2a922ac3bde38865",
     "metadata": {
       "programs": [],
@@ -106,23 +116,29 @@
           "codec_name": "h264",
           "profile": "100",
           "codec_type": "video",
-          "width": 1280,
-          "height": 720,
+          "width": 960,
+          "height": 540,
           "pix_fmt": "yuv420p",
           "r_frame_rate": "30/1",
-          "nb_frames": "712"
+          "bit_rate": "460014",
+          "duration": "197.500000"
         },
         {
           "codec_name": "aac",
           "profile": "1",
           "codec_type": "audio",
           "r_frame_rate": "0/0",
-          "nb_frames": "1114"
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": "125375",
+          "duration": "197.504000"
         }
       ],
       "format": {
-        "duration": "23.744000",
-        "size": "4647575"
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "197.504000",
+        "size": "14658291",
+        "bit_rate": "593741"
       }
     },
     "sourceVideoSha256": "0a9a84347ff1633cce44863c079c2fc492073ef43a18d8f0fd89a4f540d96b49",
@@ -135,7 +151,11 @@
       "movflags": "+faststart",
       "posterJpegQuality": 85,
       "sourceRenderCrf": 16
-    }
+    },
+    "highlightSeconds": [
+      3.0,
+      26.733333333333334
+    ]
   },
   {
     "template": "album",
@@ -143,12 +163,12 @@
     "video": "album-vertical.mp4",
     "poster": "album-vertical.jpg",
     "sourceRangeSeconds": [
-      26.0,
-      48.6
+      0,
+      49.813
     ],
     "sourceFramesInclusive": [
-      780,
-      1457
+      0,
+      1493
     ],
     "fixture": "kits/remotion/examples/album-wedding.json",
     "entryPoint": "kits/remotion/examples/cases.tsx",
@@ -156,16 +176,16 @@
     "audio": "Skyline by Eugenio Mininni (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed",
     "content": "fictional generated demo photographs",
     "mediaTerms": "Photos MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md and kits/remotion/public/music/sources.json",
-    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "evidence": "Full composition rendered on 2026-10-23 at half scale (540x960) from the current template code with Remotion CRF 24 and AAC 128k, then re-encoded to H.264 high profile CRF 28 (preset slow, faststart) with the audio stream copied. vvv check passed audio, still-hold (3 s) and beat sync against the film-time beat map; the 540px short side gives the expected resolution warning. Frames sampled every 4 s were reviewed as tiled sheets. See validationFile for exact scope.",
     "decode": "passed",
-    "sourceFingerprintFile": "template-source-2026-10-21-album.json",
+    "sourceFingerprintFile": "template-source-2026-10-23-album.json",
     "compositionId": "VVV-Album-Vertical",
     "fullCompositionSeconds": 49.8,
-    "posterOffsetSeconds": 19.5,
-    "width": 720,
-    "height": 1280,
-    "validationFile": "preview-validation-2026-10-21.json",
-    "sha256": "5e60a19f852aef3c981cf945d4de35ee332bb373287e5f8537d361dd73fae950",
+    "posterOffsetSeconds": 45.5,
+    "width": 540,
+    "height": 960,
+    "validationFile": "preview-validation-2026-10-23.json",
+    "sha256": "26b1fcbba3d6e9be902f1a86a0ecf27c776fa28ac9bab26c1510e2a1f63b81a9",
     "posterSha256": "ea109119c3982795afaac9abc794d9f8a4169cf0ac6b77282eb0a33fc39a4477",
     "metadata": {
       "programs": [],
@@ -175,23 +195,29 @@
           "codec_name": "h264",
           "profile": "100",
           "codec_type": "video",
-          "width": 720,
-          "height": 1280,
+          "width": 540,
+          "height": 960,
           "pix_fmt": "yuv420p",
           "r_frame_rate": "30/1",
-          "nb_frames": "678"
+          "bit_rate": "373129",
+          "duration": "49.800000"
         },
         {
           "codec_name": "aac",
           "profile": "1",
           "codec_type": "audio",
           "r_frame_rate": "0/0",
-          "nb_frames": "1061"
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": "125419",
+          "duration": "49.813000"
         }
       ],
       "format": {
-        "duration": "22.613000",
-        "size": "3505497"
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "49.813000",
+        "size": "3159445",
+        "bit_rate": "507408"
       }
     },
     "sourceVideoSha256": "3918c40f168ffcdb96e1227260b3e780f6cd6e979d3a85ce9e76c5b6fb75e5ab",
@@ -204,7 +230,11 @@
       "movflags": "+faststart",
       "posterJpegQuality": 85,
       "sourceRenderCrf": 16
-    }
+    },
+    "highlightSeconds": [
+      26.0,
+      48.6
+    ]
   },
   {
     "template": "dv-story",
@@ -212,29 +242,29 @@
     "video": "dv-story.mp4",
     "poster": "dv-story.jpg",
     "sourceRangeSeconds": [
-      70.0,
-      90.0
+      0,
+      182.549
     ],
     "sourceFramesInclusive": [
-      2100,
-      2699
+      0,
+      5475
     ],
     "compositionId": "VVV-DVStory",
     "fullCompositionSeconds": 182.533,
     "fixture": "kits/remotion/examples/dv-our-story.json",
     "entryPoint": "kits/remotion/examples/cases.tsx",
-    "posterOffsetSeconds": 17.5,
-    "width": 1280,
-    "height": 720,
+    "posterOffsetSeconds": 87.5,
+    "width": 960,
+    "height": 540,
     "fps": 30,
     "audio": "Fifth of February by Michael Ramir C. (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed. Synthesized key taps.",
     "content": "fictional generated demo photographs; drawn chat card; original stickers",
     "mediaTerms": "Photos and artwork MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md",
-    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "evidence": "Full composition rendered on 2026-10-23 at half scale (960x540) from the current template code with Remotion CRF 24 and AAC 128k, then re-encoded to H.264 high profile CRF 28 (preset slow, faststart) with the audio stream copied. vvv check passed audio, still-hold (3 s) and beat sync against the film-time beat map; the 540px short side gives the expected resolution warning. Frames sampled every 4 s were reviewed as tiled sheets. See validationFile for exact scope.",
     "decode": "passed",
-    "sourceFingerprintFile": "template-source-2026-10-21-dv.json",
-    "validationFile": "preview-validation-2026-10-21.json",
-    "sha256": "e52224ccee2bdeaaf31067fe8f440509aeb809b72750f2be1cb4c9d826fd0cac",
+    "sourceFingerprintFile": "template-source-2026-10-23-dv.json",
+    "validationFile": "preview-validation-2026-10-23.json",
+    "sha256": "32cd6efdef1f823e733af7be9b48ec8c033ecd2d9b4998d2417e7c9a4b17c773",
     "posterSha256": "9f1e483e00dc5b63f1241728fdb5cbf8ff50903c2fe1549a2c3e5cebfbe58e07",
     "metadata": {
       "programs": [],
@@ -244,23 +274,29 @@
           "codec_name": "h264",
           "profile": "100",
           "codec_type": "video",
-          "width": 1280,
-          "height": 720,
+          "width": 960,
+          "height": 540,
           "pix_fmt": "yuv420p",
           "r_frame_rate": "30/1",
-          "nb_frames": "600"
+          "bit_rate": "289597",
+          "duration": "182.533333"
         },
         {
           "codec_name": "aac",
           "profile": "1",
           "codec_type": "audio",
           "r_frame_rate": "0/0",
-          "nb_frames": "939"
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": "125381",
+          "duration": "182.549000"
         }
       ],
       "format": {
-        "duration": "20.010000",
-        "size": "2328678"
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "182.549000",
+        "size": "9665769",
+        "bit_rate": "423591"
       }
     },
     "sourceVideoSha256": "0822195a14b3f6bdd58bc6576e3fb98014ff54d117eaa22db72a2a01546260d7",
@@ -273,7 +309,11 @@
       "movflags": "+faststart",
       "posterJpegQuality": 85,
       "sourceRenderCrf": 16
-    }
+    },
+    "highlightSeconds": [
+      70.0,
+      90.0
+    ]
   },
   {
     "template": "comedy",
@@ -281,29 +321,29 @@
     "video": "comedy.mp4",
     "poster": "comedy.jpg",
     "sourceRangeSeconds": [
-      62.6,
-      76.9
+      0,
+      212.011
     ],
     "sourceFramesInclusive": [
-      1878,
-      2306
+      0,
+      6359
     ],
     "compositionId": "VVV-Comedy",
     "fullCompositionSeconds": 212.0,
     "fixture": "kits/remotion/examples/comedy-wedding.json",
     "entryPoint": "kits/remotion/examples/cases.tsx",
-    "posterOffsetSeconds": 13.4,
-    "width": 1280,
-    "height": 720,
+    "posterOffsetSeconds": 76.0,
+    "width": 960,
+    "height": 540,
     "fps": 30,
     "audio": "Fun and Games and When in Love by Ahjay Stelino, and Mixkit sound effects (Mixkit Stock Music / Sound Effects Free Licenses), used in the video; the audio files are not redistributed. No narration.",
     "content": "fictional generated demo photographs and original paper-cut artwork",
     "mediaTerms": "Photos and artwork MIT; music and effects Mixkit free licenses; see MEDIA_LICENSE.md",
-    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "evidence": "Full composition rendered on 2026-10-23 at half scale (960x540) from the current template code with Remotion CRF 24 and AAC 128k, then re-encoded to H.264 high profile CRF 28 (preset slow, faststart) with the audio stream copied. vvv check passed audio, still-hold (3 s) and beat sync against the film-time beat map; the 540px short side gives the expected resolution warning. Frames sampled every 4 s were reviewed as tiled sheets. See validationFile for exact scope.",
     "decode": "passed",
-    "sourceFingerprintFile": "template-source-2026-10-21-comedy.json",
-    "validationFile": "preview-validation-2026-10-21.json",
-    "sha256": "0409cfa67a9701a76f289e86cd79815c33e542039da629109cea6e0835d60418",
+    "sourceFingerprintFile": "template-source-2026-10-23-comedy.json",
+    "validationFile": "preview-validation-2026-10-23.json",
+    "sha256": "12339ee5d8bde1a3d5949ea87337941274c74290189b0cd688f9e662ac857b4e",
     "posterSha256": "120dbc43950e83fd111d9c4775058b0e88dc8acd8f4bac5bdfb2dd36dcb437f0",
     "metadata": {
       "programs": [],
@@ -313,23 +353,29 @@
           "codec_name": "h264",
           "profile": "100",
           "codec_type": "video",
-          "width": 1280,
-          "height": 720,
+          "width": 960,
+          "height": 540,
           "pix_fmt": "yuv420p",
           "r_frame_rate": "30/1",
-          "nb_frames": "429"
+          "bit_rate": "443839",
+          "duration": "212.000000"
         },
         {
           "codec_name": "aac",
           "profile": "1",
           "codec_type": "audio",
           "r_frame_rate": "0/0",
-          "nb_frames": "672"
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": "125390",
+          "duration": "212.011000"
         }
       ],
       "format": {
-        "duration": "14.314000",
-        "size": "2658395"
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "212.011000",
+        "size": "15312037",
+        "bit_rate": "577782"
       }
     },
     "sourceVideoSha256": "c728d32f7ebd46e90047b9102885c76c4ec063f473232d6044fdd8d8b3bba0c0",
@@ -342,7 +388,11 @@
       "movflags": "+faststart",
       "posterJpegQuality": 85,
       "sourceRenderCrf": 16
-    }
+    },
+    "highlightSeconds": [
+      62.6,
+      76.9
+    ]
   },
   {
     "template": "starter",

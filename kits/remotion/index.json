@@ -280,20 +280,20 @@
           "format": "16:9",
           "video": "https://vibevision.video/media/album.mp4",
           "poster": "https://vibevision.video/media/album.jpg",
-          "width": 1280,
-          "height": 720,
-          "from": 3.0,
-          "to": 26.733333333333334,
+          "width": 960,
+          "height": 540,
+          "from": 0,
+          "to": 197.504,
           "fullSeconds": 197.5
         },
         {
           "format": "9:16",
           "video": "https://vibevision.video/media/album-vertical.mp4",
           "poster": "https://vibevision.video/media/album-vertical.jpg",
-          "width": 720,
-          "height": 1280,
-          "from": 26.0,
-          "to": 48.6,
+          "width": 540,
+          "height": 960,
+          "from": 0,
+          "to": 49.813,
           "fullSeconds": 49.8
         }
       ]
@@ -480,10 +480,10 @@
           "format": "16:9",
           "video": "https://vibevision.video/media/comedy.mp4",
           "poster": "https://vibevision.video/media/comedy.jpg",
-          "width": 1280,
-          "height": 720,
-          "from": 62.6,
-          "to": 76.9,
+          "width": 960,
+          "height": 540,
+          "from": 0,
+          "to": 212.011,
           "fullSeconds": 212.0
         }
       ]
@@ -627,10 +627,10 @@
           "format": "16:9",
           "video": "https://vibevision.video/media/doodle.mp4",
           "poster": "https://vibevision.video/media/doodle.jpg",
-          "width": 1280,
-          "height": 720,
-          "from": 1.5,
-          "to": 24.5,
+          "width": 960,
+          "height": 540,
+          "from": 0,
+          "to": 142.016,
           "fullSeconds": 142.0
         }
       ]
@@ -941,10 +941,10 @@
           "format": "16:9",
           "video": "https://vibevision.video/media/dv-story.mp4",
           "poster": "https://vibevision.video/media/dv-story.jpg",
-          "width": 1280,
-          "height": 720,
-          "from": 70.0,
-          "to": 90.0,
+          "width": 960,
+          "height": 540,
+          "from": 0,
+          "to": 182.549,
           "fullSeconds": 182.533
         }
       ]
