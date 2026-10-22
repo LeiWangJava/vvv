@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/actionow-ai/c2c_img",
+  "commit": "ff836516ba56610ebdddd6d9ae66a653694e0e71",
+  "version": "0.4.1",
+  "license": "MIT",
+  "source_path": "skills/c2c-img/scripts/c2c_img.py",
+  "local_modifications": false,
+  "sha256": {
+    "c2c_img.py": "d69becf2df8184e72064b0b1d2053e10fdded350a1e5d873f40b977edd8e1989",
+    "LICENSE": "6f6c08742fea7f797aa5e14630588045568b5a474acc6d23e407a253a2c8e8ec"
+  }
+}

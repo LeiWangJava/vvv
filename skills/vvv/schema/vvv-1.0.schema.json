@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/actionow-ai/vvv/blob/main/skills/vvv/schema/vvv-1.0.schema.json",
+  "title": "VVV package manifest (vvv.json), format 1.0",
+  "type": "object",
+  "required": ["vvvFormat", "kind", "version", "entry", "inputs", "assets"],
+  "properties": {
+    "vvvFormat": { "const": "1.0" },
+    "kind": { "enum": ["template", "project", "effect"] },
+    "name": { "type": "string", "pattern": "^@[a-z0-9][a-z0-9-]*/[a-z0-9][a-z0-9-]*$" },
+    "id": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(-[0-9A-Za-z.-]+)?$" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "authors": { "type": "array", "items": { "type": "string" } },
+    "license": { "type": "string" },
+    "runtime": {
+      "type": "object",
+      "required": ["engine"],
+      "properties": { "engine": { "const": "remotion" }, "version": { "type": ["string", "null"] } }
+    },
+    "entry": { "$ref": "#/$defs/path" },
+    "inputs": { "$ref": "#/$defs/path" },
+    "assets": { "$ref": "#/$defs/path" },
+    "schema": { "$ref": "#/$defs/path" },
+    "agents": { "$ref": "#/$defs/path" },
+    "licenses": { "$ref": "#/$defs/path" },
+    "template": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "composition": { "type": "string" },
+        "catalog": { "$ref": "#/$defs/path" },
+        "version": { "type": "string" },
+        "from": { "type": "string", "description": "name@version of the template package a project came from" },
+        "formats": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["width", "height"],
+            "properties": { "width": { "type": "integer", "minimum": 2 }, "height": { "type": "integer", "minimum": 2 } }
+          }
+        },
+        "defaultFormat": { "type": "string", "pattern": "^[1-9][0-9]*:[1-9][0-9]*$" },
+        "music": { "type": "object", "properties": { "required": { "type": "boolean" } } },
+        "slots": { "type": "object" },
+        "sample": { "type": "object", "properties": { "from": { "type": "number" }, "to": { "type": "number" } } }
+      }
+    },
+    "effect": {
+      "type": "object",
+      "required": ["id", "source"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "source": { "type": "string", "pattern": "^src/effects/[a-z0-9][a-z0-9-]*/$" },
+        "exports": { "type": "array", "items": { "type": "string" } },
+        "public": { "type": "array", "items": { "$ref": "#/$defs/path" } },
+        "fonts": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "version", "source"],
+        "properties": { "id": { "type": "string" }, "name": { "type": "string" }, "version": { "type": "string" }, "source": { "type": "string" } }
+      }
+    },
+    "downloads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "url", "sha256"],
+        "properties": {
+          "path": { "$ref": "#/$defs/path" },
+          "url": { "type": "string", "format": "uri" },
+          "bytes": { "type": "integer", "minimum": 0 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "title": { "type": ["string", "null"] },
+          "author": { "type": ["string", "null"] },
+          "license": { "type": ["string", "null"] },
+          "source": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "strippedMedia": { "type": "array", "items": { "$ref": "#/$defs/path" } },
+    "preview": {
+      "type": "object",
+      "properties": { "video": { "$ref": "#/$defs/path" }, "poster": { "$ref": "#/$defs/path" } }
+    },
+    "workflow": {
+      "type": "object",
+      "properties": {
+        "mode": { "type": "string" },
+        "stage": { "type": "string" },
+        "approvedConstraints": { "type": "array" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "enum": ["template", "effect"] } } },
+      "then": { "required": ["name", "template", "schema"] }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "effect" } } },
+      "then": { "required": ["effect"] }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "project" } } },
+      "then": { "required": ["id"] }
+    }
+  ],
+  "$defs": {
+    "path": { "type": "string", "pattern": "^(?![/\\\\])(?!.*(^|/)\\.\\.?(/|$))[^\\\\\\u0000]+$" }
+  }
+}

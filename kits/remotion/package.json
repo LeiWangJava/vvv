@@ -1,0 +1,33 @@
+{
+  "name": "@vvv/remotion-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Editable wedding film projects for Vibe Vision Video (VVV)",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx --no-open",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/*.test.mjs src/core/*.test.cjs src/templates/*/*.test.mjs",
+    "check": "npm run typecheck && npm test && node scripts/prepare-fonts.mjs --verify",
+    "sample": "node scripts/render.mjs --mode sample",
+    "render": "node scripts/render.mjs --mode render",
+    "music": "node scripts/fetch-music.mjs",
+    "beats": "node scripts/analyze-music.mjs",
+    "schemas": "node scripts/export-schemas.cjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/google-fonts": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "@remotion/zod-types": "4.0.534",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.534",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

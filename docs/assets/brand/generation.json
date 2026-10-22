@@ -1,0 +1,80 @@
+{
+  "mode": "Built-in image_gen for raster generation and edits; no API/CLI fallback. SVGs authored as editable vector redraws.",
+  "created": "2026-10-10",
+  "assets": [
+    {
+      "file": "logo-concept.png",
+      "created": "2026-10-21",
+      "use_case": "logo-brand",
+      "tool": "Codex built-in image generation",
+      "note": "Chosen from four candidate directions (frames, ribbon, stack, avatar); the stack was generated twice and the second result kept.",
+      "prompt": "Use case: logo-brand\nAsset type: primary logo concept for VVV (Vibe, Vision, Video), reusable video templates for coding agents.\nPrimary request: three complete, identical, bold V letters (each clearly a full V with two arms meeting at a sharp bottom point and a flat top) arranged in a row, overlapping slightly so each V's right arm passes in front of the next V's left arm, like three copies of one template laid down in sequence. Overlaps are separated by a thin knock-out gap of negative space, flat, no shading. The two left Vs are ink black #111111, the rightmost V is signal yellow-green #DFFF00. Every V must be fully readable as the letter V.\nStyle: Swiss editorial identity, flat vector-like, crisp edges.\nComposition: one centered mark, wider than tall, about 60% of canvas width, generous empty space all around. Isolated on a fully transparent background.\nText: no text, only the three V letters.\nConstraints: exactly THREE complete V letterforms, no gradients, no shadow, no glow, no 3D, no border, no watermark."
+    },
+    {
+      "files": [
+        "logo.svg",
+        "logo-light.svg",
+        "logo-mono.svg",
+        "avatar.svg"
+      ],
+      "created": "2026-10-21",
+      "method": "Geometric redraw in build-logo.py: V 500 x 406 units, top arm width 148, step 352, knock-out gap 11; each V is clipped beyond the previous V's right outer edge plus the gap.",
+      "references": [
+        "logo-concept.png"
+      ]
+    },
+    {
+      "files": [
+        "logo.png",
+        "logo-light.png",
+        "avatar.png"
+      ],
+      "created": "2026-10-21",
+      "method": "4x-supersampled Pillow render of the same polygons (build-logo.py)",
+      "references": [
+        "build-logo.py"
+      ]
+    },
+    {
+      "file": "hero-en.png",
+      "created": "2026-10-21",
+      "tool": "Codex built-in image generation",
+      "note": "Chosen from four new concepts (signal poster, relay, press, echo).",
+      "steps": [
+        {
+          "use_case": "ads-marketing",
+          "references": [
+            "logo-light.png on an ink background"
+          ],
+          "prompt": "Use case: ads-marketing\nAsset type: wide 2:1 README hero for an open-source developer project.\nInput images: Image 1 is the logo: three identical V letters laid down left to right, each tucked behind the previous one with a thin gap. Reproduce its exact geometry once, small, as the brand mark; do not redraw or restyle it.\nPrimary request: the logo's V form becomes architecture. Many identical large V-shaped slabs stand in a long row receding into depth like frames in a film reel or pages of a flipbook, each slab a thin sheet of matte off-white material, all exactly the same shape; the nearest slab is solid signal yellow-green #DFFF00. Soft studio light rakes across them, casting long clean shadows on a dark floor.\nScene/backdrop: ink #111111 studio void with a faint horizon.\nComposition: the receding row of slabs occupies the right 60%, vanishing toward the upper right; logo, headline and small line on the left; footer bottom-left.\nStyle/medium: minimalist architectural 3D render, sculptural, quiet, premium.\nColor palette: ink #111111, paper #F5F3E8, accent #DFFF00.\nText (verbatim, crisp, correctly spelled, nothing else anywhere):\n- headline, two lines: \"Build a template once.\" / \"Reuse it across agents.\"\n- one small line: \"Open-source video templates for coding agents\"\n- small letter-spaced footer: \"CLAUDE CODE · CODEX\"\nConstraints: no people, no watermark, no extra logos."
+        },
+        {
+          "method": "The generated mark (box 102,195-383,290) covered with the background above it, then the vector logo-light geometry placed in the same box."
+        },
+        {
+          "method": "\"VIBEVISION.VIDEO\" set above the footer in Inter 500 (kit font, OFL), 15 px caps, 0.24 em tracking, #DFFF00."
+        }
+      ]
+    },
+    {
+      "file": "hero-zh-CN.png",
+      "created": "2026-10-21",
+      "tool": "Codex built-in image generation",
+      "steps": [
+        {
+          "use_case": "edit",
+          "references": [
+            "hero-en.png before the vector logo was placed"
+          ],
+          "prompt": "Edit Image 1: replace only the English text on the left with Chinese text, set in the same positions, color, alignment and hierarchy: \"一次构建模板，\" / \"多次复用。\"; \"给编程 Agent 的开源视频模板\"; footer \"CLAUDE CODE · CODEX\" unchanged. Keep the slabs, lighting, background and framing; keep the upper-left empty."
+        },
+        {
+          "method": "The vector logo-light geometry placed in the same box as in hero-en.png."
+        },
+        {
+          "method": "\"VIBEVISION.VIDEO\" set above the footer in Inter 500 (kit font, OFL), 15 px caps, 0.24 em tracking, #DFFF00."
+        }
+      ]
+    }
+  ]
+}

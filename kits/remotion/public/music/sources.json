@@ -1,0 +1,272 @@
+{
+  "version": "0.1",
+  "note": "Bundled files ship with the kit. Download files are fetched by `npm run music` into public/<dir>/ (default music) and verified by SHA-256; they are not redistributed with VVV. `templates` lists the templates that need a file even when inputs.json does not name it. Beat maps (*.beats.json) are VVV analysis data.",
+  "tracks": [
+    {
+      "file": "maple-leaf-rag.ogg",
+      "title": "Maple Leaf Rag (1899)",
+      "author": "Scott Joplin; performance by Gnissah",
+      "source": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Maple_Leaf_Rag_(1899).ogg",
+      "license": "Public domain (composition and recording), per Wikimedia Commons",
+      "distribution": "bundled",
+      "bytes": 4146750,
+      "sha256": "c72fa5cff6073942789eb6eaa7116b88b6f4ca153a268dbb7b68d80631517943",
+      "bpm": 94
+    },
+    {
+      "file": "mixkit-skyline.mp3",
+      "title": "Skyline",
+      "author": "Eugenio Mininni",
+      "source": "https://mixkit.co/free-stock-music/",
+      "url": "https://assets.mixkit.co/music/601/601.mp3",
+      "license": "Mixkit Stock Music Free License",
+      "distribution": "download",
+      "bytes": 6589843,
+      "sha256": "2fcb36e7e58c4b6bc1505b7980237fdad86696589572a958bb6ee2084c592cc5",
+      "bpm": 84
+    },
+    {
+      "file": "mixkit-first-kiss.mp3",
+      "title": "First Kiss",
+      "author": "Eugenio Mininni",
+      "source": "https://mixkit.co/free-stock-music/",
+      "url": "https://assets.mixkit.co/music/573/573.mp3",
+      "license": "Mixkit Stock Music Free License",
+      "distribution": "download",
+      "bytes": 6492696,
+      "sha256": "00627fd96c82a1a09b1d2c47aed32268dfffa0a12bd6c22ded1818a8faf9a1a5",
+      "bpm": 110
+    },
+    {
+      "file": "mixkit-fifth-of-february.mp3",
+      "title": "Fifth of February",
+      "author": "Michael Ramir C.",
+      "source": "https://mixkit.co/free-stock-music/",
+      "url": "https://assets.mixkit.co/music/1028/1028.mp3",
+      "license": "Mixkit Stock Music Free License",
+      "distribution": "download",
+      "bytes": 6025298,
+      "sha256": "ff5cb17d92a8b63172a340110532db0323da75a0bd5866b6b211f13260da6b28",
+      "bpm": 99.8
+    },
+    {
+      "file": "mixkit-fun-and-games.mp3",
+      "title": "Fun and Games",
+      "author": "Ahjay Stelino",
+      "source": "https://mixkit.co/free-stock-music/",
+      "url": "https://assets.mixkit.co/music/6/6.mp3",
+      "license": "Mixkit Stock Music Free License",
+      "distribution": "download",
+      "bytes": 4437225,
+      "sha256": "6081896e1403aa460df516059bbc1d31d0a148de5bdd121ed8a3c0bfa6b8f583",
+      "bpm": 99.9
+    },
+    {
+      "file": "mixkit-when-in-love.mp3",
+      "title": "When in Love",
+      "author": "Ahjay Stelino",
+      "source": "https://mixkit.co/free-stock-music/",
+      "url": "https://assets.mixkit.co/music/44/44.mp3",
+      "license": "Mixkit Stock Music Free License",
+      "distribution": "download",
+      "bytes": 3212605,
+      "sha256": "706cbce07e968fa9e9cebc15400f34e34a0002041de8a9860aba603acbea05c5",
+      "bpm": 94.8,
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-dance-with-me.mp3",
+      "title": "Dance with Me",
+      "author": "Ahjay Stelino",
+      "source": "https://mixkit.co/free-stock-music/",
+      "url": "https://assets.mixkit.co/music/3/3.mp3",
+      "license": "Mixkit Stock Music Free License",
+      "distribution": "download",
+      "bytes": 4548402,
+      "sha256": "e4e49fe71c83a801808296ce2c01cf359f791c6e3f1cfeda255dd4383ff9e951",
+      "bpm": 85
+    },
+    {
+      "file": "mixkit-drum-roll.wav",
+      "dir": "sfx",
+      "title": "Drum Roll",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/566/566.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 1048152,
+      "sha256": "906a3296a474d6306c073e9083f92f5bc1d245b0ff18fb828a9ce58aa3624015",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-joke-drums.wav",
+      "dir": "sfx",
+      "title": "Joke drums",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/578/578.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 364308,
+      "sha256": "13737226f757d294e5ed8b58c71861a21c5178b01553887ab436cbb9db215031",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-record-scratch.wav",
+      "dir": "sfx",
+      "title": "Record player vinyl scratch",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/702/702.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 337244,
+      "sha256": "64ddb70bbb8e6a0323ccafcbfe0d2e2e4c8ac2c4bd5d30102767fb27b026de6c",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-trombone-fail.wav",
+      "dir": "sfx",
+      "title": "Trombone disappoint",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/744/744.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 467610,
+      "sha256": "5f8ef1f18907ca2f87dec0cd8b2393df776702bda6e66e678bafd4b4a270aecf",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-boing.wav",
+      "dir": "sfx",
+      "title": "Boing hit sound",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/2894/2894.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 218956,
+      "sha256": "9d0611005031292f357a89f7b7c2dfd2bf3e2e3896cbc0cb4c5d534a61fa9280",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-pop.wav",
+      "dir": "sfx",
+      "title": "Hard pop click",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/2364/2364.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 207272,
+      "sha256": "9b80f4c8f013f5afd0a7becb75a6fa9659a80eb46d1bea06456b6625c86ba700",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-whoosh.wav",
+      "dir": "sfx",
+      "title": "Fast whoosh transition",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/1490/1490.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 309928,
+      "sha256": "2f914dcec1276107b888557e2e33043396cff10adad9e7b6f6adf93cc011c08b",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-sparkle.wav",
+      "dir": "sfx",
+      "title": "Magic sparkle poof hit",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/3082/3082.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 564010,
+      "sha256": "cb2f7cf7107892a4a1e3f3402ad4234e2e4bd66ad55e7c144befec1af82d2ced",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-bells.wav",
+      "dir": "sfx",
+      "title": "Happy bells notification",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/937/937.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 533612,
+      "sha256": "c2be68e9eb59f744e7153678fc3e3c3c03692461a16cf41e7153b7e0478df248",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-crowd-laugh.wav",
+      "dir": "sfx",
+      "title": "Crowd laugh",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/424/424.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 1091552,
+      "sha256": "64f5e7fbb28cc2879c645faa4b3419696af461153429617e8a4864e92b9fa44f",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-cheer.wav",
+      "dir": "sfx",
+      "title": "Small group cheer and applause",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/518/518.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 1869442,
+      "sha256": "199bf53efc363ec0c440777303d80a1b92713a251af4fee29fa33c479d7a7673",
+      "templates": [
+        "comedy"
+      ]
+    },
+    {
+      "file": "mixkit-applause.wav",
+      "dir": "sfx",
+      "title": "Medium size crowd applause",
+      "author": "Mixkit",
+      "source": "https://mixkit.co/free-sound-effects/",
+      "url": "https://assets.mixkit.co/active_storage/sfx/485/485.wav",
+      "license": "Mixkit Sound Effects Free License",
+      "distribution": "download",
+      "bytes": 3161786,
+      "sha256": "9ead05a48b4f2940bf6e65952cb986e14e4f124321db31fc6da92bfd3b6c7d95",
+      "templates": [
+        "comedy"
+      ]
+    }
+  ]
+}

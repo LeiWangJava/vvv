@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1204" height="406" viewBox="0 0 1204 406" role="img" aria-labelledby="title desc">
+  <title id="title">Vibe Vision Video</title>
+  <desc id="desc">Three identical V forms laid down in sequence, each tucked behind the previous one with a narrow gap. One template, reused. One-color version.</desc>
+  <g>
+    <path fill="#111111" d="M0 0L148 0L250 165.6L352 0L500 0L250 406Z"/>
+    <path fill="#111111" d="M432.5 130.7L506.5 10.5L602 165.6L704 0L852 0L602 406Z"/>
+    <path fill="#111111" d="M784.5 130.7L858.5 10.5L954 165.6L1056 0L1204 0L954 406Z"/>
+  </g>
+</svg>

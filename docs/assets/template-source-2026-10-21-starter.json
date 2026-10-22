@@ -1,0 +1,1798 @@
+{
+  "capturedForDate": "2026-10-21",
+  "scope": "Source inputs captured unchanged before and after the 2026-10-21 720p gallery preview renders; see preview-validation-2026-10-21.json for exact ranges and review limits.",
+  "sourceRoot": "kits/remotion",
+  "entryPoint": "examples/cases.tsx",
+  "compositionIds": [
+    "VVV-Starter"
+  ],
+  "fixture": "examples/starter-reel.json",
+  "sourceFingerprint": {
+    "algorithm": "sha256-path-null-content-null",
+    "value": "f3d7b14fe6e8f333e0e9a170e9f8ad64cff8b8ba8cd70aa6aa9252b8768eaed4",
+    "files": [
+      "assets.json",
+      "catalog/starter.json",
+      "examples/album-wedding.json",
+      "examples/cases.tsx",
+      "examples/comedy-wedding.json",
+      "examples/doodle-wedding.json",
+      "examples/dv-our-story.json",
+      "examples/effect-papercut-frame.json",
+      "examples/starter-reel.json",
+      "font-sources.json",
+      "package-lock.json",
+      "package.json",
+      "public/assets/dvstory/filmstrip.json",
+      "public/assets/dvstory/st/sizes.json",
+      "public/assets/xy62/sizes.json",
+      "public/fonts/files/04eaf1a9993684194fac95ce.woff2",
+      "public/fonts/files/053609e6b57c594fe8c81e53.woff2",
+      "public/fonts/files/05a7d600a249b837d1dd3c99.woff2",
+      "public/fonts/files/09c325c9da4208167fb5d9e2.woff2",
+      "public/fonts/files/0a8cf734a0b6b153b5b44d75.woff2",
+      "public/fonts/files/14213d7fbd6ab158091b9629.woff2",
+      "public/fonts/files/1a993e7ab856f9c8d3cf9a94.woff2",
+      "public/fonts/files/20f6ba8c0c269b1af4ebc6af.woff2",
+      "public/fonts/files/2306716a58a58a05e8a5f624.woff2",
+      "public/fonts/files/23acd90334da40b5355a2f0c.woff2",
+      "public/fonts/files/23f09a3fd29c803a13b118be.woff2",
+      "public/fonts/files/2944f60aea487c2ab45bde68.woff2",
+      "public/fonts/files/2ef4d8c6c25aaa84d335828e.woff2",
+      "public/fonts/files/2f08df1456fc9116ea515263.woff2",
+      "public/fonts/files/363014d7c907501d51b57721.woff2",
+      "public/fonts/files/38475678e2d17cfdcf57d2d5.woff2",
+      "public/fonts/files/3bc0783456e12fcce48c76bd.woff2",
+      "public/fonts/files/3bf9956fe5c594f49277bd88.woff2",
+      "public/fonts/files/3c66c61b08f9dc28e8e1d63c.woff2",
+      "public/fonts/files/3cb6b7b1979e5dd25a9b1c65.woff2",
+      "public/fonts/files/3ff1abbbffc86b314788ed3d.woff2",
+      "public/fonts/files/4168a698bef8858e76ebef28.woff2",
+      "public/fonts/files/41d1d19f7bebcf2617cba538.woff2",
+      "public/fonts/files/47d3dc9f8403f68443b319be.woff2",
+      "public/fonts/files/488e956feb1421c4afbe5c38.woff2",
+      "public/fonts/files/48c235f25cd265a168799df6.woff2",
+      "public/fonts/files/497141c2daba02b092d8084b.woff2",
+      "public/fonts/files/4a7ea73dc15f2b639afe7153.woff2",
+      "public/fonts/files/4af13061394e55b31179a988.woff2",
+      "public/fonts/files/4ca36ec0898d9f4b46cd633f.woff2",
+      "public/fonts/files/4e47f619496a388f33769a31.woff2",
+      "public/fonts/files/500793f7237d7337f1cabf52.woff2",
+      "public/fonts/files/50a18da9b4927dbb3a122e21.woff2",
+      "public/fonts/files/51175ce779e3d2ae363e7b2b.woff2",
+      "public/fonts/files/5849283072442ca2c4af8f85.woff2",
+      "public/fonts/files/59aba4ce37e0d3dec19363c2.woff2",
+      "public/fonts/files/5b4fc0b27a8a14642080d6d3.woff2",
+      "public/fonts/files/5c92b2016607caeb2b7857c6.woff2",
+      "public/fonts/files/5e6011e3010d50bd9529d2d9.woff2",
+      "public/fonts/files/5f6c87a981ef2def6330cedf.woff2",
+      "public/fonts/files/620f5f28321be052a4fd3a32.woff2",
+      "public/fonts/files/62d567322492159fba02d784.woff2",
+      "public/fonts/files/63e1e25c88076e71e4c56f74.woff2",
+      "public/fonts/files/658210c7f683a557133459dd.woff2",
+      "public/fonts/files/65a11622c84af2c755714b64.woff2",
+      "public/fonts/files/6c7df51c2d3405f8683571df.woff2",
+      "public/fonts/files/6d4e9520e29f6d0267bfb2f7.woff2",
+      "public/fonts/files/70a0301ffa863394940cf42f.woff2",
+      "public/fonts/files/71139ee70c1b1fce20077d44.woff2",
+      "public/fonts/files/75c0090760a68ac5bdf92fa6.woff2",
+      "public/fonts/files/78bd32786a1b31ff1a6ac056.woff2",
+      "public/fonts/files/795b87224e8dcbc456367a9c.woff2",
+      "public/fonts/files/7a0b612893faf498399a1325.woff2",
+      "public/fonts/files/7b3ddaeea40a0fe501eba363.woff2",
+      "public/fonts/files/7e74d2ffc02d78d0aad0d049.woff2",
+      "public/fonts/files/847818b9c19663fd2bb3073b.woff2",
+      "public/fonts/files/84a684f5b97032b63781645d.woff2",
+      "public/fonts/files/8953b4246f39fce96f492352.woff2",
+      "public/fonts/files/89c8b72714b2fb05de1c70c6.woff2",
+      "public/fonts/files/8a51ce32a2d6a2b0e9397679.woff2",
+      "public/fonts/files/8eae1f2d9b73ca524727c892.woff2",
+      "public/fonts/files/935e2cf08e92673e03ce7b6f.woff2",
+      "public/fonts/files/95d37f56ac503320577c3d1e.woff2",
+      "public/fonts/files/96088f438d29f54b7b2ce489.woff2",
+      "public/fonts/files/9af011928c669ba6056383b7.woff2",
+      "public/fonts/files/9d0550296822bc88fbbd9f57.woff2",
+      "public/fonts/files/9fcc77355f5a0d523f9a6fed.woff2",
+      "public/fonts/files/a263283eb6ff7679adecd54e.woff2",
+      "public/fonts/files/a3739966a326e3778d06b694.woff2",
+      "public/fonts/files/a5e0fb6543e5dc66b3a060c3.woff2",
+      "public/fonts/files/a7c81fbdd8cc5eb582b9d222.woff2",
+      "public/fonts/files/a806fd74a8216e5f414115d3.woff2",
+      "public/fonts/files/a8901603a8f60b5cb8dc2aa6.woff2",
+      "public/fonts/files/aebf42c37a635878f9c52fb8.woff2",
+      "public/fonts/files/af97bfb909af51ae176d74d5.woff2",
+      "public/fonts/files/b140f9d60ba877f5d5dcb9c3.woff2",
+      "public/fonts/files/b14a1ed0396f00cf6ba005b8.woff2",
+      "public/fonts/files/b37a954f47c08e8e193ef0a6.woff2",
+      "public/fonts/files/b42723fe53599b9012de1636.woff2",
+      "public/fonts/files/b4bf867aff4a6bde88a20bc5.woff2",
+      "public/fonts/files/b5ae0757f6ecaa47dfce86dc.woff2",
+      "public/fonts/files/b73283458ef26d55271c662f.woff2",
+      "public/fonts/files/b7668e18fe9cce6c6876d7e6.woff2",
+      "public/fonts/files/badb08d4ed31aab34802fe5f.woff2",
+      "public/fonts/files/beed123d60cc6155d2b1a6b7.woff2",
+      "public/fonts/files/c08b4b4d95cfb2ea610f288a.woff2",
+      "public/fonts/files/c4c44fadfc63ac54dcf678c2.woff2",
+      "public/fonts/files/ca6307f70603bdbf502f1652.woff2",
+      "public/fonts/files/cf0b566ed87b1702141d1c52.woff2",
+      "public/fonts/files/cf9cd646bc0d0f1965d88e9b.woff2",
+      "public/fonts/files/d8c61f0c834f348a56cf982f.woff2",
+      "public/fonts/files/dc00089f866f9369a85beadb.woff2",
+      "public/fonts/files/df78bcc0618fdcb24a33058b.woff2",
+      "public/fonts/files/e0d8fdb665a16cd230b738bd.woff2",
+      "public/fonts/files/e110453047bfe0345460c4e0.woff2",
+      "public/fonts/files/e55b19a3912a75d11837914a.woff2",
+      "public/fonts/files/e9d83a6fe76066e1e18c77dc.woff2",
+      "public/fonts/files/ea65d613de6262b7bb8627e5.woff2",
+      "public/fonts/files/eb4969d421026bd05585da84.woff2",
+      "public/fonts/files/edff4874961e8711e818aa27.woff2",
+      "public/fonts/files/f0721a3949f84d4290d1ef3e.woff2",
+      "public/fonts/files/f192aec3fa1f17f4d9a14c25.woff2",
+      "public/fonts/files/f44e78d8ce83767ddaf294f2.woff2",
+      "public/fonts/files/f624e6edcc42557f1465a0d3.woff2",
+      "public/fonts/files/f6255320a8ecc9973cff85f6.woff2",
+      "public/fonts/files/f63d970a7b2b53217f781553.woff2",
+      "public/fonts/files/f65e41fe796f55cb9243e597.woff2",
+      "public/fonts/files/ffa6ae4b9eb5ffdc903d23e9.woff2",
+      "public/music/maple-leaf-rag.beats.json",
+      "public/music/maple-leaf-rag.ogg",
+      "public/music/sources.json",
+      "public/photos/couple-08-wedding-s1-studio-02.jpg",
+      "public/photos/couple-08-wedding-s2-seaside-01.jpg",
+      "public/photos/couple-08-wedding-s2-seaside-04.jpg",
+      "public/photos/couple-08-wedding-s3-interior-01.jpg",
+      "public/photos/couple-08-wedding-s3-interior-03.jpg",
+      "public/photos/couple-08-wedding-s4-garden-02.jpg",
+      "public/photos/couple-08-wedding-s4-garden-03.jpg",
+      "public/photos/couple-08-wedding-s5-chapel-01.jpg",
+      "public/photos/couple-08-wedding-s5-chapel-02.jpg",
+      "public/photos/couple-08-wedding-s6-street-01.jpg",
+      "public/photos/couple-08-wedding-s6-street-03.jpg",
+      "public/photos/couple-08-wedding-s7-highland-02.jpg",
+      "public/photos/couple-08-wedding-s8-night-02.jpg",
+      "public/photos/couple-09-chinese-c2-redwall-01.jpg",
+      "public/vo/comedy/timing.json",
+      "remotion.config.ts",
+      "src/components/Art.tsx",
+      "src/components/Falling.tsx",
+      "src/components/Glitter.tsx",
+      "src/components/Music.tsx",
+      "src/components/Overlays.tsx",
+      "src/components/Photo.tsx",
+      "src/components/Shapes.tsx",
+      "src/components/Text.tsx",
+      "src/core/anim.ts",
+      "src/core/asset-registry.ts",
+      "src/core/beat-clock.ts",
+      "src/core/beats.ts",
+      "src/core/copy.ts",
+      "src/core/couple.ts",
+      "src/core/crop.ts",
+      "src/core/ease.ts",
+      "src/core/fonts.ts",
+      "src/core/local-fonts.ts",
+      "src/core/manifest.ts",
+      "src/core/pool.ts",
+      "src/core/slot-schema.ts",
+      "src/core/template.ts",
+      "src/core/text-fit.ts",
+      "src/core/theme.ts",
+      "src/core/time.tsx",
+      "src/effects/papercut-frame/demo.tsx",
+      "src/effects/papercut-frame/index.tsx",
+      "src/engine/Film.tsx",
+      "src/engine/Gallery.tsx",
+      "src/templates/album/hits.json",
+      "src/templates/album/index.tsx",
+      "src/templates/album/scenes.tsx",
+      "src/templates/album/short.tsx",
+      "src/templates/album/slots.ts",
+      "src/templates/comedy/hits.json",
+      "src/templates/comedy/index.tsx",
+      "src/templates/comedy/scenes.tsx",
+      "src/templates/comedy/slots.ts",
+      "src/templates/doodle/hits.json",
+      "src/templates/doodle/index.tsx",
+      "src/templates/doodle/scenes.tsx",
+      "src/templates/doodle/slots.ts",
+      "src/templates/dv-story/clock.ts",
+      "src/templates/dv-story/ctx.ts",
+      "src/templates/dv-story/frames.tsx",
+      "src/templates/dv-story/fx.tsx",
+      "src/templates/dv-story/handover.tsx",
+      "src/templates/dv-story/index.tsx",
+      "src/templates/dv-story/keys.ts",
+      "src/templates/dv-story/media.tsx",
+      "src/templates/dv-story/metadata.ts",
+      "src/templates/dv-story/photo-tokens.ts",
+      "src/templates/dv-story/scenes-dv.tsx",
+      "src/templates/dv-story/scenes-play.tsx",
+      "src/templates/dv-story/story.ts",
+      "src/templates/dv-story/text.tsx",
+      "src/templates/dv-story/typing-audio.tsx",
+      "src/templates/dv-story/typing.ts",
+      "src/templates/shared/kit.tsx",
+      "src/templates/starter/index.tsx",
+      "tsconfig.json"
+    ]
+  },
+  "collection": {
+    "imports": "Conservative relative-import closure from the actual examples/cases.tsx entry point. Other templates/effect demos are included because that entry point imports them. Bare package imports are represented by package.json and package-lock.json.",
+    "runtimeMedia": "Selected fixture photos and soundtrack/beat map, plus every local face in the selected template font modules. Font file paths are deduplicated. Declared runtime publicPrefixes capture art, effects and narration; additional catalog tracks are included. Music bytes are hashed locally, never copied into public assets.",
+    "provenance": "Selected template catalog and soundtrack provenance are also captured; they may be broader than direct renderer inputs.",
+    "distinctFromProjectFingerprint": "This legacy public-preview algorithm hashes UTF-8 path + NUL + raw file bytes + NUL in sorted path order. scripts/render-support.mjs instead hashes path + NUL + binary SHA256(file bytes), with a different project-wide inventory.",
+    "limitations": "The closure follows statically discoverable relative imports. It is not a browser network trace; installed dependency bytes and Chromium/OS binaries are not hashed.",
+    "fontModules": [
+      "BarlowCondensed",
+      "NotoSerifSC",
+      "PlayfairDisplay"
+    ],
+    "photoIds": [
+      "couple-08-wedding-s1-studio-02",
+      "couple-08-wedding-s2-seaside-01",
+      "couple-08-wedding-s2-seaside-04",
+      "couple-08-wedding-s3-interior-01",
+      "couple-08-wedding-s3-interior-03",
+      "couple-08-wedding-s4-garden-02",
+      "couple-08-wedding-s4-garden-03",
+      "couple-08-wedding-s5-chapel-01",
+      "couple-08-wedding-s5-chapel-02",
+      "couple-08-wedding-s6-street-01",
+      "couple-08-wedding-s6-street-03",
+      "couple-08-wedding-s7-highland-02",
+      "couple-08-wedding-s8-night-02",
+      "couple-09-chinese-c2-redwall-01"
+    ],
+    "importFileCount": 73
+  },
+  "fileRecords": {
+    "assets.json": {
+      "sha256": "bea785e531de96be9c5571cb5ee35af4b7eefa3c4ccfb13876f32e4ac80041b9",
+      "bytes": 124185,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "catalog/starter.json": {
+      "sha256": "702a12048e12b5ceeeb2663510e3263d8c62d1b86656641cc18591a70331bef2",
+      "bytes": 1774,
+      "roles": [
+        "selectedTemplateContract"
+      ]
+    },
+    "examples/album-wedding.json": {
+      "sha256": "23f8e49ebf671a9be6c6d1cd6d19db7a2367eb6e0c20eab45c56b3698797b13c",
+      "bytes": 5275,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "examples/cases.tsx": {
+      "sha256": "e0e7262eb301f0587419acfd187d83805e7486cc14719b2f734668b57ebdab1d",
+      "bytes": 2302,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "examples/comedy-wedding.json": {
+      "sha256": "cde43954ed797f5fa5974ad2cfa7749996aa727b1dd183618ab1a266d437d67f",
+      "bytes": 6233,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "examples/doodle-wedding.json": {
+      "sha256": "4656bedee95463ec40beb7ccf61ba9784204573692c6120a340a0d1b38bf9d9d",
+      "bytes": 2236,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "examples/dv-our-story.json": {
+      "sha256": "5bf76fce9c5ef91614d11942528a3214d2c33505a2f5c9ef12e5413fc8090074",
+      "bytes": 4849,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "examples/effect-papercut-frame.json": {
+      "sha256": "6b01d7276494fe385c686ed2affa4cefb3004180a7d5a2102151315c03f41033",
+      "bytes": 307,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "examples/starter-reel.json": {
+      "sha256": "6c24dfa39207ab89c02d903a23b3059caa24d68a220207a6014c604d68cdb1e4",
+      "bytes": 1223,
+      "roles": [
+        "entryPointImport",
+        "selectedFixture"
+      ]
+    },
+    "font-sources.json": {
+      "sha256": "a1bbcd6fcfb290569b4d032092b907d2b384da9d3fce4fe3ec0b85cd2995fced",
+      "bytes": 1112788,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "package-lock.json": {
+      "sha256": "1549bb16af8e634a3ad534cfd79de67db6060df5e78f31729f9640f711d6b4de",
+      "bytes": 142150,
+      "roles": [
+        "renderConfiguration"
+      ]
+    },
+    "package.json": {
+      "sha256": "746ac179acdfeeff2a5e21268f3c4515d9eeb88eef789ba371512c8c7840abd8",
+      "bytes": 1112,
+      "roles": [
+        "renderConfiguration"
+      ]
+    },
+    "public/assets/dvstory/filmstrip.json": {
+      "sha256": "3cefff00c9c062aa57601486e5d18af5111dd1b0cb0a2df08a2907cbd85b804c",
+      "bytes": 107,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "public/assets/dvstory/st/sizes.json": {
+      "sha256": "6380fa2a694422cb0aea6466082cb19930cd55b84a77ca418f88cb74efeb35f0",
+      "bytes": 323,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "public/assets/xy62/sizes.json": {
+      "sha256": "47599d923062dbf5d1c8101acc81c569f608f1d14f038bcd5522ab7864123427",
+      "bytes": 758,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "public/fonts/files/04eaf1a9993684194fac95ce.woff2": {
+      "sha256": "06ad3ccc929aa35ffb271c64ba4b1a8a14c8a2076b583eb2b32c7169f74c33c3",
+      "bytes": 67304,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/053609e6b57c594fe8c81e53.woff2": {
+      "sha256": "8164af476b514e30654ecf3aa34edeecbad209782f4b026964032e4f594a2881",
+      "bytes": 81144,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/05a7d600a249b837d1dd3c99.woff2": {
+      "sha256": "26b9dec17f125371d5f5089f89de39094a11f98ffebb061011158d7e4aa602d0",
+      "bytes": 4376,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/09c325c9da4208167fb5d9e2.woff2": {
+      "sha256": "1a109586fcc58c9daa102480dc0de03623a59be55a8726b3c7a83f19475f2f13",
+      "bytes": 79548,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/0a8cf734a0b6b153b5b44d75.woff2": {
+      "sha256": "b86248889e23aba82ffa3e7327bf94eb44a73ca14e74dd3587848ff5adc1cacf",
+      "bytes": 10640,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/14213d7fbd6ab158091b9629.woff2": {
+      "sha256": "bf628db08549cbf5090c3486717d5121d48af1d82c79b6ab181ed9b49ba5e31b",
+      "bytes": 58812,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/1a993e7ab856f9c8d3cf9a94.woff2": {
+      "sha256": "a1e18c863c00ab7e6f17fddcc42b193fb94ccb5e3e01ee394a189c149aef447e",
+      "bytes": 66088,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/20f6ba8c0c269b1af4ebc6af.woff2": {
+      "sha256": "f0dbe158fa641cc4297af81a4d44d2a9a2b775a32a96d4f665d62820ee2e6562",
+      "bytes": 65740,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/2306716a58a58a05e8a5f624.woff2": {
+      "sha256": "bca8897bbf2ee33d854e2d2cb19a31c66d549c2eb585af439e905378486df29e",
+      "bytes": 54196,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/23acd90334da40b5355a2f0c.woff2": {
+      "sha256": "a5fdbb67e3dadebda5b447c1707fe47a2d9e40f095fb22dedc63aadf969d6609",
+      "bytes": 58804,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/23f09a3fd29c803a13b118be.woff2": {
+      "sha256": "24f7302e65f8adaec36d642aa8caf68cdf4c50c91e54f75e9e535382366766b4",
+      "bytes": 58572,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/2944f60aea487c2ab45bde68.woff2": {
+      "sha256": "fed9f7a5c10a94cbe0a7e6789512607a1abdf797ac9c6d1f2462e6bca2573734",
+      "bytes": 84696,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/2ef4d8c6c25aaa84d335828e.woff2": {
+      "sha256": "fd992a95c6a01de7bfb520c01ca4ad20c60cb5a91f0fb21cf46fe1e13e78fd2b",
+      "bytes": 66656,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/2f08df1456fc9116ea515263.woff2": {
+      "sha256": "ef6446229b59773e671021650ef3882cf35806dae723ce047de87c0a6633039a",
+      "bytes": 9112,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/363014d7c907501d51b57721.woff2": {
+      "sha256": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2",
+      "bytes": 38404,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/38475678e2d17cfdcf57d2d5.woff2": {
+      "sha256": "9826143bb6278155de4f76910fd6ec34fe450385dd0d85df10e4497bb174eac7",
+      "bytes": 10920,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/3bc0783456e12fcce48c76bd.woff2": {
+      "sha256": "158a0be2cbba07d17824a5ba52319a3f914c59857f4bd70a332596bbe1b1128f",
+      "bytes": 71356,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/3bf9956fe5c594f49277bd88.woff2": {
+      "sha256": "6d6aedcf1f83747c7b38f7045470ba70b3352b162616313c7923a6bbde81915c",
+      "bytes": 79680,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/3c66c61b08f9dc28e8e1d63c.woff2": {
+      "sha256": "6b91a10abb4a03d31c63d528f6ef6b0fcdf4dbe7c030d67e1943f6139c115d73",
+      "bytes": 62884,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/3cb6b7b1979e5dd25a9b1c65.woff2": {
+      "sha256": "42898ad49a6b23f32b109243e1df596edf831015ed685f429e4dafbb181d599d",
+      "bytes": 21140,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/3ff1abbbffc86b314788ed3d.woff2": {
+      "sha256": "60e71123f0b838bf4fd52cb5de5e3d6af8e48c8f7f32481a39da625d1e63fd2e",
+      "bytes": 42656,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/4168a698bef8858e76ebef28.woff2": {
+      "sha256": "dc5909d502de13c096a9d4b6f674433f2da1ef62f71cce1e3f43be499f1a4a52",
+      "bytes": 64664,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/41d1d19f7bebcf2617cba538.woff2": {
+      "sha256": "b677122aea77998b4b6c991cc0268585a48690a9347bd17057ac589728176c5d",
+      "bytes": 53064,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/47d3dc9f8403f68443b319be.woff2": {
+      "sha256": "c94541da7c8ec39d9f581019203b36f53c719151623281cc14ec9984731a1f47",
+      "bytes": 84088,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/488e956feb1421c4afbe5c38.woff2": {
+      "sha256": "2515494e8cc2ca07c86ea78766cfa104b796aa6ed5d66821c01d51dbb0b52bce",
+      "bytes": 22464,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/48c235f25cd265a168799df6.woff2": {
+      "sha256": "5968dd127304a59f1e2ea36b875f3702dadb0a229bc87a9053727c26807a15dc",
+      "bytes": 9736,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/497141c2daba02b092d8084b.woff2": {
+      "sha256": "45cb9a16cbc13eff333b49bfa5c63f0478078ac6bdc327de9d69bdb6cdd8ce2b",
+      "bytes": 6892,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/4a7ea73dc15f2b639afe7153.woff2": {
+      "sha256": "3f24940446111010a3117ae4054c7265f9d90bfd8acc16c41a7c9092150fde3d",
+      "bytes": 81044,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/4af13061394e55b31179a988.woff2": {
+      "sha256": "6b583a41d620c6b504ce9d451fdbb8e08d073b2573e46d444820959647d7f3e0",
+      "bytes": 91672,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/4ca36ec0898d9f4b46cd633f.woff2": {
+      "sha256": "80938d29c0efdbd634308ac52ecbbda6707a0b3e3b7d1c84e197c28a6c8c837b",
+      "bytes": 64520,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/4e47f619496a388f33769a31.woff2": {
+      "sha256": "9fa23b6cf30829d06600bda44f2b5d31880d088ef9bd5626aaf4557941457c10",
+      "bytes": 77944,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/500793f7237d7337f1cabf52.woff2": {
+      "sha256": "c940bed82b2192c9a436af93a8ae990c9e66d1384376f56878c3906c6de35353",
+      "bytes": 61532,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/50a18da9b4927dbb3a122e21.woff2": {
+      "sha256": "ba9fbd7fdbf7cce92c1a95946a7ad7b10ff9d3098403174b2b2b11ba6b282eb0",
+      "bytes": 64724,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/51175ce779e3d2ae363e7b2b.woff2": {
+      "sha256": "22539b785b3cbcee08e0722ff37fa16a18e71e4482d9078f7da79da1258e7614",
+      "bytes": 14548,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/5849283072442ca2c4af8f85.woff2": {
+      "sha256": "a56a7e1d3efa7e7a4b30b086153398d3ed87a2b984551c046b614c03b4c3f9cd",
+      "bytes": 72508,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/59aba4ce37e0d3dec19363c2.woff2": {
+      "sha256": "b07e7e5e090ed9220e5fd4afc6a22339a77f63f79f1f7ac010e3b05a8849c5ce",
+      "bytes": 10332,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/5b4fc0b27a8a14642080d6d3.woff2": {
+      "sha256": "45f3ed82e9bd8231532b58a0de47d0b26fbe8e4ceba610615903e346e5213263",
+      "bytes": 62128,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/5c92b2016607caeb2b7857c6.woff2": {
+      "sha256": "675553f67dda471ccc684b734a07db465fb6bb9ec1ce5a70b6d6b0f9a36a7a26",
+      "bytes": 75996,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/5e6011e3010d50bd9529d2d9.woff2": {
+      "sha256": "d8f48bbf844eadbaa2e3db648ed6889ccb8083572437eb6f0f717f9097b9e45b",
+      "bytes": 40440,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/5f6c87a981ef2def6330cedf.woff2": {
+      "sha256": "aba77127699e71bc7d13fd80c4eaaebcb5065862590f6dfbb05ba14bb0c0d2d8",
+      "bytes": 15672,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/620f5f28321be052a4fd3a32.woff2": {
+      "sha256": "4fb8ac1d7a95c72aa66de7673a352e3e8b9046ffa90c444d0f961221f7052e40",
+      "bytes": 82552,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/62d567322492159fba02d784.woff2": {
+      "sha256": "ca078411ddf19a164747d6e2220b0b2022f08e1682a1dc660a8902da13f2b0e0",
+      "bytes": 70316,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/63e1e25c88076e71e4c56f74.woff2": {
+      "sha256": "60bae2b9a8bf65e1b4c1a06d529079cea1824bbab0a37840469f24b698880aab",
+      "bytes": 75304,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/658210c7f683a557133459dd.woff2": {
+      "sha256": "f69a03144d47d4987530030eceff2c2c4e37388ce5e45976a7a15f4dcd849d30",
+      "bytes": 69524,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/65a11622c84af2c755714b64.woff2": {
+      "sha256": "a07d70eab2f78b6978c9e3e93056c5c3afdf649940959fa78cf345dd35b1f7a9",
+      "bytes": 47820,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/6c7df51c2d3405f8683571df.woff2": {
+      "sha256": "a491a10a853d1fb3480d4471a275fd8824726b0e1a795fe8a98eb946001ac80e",
+      "bytes": 74000,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/6d4e9520e29f6d0267bfb2f7.woff2": {
+      "sha256": "50751cd23b3787eff2af23d3b9676b13cb5263e750a72fd258328f5812520b08",
+      "bytes": 7400,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/70a0301ffa863394940cf42f.woff2": {
+      "sha256": "b9df2ce5d328a524975728c051385e14c1c823798e084c1227101ed4acc6174a",
+      "bytes": 64260,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/71139ee70c1b1fce20077d44.woff2": {
+      "sha256": "1066b4dc2f377882adc40e8501b1fdf1ab020a6aed5522503e5b1fadfe36281a",
+      "bytes": 81652,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/75c0090760a68ac5bdf92fa6.woff2": {
+      "sha256": "c5026c625c58b58b56e629faf50cb622aa9f03ab223eaaab89033b6ba5960aab",
+      "bytes": 79804,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/78bd32786a1b31ff1a6ac056.woff2": {
+      "sha256": "b36a86aa9d07ae91a379ef0661f723c323677fb9106457318b1194d5c5f7cbc9",
+      "bytes": 57848,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/795b87224e8dcbc456367a9c.woff2": {
+      "sha256": "952351694a0ada3a721a73decd3afeac99fac4637e0dbd2af987c7e147205ff1",
+      "bytes": 61376,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/7a0b612893faf498399a1325.woff2": {
+      "sha256": "93daeb451edfe65dad18a468cc90933d6a5fc79e9411ce28027bacbfd7bfa0b8",
+      "bytes": 67936,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/7b3ddaeea40a0fe501eba363.woff2": {
+      "sha256": "92b93561d8af27754352918934377dc09ecbf91d2d65a0951fb1d60895367330",
+      "bytes": 4644,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/7e74d2ffc02d78d0aad0d049.woff2": {
+      "sha256": "106e18d90034e75630790ad203bc69850747bf96c0a398b96bd88bcaa81e9480",
+      "bytes": 76908,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/847818b9c19663fd2bb3073b.woff2": {
+      "sha256": "cfabb52e72825965ec66b18bc1bab646d150206f2a3aa6d4fa6f29040058515e",
+      "bytes": 51780,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/84a684f5b97032b63781645d.woff2": {
+      "sha256": "3f116c05fbb0abc3fba86bb85b4426eca3a41650d2763ed4c5b31fe8b28f752e",
+      "bytes": 72500,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/8953b4246f39fce96f492352.woff2": {
+      "sha256": "c56fed07baa5368c483c00d7963847caf0f9aff18bc78561fe8b14db7171b572",
+      "bytes": 26040,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/89c8b72714b2fb05de1c70c6.woff2": {
+      "sha256": "d6e6ed7b0a14b508f94072aea3bb29abe236fd012ba6174b49292a6c900718e6",
+      "bytes": 14476,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/8a51ce32a2d6a2b0e9397679.woff2": {
+      "sha256": "713d2bb29db38602e97e272bdafa666c5b426b7b779dbf3beb32313fd95b8551",
+      "bytes": 65720,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/8eae1f2d9b73ca524727c892.woff2": {
+      "sha256": "4665f9383f65a4fb003c53808f5b91d1e93fcccd3d2d8c799cfda6e3d14656d7",
+      "bytes": 83484,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/935e2cf08e92673e03ce7b6f.woff2": {
+      "sha256": "e50204d9c99dee1b284a8f5c9508295fe6209c54e089ba7146813360d9c17713",
+      "bytes": 73872,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/95d37f56ac503320577c3d1e.woff2": {
+      "sha256": "d4ba29a42d58e9c71f523225d6c2257e231e4d3fe92b720bbcbf99dd08add33c",
+      "bytes": 72784,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/96088f438d29f54b7b2ce489.woff2": {
+      "sha256": "365512ffc9e2717c81cf5d9af42646426d657d5494b4fd04501a5beb0af6f2e7",
+      "bytes": 74576,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/9af011928c669ba6056383b7.woff2": {
+      "sha256": "7610e185ab6d54a3d50860f45dac1db9614e70acf4fde1cc419b85b48ad1bd4f",
+      "bytes": 27568,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/9d0550296822bc88fbbd9f57.woff2": {
+      "sha256": "5392252c91bd0707d647df33a9a279501a029388c7882a0ad420a40b760e5a62",
+      "bytes": 66144,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/9fcc77355f5a0d523f9a6fed.woff2": {
+      "sha256": "2263f0841a3499dd34793a4b21c831760bcae5582b047cbcab0b55cf9b105ab5",
+      "bytes": 69316,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/a263283eb6ff7679adecd54e.woff2": {
+      "sha256": "45838ba623192deef4a4a71d1c1ddca77ea5b3281b96e3017972ce14e2f10f6d",
+      "bytes": 79044,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/a3739966a326e3778d06b694.woff2": {
+      "sha256": "1581af3bbb4e78f52db3b1078a85595e0ffa30ee334b7dbb49baf42ba9fbb28a",
+      "bytes": 77584,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/a5e0fb6543e5dc66b3a060c3.woff2": {
+      "sha256": "87b35049bcb491c02a45d740cb88abd709e73cda023fbe5e28eefbff6649cdfe",
+      "bytes": 7808,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/a7c81fbdd8cc5eb582b9d222.woff2": {
+      "sha256": "2101d62af080d6803513f4fe5d91aba6831b61bc95ed172dace75caa2a5b8c2d",
+      "bytes": 71048,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/a806fd74a8216e5f414115d3.woff2": {
+      "sha256": "0eb731d70aa1f4966dfffab308b3fb11975886fd5375f45ce6b16f1eaebafb83",
+      "bytes": 63760,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/a8901603a8f60b5cb8dc2aa6.woff2": {
+      "sha256": "cad6d79ef7a000ed533559c080e92351797bb90d800243fa3a25c7064a3ce93e",
+      "bytes": 64612,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/aebf42c37a635878f9c52fb8.woff2": {
+      "sha256": "0a97bd54c22add0ce1fd54256f20bcafa92b8db870b3f80cefd3672da29eb3ae",
+      "bytes": 45184,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/af97bfb909af51ae176d74d5.woff2": {
+      "sha256": "7e94834579a87ac5bbeae3c8d0cfc33206d7e0fc85e7c59568f75358fb000c44",
+      "bytes": 58348,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b140f9d60ba877f5d5dcb9c3.woff2": {
+      "sha256": "5054480a15959f80c101094a5d9eb749a0c8c5654e17b3219e16f7a5abe006e0",
+      "bytes": 77788,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b14a1ed0396f00cf6ba005b8.woff2": {
+      "sha256": "6f05dd92f2f040024ed6f401c03a78ec8f8058313ecab04b6ff195a0041a4a5a",
+      "bytes": 67828,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b37a954f47c08e8e193ef0a6.woff2": {
+      "sha256": "52740303931d8b85ab9529076bf835aeaf877c56e47aead612281bc128318282",
+      "bytes": 73588,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b42723fe53599b9012de1636.woff2": {
+      "sha256": "91923c87f9f32c46056285e69b1009fbb71c0bd27a1a1f9d386bc9248217606f",
+      "bytes": 2416,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b4bf867aff4a6bde88a20bc5.woff2": {
+      "sha256": "ab7aef1b30a10f6643f3271cb55e64c49e6d8c4b91a2e68287196cde66ad7614",
+      "bytes": 51012,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b5ae0757f6ecaa47dfce86dc.woff2": {
+      "sha256": "03de62bc4c94fcf00ad2a87ed76731c95b0852b0b41c9028844e1a05c06082c0",
+      "bytes": 82664,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b73283458ef26d55271c662f.woff2": {
+      "sha256": "7bf7c8fd9809004cba36338a94c338cffbce66069c2b091a7472e0b4dfa6b041",
+      "bytes": 12324,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/b7668e18fe9cce6c6876d7e6.woff2": {
+      "sha256": "a4557ab88bbc6bb5272d315402d2448f92a7e53bdf3e89f1d839e95e5b67999a",
+      "bytes": 71680,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/badb08d4ed31aab34802fe5f.woff2": {
+      "sha256": "ef454fca50875c2536bfbcf4e0b540f456c012a61d08ff778ea4e3e640bd938b",
+      "bytes": 72288,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/beed123d60cc6155d2b1a6b7.woff2": {
+      "sha256": "039698b9bc16db3439b86528c88c369086ed237f7baa13873ca33a0922edce18",
+      "bytes": 53856,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/c08b4b4d95cfb2ea610f288a.woff2": {
+      "sha256": "5945538dcbfc11c1db2d573e1a0889c33b90b45d8445cb9ce1f18b38db36336c",
+      "bytes": 60576,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/c4c44fadfc63ac54dcf678c2.woff2": {
+      "sha256": "373d1b4d724f4ee5fa02eb5ee5474033a914a990d966f2abbb36c96682e5e993",
+      "bytes": 69656,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/ca6307f70603bdbf502f1652.woff2": {
+      "sha256": "25412edffa19ad8baf75508052ec4b5c8ecfcf75384f98b67cea291886f8d0c4",
+      "bytes": 104964,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/cf0b566ed87b1702141d1c52.woff2": {
+      "sha256": "9d345b17ad128918a7d4eea67714a376f8840ffdc82b77da8dbc416071491f65",
+      "bytes": 63936,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/cf9cd646bc0d0f1965d88e9b.woff2": {
+      "sha256": "a8e46481396f2a9e4ac4875b64645f26e4e9ff185a8503c2402c2bc9bf46219c",
+      "bytes": 74032,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/d8c61f0c834f348a56cf982f.woff2": {
+      "sha256": "be8c3c315592fbeda0f6acbe9914a0b4c1da1b7e30889ddab5e145d346ae4928",
+      "bytes": 32964,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/dc00089f866f9369a85beadb.woff2": {
+      "sha256": "6e0e93e30ac6e513ffdb1e5ddc50337e81c5f33d54bc3bb0e044113f228f5727",
+      "bytes": 57320,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/df78bcc0618fdcb24a33058b.woff2": {
+      "sha256": "854a14f63241e795bc8a17e64d472f09c834a02f9b59258637063aabca530070",
+      "bytes": 79496,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/e0d8fdb665a16cd230b738bd.woff2": {
+      "sha256": "f0e12f7e577876bf2d554e924f0a2bbce375b647d885a568b37dd5b042133ad1",
+      "bytes": 57824,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/e110453047bfe0345460c4e0.woff2": {
+      "sha256": "5c818243ce70b138c5e7edd2798f92d311d8d9158eb60bad6c4f5cebe4d46fc6",
+      "bytes": 69204,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/e55b19a3912a75d11837914a.woff2": {
+      "sha256": "4e943fdd06982ac9a81d192846dab76a2797321c990774600dc65ff8fe1d4e68",
+      "bytes": 85288,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/e9d83a6fe76066e1e18c77dc.woff2": {
+      "sha256": "90a9d9858975f1c073521af5df9a7286356ff78397d274cfe7b64cb97f719920",
+      "bytes": 61312,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/ea65d613de6262b7bb8627e5.woff2": {
+      "sha256": "0f39f0bbe9a7a450b994c3c3bd9aa0627ae2dea8d36b67fc5a3554830f28005e",
+      "bytes": 51516,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/eb4969d421026bd05585da84.woff2": {
+      "sha256": "ba142270184772c2bbc1985bf88e42d05e9462b14163001b8c253765c3f1d55e",
+      "bytes": 12280,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/edff4874961e8711e818aa27.woff2": {
+      "sha256": "c108681cba6a9820bff52f4a1a4a1d9edf356b347bd79b7c61e916028e8a8b54",
+      "bytes": 21152,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/f0721a3949f84d4290d1ef3e.woff2": {
+      "sha256": "f43c00b1e7e213add01d19eecf6ef2e8a96f7087b46b908df407490b72fe09d9",
+      "bytes": 81516,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/f192aec3fa1f17f4d9a14c25.woff2": {
+      "sha256": "1594e53f4ab5fe067f7ba108b65a71ed07b2fb9da68af01349b4966c871e4d36",
+      "bytes": 75872,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/f44e78d8ce83767ddaf294f2.woff2": {
+      "sha256": "5b42c53aa93cc2a7fd855c85a5ca733d4da8d06984df8b4c9b2b76ce1090bc80",
+      "bytes": 67828,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/f624e6edcc42557f1465a0d3.woff2": {
+      "sha256": "2db79fd3aa1d48c07e30664553e9d1ddb9fc4c23fdf02d48c63e094ebf275a5d",
+      "bytes": 62740,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/f6255320a8ecc9973cff85f6.woff2": {
+      "sha256": "f402c381cb2eb5c6d1e65a8bae7629b5cb97faaa42759af6874f6d33fcc98273",
+      "bytes": 74744,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/f63d970a7b2b53217f781553.woff2": {
+      "sha256": "b75a2da2189e8db96e83563b650fb04466ca9284d28a1e27ff4d4aaaee5d13b6",
+      "bytes": 58224,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/f65e41fe796f55cb9243e597.woff2": {
+      "sha256": "87fdad598fb7ab598784e43f87f1da2c5476f88e4a5a9aba56abc73973449a42",
+      "bytes": 68000,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/fonts/files/ffa6ae4b9eb5ffdc903d23e9.woff2": {
+      "sha256": "c5cbbb60e77f863af35524ec5a6674f5ce15735f05746923caa8d07e99b55886",
+      "bytes": 56040,
+      "roles": [
+        "font"
+      ]
+    },
+    "public/music/maple-leaf-rag.beats.json": {
+      "sha256": "1c2ebe27e7a52ef38c78aa92c00a6be7d04e3e3e836e8dad8777edc868654a48",
+      "bytes": 12533,
+      "roles": [
+        "beatMap"
+      ]
+    },
+    "public/music/maple-leaf-rag.ogg": {
+      "sha256": "c72fa5cff6073942789eb6eaa7116b88b6f4ca153a268dbb7b68d80631517943",
+      "bytes": 4146750,
+      "roles": [
+        "music"
+      ]
+    },
+    "public/music/sources.json": {
+      "sha256": "7bacd66ad92d498ab6d85ac66aa91093f88416e6fdfdc626067bb41b49ee7a86",
+      "bytes": 9620,
+      "roles": [
+        "provenance"
+      ]
+    },
+    "public/photos/couple-08-wedding-s1-studio-02.jpg": {
+      "sha256": "2e715f6e77a9af2fbb8b9eb0aed9f12f037876912322013da6c31e7217aadcce",
+      "bytes": 207742,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s2-seaside-01.jpg": {
+      "sha256": "49db224d030b1746e0014d125ee576cde271df553acee0ae01d47f15d25827ff",
+      "bytes": 295402,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s2-seaside-04.jpg": {
+      "sha256": "25ba709d0f64caa96824a2eea701f3287614bacb2c501dfee9ba7d1c0e7f6c21",
+      "bytes": 307198,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s3-interior-01.jpg": {
+      "sha256": "6da26b42116b852d6de9c156ffcf4615027237c6dd56fdce0308ab453de80dfc",
+      "bytes": 333683,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s3-interior-03.jpg": {
+      "sha256": "909f0a13a7020be5ad0ff208e8281283bf21402a529e05a67b5b88ca67773425",
+      "bytes": 344387,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s4-garden-02.jpg": {
+      "sha256": "736714fbac9d57faf4cf1f7b671d47645fbc4362f9961435be37c6063663dc51",
+      "bytes": 443839,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s4-garden-03.jpg": {
+      "sha256": "ca57cb23271adebdc2b67fcf5d6a37c3f4472779002705ec735f681277dfbb16",
+      "bytes": 335489,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s5-chapel-01.jpg": {
+      "sha256": "7c86a81fdb452d15a37f43936619a2647b12c05db41169f3ca9dbeb28c0e99ec",
+      "bytes": 293697,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s5-chapel-02.jpg": {
+      "sha256": "0fd83e2a6810ae35ac4eeea3a6846a7ac323a070d0d6f5e2335493c834c76b23",
+      "bytes": 288467,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s6-street-01.jpg": {
+      "sha256": "065e5b4c773469816844ac40b665952e2a67d947fc00a51c4a922b00d4f7e98b",
+      "bytes": 468287,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s6-street-03.jpg": {
+      "sha256": "8c1b243eb3ffe541da795d14b5002cceca6bcc95ea043875ff4e39ca7ed713a7",
+      "bytes": 428766,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s7-highland-02.jpg": {
+      "sha256": "e8b2a6fe13ab673b123e2ff3bbf239840f9993f538ee889722dbaf0175386832",
+      "bytes": 383096,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-08-wedding-s8-night-02.jpg": {
+      "sha256": "3f953a7f5612233f5d1e65baadd20b2c5149963d57516b174a8c72e0a7e17673",
+      "bytes": 378339,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/photos/couple-09-chinese-c2-redwall-01.jpg": {
+      "sha256": "0e4f6e8e47084620e3d2f32982b9016527abe2390f05af9a5a47e4db0a322828",
+      "bytes": 477667,
+      "roles": [
+        "photo"
+      ]
+    },
+    "public/vo/comedy/timing.json": {
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "bytes": 3,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "remotion.config.ts": {
+      "sha256": "a53d0ad65bd844d7f01a0b18d654d54ef70c0343c1832c71c5cd719f00c97a6d",
+      "bytes": 117,
+      "roles": [
+        "renderConfiguration"
+      ]
+    },
+    "src/components/Art.tsx": {
+      "sha256": "31ad2f348490931ae3abcb32fbde3121209499724da5cdfabb64bcf82c626f9a",
+      "bytes": 1052,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/components/Falling.tsx": {
+      "sha256": "f02c4e1651190aed3bc6271f11e11c7205e102cf3b18c185de600a997e238f63",
+      "bytes": 3938,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/components/Glitter.tsx": {
+      "sha256": "75e9eabf1b6e3d88508da88f3e89cdd523c7e0148b0267e7bf2728654b207be9",
+      "bytes": 6613,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/components/Music.tsx": {
+      "sha256": "07a3fc562d9121e9abf2a172e2bf2add760612ba9fe711ba3c24c8d92a69bc82",
+      "bytes": 4722,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/components/Overlays.tsx": {
+      "sha256": "b54f98d52549812a6824cbea50084f4f681dacfce05f29f4ffb6685bbd3d07e7",
+      "bytes": 3915,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/components/Photo.tsx": {
+      "sha256": "984536059f57ceec6b85a9bd506c6069f3457fe2c60169495612fbee9590a4e6",
+      "bytes": 5896,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/components/Shapes.tsx": {
+      "sha256": "37ef427902cc06a893ab3ce79b1231d72da143b74875334f088e01dc2ce49a07",
+      "bytes": 2764,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/components/Text.tsx": {
+      "sha256": "83133187d97606eb45f07f573cf57818088888ea750b5ee2fd0019e17f1a491b",
+      "bytes": 6654,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/anim.ts": {
+      "sha256": "7bfa7208295926fe6b9325bda7a997c60c6e11bfd2897b05bf3842ce6681c5e9",
+      "bytes": 2112,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/asset-registry.ts": {
+      "sha256": "3f92817c3c629dbfcbfdd9e8f8c8f888ffbd063ca49c0a1e53285e0bfc2bfe63",
+      "bytes": 3012,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/beat-clock.ts": {
+      "sha256": "3a9457e3bafe5c6bf325e7d660f2cf5e5118b1a16c32e5fc249a52ddb3bb97bf",
+      "bytes": 1748,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/beats.ts": {
+      "sha256": "dc38eb535c610c47bac13141e2fbf6e3416ce8b45623ed0b338d341b64474ea0",
+      "bytes": 7118,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/copy.ts": {
+      "sha256": "9642b30f69984d7e4662fe6fdcad7c16d7c124534537246fd0e956d9f95050af",
+      "bytes": 1744,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/couple.ts": {
+      "sha256": "ff67f52fd816f17be8dfe31a1a4eaac1a44bb896bac0e870249953129d817578",
+      "bytes": 2041,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/crop.ts": {
+      "sha256": "a4ad0206bc3c4bad1bc33110ea9c01cc0253cd768b965e2723e359eee454fa78",
+      "bytes": 2838,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/ease.ts": {
+      "sha256": "0bf82bb9fc55193e9799c69ffb7286a4750da36bbc0187916392672a232e255f",
+      "bytes": 1508,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/fonts.ts": {
+      "sha256": "119bf2b5f94ce05c9dad63b1af81c9a4618502468e4a04f56094c4a029625753",
+      "bytes": 2464,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/local-fonts.ts": {
+      "sha256": "aca789a426827431951eb66a254e0611dbfd9156b198bc82b00f318fe6e35fda",
+      "bytes": 2921,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/manifest.ts": {
+      "sha256": "cfb4056edbab57ed70572d402b12dea7843ff7f2cae078852a6aaebc1e030050",
+      "bytes": 632,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/pool.ts": {
+      "sha256": "d18895abb32f637542b7e1d078d852846a48576b609fe6a93a5dbbc266b333e7",
+      "bytes": 693,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/slot-schema.ts": {
+      "sha256": "a8d015a8023f64e1e66e2c07a65e1c8f14a02144409b63ec50343251ab4c6339",
+      "bytes": 2288,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/template.ts": {
+      "sha256": "cef72fe3b65dacd11e425574ce49d3d1f834717c1f3bf3c44ec36f2a736bf6ed",
+      "bytes": 6638,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/text-fit.ts": {
+      "sha256": "e2207c2ba48a2997d8ed08781f4c1bb7b9d9917c2d738d85a1e5d399a8bf5554",
+      "bytes": 6317,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/theme.ts": {
+      "sha256": "d8673a22322165ff0d60c6a58b96a656c8abcdb95a9b23d2135936a1616c415b",
+      "bytes": 744,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/core/time.tsx": {
+      "sha256": "bf5ebd946cd9211818108a505e594734167255aadf7929b6dd146f36afe88619",
+      "bytes": 863,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/effects/papercut-frame/demo.tsx": {
+      "sha256": "1dcaa8758dd670b4fa0c02e478b1f630c67ad260cf35ea9d6e1c39ce5f70a69c",
+      "bytes": 1908,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/effects/papercut-frame/index.tsx": {
+      "sha256": "a47477b2fbbfa8d7ae2b3e6561b25c8f6a667b8b64b0b8ed6a0168bc62b31bb5",
+      "bytes": 1544,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/engine/Film.tsx": {
+      "sha256": "71aa58fa098c000c1b89c99738311ebff5492794ab061749286acfe5e8f7419c",
+      "bytes": 11985,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/engine/Gallery.tsx": {
+      "sha256": "a3da1e68fa946b54bf14eb98907605f5f8bff3a989e5d2cab7603e3f0687b61d",
+      "bytes": 29618,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/album/hits.json": {
+      "sha256": "3a2bdf824256489119a616e743b03d6fec5cd15458b4c36e754b1b8d614b4209",
+      "bytes": 1486,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/album/index.tsx": {
+      "sha256": "f555036503bf3fe56e7fe3ba6ed297b934f13c637c025aba8036ec4d59930fcd",
+      "bytes": 9909,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/album/scenes.tsx": {
+      "sha256": "e3ca9f851134d0bc97bf44e4e93c3cf819a8aca6557ac3ea27c815cad194d078",
+      "bytes": 32080,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/album/short.tsx": {
+      "sha256": "e9034f6e9dd9fbc5e95e816a9e9107ee80541f4280050d010fb080e6fe1665bb",
+      "bytes": 16449,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/album/slots.ts": {
+      "sha256": "564661c8c492217e83246d27b9c0f3256e17029d90666c6e03195992a874c186",
+      "bytes": 602,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/comedy/hits.json": {
+      "sha256": "a8de132dbb55b52294fef9af482bc5a7d53277a74fcfc7386881f34baa32b2c7",
+      "bytes": 2758,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/comedy/index.tsx": {
+      "sha256": "abbdfc983403f566135a69cc61e7e095ce03cced3f8d0dfd69b23b4fc2f896f9",
+      "bytes": 27039,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/comedy/scenes.tsx": {
+      "sha256": "2ab7a1b66e5aa3142666fe0695f80a69d76705783e3a49ebd7bcebac9d1bbcfe",
+      "bytes": 54091,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/comedy/slots.ts": {
+      "sha256": "1175bdfd7dc601c29b7bc82e72a93f0ecaae83ffae7716d2a734e43e39d4f05f",
+      "bytes": 373,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/doodle/hits.json": {
+      "sha256": "5b23e58e50246e18da2ce2d65cf239d3bdc282bac386f27e313af567a04c84cb",
+      "bytes": 956,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/doodle/index.tsx": {
+      "sha256": "e70f55f78ca02edc6b973a17efa7ccdd1545cb1d27daed9c04bdefd5592c2ea2",
+      "bytes": 6021,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/doodle/scenes.tsx": {
+      "sha256": "22920fa7475d0c2ece107f7d91c19555df8530c5e3f22375769e49ce92278614",
+      "bytes": 32594,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/doodle/slots.ts": {
+      "sha256": "e0e27c770ce6492202b6f61244a9fc0bba9193ea7f69034e0fd93d6bf36fa4f1",
+      "bytes": 332,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/clock.ts": {
+      "sha256": "b4a108e03fba4b61b9a39484032062db0819cb67ab4ded5e76fd396902669983",
+      "bytes": 1781,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/ctx.ts": {
+      "sha256": "43049f26953298910bdff23427abb4d0a7df1957eae90059f90de1853f99c95f",
+      "bytes": 1007,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/frames.tsx": {
+      "sha256": "2aeae70eda25129046250d09534cb8f7148cdc21cc0a78f8d3e12f7849d2c6fc",
+      "bytes": 5851,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/fx.tsx": {
+      "sha256": "996d33626c86db7ef72d1b63b37ef8ce31f3074bb0a4dba54569ded93434edfd",
+      "bytes": 3038,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/handover.tsx": {
+      "sha256": "5cbbc40b1b30d6c964a9ea815a99be4db8264250fa648baf41570729dbe8fc7d",
+      "bytes": 1686,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/index.tsx": {
+      "sha256": "d9a0a24a0a6ee63641ba9fe5b34ef736d248a79e0d2440961944a4f2b836fccf",
+      "bytes": 15342,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/keys.ts": {
+      "sha256": "30cd8e30fcb58663b2bec388609213de18ed7564152c5567a62be67a3e8e4342",
+      "bytes": 325,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/media.tsx": {
+      "sha256": "80440d6d19d1c0b8832cc2f450d5683ec3c3a3ce6b15e28198255209b0813c29",
+      "bytes": 3690,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/metadata.ts": {
+      "sha256": "dc95981d552f947a1e42f3cf86b417ae6a4631c8dfb7c7be7860b983e50630b0",
+      "bytes": 2233,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/photo-tokens.ts": {
+      "sha256": "041edf6619f5b1c016a3b3f3088b6eb2769e7a645730a2bb14f6a49563b73023",
+      "bytes": 1064,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/scenes-dv.tsx": {
+      "sha256": "be3a9aaabf9b41feb77060b9e3aa0c7b790bf1d77fa4a12d4defa80400641be7",
+      "bytes": 10691,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/scenes-play.tsx": {
+      "sha256": "8c7657f35adfe305ed6a9ab0b13d0b21f8df6e7132a6feab3ee2a7e84f661645",
+      "bytes": 15041,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/story.ts": {
+      "sha256": "500f3da56c0d9a6807c74c977af6cefb23f142a79ae6343e77223959a751a8e4",
+      "bytes": 15429,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/text.tsx": {
+      "sha256": "0e7cb3c3074678cd081fab5da0c3dee32457d11d8fa8918545a9efa220a78a84",
+      "bytes": 6542,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/typing-audio.tsx": {
+      "sha256": "ad971b13eb2b5f44cf8f58271f8c3019c707684f9c65e9002de693ddfae08493",
+      "bytes": 1268,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/dv-story/typing.ts": {
+      "sha256": "3ca9b1f10aa30685f6a5488ad3b9cacb45e585d9006bb7e9064a03ae31823c1f",
+      "bytes": 4745,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/shared/kit.tsx": {
+      "sha256": "bb2582d82185804502ed2874d7860a7f1a6045b4c8df20f5540c7b38b05e9b57",
+      "bytes": 8045,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "src/templates/starter/index.tsx": {
+      "sha256": "ad571879c869531e886536533c21673da3a32fad8b840ea6934dd23cb23e9d3a",
+      "bytes": 12420,
+      "roles": [
+        "entryPointImport"
+      ]
+    },
+    "tsconfig.json": {
+      "sha256": "665fb396ed5b1fb9657c5c5ef456360f18dfbc8810135955b43e34e07df3f15b",
+      "bytes": 519,
+      "roles": [
+        "renderConfiguration"
+      ]
+    }
+  },
+  "mediaHashes": {
+    "public/fonts/files/04eaf1a9993684194fac95ce.woff2": "06ad3ccc929aa35ffb271c64ba4b1a8a14c8a2076b583eb2b32c7169f74c33c3",
+    "public/fonts/files/053609e6b57c594fe8c81e53.woff2": "8164af476b514e30654ecf3aa34edeecbad209782f4b026964032e4f594a2881",
+    "public/fonts/files/05a7d600a249b837d1dd3c99.woff2": "26b9dec17f125371d5f5089f89de39094a11f98ffebb061011158d7e4aa602d0",
+    "public/fonts/files/09c325c9da4208167fb5d9e2.woff2": "1a109586fcc58c9daa102480dc0de03623a59be55a8726b3c7a83f19475f2f13",
+    "public/fonts/files/0a8cf734a0b6b153b5b44d75.woff2": "b86248889e23aba82ffa3e7327bf94eb44a73ca14e74dd3587848ff5adc1cacf",
+    "public/fonts/files/14213d7fbd6ab158091b9629.woff2": "bf628db08549cbf5090c3486717d5121d48af1d82c79b6ab181ed9b49ba5e31b",
+    "public/fonts/files/1a993e7ab856f9c8d3cf9a94.woff2": "a1e18c863c00ab7e6f17fddcc42b193fb94ccb5e3e01ee394a189c149aef447e",
+    "public/fonts/files/20f6ba8c0c269b1af4ebc6af.woff2": "f0dbe158fa641cc4297af81a4d44d2a9a2b775a32a96d4f665d62820ee2e6562",
+    "public/fonts/files/2306716a58a58a05e8a5f624.woff2": "bca8897bbf2ee33d854e2d2cb19a31c66d549c2eb585af439e905378486df29e",
+    "public/fonts/files/23acd90334da40b5355a2f0c.woff2": "a5fdbb67e3dadebda5b447c1707fe47a2d9e40f095fb22dedc63aadf969d6609",
+    "public/fonts/files/23f09a3fd29c803a13b118be.woff2": "24f7302e65f8adaec36d642aa8caf68cdf4c50c91e54f75e9e535382366766b4",
+    "public/fonts/files/2944f60aea487c2ab45bde68.woff2": "fed9f7a5c10a94cbe0a7e6789512607a1abdf797ac9c6d1f2462e6bca2573734",
+    "public/fonts/files/2ef4d8c6c25aaa84d335828e.woff2": "fd992a95c6a01de7bfb520c01ca4ad20c60cb5a91f0fb21cf46fe1e13e78fd2b",
+    "public/fonts/files/2f08df1456fc9116ea515263.woff2": "ef6446229b59773e671021650ef3882cf35806dae723ce047de87c0a6633039a",
+    "public/fonts/files/363014d7c907501d51b57721.woff2": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2",
+    "public/fonts/files/38475678e2d17cfdcf57d2d5.woff2": "9826143bb6278155de4f76910fd6ec34fe450385dd0d85df10e4497bb174eac7",
+    "public/fonts/files/3bc0783456e12fcce48c76bd.woff2": "158a0be2cbba07d17824a5ba52319a3f914c59857f4bd70a332596bbe1b1128f",
+    "public/fonts/files/3bf9956fe5c594f49277bd88.woff2": "6d6aedcf1f83747c7b38f7045470ba70b3352b162616313c7923a6bbde81915c",
+    "public/fonts/files/3c66c61b08f9dc28e8e1d63c.woff2": "6b91a10abb4a03d31c63d528f6ef6b0fcdf4dbe7c030d67e1943f6139c115d73",
+    "public/fonts/files/3cb6b7b1979e5dd25a9b1c65.woff2": "42898ad49a6b23f32b109243e1df596edf831015ed685f429e4dafbb181d599d",
+    "public/fonts/files/3ff1abbbffc86b314788ed3d.woff2": "60e71123f0b838bf4fd52cb5de5e3d6af8e48c8f7f32481a39da625d1e63fd2e",
+    "public/fonts/files/4168a698bef8858e76ebef28.woff2": "dc5909d502de13c096a9d4b6f674433f2da1ef62f71cce1e3f43be499f1a4a52",
+    "public/fonts/files/41d1d19f7bebcf2617cba538.woff2": "b677122aea77998b4b6c991cc0268585a48690a9347bd17057ac589728176c5d",
+    "public/fonts/files/47d3dc9f8403f68443b319be.woff2": "c94541da7c8ec39d9f581019203b36f53c719151623281cc14ec9984731a1f47",
+    "public/fonts/files/488e956feb1421c4afbe5c38.woff2": "2515494e8cc2ca07c86ea78766cfa104b796aa6ed5d66821c01d51dbb0b52bce",
+    "public/fonts/files/48c235f25cd265a168799df6.woff2": "5968dd127304a59f1e2ea36b875f3702dadb0a229bc87a9053727c26807a15dc",
+    "public/fonts/files/497141c2daba02b092d8084b.woff2": "45cb9a16cbc13eff333b49bfa5c63f0478078ac6bdc327de9d69bdb6cdd8ce2b",
+    "public/fonts/files/4a7ea73dc15f2b639afe7153.woff2": "3f24940446111010a3117ae4054c7265f9d90bfd8acc16c41a7c9092150fde3d",
+    "public/fonts/files/4af13061394e55b31179a988.woff2": "6b583a41d620c6b504ce9d451fdbb8e08d073b2573e46d444820959647d7f3e0",
+    "public/fonts/files/4ca36ec0898d9f4b46cd633f.woff2": "80938d29c0efdbd634308ac52ecbbda6707a0b3e3b7d1c84e197c28a6c8c837b",
+    "public/fonts/files/4e47f619496a388f33769a31.woff2": "9fa23b6cf30829d06600bda44f2b5d31880d088ef9bd5626aaf4557941457c10",
+    "public/fonts/files/500793f7237d7337f1cabf52.woff2": "c940bed82b2192c9a436af93a8ae990c9e66d1384376f56878c3906c6de35353",
+    "public/fonts/files/50a18da9b4927dbb3a122e21.woff2": "ba9fbd7fdbf7cce92c1a95946a7ad7b10ff9d3098403174b2b2b11ba6b282eb0",
+    "public/fonts/files/51175ce779e3d2ae363e7b2b.woff2": "22539b785b3cbcee08e0722ff37fa16a18e71e4482d9078f7da79da1258e7614",
+    "public/fonts/files/5849283072442ca2c4af8f85.woff2": "a56a7e1d3efa7e7a4b30b086153398d3ed87a2b984551c046b614c03b4c3f9cd",
+    "public/fonts/files/59aba4ce37e0d3dec19363c2.woff2": "b07e7e5e090ed9220e5fd4afc6a22339a77f63f79f1f7ac010e3b05a8849c5ce",
+    "public/fonts/files/5b4fc0b27a8a14642080d6d3.woff2": "45f3ed82e9bd8231532b58a0de47d0b26fbe8e4ceba610615903e346e5213263",
+    "public/fonts/files/5c92b2016607caeb2b7857c6.woff2": "675553f67dda471ccc684b734a07db465fb6bb9ec1ce5a70b6d6b0f9a36a7a26",
+    "public/fonts/files/5e6011e3010d50bd9529d2d9.woff2": "d8f48bbf844eadbaa2e3db648ed6889ccb8083572437eb6f0f717f9097b9e45b",
+    "public/fonts/files/5f6c87a981ef2def6330cedf.woff2": "aba77127699e71bc7d13fd80c4eaaebcb5065862590f6dfbb05ba14bb0c0d2d8",
+    "public/fonts/files/620f5f28321be052a4fd3a32.woff2": "4fb8ac1d7a95c72aa66de7673a352e3e8b9046ffa90c444d0f961221f7052e40",
+    "public/fonts/files/62d567322492159fba02d784.woff2": "ca078411ddf19a164747d6e2220b0b2022f08e1682a1dc660a8902da13f2b0e0",
+    "public/fonts/files/63e1e25c88076e71e4c56f74.woff2": "60bae2b9a8bf65e1b4c1a06d529079cea1824bbab0a37840469f24b698880aab",
+    "public/fonts/files/658210c7f683a557133459dd.woff2": "f69a03144d47d4987530030eceff2c2c4e37388ce5e45976a7a15f4dcd849d30",
+    "public/fonts/files/65a11622c84af2c755714b64.woff2": "a07d70eab2f78b6978c9e3e93056c5c3afdf649940959fa78cf345dd35b1f7a9",
+    "public/fonts/files/6c7df51c2d3405f8683571df.woff2": "a491a10a853d1fb3480d4471a275fd8824726b0e1a795fe8a98eb946001ac80e",
+    "public/fonts/files/6d4e9520e29f6d0267bfb2f7.woff2": "50751cd23b3787eff2af23d3b9676b13cb5263e750a72fd258328f5812520b08",
+    "public/fonts/files/70a0301ffa863394940cf42f.woff2": "b9df2ce5d328a524975728c051385e14c1c823798e084c1227101ed4acc6174a",
+    "public/fonts/files/71139ee70c1b1fce20077d44.woff2": "1066b4dc2f377882adc40e8501b1fdf1ab020a6aed5522503e5b1fadfe36281a",
+    "public/fonts/files/75c0090760a68ac5bdf92fa6.woff2": "c5026c625c58b58b56e629faf50cb622aa9f03ab223eaaab89033b6ba5960aab",
+    "public/fonts/files/78bd32786a1b31ff1a6ac056.woff2": "b36a86aa9d07ae91a379ef0661f723c323677fb9106457318b1194d5c5f7cbc9",
+    "public/fonts/files/795b87224e8dcbc456367a9c.woff2": "952351694a0ada3a721a73decd3afeac99fac4637e0dbd2af987c7e147205ff1",
+    "public/fonts/files/7a0b612893faf498399a1325.woff2": "93daeb451edfe65dad18a468cc90933d6a5fc79e9411ce28027bacbfd7bfa0b8",
+    "public/fonts/files/7b3ddaeea40a0fe501eba363.woff2": "92b93561d8af27754352918934377dc09ecbf91d2d65a0951fb1d60895367330",
+    "public/fonts/files/7e74d2ffc02d78d0aad0d049.woff2": "106e18d90034e75630790ad203bc69850747bf96c0a398b96bd88bcaa81e9480",
+    "public/fonts/files/847818b9c19663fd2bb3073b.woff2": "cfabb52e72825965ec66b18bc1bab646d150206f2a3aa6d4fa6f29040058515e",
+    "public/fonts/files/84a684f5b97032b63781645d.woff2": "3f116c05fbb0abc3fba86bb85b4426eca3a41650d2763ed4c5b31fe8b28f752e",
+    "public/fonts/files/8953b4246f39fce96f492352.woff2": "c56fed07baa5368c483c00d7963847caf0f9aff18bc78561fe8b14db7171b572",
+    "public/fonts/files/89c8b72714b2fb05de1c70c6.woff2": "d6e6ed7b0a14b508f94072aea3bb29abe236fd012ba6174b49292a6c900718e6",
+    "public/fonts/files/8a51ce32a2d6a2b0e9397679.woff2": "713d2bb29db38602e97e272bdafa666c5b426b7b779dbf3beb32313fd95b8551",
+    "public/fonts/files/8eae1f2d9b73ca524727c892.woff2": "4665f9383f65a4fb003c53808f5b91d1e93fcccd3d2d8c799cfda6e3d14656d7",
+    "public/fonts/files/935e2cf08e92673e03ce7b6f.woff2": "e50204d9c99dee1b284a8f5c9508295fe6209c54e089ba7146813360d9c17713",
+    "public/fonts/files/95d37f56ac503320577c3d1e.woff2": "d4ba29a42d58e9c71f523225d6c2257e231e4d3fe92b720bbcbf99dd08add33c",
+    "public/fonts/files/96088f438d29f54b7b2ce489.woff2": "365512ffc9e2717c81cf5d9af42646426d657d5494b4fd04501a5beb0af6f2e7",
+    "public/fonts/files/9af011928c669ba6056383b7.woff2": "7610e185ab6d54a3d50860f45dac1db9614e70acf4fde1cc419b85b48ad1bd4f",
+    "public/fonts/files/9d0550296822bc88fbbd9f57.woff2": "5392252c91bd0707d647df33a9a279501a029388c7882a0ad420a40b760e5a62",
+    "public/fonts/files/9fcc77355f5a0d523f9a6fed.woff2": "2263f0841a3499dd34793a4b21c831760bcae5582b047cbcab0b55cf9b105ab5",
+    "public/fonts/files/a263283eb6ff7679adecd54e.woff2": "45838ba623192deef4a4a71d1c1ddca77ea5b3281b96e3017972ce14e2f10f6d",
+    "public/fonts/files/a3739966a326e3778d06b694.woff2": "1581af3bbb4e78f52db3b1078a85595e0ffa30ee334b7dbb49baf42ba9fbb28a",
+    "public/fonts/files/a5e0fb6543e5dc66b3a060c3.woff2": "87b35049bcb491c02a45d740cb88abd709e73cda023fbe5e28eefbff6649cdfe",
+    "public/fonts/files/a7c81fbdd8cc5eb582b9d222.woff2": "2101d62af080d6803513f4fe5d91aba6831b61bc95ed172dace75caa2a5b8c2d",
+    "public/fonts/files/a806fd74a8216e5f414115d3.woff2": "0eb731d70aa1f4966dfffab308b3fb11975886fd5375f45ce6b16f1eaebafb83",
+    "public/fonts/files/a8901603a8f60b5cb8dc2aa6.woff2": "cad6d79ef7a000ed533559c080e92351797bb90d800243fa3a25c7064a3ce93e",
+    "public/fonts/files/aebf42c37a635878f9c52fb8.woff2": "0a97bd54c22add0ce1fd54256f20bcafa92b8db870b3f80cefd3672da29eb3ae",
+    "public/fonts/files/af97bfb909af51ae176d74d5.woff2": "7e94834579a87ac5bbeae3c8d0cfc33206d7e0fc85e7c59568f75358fb000c44",
+    "public/fonts/files/b140f9d60ba877f5d5dcb9c3.woff2": "5054480a15959f80c101094a5d9eb749a0c8c5654e17b3219e16f7a5abe006e0",
+    "public/fonts/files/b14a1ed0396f00cf6ba005b8.woff2": "6f05dd92f2f040024ed6f401c03a78ec8f8058313ecab04b6ff195a0041a4a5a",
+    "public/fonts/files/b37a954f47c08e8e193ef0a6.woff2": "52740303931d8b85ab9529076bf835aeaf877c56e47aead612281bc128318282",
+    "public/fonts/files/b42723fe53599b9012de1636.woff2": "91923c87f9f32c46056285e69b1009fbb71c0bd27a1a1f9d386bc9248217606f",
+    "public/fonts/files/b4bf867aff4a6bde88a20bc5.woff2": "ab7aef1b30a10f6643f3271cb55e64c49e6d8c4b91a2e68287196cde66ad7614",
+    "public/fonts/files/b5ae0757f6ecaa47dfce86dc.woff2": "03de62bc4c94fcf00ad2a87ed76731c95b0852b0b41c9028844e1a05c06082c0",
+    "public/fonts/files/b73283458ef26d55271c662f.woff2": "7bf7c8fd9809004cba36338a94c338cffbce66069c2b091a7472e0b4dfa6b041",
+    "public/fonts/files/b7668e18fe9cce6c6876d7e6.woff2": "a4557ab88bbc6bb5272d315402d2448f92a7e53bdf3e89f1d839e95e5b67999a",
+    "public/fonts/files/badb08d4ed31aab34802fe5f.woff2": "ef454fca50875c2536bfbcf4e0b540f456c012a61d08ff778ea4e3e640bd938b",
+    "public/fonts/files/beed123d60cc6155d2b1a6b7.woff2": "039698b9bc16db3439b86528c88c369086ed237f7baa13873ca33a0922edce18",
+    "public/fonts/files/c08b4b4d95cfb2ea610f288a.woff2": "5945538dcbfc11c1db2d573e1a0889c33b90b45d8445cb9ce1f18b38db36336c",
+    "public/fonts/files/c4c44fadfc63ac54dcf678c2.woff2": "373d1b4d724f4ee5fa02eb5ee5474033a914a990d966f2abbb36c96682e5e993",
+    "public/fonts/files/ca6307f70603bdbf502f1652.woff2": "25412edffa19ad8baf75508052ec4b5c8ecfcf75384f98b67cea291886f8d0c4",
+    "public/fonts/files/cf0b566ed87b1702141d1c52.woff2": "9d345b17ad128918a7d4eea67714a376f8840ffdc82b77da8dbc416071491f65",
+    "public/fonts/files/cf9cd646bc0d0f1965d88e9b.woff2": "a8e46481396f2a9e4ac4875b64645f26e4e9ff185a8503c2402c2bc9bf46219c",
+    "public/fonts/files/d8c61f0c834f348a56cf982f.woff2": "be8c3c315592fbeda0f6acbe9914a0b4c1da1b7e30889ddab5e145d346ae4928",
+    "public/fonts/files/dc00089f866f9369a85beadb.woff2": "6e0e93e30ac6e513ffdb1e5ddc50337e81c5f33d54bc3bb0e044113f228f5727",
+    "public/fonts/files/df78bcc0618fdcb24a33058b.woff2": "854a14f63241e795bc8a17e64d472f09c834a02f9b59258637063aabca530070",
+    "public/fonts/files/e0d8fdb665a16cd230b738bd.woff2": "f0e12f7e577876bf2d554e924f0a2bbce375b647d885a568b37dd5b042133ad1",
+    "public/fonts/files/e110453047bfe0345460c4e0.woff2": "5c818243ce70b138c5e7edd2798f92d311d8d9158eb60bad6c4f5cebe4d46fc6",
+    "public/fonts/files/e55b19a3912a75d11837914a.woff2": "4e943fdd06982ac9a81d192846dab76a2797321c990774600dc65ff8fe1d4e68",
+    "public/fonts/files/e9d83a6fe76066e1e18c77dc.woff2": "90a9d9858975f1c073521af5df9a7286356ff78397d274cfe7b64cb97f719920",
+    "public/fonts/files/ea65d613de6262b7bb8627e5.woff2": "0f39f0bbe9a7a450b994c3c3bd9aa0627ae2dea8d36b67fc5a3554830f28005e",
+    "public/fonts/files/eb4969d421026bd05585da84.woff2": "ba142270184772c2bbc1985bf88e42d05e9462b14163001b8c253765c3f1d55e",
+    "public/fonts/files/edff4874961e8711e818aa27.woff2": "c108681cba6a9820bff52f4a1a4a1d9edf356b347bd79b7c61e916028e8a8b54",
+    "public/fonts/files/f0721a3949f84d4290d1ef3e.woff2": "f43c00b1e7e213add01d19eecf6ef2e8a96f7087b46b908df407490b72fe09d9",
+    "public/fonts/files/f192aec3fa1f17f4d9a14c25.woff2": "1594e53f4ab5fe067f7ba108b65a71ed07b2fb9da68af01349b4966c871e4d36",
+    "public/fonts/files/f44e78d8ce83767ddaf294f2.woff2": "5b42c53aa93cc2a7fd855c85a5ca733d4da8d06984df8b4c9b2b76ce1090bc80",
+    "public/fonts/files/f624e6edcc42557f1465a0d3.woff2": "2db79fd3aa1d48c07e30664553e9d1ddb9fc4c23fdf02d48c63e094ebf275a5d",
+    "public/fonts/files/f6255320a8ecc9973cff85f6.woff2": "f402c381cb2eb5c6d1e65a8bae7629b5cb97faaa42759af6874f6d33fcc98273",
+    "public/fonts/files/f63d970a7b2b53217f781553.woff2": "b75a2da2189e8db96e83563b650fb04466ca9284d28a1e27ff4d4aaaee5d13b6",
+    "public/fonts/files/f65e41fe796f55cb9243e597.woff2": "87fdad598fb7ab598784e43f87f1da2c5476f88e4a5a9aba56abc73973449a42",
+    "public/fonts/files/ffa6ae4b9eb5ffdc903d23e9.woff2": "c5cbbb60e77f863af35524ec5a6674f5ce15735f05746923caa8d07e99b55886",
+    "public/music/maple-leaf-rag.beats.json": "1c2ebe27e7a52ef38c78aa92c00a6be7d04e3e3e836e8dad8777edc868654a48",
+    "public/music/maple-leaf-rag.ogg": "c72fa5cff6073942789eb6eaa7116b88b6f4ca153a268dbb7b68d80631517943",
+    "public/photos/couple-08-wedding-s1-studio-02.jpg": "2e715f6e77a9af2fbb8b9eb0aed9f12f037876912322013da6c31e7217aadcce",
+    "public/photos/couple-08-wedding-s2-seaside-01.jpg": "49db224d030b1746e0014d125ee576cde271df553acee0ae01d47f15d25827ff",
+    "public/photos/couple-08-wedding-s2-seaside-04.jpg": "25ba709d0f64caa96824a2eea701f3287614bacb2c501dfee9ba7d1c0e7f6c21",
+    "public/photos/couple-08-wedding-s3-interior-01.jpg": "6da26b42116b852d6de9c156ffcf4615027237c6dd56fdce0308ab453de80dfc",
+    "public/photos/couple-08-wedding-s3-interior-03.jpg": "909f0a13a7020be5ad0ff208e8281283bf21402a529e05a67b5b88ca67773425",
+    "public/photos/couple-08-wedding-s4-garden-02.jpg": "736714fbac9d57faf4cf1f7b671d47645fbc4362f9961435be37c6063663dc51",
+    "public/photos/couple-08-wedding-s4-garden-03.jpg": "ca57cb23271adebdc2b67fcf5d6a37c3f4472779002705ec735f681277dfbb16",
+    "public/photos/couple-08-wedding-s5-chapel-01.jpg": "7c86a81fdb452d15a37f43936619a2647b12c05db41169f3ca9dbeb28c0e99ec",
+    "public/photos/couple-08-wedding-s5-chapel-02.jpg": "0fd83e2a6810ae35ac4eeea3a6846a7ac323a070d0d6f5e2335493c834c76b23",
+    "public/photos/couple-08-wedding-s6-street-01.jpg": "065e5b4c773469816844ac40b665952e2a67d947fc00a51c4a922b00d4f7e98b",
+    "public/photos/couple-08-wedding-s6-street-03.jpg": "8c1b243eb3ffe541da795d14b5002cceca6bcc95ea043875ff4e39ca7ed713a7",
+    "public/photos/couple-08-wedding-s7-highland-02.jpg": "e8b2a6fe13ab673b123e2ff3bbf239840f9993f538ee889722dbaf0175386832",
+    "public/photos/couple-08-wedding-s8-night-02.jpg": "3f953a7f5612233f5d1e65baadd20b2c5149963d57516b174a8c72e0a7e17673",
+    "public/photos/couple-09-chinese-c2-redwall-01.jpg": "0e4f6e8e47084620e3d2f32982b9016527abe2390f05af9a5a47e4db0a322828"
+  }
+}

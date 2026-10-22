@@ -1,0 +1,4122 @@
+{
+  "version": "0.1",
+  "items": [
+    {
+      "id": "bride-00-identity",
+      "file": "photos/bride-00-identity.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "identity",
+      "stageName": "定妆照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "studio",
+      "caption": "新娘定妆照",
+      "textSpace": "none",
+      "notes": "",
+      "faces": [
+        [
+          0.278,
+          0.2517,
+          0.484,
+          0.3872
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-00-identity.png",
+        "sourceSha256": "f1cb73398ded65a773eb1a74ee2048a25f70614f064e8d7581af95a32e5497bb",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-00-identity",
+      "file": "photos/groom-00-identity.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "identity",
+      "stageName": "定妆照",
+      "date": "2026",
+      "age": {
+        "groom": 29
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "studio",
+      "caption": "新郎定妆照",
+      "textSpace": "none",
+      "notes": "",
+      "faces": [
+        [
+          0.2411,
+          0.2428,
+          0.5054,
+          0.4044
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-00-identity.png",
+        "sourceSha256": "aedb95aa51d519078eff18c36e2e5a7f278be183abc167804ef2a419571cec9b",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-01-childhood-02",
+      "file": "photos/groom-01-childhood-02.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "1998-05-03",
+      "age": {
+        "groom": 1
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "film-flash",
+      "caption": "一岁",
+      "textSpace": "right",
+      "notes": "日期戳 '98 5 3",
+      "faces": [
+        [
+          0.3158,
+          0.2045,
+          0.1769,
+          0.2653
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-01-childhood-02.png",
+        "sourceSha256": "eadf0c749a18d3506bd331cd82df2f1e3517cba89aae06e9c2f0b6035d9085ac",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-01-childhood-02",
+      "file": "photos/bride-01-childhood-02.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "2002",
+      "age": {
+        "bride": 4
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "studio-film",
+      "caption": "照相馆里的四岁",
+      "textSpace": "none",
+      "notes": "原计划2岁，成图更像4岁，按4岁记",
+      "faces": [
+        [
+          0.4118,
+          0.1746,
+          0.2027,
+          0.1622
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-01-childhood-02.png",
+        "sourceSha256": "eb536cb728892d07de1dc3247714037005b8734e29af9dbbb82476bceffcc0ed",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-01-childhood-01",
+      "file": "photos/groom-01-childhood-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "2003-07-20",
+      "age": {
+        "groom": 6
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "film",
+      "caption": "六岁的夏天",
+      "textSpace": "right",
+      "notes": "日期戳 '03 7 20",
+      "faces": [
+        [
+          0.32,
+          0.1835,
+          0.0979,
+          0.1468
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-01-childhood-01.png",
+        "sourceSha256": "3f555fabdab5c39ead770f00d435aa0550a79b1388201f391786e46f52a7afe2",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-01-childhood-01-wc",
+      "file": "photos/groom-01-childhood-01-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "2003-07-20",
+      "age": {
+        "groom": 6
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "watercolor",
+      "caption": "六岁的夏天",
+      "textSpace": "none",
+      "notes": "日期戳 '03 7 20",
+      "variant": "watercolor",
+      "source": "groom-01-childhood-01",
+      "faces": [
+        [
+          0.3217,
+          0.1851,
+          0.0966,
+          0.1448
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-01-childhood-01-wc.png",
+        "sourceSha256": "a74fc496eac4d32aef36ea3058431cf1b2b839a98609854d4ed7468591fbb17c",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-01-childhood-01",
+      "file": "photos/bride-01-childhood-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "2004-04-18",
+      "age": {
+        "bride": 6
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "film",
+      "caption": "六岁的春天",
+      "textSpace": "left",
+      "notes": "日期戳 '04 4 18",
+      "faces": [
+        [
+          0.5067,
+          0.2199,
+          0.1448,
+          0.2172
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-01-childhood-01.png",
+        "sourceSha256": "ff7a43f5043c2d83c3c4f0a2d4201ce0c887c64f79c5e4b4ff825980f88e1212",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-01-childhood-01-wc",
+      "file": "photos/bride-01-childhood-01-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "2004-04-18",
+      "age": {
+        "bride": 6
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "watercolor",
+      "caption": "六岁的春天",
+      "textSpace": "none",
+      "notes": "日期戳 '04 4 18",
+      "variant": "watercolor",
+      "source": "bride-01-childhood-01",
+      "faces": [
+        [
+          0.5086,
+          0.2194,
+          0.1426,
+          0.2139
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-01-childhood-01-wc.png",
+        "sourceSha256": "7ba1657ae49494413879fa889b8ff7d1c51f28130f7138c5f1ff722eb8c85b03",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-01-childhood-03",
+      "file": "photos/groom-01-childhood-03.jpg",
+      "width": 1440,
+      "height": 1080,
+      "aspect": "4:3",
+      "orientation": "landscape",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "2006-09-01",
+      "age": {
+        "groom": 9
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "digicam",
+      "caption": "开学第一天",
+      "textSpace": "right",
+      "notes": "日期戳 '06 9 1；4:3",
+      "faces": [
+        [
+          0.3953,
+          0.1442,
+          0.0869,
+          0.1159
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-01-childhood-03.png",
+        "sourceSha256": "809b19f4b4419968fb79f7b82f07ff8df02b240fba504a8723a452445211f479",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-01-childhood-03",
+      "file": "photos/bride-01-childhood-03.jpg",
+      "width": 1440,
+      "height": 1080,
+      "aspect": "4:3",
+      "orientation": "landscape",
+      "stage": "childhood",
+      "stageName": "童年",
+      "date": "2007-06-01",
+      "age": {
+        "bride": 9
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "digicam",
+      "caption": "六一儿童节",
+      "textSpace": "none",
+      "notes": "日期戳 '07 6 1，末位略被裁；4:3",
+      "faces": [
+        [
+          0.4696,
+          0.206,
+          0.1967,
+          0.2623
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-01-childhood-03.png",
+        "sourceSha256": "28c0c007c48fc1acea39518de692fa38d70e27126cf174073637805a79993f12",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-02-school-01",
+      "file": "photos/groom-02-school-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "school",
+      "stageName": "学生时代",
+      "date": "2014-10",
+      "age": {
+        "groom": 17
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "phone-2010s",
+      "caption": "十七岁的球场",
+      "textSpace": "top",
+      "notes": "",
+      "faces": [
+        [
+          0.3281,
+          0.1933,
+          0.2031,
+          0.1523
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-02-school-01.png",
+        "sourceSha256": "b9c1ae0ffcb466cb6d93c56d9704e1b0f0800ddc77b66dcb3ad9e306509bc2e3",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-02-school-01-wc",
+      "file": "photos/groom-02-school-01-wc.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "school",
+      "stageName": "学生时代",
+      "date": "2014-10",
+      "age": {
+        "groom": 17
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "watercolor",
+      "caption": "十七岁的球场",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "groom-02-school-01",
+      "faces": [
+        [
+          0.3306,
+          0.1918,
+          0.1977,
+          0.1483
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-02-school-01-wc.png",
+        "sourceSha256": "6758871c1b428a513a312ed6a710df055174c368c443d607c07b8b0164f6ac53",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-02-school-01",
+      "file": "photos/bride-02-school-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "school",
+      "stageName": "学生时代",
+      "date": "2016-06",
+      "age": {
+        "bride": 18
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "phone-2010s",
+      "caption": "十八岁",
+      "textSpace": "top",
+      "notes": "",
+      "faces": [
+        [
+          0.4323,
+          0.2224,
+          0.2852,
+          0.2139
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-02-school-01.png",
+        "sourceSha256": "acf1c3e5e5e84cfa40d20f2c5850a8bf4c468f4d75fcccde1e485d0a01bf11d6",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-02-school-01-wc",
+      "file": "photos/bride-02-school-01-wc.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "school",
+      "stageName": "学生时代",
+      "date": "2016-06",
+      "age": {
+        "bride": 18
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "watercolor",
+      "caption": "十八岁",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "bride-02-school-01",
+      "faces": [
+        [
+          0.4334,
+          0.2213,
+          0.2785,
+          0.2089
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-02-school-01-wc.png",
+        "sourceSha256": "be735d70610cef68d5922d0c98aa4cb40fd8fc44997f5ed4f6c4864fe822a2ca",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-02-school-02",
+      "file": "photos/groom-02-school-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "school",
+      "stageName": "学生时代",
+      "date": "2019-06",
+      "age": {
+        "groom": 22
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "phone-2010s",
+      "caption": "毕业",
+      "textSpace": "top",
+      "notes": "",
+      "faces": [
+        [
+          0.4604,
+          0.2965,
+          0.1125,
+          0.0844
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-02-school-02.png",
+        "sourceSha256": "944dd5db9d119e7149b5f77ac4bd65a03c0ff30fbdae74a9bd0cbd3fc9182f5a",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-02-school-02",
+      "file": "photos/bride-02-school-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "school",
+      "stageName": "学生时代",
+      "date": "2020-06",
+      "age": {
+        "bride": 22
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "phone-2010s",
+      "caption": "毕业",
+      "textSpace": "none",
+      "notes": "",
+      "faces": [
+        [
+          0.3166,
+          0.2322,
+          0.2737,
+          0.2053
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-02-school-02.png",
+        "sourceSha256": "6814197fbc838606d7cc67c625337339e07ea0fb25513cccfee9433b40ce748e",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-03-dating-02",
+      "file": "photos/couple-03-dating-02.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "dating",
+      "stageName": "恋爱",
+      "date": "2021-03",
+      "age": {
+        "groom": 24,
+        "bride": 23
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "modern",
+      "caption": "初识",
+      "textSpace": "top",
+      "notes": "书店咖啡馆",
+      "faces": [
+        [
+          0.3227,
+          0.2655,
+          0.1322,
+          0.1983
+        ],
+        [
+          0.6677,
+          0.2992,
+          0.1168,
+          0.1752
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-03-dating-02.png",
+        "sourceSha256": "2ca3f172c2044f95a1d061c7cf2d7ce6e0c0014a0d1a4b0127ae13abb7360f7c",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-03-dating-02-wc",
+      "file": "photos/couple-03-dating-02-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "dating",
+      "stageName": "恋爱",
+      "date": "2021-03",
+      "age": {
+        "groom": 24,
+        "bride": 23
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "caption": "初识",
+      "textSpace": "none",
+      "notes": "书店咖啡馆",
+      "variant": "watercolor",
+      "source": "couple-03-dating-02",
+      "faces": [
+        [
+          0.3256,
+          0.2556,
+          0.1185,
+          0.1777
+        ],
+        [
+          0.6767,
+          0.295,
+          0.1157,
+          0.1736
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-03-dating-02-wc.png",
+        "sourceSha256": "13810c110ab695eed3f99a4bddcf33d1f2687e68af52634570aeb1ab7a7017c8",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-03-dating-03",
+      "file": "photos/couple-03-dating-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "dating",
+      "stageName": "恋爱",
+      "date": "2022-07",
+      "age": {
+        "groom": 25,
+        "bride": 24
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "modern",
+      "caption": "游乐园",
+      "textSpace": "none",
+      "notes": "",
+      "faces": [
+        [
+          0.4351,
+          0.2556,
+          0.2712,
+          0.2034
+        ],
+        [
+          0.2343,
+          0.3018,
+          0.2592,
+          0.1944
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-03-dating-03.png",
+        "sourceSha256": "5ab5e97e3b5e60cdc474f28eb288f9745da86931f979aa075da1d8f17faebc01",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-03-dating-03-wc",
+      "file": "photos/couple-03-dating-03-wc.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "dating",
+      "stageName": "恋爱",
+      "date": "2022-07",
+      "age": {
+        "groom": 25,
+        "bride": 24
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "caption": "游乐园",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "couple-03-dating-03",
+      "faces": [
+        [
+          0.4391,
+          0.2612,
+          0.2543,
+          0.1907
+        ],
+        [
+          0.2567,
+          0.3045,
+          0.2371,
+          0.1778
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-03-dating-03-wc.png",
+        "sourceSha256": "15588a100837202cb3256c3fe3e1a690c24765a242468707f3cf4e38b60627c8",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-03-dating-01",
+      "file": "photos/couple-03-dating-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "dating",
+      "stageName": "恋爱",
+      "date": "2022-11",
+      "age": {
+        "groom": 25,
+        "bride": 24
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "modern",
+      "caption": "银杏街",
+      "textSpace": "left",
+      "notes": "",
+      "faces": [
+        [
+          0.4044,
+          0.205,
+          0.0886,
+          0.133
+        ],
+        [
+          0.5407,
+          0.1349,
+          0.0864,
+          0.1296
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-03-dating-01.png",
+        "sourceSha256": "e7500295483f2d698628d8e1667bc18e99155900793be8f041ccf1c9ed4c38b3",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-03-dating-01-wc",
+      "file": "photos/couple-03-dating-01-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "dating",
+      "stageName": "恋爱",
+      "date": "2022-11",
+      "age": {
+        "groom": 25,
+        "bride": 24
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "caption": "银杏街",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "couple-03-dating-01",
+      "faces": [
+        [
+          0.411,
+          0.2075,
+          0.0769,
+          0.1154
+        ],
+        [
+          0.5368,
+          0.1427,
+          0.076,
+          0.114
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-03-dating-01-wc.png",
+        "sourceSha256": "30db3a4eef568fdc343596dcb2f9d15e894e6d6a87cac5212d1c7a1beff0377d",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-03-dating-04",
+      "file": "photos/couple-03-dating-04.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "dating",
+      "stageName": "恋爱",
+      "date": "2022-12",
+      "age": {
+        "groom": 25,
+        "bride": 24
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "phone-night",
+      "caption": "她的生日",
+      "textSpace": "none",
+      "notes": "",
+      "faces": [
+        [
+          0.5475,
+          0.2582,
+          0.1753,
+          0.263
+        ],
+        [
+          0.2846,
+          0.2149,
+          0.1703,
+          0.2554
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-03-dating-04.png",
+        "sourceSha256": "dbcac8a0fb87dfb089df3999ec13473c04dc1aca7b30a7e7b98ffe0dd9161bb3",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-04-daily-01",
+      "file": "photos/couple-04-daily-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "daily",
+      "stageName": "日常",
+      "date": "2023-05",
+      "age": {
+        "groom": 26,
+        "bride": 25
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "modern",
+      "caption": "一起做饭",
+      "textSpace": "none",
+      "notes": "",
+      "faces": [
+        [
+          0.3879,
+          0.1566,
+          0.131,
+          0.1965
+        ],
+        [
+          0.528,
+          0.2409,
+          0.1298,
+          0.1947
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-04-daily-01.png",
+        "sourceSha256": "43b73d13cf8a6aeb54dccceb52e5a305a19a4af267db0b141a014a6fe0f15de2",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-04-daily-01-wc",
+      "file": "photos/couple-04-daily-01-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "daily",
+      "stageName": "日常",
+      "date": "2023-05",
+      "age": {
+        "groom": 26,
+        "bride": 25
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "caption": "一起做饭",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "couple-04-daily-01",
+      "faces": [
+        [
+          0.391,
+          0.1594,
+          0.1228,
+          0.1842
+        ],
+        [
+          0.5584,
+          0.2405,
+          0.114,
+          0.171
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-04-daily-01-wc.png",
+        "sourceSha256": "4ab143ca8526122d9b0ff755cb626af1041a31ed401f619a78cff56a6632c803",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-04-daily-02",
+      "file": "photos/couple-04-daily-02.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "daily",
+      "stageName": "日常",
+      "date": "2024-10",
+      "age": {
+        "groom": 27,
+        "bride": 26
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "modern",
+      "caption": "搬进新家",
+      "textSpace": "top",
+      "notes": "",
+      "faces": [
+        [
+          0.3642,
+          0.1907,
+          0.1317,
+          0.1976
+        ],
+        [
+          0.5211,
+          0.2791,
+          0.1247,
+          0.187
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-04-daily-02.png",
+        "sourceSha256": "f55b4c04b81623b894fbbe8a0d8b5fa9468b2735c97f17b50397e0b51fddbd55",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-05-distance-01",
+      "file": "photos/couple-05-distance-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "distance",
+      "stageName": "异地",
+      "date": "2023-12",
+      "age": {
+        "groom": 26,
+        "bride": 25
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "cinematic",
+      "caption": "站台告别",
+      "textSpace": "right",
+      "notes": "",
+      "faces": [
+        [
+          0.2665,
+          0.3479,
+          0.123,
+          0.1845
+        ],
+        [
+          0.2614,
+          0.1936,
+          0.1183,
+          0.1775
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-05-distance-01.png",
+        "sourceSha256": "182d68d3de7b96ee70d7a1a1de9517af6677b5679bd97b013b9d5837cd70a14a",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-05-distance-01-wc",
+      "file": "photos/couple-05-distance-01-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "distance",
+      "stageName": "异地",
+      "date": "2023-12",
+      "age": {
+        "groom": 26,
+        "bride": 25
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "caption": "站台告别",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "couple-05-distance-01",
+      "faces": [
+        [
+          0.2706,
+          0.1916,
+          0.0986,
+          0.148
+        ],
+        [
+          0.2825,
+          0.3286,
+          0.0926,
+          0.1389
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-05-distance-01-wc.png",
+        "sourceSha256": "f82976b0eb71bd5692bc96495e6d5090e8f80bf8eb77b17965387b69f5de897a",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-06-travel-01",
+      "file": "photos/couple-06-travel-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "travel",
+      "stageName": "旅行",
+      "date": "2024-05",
+      "age": {
+        "groom": 27,
+        "bride": 26
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "phone-selfie",
+      "caption": "云南",
+      "textSpace": "top",
+      "notes": "",
+      "faces": [
+        [
+          0.4754,
+          0.3008,
+          0.3163,
+          0.2372
+        ],
+        [
+          0.2792,
+          0.4122,
+          0.2851,
+          0.2138
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-06-travel-01.png",
+        "sourceSha256": "04863d0886be7ada3ed4cd409b42d937edba4b49e8c21a762df42e1b74371f0f",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-06-travel-01-wc",
+      "file": "photos/couple-06-travel-01-wc.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "travel",
+      "stageName": "旅行",
+      "date": "2024-05",
+      "age": {
+        "groom": 27,
+        "bride": 26
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "caption": "云南",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "couple-06-travel-01",
+      "faces": [
+        [
+          0.4804,
+          0.3033,
+          0.2942,
+          0.2206
+        ],
+        [
+          0.292,
+          0.4112,
+          0.2668,
+          0.2001
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-06-travel-01-wc.png",
+        "sourceSha256": "210d2eccf82f6d99312fa2c0e41b05bd39fabc606acd28a14243089fcaed3e9c",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-07-proposal-01",
+      "file": "photos/couple-07-proposal-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "proposal",
+      "stageName": "求婚",
+      "date": "2025-05-20",
+      "age": {
+        "groom": 28,
+        "bride": 27
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "modern",
+      "caption": "求婚",
+      "textSpace": "left",
+      "notes": "",
+      "faces": [
+        [
+          0.6294,
+          0.164,
+          0.1008,
+          0.1512
+        ],
+        [
+          0.3186,
+          0.3404,
+          0.0913,
+          0.1369
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-07-proposal-01.png",
+        "sourceSha256": "294258ff662aa10fb425f0cc2c23f17e67e9204b4802d7c3e00a40c4ae543d04",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-07-proposal-01-wc",
+      "file": "photos/couple-07-proposal-01-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "proposal",
+      "stageName": "求婚",
+      "date": "2025-05-20",
+      "age": {
+        "groom": 28,
+        "bride": 27
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "caption": "求婚",
+      "textSpace": "none",
+      "notes": "",
+      "variant": "watercolor",
+      "source": "couple-07-proposal-01",
+      "faces": [
+        [
+          0.6335,
+          0.168,
+          0.0885,
+          0.1327
+        ],
+        [
+          0.3311,
+          0.3311,
+          0.083,
+          0.1245
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-07-proposal-01-wc.png",
+        "sourceSha256": "3d0149610ecd68d87783dbf49af6af9f5dd4add6ec76f995cdb1ca8db7a24c05",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-07-proposal-02",
+      "file": "photos/couple-07-proposal-02.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "proposal",
+      "stageName": "求婚",
+      "date": "2025-05-20",
+      "age": {
+        "groom": 28,
+        "bride": 27
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "detail",
+      "era": "modern",
+      "caption": "我愿意",
+      "textSpace": "top",
+      "notes": "戒指手部特写，无脸",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-07-proposal-02.png",
+        "sourceSha256": "a745d689f30de815df522ba5713ec49cd971f940fc27afa94e98eb0d618bf853",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s1-studio-01",
+      "file": "photos/couple-08-wedding-s1-studio-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s1",
+      "setName": "影棚·灰棚",
+      "isToneShot": true,
+      "look": "seamless warm light-grey studio; bride in ivory satin strapless ball gown, short tulle veil under a sleek low bun, pearl drop earrings, white ranunculus bouquet; groom in black satin-lapel tuxedo, black bow tie, white boutonniere; clean soft studio light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "新娘在前、新郎贴近，看镜头",
+      "faces": [
+        [
+          0.4502,
+          0.1223,
+          0.2361,
+          0.1771
+        ],
+        [
+          0.2988,
+          0.2126,
+          0.2223,
+          0.1667
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s1-studio-01.png",
+        "sourceSha256": "36c69aa59bd67a14d6caf4f44de12d7dc4bf36536d4d569b1f88269ed3d6f99b",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s1-studio-02",
+      "file": "photos/couple-08-wedding-s1-studio-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s1",
+      "setName": "影棚·灰棚",
+      "isToneShot": false,
+      "look": "seamless warm light-grey studio; bride in ivory satin strapless ball gown, short tulle veil under a sleek low bun, pearl drop earrings, white ranunculus bouquet; groom in black satin-lapel tuxedo, black bow tie, white boutonniere; clean soft studio light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo, three-quarter length, one hand lightly lifting the edge of her veil, soft smile to camera",
+      "faces": [
+        [
+          0.4208,
+          0.1166,
+          0.2254,
+          0.1691
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s1-studio-02.png",
+        "sourceSha256": "e58aabbfea0ac071fcaf3672b2289253cf153663ea9979299288e4bd90ee3d6b",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s1-studio-03",
+      "file": "photos/couple-08-wedding-s1-studio-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s1",
+      "setName": "影棚·灰棚",
+      "isToneShot": false,
+      "look": "seamless warm light-grey studio; bride in ivory satin strapless ball gown, short tulle veil under a sleek low bun, pearl drop earrings, white ranunculus bouquet; groom in black satin-lapel tuxedo, black bow tie, white boutonniere; clean soft studio light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "groom solo, three-quarter length, adjusting his shirt cuff, looking slightly off-camera with a confident smile",
+      "faces": [
+        [
+          0.3769,
+          0.1238,
+          0.2441,
+          0.1831
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s1-studio-03.png",
+        "sourceSha256": "7dd1c01dea883652fd63e8913d9cff92d677953c8cf86cbe96054599e393b483",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s1-studio-04",
+      "file": "photos/couple-08-wedding-s1-studio-04.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "wide",
+      "era": "wedding-pro",
+      "set": "s1",
+      "setName": "影棚·灰棚",
+      "isToneShot": false,
+      "look": "seamless warm light-grey studio; bride in ivory satin strapless ball gown, short tulle veil under a sleek low bun, pearl drop earrings, white ranunculus bouquet; groom in black satin-lapel tuxedo, black bow tie, white boutonniere; clean soft studio light",
+      "caption": "",
+      "textSpace": "left",
+      "notes": "wide shot: she sits on a simple white stool with the ball gown spread on the floor, he stands beside with a hand on her shoulder, lots of clean grey space on the left for titles",
+      "faces": [
+        [
+          0.6481,
+          0.0822,
+          0.0742,
+          0.1113
+        ],
+        [
+          0.6089,
+          0.2013,
+          0.0702,
+          0.1052
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s1-studio-04.png",
+        "sourceSha256": "3b73f033cf6fdfd2732b700c7509943cd89d8fd31e47dee7c52fc91027667ffd",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s1-studio-05",
+      "file": "photos/couple-08-wedding-s1-studio-05.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "detail",
+      "era": "wedding-pro",
+      "set": "s1",
+      "setName": "影棚·灰棚",
+      "isToneShot": false,
+      "look": "seamless warm light-grey studio; bride in ivory satin strapless ball gown, short tulle veil under a sleek low bun, pearl drop earrings, white ranunculus bouquet; groom in black satin-lapel tuxedo, black bow tie, white boutonniere; clean soft studio light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "detail close-up of their hands: her hand with a diamond ring and wedding band resting on his tuxedo sleeve, bouquet partly in frame, no faces",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s1-studio-05.png",
+        "sourceSha256": "b77eced267bbaf6ec6204a82ef80e62b534763abf5da9a474d4be8a062d13ca2",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s1-studio-06",
+      "file": "photos/couple-08-wedding-s1-studio-06.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s1",
+      "setName": "影棚·灰棚",
+      "isToneShot": false,
+      "look": "seamless warm light-grey studio; bride in ivory satin strapless ball gown, short tulle veil under a sleek low bun, pearl drop earrings, white ranunculus bouquet; groom in black satin-lapel tuxedo, black bow tie, white boutonniere; clean soft studio light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "full-length playful pose: standing back to back, both with arms crossed, grinning at the camera",
+      "faces": [
+        [
+          0.5099,
+          0.0947,
+          0.1675,
+          0.1256
+        ],
+        [
+          0.3115,
+          0.1728,
+          0.1578,
+          0.1184
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s1-studio-06.png",
+        "sourceSha256": "0c13a047ee135fb07743e3a765400466b61c1f629c4ddb401324b57f23b302a7",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s2-seaside-01",
+      "file": "photos/couple-08-wedding-s2-seaside-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s2",
+      "setName": "海边·黄昏山坡",
+      "isToneShot": true,
+      "look": "grassy seaside hilltop above the ocean at golden hour, wildflowers; bride in ivory satin off-shoulder gown with long sheer veil, soft low bun with loose strands, bouquet of white and blush roses; groom in dark-navy tailored suit, white shirt, black bow tie; warm backlit glow",
+      "caption": "",
+      "textSpace": "left",
+      "notes": "额头相抵，头纱飘向左侧；左侧大面积留白",
+      "faces": [
+        [
+          0.7002,
+          0.2357,
+          0.0865,
+          0.1297
+        ],
+        [
+          0.6663,
+          0.2851,
+          0.0807,
+          0.1211
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s2-seaside-01.png",
+        "sourceSha256": "2815f5b74cfca95d7cb2cbc81cfd1d60b0ecde1bc166013a6fa13bca070887b6",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s2-seaside-01-wc",
+      "file": "photos/couple-08-wedding-s2-seaside-01-wc.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "set": "s2",
+      "setName": "海边·黄昏山坡",
+      "isToneShot": true,
+      "look": "grassy seaside hilltop above the ocean at golden hour, wildflowers; bride in ivory satin off-shoulder gown with long sheer veil, soft low bun with loose strands, bouquet of white and blush roses; groom in dark-navy tailored suit, white shirt, black bow tie; warm backlit glow",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "额头相抵，头纱飘向左侧；左侧大面积留白",
+      "variant": "watercolor",
+      "source": "couple-08-wedding-s2-seaside-01",
+      "faces": [
+        [
+          0.7052,
+          0.2364,
+          0.0819,
+          0.1229
+        ],
+        [
+          0.6685,
+          0.2813,
+          0.08,
+          0.12
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s2-seaside-01-wc.png",
+        "sourceSha256": "4a34dd8653bba295bc024a43b33fed2a3691792a39580ca2e0f7b7a08d43441c",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s2-seaside-02",
+      "file": "photos/couple-08-wedding-s2-seaside-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s2",
+      "setName": "海边·黄昏山坡",
+      "isToneShot": false,
+      "look": "grassy seaside hilltop above the ocean at golden hour, wildflowers; bride in ivory satin off-shoulder gown with long sheer veil, soft low bun with loose strands, bouquet of white and blush roses; groom in dark-navy tailored suit, white shirt, black bow tie; warm backlit glow",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo standing on the hill, the long veil blowing out behind her, looking back over her shoulder at camera",
+      "faces": [
+        [
+          0.5795,
+          0.2087,
+          0.2081,
+          0.1561
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s2-seaside-02.png",
+        "sourceSha256": "e779ff3b5bf302bc4f4fa977603878551698733931018570b4e738fcb913a5cb",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s2-seaside-03",
+      "file": "photos/couple-08-wedding-s2-seaside-03.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "wide",
+      "era": "wedding-pro",
+      "set": "s2",
+      "setName": "海边·黄昏山坡",
+      "isToneShot": false,
+      "look": "grassy seaside hilltop above the ocean at golden hour, wildflowers; bride in ivory satin off-shoulder gown with long sheer veil, soft low bun with loose strands, bouquet of white and blush roses; groom in dark-navy tailored suit, white shirt, black bow tie; warm backlit glow",
+      "caption": "",
+      "textSpace": "left",
+      "notes": "wide shot: the couple small in frame walking hand in hand along a grassy path on the cliff, sea and setting sun behind, big sky",
+      "faces": [
+        [
+          0.7376,
+          0.2973,
+          0.0399,
+          0.0598
+        ],
+        [
+          0.6651,
+          0.3405,
+          0.0341,
+          0.0511
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s2-seaside-03.png",
+        "sourceSha256": "ee1358f2261c8375be5c1d202656f6a5d618436021b3b2ca45590be02bc26d1a",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s2-seaside-04",
+      "file": "photos/couple-08-wedding-s2-seaside-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s2",
+      "setName": "海边·黄昏山坡",
+      "isToneShot": false,
+      "look": "grassy seaside hilltop above the ocean at golden hour, wildflowers; bride in ivory satin off-shoulder gown with long sheer veil, soft low bun with loose strands, bouquet of white and blush roses; groom in dark-navy tailored suit, white shirt, black bow tie; warm backlit glow",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "he carries her in his arms, she laughs with arms around his neck, veil trailing, sea behind",
+      "faces": [
+        [
+          0.4433,
+          0.2144,
+          0.129,
+          0.0968
+        ],
+        [
+          0.569,
+          0.2386,
+          0.1196,
+          0.0897
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s2-seaside-04.png",
+        "sourceSha256": "e084e64b92f6adb148b4d0623204a709bef2fabf2fff8c3b731302c17990d874",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s2-seaside-05",
+      "file": "photos/couple-08-wedding-s2-seaside-05.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "detail",
+      "era": "wedding-pro",
+      "set": "s2",
+      "setName": "海边·黄昏山坡",
+      "isToneShot": false,
+      "look": "grassy seaside hilltop above the ocean at golden hour, wildflowers; bride in ivory satin off-shoulder gown with long sheer veil, soft low bun with loose strands, bouquet of white and blush roses; groom in dark-navy tailored suit, white shirt, black bow tie; warm backlit glow",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "detail: her hands holding the rose bouquet with the veil fluttering, backlit by the low sun, face not shown",
+      "faces": [
+        [
+          0.6397,
+          -0.0065,
+          0.0931,
+          0.0745
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s2-seaside-05.png",
+        "sourceSha256": "30a3df1b28e7a34f5855df46aabbcefce42f94b937890fdfe427441c9d6a2990",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s3-interior-01",
+      "file": "photos/couple-08-wedding-s3-interior-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s3",
+      "setName": "欧式室内·窗边",
+      "isToneShot": true,
+      "look": "sunlit European-style villa room with tall arched window, sheer curtains, carved cream wall panels, herringbone oak floor, sage velvet armchair; bride in ivory long-sleeve high-neck lace A-line gown with cathedral lace-edged veil, soft half-up waves; groom in light camel three-piece suit, champagne tie; warm film-like window light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "新娘坐窗台，新郎倚窗对望",
+      "faces": [
+        [
+          0.513,
+          0.2254,
+          0.0839,
+          0.0629
+        ],
+        [
+          0.3925,
+          0.1341,
+          0.0834,
+          0.0625
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s3-interior-01.png",
+        "sourceSha256": "6cbec6c1c17b9d224139d24a27c93eab73038e4905a74ed69c3e60c51e19a8c7",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s3-interior-02",
+      "file": "photos/couple-08-wedding-s3-interior-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s3",
+      "setName": "欧式室内·窗边",
+      "isToneShot": false,
+      "look": "sunlit European-style villa room with tall arched window, sheer curtains, carved cream wall panels, herringbone oak floor, sage velvet armchair; bride in ivory long-sleeve high-neck lace A-line gown with cathedral lace-edged veil, soft half-up waves; groom in light camel three-piece suit, champagne tie; warm film-like window light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo standing by the arched window, veil backlit and glowing, gazing out of the window, profile view",
+      "faces": [
+        [
+          0.564,
+          0.1287,
+          0.0784,
+          0.0588
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s3-interior-02.png",
+        "sourceSha256": "ed47afa7de499ef620d38a22c3a6a98cc454711a6e1085faf9ed42bb8d401932",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s3-interior-03",
+      "file": "photos/couple-08-wedding-s3-interior-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s3",
+      "setName": "欧式室内·窗边",
+      "isToneShot": false,
+      "look": "sunlit European-style villa room with tall arched window, sheer curtains, carved cream wall panels, herringbone oak floor, sage velvet armchair; bride in ivory long-sleeve high-neck lace A-line gown with cathedral lace-edged veil, soft half-up waves; groom in light camel three-piece suit, champagne tie; warm film-like window light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "groom solo seated in the sage velvet armchair, legs crossed, relaxed smile at camera",
+      "faces": [
+        [
+          0.4027,
+          0.1356,
+          0.1542,
+          0.1157
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s3-interior-03.png",
+        "sourceSha256": "0fe322ccdb1f35b82e4f545a847493f719589ab069152bc5e3e0cedb66ec0b30",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s3-interior-04",
+      "file": "photos/couple-08-wedding-s3-interior-04.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s3",
+      "setName": "欧式室内·窗边",
+      "isToneShot": false,
+      "look": "sunlit European-style villa room with tall arched window, sheer curtains, carved cream wall panels, herringbone oak floor, sage velvet armchair; bride in ivory long-sleeve high-neck lace A-line gown with cathedral lace-edged veil, soft half-up waves; groom in light camel three-piece suit, champagne tie; warm film-like window light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "slow dance in the middle of the room, sunlight streaming across the floor, room visible around them",
+      "faces": [
+        [
+          0.3774,
+          0.1295,
+          0.0584,
+          0.0876
+        ],
+        [
+          0.4449,
+          0.1909,
+          0.0546,
+          0.0819
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s3-interior-04.png",
+        "sourceSha256": "4fd46b1cb4fb9574568cd6ced460bb73e4537d876d9dccbc8585085914fdd2f9",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s3-interior-05",
+      "file": "photos/couple-08-wedding-s3-interior-05.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s3",
+      "setName": "欧式室内·窗边",
+      "isToneShot": false,
+      "look": "sunlit European-style villa room with tall arched window, sheer curtains, carved cream wall panels, herringbone oak floor, sage velvet armchair; bride in ivory long-sleeve high-neck lace A-line gown with cathedral lace-edged veil, soft half-up waves; groom in light camel three-piece suit, champagne tie; warm film-like window light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "close-up by the sheer curtain, foreheads touching, eyes closed, soft smiles",
+      "faces": [
+        [
+          0.3734,
+          0.2002,
+          0.1805,
+          0.1354
+        ],
+        [
+          0.4725,
+          0.2573,
+          0.1791,
+          0.1343
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s3-interior-05.png",
+        "sourceSha256": "844afa6280dbdc87c25a399878a552dd9363635b3b1bb95a8b46aba82b0626d7",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s4-garden-01",
+      "file": "photos/couple-08-wedding-s4-garden-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s4",
+      "setName": "花园·花拱门",
+      "isToneShot": true,
+      "look": "lush formal garden with a white arch of white roses and hydrangeas, gravel path lined with tall cypress trees, soft bright daylight; bride in flowing ivory chiffon strappy A-line gown, baby's-breath flower crown, long loose waves; groom in light grey suit, sage-green tie; airy fresh tones",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "花拱门下挽手对望，全身",
+      "faces": [
+        [
+          0.3904,
+          0.178,
+          0.0991,
+          0.0743
+        ],
+        [
+          0.4946,
+          0.1314,
+          0.0939,
+          0.0704
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s4-garden-01.png",
+        "sourceSha256": "3714e2b933e6ac1b0c173f5f9712aed8c30727a47665355a25ab7cf4400e2180",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s4-garden-01-wc",
+      "file": "photos/couple-08-wedding-s4-garden-01-wc.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "watercolor",
+      "set": "s4",
+      "setName": "花园·花拱门",
+      "isToneShot": true,
+      "look": "lush formal garden with a white arch of white roses and hydrangeas, gravel path lined with tall cypress trees, soft bright daylight; bride in flowing ivory chiffon strappy A-line gown, baby's-breath flower crown, long loose waves; groom in light grey suit, sage-green tie; airy fresh tones",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "花拱门下挽手对望，全身",
+      "variant": "watercolor",
+      "source": "couple-08-wedding-s4-garden-01",
+      "faces": [
+        [
+          0.4946,
+          0.138,
+          0.0891,
+          0.0668
+        ],
+        [
+          0.4007,
+          0.1834,
+          0.0891,
+          0.0668
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s4-garden-01-wc.png",
+        "sourceSha256": "11890cabcef519f6d1af1f672449efc7660a356f687a07b71b6096cfb2ba9ce5",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s4-garden-02",
+      "file": "photos/couple-08-wedding-s4-garden-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s4",
+      "setName": "花园·花拱门",
+      "isToneShot": false,
+      "look": "lush formal garden with a white arch of white roses and hydrangeas, gravel path lined with tall cypress trees, soft bright daylight; bride in flowing ivory chiffon strappy A-line gown, baby's-breath flower crown, long loose waves; groom in light grey suit, sage-green tie; airy fresh tones",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "walking hand in hand down the cypress-lined gravel path away from camera, she looks back smiling",
+      "faces": [
+        [
+          0.379,
+          0.2099,
+          0.0906,
+          0.0679
+        ],
+        [
+          0.5389,
+          0.1763,
+          0.0752,
+          0.0564
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s4-garden-02.png",
+        "sourceSha256": "f1a05054795b1b0ee6829edf21725b21044808ac7f88280b019e6efdd05bf8ee",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s4-garden-03",
+      "file": "photos/couple-08-wedding-s4-garden-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s4",
+      "setName": "花园·花拱门",
+      "isToneShot": false,
+      "look": "lush formal garden with a white arch of white roses and hydrangeas, gravel path lined with tall cypress trees, soft bright daylight; bride in flowing ivory chiffon strappy A-line gown, baby's-breath flower crown, long loose waves; groom in light grey suit, sage-green tie; airy fresh tones",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo sitting on a white garden bench among roses, holding a single white rose, gentle smile",
+      "faces": [
+        [
+          0.4763,
+          0.1649,
+          0.177,
+          0.1328
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s4-garden-03.png",
+        "sourceSha256": "0750533c652572bc63a5c1ed7e9217d454f84897070a3510758c13b518945f43",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s4-garden-04",
+      "file": "photos/couple-08-wedding-s4-garden-04.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s4",
+      "setName": "花园·花拱门",
+      "isToneShot": false,
+      "look": "lush formal garden with a white arch of white roses and hydrangeas, gravel path lined with tall cypress trees, soft bright daylight; bride in flowing ivory chiffon strappy A-line gown, baby's-breath flower crown, long loose waves; groom in light grey suit, sage-green tie; airy fresh tones",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "in a rose garden, he whispers in her ear and she bursts out laughing, garden stretching behind",
+      "faces": [
+        [
+          0.3367,
+          0.2231,
+          0.1171,
+          0.1756
+        ],
+        [
+          0.4165,
+          0.1657,
+          0.0921,
+          0.1382
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s4-garden-04.png",
+        "sourceSha256": "1b20520274fcdad5a0e65baa2f57f8bc10627856ba96c39f3ab7b95adc8a97fe",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s4-garden-05",
+      "file": "photos/couple-08-wedding-s4-garden-05.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s4",
+      "setName": "花园·花拱门",
+      "isToneShot": false,
+      "look": "lush formal garden with a white arch of white roses and hydrangeas, gravel path lined with tall cypress trees, soft bright daylight; bride in flowing ivory chiffon strappy A-line gown, baby's-breath flower crown, long loose waves; groom in light grey suit, sage-green tie; airy fresh tones",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "groom solo leaning against the flower arch, hands in pockets, warm smile",
+      "faces": [
+        [
+          0.4437,
+          0.1471,
+          0.1816,
+          0.1362
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s4-garden-05.png",
+        "sourceSha256": "3ecafe5a9f25c00b2d9193cc14a3b8da00fc5ee2dedda206ab70e364e85df03e",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s5-chapel-01",
+      "file": "photos/couple-08-wedding-s5-chapel-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s5",
+      "setName": "白色教堂",
+      "isToneShot": true,
+      "look": "bright white chapel with tall arched clear windows and light beams, pale wooden pews with small white flower bundles; bride in ivory long-sleeve high-neck satin mermaid gown, extremely long cathedral veil, smooth low chignon; groom in ivory dinner jacket with black shawl lapels, black trousers, black bow tie; luminous clean light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "牵手走过教堂通道，对称构图",
+      "faces": [
+        [
+          0.5623,
+          0.1363,
+          0.1124,
+          0.0843
+        ],
+        [
+          0.4006,
+          0.1881,
+          0.0963,
+          0.0722
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s5-chapel-01.png",
+        "sourceSha256": "dffc5c3086c0203ad5041d4b030773b1e492cd400726e1f379ee6827f3e7984d",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s5-chapel-02",
+      "file": "photos/couple-08-wedding-s5-chapel-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s5",
+      "setName": "白色教堂",
+      "isToneShot": false,
+      "look": "bright white chapel with tall arched clear windows and light beams, pale wooden pews with small white flower bundles; bride in ivory long-sleeve high-neck satin mermaid gown, extremely long cathedral veil, smooth low chignon; groom in ivory dinner jacket with black shawl lapels, black trousers, black bow tie; luminous clean light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "at the front of the chapel he gently lifts her sheer veil from her face, both smiling, light beams behind",
+      "faces": [
+        [
+          0.554,
+          0.1718,
+          0.1171,
+          0.0878
+        ],
+        [
+          0.3286,
+          0.2493,
+          0.1163,
+          0.0872
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s5-chapel-02.png",
+        "sourceSha256": "8c17432e377f99ac00a38a8fea95d3a12eb6a9f48af9f7bb8daec1b4092ad878",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s5-chapel-03",
+      "file": "photos/couple-08-wedding-s5-chapel-03.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "wide",
+      "era": "wedding-pro",
+      "set": "s5",
+      "setName": "白色教堂",
+      "isToneShot": false,
+      "look": "bright white chapel with tall arched clear windows and light beams, pale wooden pews with small white flower bundles; bride in ivory long-sleeve high-neck satin mermaid gown, extremely long cathedral veil, smooth low chignon; groom in ivory dinner jacket with black shawl lapels, black trousers, black bow tie; luminous clean light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "wide symmetrical shot from the back of the aisle, the couple facing each other at the far end holding hands, pews in the foreground",
+      "faces": [
+        [
+          0.5424,
+          0.2816,
+          0.0319,
+          0.0479
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s5-chapel-03.png",
+        "sourceSha256": "4184e7f032c2f7adc40b903f8b283b4d8db9c6d1a851addf87bb482e09cb1e9e",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s5-chapel-04",
+      "file": "photos/couple-08-wedding-s5-chapel-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s5",
+      "setName": "白色教堂",
+      "isToneShot": false,
+      "look": "bright white chapel with tall arched clear windows and light beams, pale wooden pews with small white flower bundles; bride in ivory long-sleeve high-neck satin mermaid gown, extremely long cathedral veil, smooth low chignon; groom in ivory dinner jacket with black shawl lapels, black trousers, black bow tie; luminous clean light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo seated at the end of a pew, the long veil flowing along the aisle floor, looking at camera",
+      "faces": [
+        [
+          0.339,
+          0.1645,
+          0.1326,
+          0.0995
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s5-chapel-04.png",
+        "sourceSha256": "83479b9b23c09b733bfca18dbcd4bc1594806dbe613330552cf4c7bb74173a18",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s6-street-01",
+      "file": "photos/couple-08-wedding-s6-street-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s6",
+      "setName": "老城街拍·胶片直闪",
+      "isToneShot": true,
+      "look": "old-town Chinese city street at golden hour with 1930s European-style buildings and plane trees, vintage bicycle; bride in knee-length ivory satin puff-sleeve bridal dress, short tulle veil in a low messy bun, white Mary Jane heels, white tulips; groom in oversized black double-breasted suit, open-collar white shirt, no tie; 35mm film with direct flash",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "牵手过斑马线，举起郁金香",
+      "faces": [
+        [
+          0.5591,
+          0.1783,
+          0.1142,
+          0.0856
+        ],
+        [
+          0.3493,
+          0.2432,
+          0.1035,
+          0.0776
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s6-street-01.png",
+        "sourceSha256": "845a021732ad8672d140b1d9eb2130c4e039a6f85bcf95345e610165893a18ef",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s6-street-02",
+      "file": "photos/couple-08-wedding-s6-street-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s6",
+      "setName": "老城街拍·胶片直闪",
+      "isToneShot": false,
+      "look": "old-town Chinese city street at golden hour with 1930s European-style buildings and plane trees, vintage bicycle; bride in knee-length ivory satin puff-sleeve bridal dress, short tulle veil in a low messy bun, white Mary Jane heels, white tulips; groom in oversized black double-breasted suit, open-collar white shirt, no tie; 35mm film with direct flash",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "sitting side by side on old stone steps of a building, sharing one ice-cream cone, laughing",
+      "faces": [
+        [
+          0.5312,
+          0.1875,
+          0.1386,
+          0.104
+        ],
+        [
+          0.3801,
+          0.2182,
+          0.1381,
+          0.1036
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s6-street-02.png",
+        "sourceSha256": "5dbc669e3e1d2995c03e8d69c05b97c8c041f9b1b134964be1ce34f357805b82",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s6-street-03",
+      "file": "photos/couple-08-wedding-s6-street-03.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s6",
+      "setName": "老城街拍·胶片直闪",
+      "isToneShot": false,
+      "look": "old-town Chinese city street at golden hour with 1930s European-style buildings and plane trees, vintage bicycle; bride in knee-length ivory satin puff-sleeve bridal dress, short tulle veil in a low messy bun, white Mary Jane heels, white tulips; groom in oversized black double-breasted suit, open-collar white shirt, no tie; 35mm film with direct flash",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "he rides the vintage bicycle down the street while she sits sideways on the rear rack holding the tulips, veil flying",
+      "faces": [
+        [
+          0.3674,
+          0.14,
+          0.0869,
+          0.1304
+        ],
+        [
+          0.5474,
+          0.2135,
+          0.0735,
+          0.1102
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s6-street-03.png",
+        "sourceSha256": "039658d93824bbd0fb8f0720b41630e3759d77af756e516dbb76cc65e1fa56d0",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s6-street-04",
+      "file": "photos/couple-08-wedding-s6-street-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s6",
+      "setName": "老城街拍·胶片直闪",
+      "isToneShot": false,
+      "look": "old-town Chinese city street at golden hour with 1930s European-style buildings and plane trees, vintage bicycle; bride in knee-length ivory satin puff-sleeve bridal dress, short tulle veil in a low messy bun, white Mary Jane heels, white tulips; groom in oversized black double-breasted suit, open-collar white shirt, no tie; 35mm film with direct flash",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo leaning against a vintage lamppost, one heel kicked up, playful look at camera",
+      "faces": [
+        [
+          0.5102,
+          0.149,
+          0.1142,
+          0.0856
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s6-street-04.png",
+        "sourceSha256": "229c4eab874f20af419566ac0699cbe7a6c71a7a2ed29bf3a6a906cbd8a3dc64",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s7-highland-01",
+      "file": "photos/couple-08-wedding-s7-highland-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "wide",
+      "era": "wedding-pro",
+      "set": "s7",
+      "setName": "雪山旷野·旅拍",
+      "isToneShot": true,
+      "look": "vast high-altitude meadow with wildflowers, turquoise lake and snow-capped mountains, dramatic clouds; bride in flowing layered ivory tulle gown with a long sheer shoulder cape veil, loose waves with tiny white flowers; groom in earthy olive-green suit, white shirt, brown knit tie; cinematic natural color",
+      "caption": "",
+      "textSpace": "top",
+      "notes": "旷野奔跑，披肩头纱飞扬；上方天空留白",
+      "faces": [
+        [
+          0.366,
+          0.3248,
+          0.0631,
+          0.0947
+        ],
+        [
+          0.1641,
+          0.2861,
+          0.0573,
+          0.0859
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s7-highland-01.png",
+        "sourceSha256": "964fec0a1a545baf8d711421692efc5cf8f88be96c00a0be8954d26fe26fadf7",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s7-highland-02",
+      "file": "photos/couple-08-wedding-s7-highland-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s7",
+      "setName": "雪山旷野·旅拍",
+      "isToneShot": false,
+      "look": "vast high-altitude meadow with wildflowers, turquoise lake and snow-capped mountains, dramatic clouds; bride in flowing layered ivory tulle gown with a long sheer shoulder cape veil, loose waves with tiny white flowers; groom in earthy olive-green suit, white shirt, brown knit tie; cinematic natural color",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "close couple portrait, she leans back into his chest, his arms around her waist, wind in their hair, snowy peaks behind",
+      "faces": [
+        [
+          0.2683,
+          0.1843,
+          0.2032,
+          0.1524
+        ],
+        [
+          0.4162,
+          0.2977,
+          0.1888,
+          0.1416
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s7-highland-02.png",
+        "sourceSha256": "27c8618b9e4b592b992a6a66533428a20c61f3232f32e04394eb13121d9927a2",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s7-highland-03",
+      "file": "photos/couple-08-wedding-s7-highland-03.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "wide",
+      "era": "wedding-pro",
+      "set": "s7",
+      "setName": "雪山旷野·旅拍",
+      "isToneShot": false,
+      "look": "vast high-altitude meadow with wildflowers, turquoise lake and snow-capped mountains, dramatic clouds; bride in flowing layered ivory tulle gown with a long sheer shoulder cape veil, loose waves with tiny white flowers; groom in earthy olive-green suit, white shirt, brown knit tie; cinematic natural color",
+      "caption": "",
+      "textSpace": "right",
+      "notes": "wide shot at the lake shore, the couple tiny in frame holding hands, mountains mirrored in the still turquoise water",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s7-highland-03.png",
+        "sourceSha256": "f4d9c3a2afc0d6927c3efd1d88e765723c1f6bffe4d777034333ae5470bece3b",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s7-highland-04",
+      "file": "photos/couple-08-wedding-s7-highland-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "s7",
+      "setName": "雪山旷野·旅拍",
+      "isToneShot": false,
+      "look": "vast high-altitude meadow with wildflowers, turquoise lake and snow-capped mountains, dramatic clouds; bride in flowing layered ivory tulle gown with a long sheer shoulder cape veil, loose waves with tiny white flowers; groom in earthy olive-green suit, white shirt, brown knit tie; cinematic natural color",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo on the meadow with arms open, the cape veil spread wide by the wind like wings",
+      "faces": [
+        [
+          0.4026,
+          0.2351,
+          0.132,
+          0.099
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s7-highland-04.png",
+        "sourceSha256": "f1da27d96e5d6f8d655d41b9829350155836a6e623aa8fdd3103430fd54c899e",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s8-night-01",
+      "file": "photos/couple-08-wedding-s8-night-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s8",
+      "setName": "夜景·仙女棒",
+      "isToneShot": true,
+      "look": "riverside promenade at night with stone balustrade, warm string lights, blurred city lights on the water, deep blue sky; bride in champagne-ivory beaded sheath gown with thin straps, sleek high bun, crystal drop earrings; groom in black velvet tuxedo jacket, black bow tie; warm sparkle glow against cool night",
+      "caption": "",
+      "textSpace": "left",
+      "notes": "手持仙女棒对望；左侧夜景留白",
+      "faces": [
+        [
+          0.5113,
+          0.236,
+          0.1113,
+          0.167
+        ],
+        [
+          0.6138,
+          0.2008,
+          0.0982,
+          0.1472
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s8-night-01.png",
+        "sourceSha256": "b0177c37d16bb0e0781ce0edd480e637fc897447e89284075705b337ed850877",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s8-night-02",
+      "file": "photos/couple-08-wedding-s8-night-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s8",
+      "setName": "夜景·仙女棒",
+      "isToneShot": false,
+      "look": "riverside promenade at night with stone balustrade, warm string lights, blurred city lights on the water, deep blue sky; bride in champagne-ivory beaded sheath gown with thin straps, sleek high bun, crystal drop earrings; groom in black velvet tuxedo jacket, black bow tie; warm sparkle glow against cool night",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "long-exposure style shot: a glowing sparkler light trail drawn in a heart shape behind the couple as they embrace",
+      "faces": [
+        [
+          0.4508,
+          0.21,
+          0.217,
+          0.1628
+        ],
+        [
+          0.3935,
+          0.3241,
+          0.133,
+          0.0997
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s8-night-02.png",
+        "sourceSha256": "b44e936bebba6e1fb4d1c17b0cea2f07a10b94153c234683407afcc0b22cf19b",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s8-night-03",
+      "file": "photos/couple-08-wedding-s8-night-03.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s8",
+      "setName": "夜景·仙女棒",
+      "isToneShot": false,
+      "look": "riverside promenade at night with stone balustrade, warm string lights, blurred city lights on the water, deep blue sky; bride in champagne-ivory beaded sheath gown with thin straps, sleek high bun, crystal drop earrings; groom in black velvet tuxedo jacket, black bow tie; warm sparkle glow against cool night",
+      "caption": "",
+      "textSpace": "left",
+      "notes": "slow dance under the string lights by the river, city lights bokeh behind, room on the left for titles",
+      "faces": [
+        [
+          0.6127,
+          0.2108,
+          0.1019,
+          0.1528
+        ],
+        [
+          0.5178,
+          0.2525,
+          0.1011,
+          0.1516
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s8-night-03.png",
+        "sourceSha256": "d902ec43a468cabb933e265c23edfbef9393d9a0a693768853f0c14407ba8dc0",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-08-wedding-s8-night-04",
+      "file": "photos/couple-08-wedding-s8-night-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "wedding",
+      "stageName": "西式婚纱照",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "s8",
+      "setName": "夜景·仙女棒",
+      "isToneShot": false,
+      "look": "riverside promenade at night with stone balustrade, warm string lights, blurred city lights on the water, deep blue sky; bride in champagne-ivory beaded sheath gown with thin straps, sleek high bun, crystal drop earrings; groom in black velvet tuxedo jacket, black bow tie; warm sparkle glow against cool night",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "close-up: he kisses her forehead, her eyes closed and smiling, warm bokeh",
+      "faces": [
+        [
+          0.4174,
+          0.3041,
+          0.1829,
+          0.1372
+        ],
+        [
+          0.4511,
+          0.1904,
+          0.1799,
+          0.1349
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-08-wedding-s8-night-04.png",
+        "sourceSha256": "a43ade99f98fe25b471c4c764760dde3574fd6ceed3541b81d3bd664bbeddf53",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c1-courtyard-01",
+      "file": "photos/couple-09-chinese-c1-courtyard-01.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "c1",
+      "setName": "秀禾·古典庭院",
+      "isToneShot": true,
+      "look": "traditional Chinese courtyard hall with carved dark-wood lattice doors, red silk drapes, red lanterns; bride in red xiuhe dress densely embroidered in gold phoenixes and peonies, low updo with gold hairpins and tassel ornaments, round red silk fan; groom in black gold-embroidered mandarin-collar jacket over a deep-red long robe; warm refined light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "并肩站立看镜头，团扇",
+      "faces": [
+        [
+          0.4949,
+          0.1199,
+          0.1836,
+          0.1469
+        ],
+        [
+          0.2614,
+          0.2079,
+          0.1709,
+          0.1367
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c1-courtyard-01.png",
+        "sourceSha256": "e6172e93153d4a25afa769af5c65957ca76b4511804ec1ca22b174bbd84b7b8a",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c1-courtyard-02",
+      "file": "photos/couple-09-chinese-c1-courtyard-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "bride": 28
+      },
+      "people": [
+        "bride"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "c1",
+      "setName": "秀禾·古典庭院",
+      "isToneShot": false,
+      "look": "traditional Chinese courtyard hall with carved dark-wood lattice doors, red silk drapes, red lanterns; bride in red xiuhe dress densely embroidered in gold phoenixes and peonies, low updo with gold hairpins and tassel ornaments, round red silk fan; groom in black gold-embroidered mandarin-collar jacket over a deep-red long robe; warm refined light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "bride solo, the round embroidered fan held up covering the lower half of her face, eyes smiling at camera",
+      "faces": [
+        [
+          0.3904,
+          0.2082,
+          0.3065,
+          0.2298
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c1-courtyard-02.png",
+        "sourceSha256": "dbb1b7844bf2f8cb9f3c6a6d9ffd0cc3ee2d89f6e6680fe1638bc985c4505a35",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c1-courtyard-03",
+      "file": "photos/couple-09-chinese-c1-courtyard-03.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "c1",
+      "setName": "秀禾·古典庭院",
+      "isToneShot": false,
+      "look": "traditional Chinese courtyard hall with carved dark-wood lattice doors, red silk drapes, red lanterns; bride in red xiuhe dress densely embroidered in gold phoenixes and peonies, low updo with gold hairpins and tassel ornaments, round red silk fan; groom in black gold-embroidered mandarin-collar jacket over a deep-red long robe; warm refined light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "the couple walking hand in hand through a round moon gate in the courtyard, lanterns glowing, symmetrical framing",
+      "faces": [
+        [
+          0.3533,
+          0.2022,
+          0.0883,
+          0.1324
+        ],
+        [
+          0.5239,
+          0.1441,
+          0.0864,
+          0.1296
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c1-courtyard-03.png",
+        "sourceSha256": "58eb6e67c8b5ab6da22dd1639c7aced7da3ddcc018f1274b24d2c1002899028a",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c1-courtyard-04",
+      "file": "photos/couple-09-chinese-c1-courtyard-04.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29
+      },
+      "people": [
+        "groom"
+      ],
+      "shot": "solo",
+      "era": "wedding-pro",
+      "set": "c1",
+      "setName": "秀禾·古典庭院",
+      "isToneShot": false,
+      "look": "traditional Chinese courtyard hall with carved dark-wood lattice doors, red silk drapes, red lanterns; bride in red xiuhe dress densely embroidered in gold phoenixes and peonies, low updo with gold hairpins and tassel ornaments, round red silk fan; groom in black gold-embroidered mandarin-collar jacket over a deep-red long robe; warm refined light",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "groom solo standing by the lattice doors, hands clasped behind his back, calm smile",
+      "faces": [
+        [
+          0.382,
+          0.1363,
+          0.2011,
+          0.1508
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c1-courtyard-04.png",
+        "sourceSha256": "cff4e7815edf98a1f830c4d25342c63ace1381c5b3484641298033c6d45303a5",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c2-redwall-01",
+      "file": "photos/couple-09-chinese-c2-redwall-01.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "c2",
+      "setName": "新中式·红墙",
+      "isToneShot": true,
+      "look": "long vermilion palace wall with yellow glazed tiles, golden ginkgo tree and leaf shadows, stone lane, warm low sun; bride in red silk horse-face skirt with gold hems and short red mandarin-collar jacket with gold frog buttons, low bun with a gold hairpin, red oil-paper umbrella; groom in black new-Chinese mandarin-collar suit; rich red and gold",
+      "caption": "",
+      "textSpace": "left",
+      "notes": "红墙下撑油纸伞，回眸",
+      "faces": [
+        [
+          0.4467,
+          0.2326,
+          0.1079,
+          0.0809
+        ],
+        [
+          0.6228,
+          0.1977,
+          0.1062,
+          0.0797
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c2-redwall-01.png",
+        "sourceSha256": "5ba34e791b27172e76308d9281c9a48f304b93a122ebab0c9a5bd4743ddfad7d",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c2-redwall-02",
+      "file": "photos/couple-09-chinese-c2-redwall-02.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "wide",
+      "era": "wedding-pro",
+      "set": "c2",
+      "setName": "新中式·红墙",
+      "isToneShot": false,
+      "look": "long vermilion palace wall with yellow glazed tiles, golden ginkgo tree and leaf shadows, stone lane, warm low sun; bride in red silk horse-face skirt with gold hems and short red mandarin-collar jacket with gold frog buttons, low bun with a gold hairpin, red oil-paper umbrella; groom in black new-Chinese mandarin-collar suit; rich red and gold",
+      "caption": "",
+      "textSpace": "left",
+      "notes": "wide shot along the red wall, the couple small in frame with long shadows, golden ginkgo leaves on the ground, lots of red wall space",
+      "faces": [
+        [
+          0.6238,
+          0.2858,
+          0.0407,
+          0.061
+        ],
+        [
+          0.6905,
+          0.2575,
+          0.0398,
+          0.0597
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c2-redwall-02.png",
+        "sourceSha256": "afbb8211edf7bdc8505658a55844a8621864fb382bc7a6c19e7a1d1d66afbae2",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c2-redwall-03",
+      "file": "photos/couple-09-chinese-c2-redwall-03.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "c2",
+      "setName": "新中式·红墙",
+      "isToneShot": false,
+      "look": "long vermilion palace wall with yellow glazed tiles, golden ginkgo tree and leaf shadows, stone lane, warm low sun; bride in red silk horse-face skirt with gold hems and short red mandarin-collar jacket with gold frog buttons, low bun with a gold hairpin, red oil-paper umbrella; groom in black new-Chinese mandarin-collar suit; rich red and gold",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "close-up under the red umbrella, cheek to cheek, both smiling at camera, red light glowing on faces",
+      "faces": [
+        [
+          0.4253,
+          0.2291,
+          0.2612,
+          0.1959
+        ],
+        [
+          0.3092,
+          0.2871,
+          0.2564,
+          0.1923
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c2-redwall-03.png",
+        "sourceSha256": "8188586327e50708622695b97b59bb35280f249ebcb22ab810abdb78648e0344",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c3-chamber-01",
+      "file": "photos/couple-09-chinese-c3-chamber-01.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "c3",
+      "setName": "龙凤褂·喜房",
+      "isToneShot": true,
+      "look": "traditional Chinese bridal chamber with carved canopy bed and red silk, lattice window with a red paper-cut, lit red candles, lanterns; bride in red dragon-and-phoenix qun kwa embroidered in gold and silver, gold bangles, bun with gold hairpins and a small red flower; groom in black mandarin-collar long gown with dark-red silk short jacket; warm candlelight",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "喜床边并坐，金镯，窗上囍字",
+      "faces": [
+        [
+          0.362,
+          0.1604,
+          0.1086,
+          0.1629
+        ],
+        [
+          0.2663,
+          0.1761,
+          0.0994,
+          0.1491
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c3-chamber-01.png",
+        "sourceSha256": "cae0159d0412dbb608cdee3a5ee7b6e02af2b55dc9a67ac19592fd59241a92de",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c3-chamber-02",
+      "file": "photos/couple-09-chinese-c3-chamber-02.jpg",
+      "width": 1080,
+      "height": 1440,
+      "aspect": "3:4",
+      "orientation": "portrait",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "c3",
+      "setName": "龙凤褂·喜房",
+      "isToneShot": false,
+      "look": "traditional Chinese bridal chamber with carved canopy bed and red silk, lattice window with a red paper-cut, lit red candles, lanterns; bride in red dragon-and-phoenix qun kwa embroidered in gold and silver, gold bangles, bun with gold hairpins and a small red flower; groom in black mandarin-collar long gown with dark-red silk short jacket; warm candlelight",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "she sits on the bed wearing a red embroidered veil over her head; he gently lifts the veil with a slim gold-tipped wooden rod, her shy smile revealed",
+      "faces": [
+        [
+          0.2687,
+          0.2565,
+          0.1727,
+          0.1295
+        ],
+        [
+          0.4404,
+          0.1671,
+          0.1364,
+          0.1023
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c3-chamber-02.png",
+        "sourceSha256": "e764351c65db4ad839e38b85d28fd0be6ca091a1f9675ba1c71af5ef62894b75",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "couple-09-chinese-c3-chamber-03",
+      "file": "photos/couple-09-chinese-c3-chamber-03.jpg",
+      "width": 1080,
+      "height": 1350,
+      "aspect": "4:5",
+      "orientation": "portrait",
+      "stage": "chinese",
+      "stageName": "中式婚服",
+      "date": "2026",
+      "age": {
+        "groom": 29,
+        "bride": 28
+      },
+      "people": [
+        "groom",
+        "bride"
+      ],
+      "shot": "couple",
+      "era": "wedding-pro",
+      "set": "c3",
+      "setName": "龙凤褂·喜房",
+      "isToneShot": false,
+      "look": "traditional Chinese bridal chamber with carved canopy bed and red silk, lattice window with a red paper-cut, lit red candles, lanterns; bride in red dragon-and-phoenix qun kwa embroidered in gold and silver, gold bangles, bun with gold hairpins and a small red flower; groom in black mandarin-collar long gown with dark-red silk short jacket; warm candlelight",
+      "caption": "",
+      "textSpace": "none",
+      "notes": "their arms linked as they drink from two small porcelain wine cups (the cross-cup wedding toast), gold bangles and embroidery visible",
+      "faces": [
+        [
+          0.2446,
+          0.2707,
+          0.1726,
+          0.138
+        ],
+        [
+          0.5144,
+          0.2898,
+          0.1552,
+          0.1242
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "couple-09-chinese-c3-chamber-03.png",
+        "sourceSha256": "f52b4631ae4c2132d2e03b2602778c100a8696f5c0e6dcd10474dff53b2ffa12",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "bride-ref-turnaround",
+      "file": "photos/bride-ref-turnaround.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "reference",
+      "stageName": "角色参考",
+      "date": "",
+      "age": {},
+      "people": [
+        "bride"
+      ],
+      "shot": "reference",
+      "era": "studio",
+      "caption": "新娘转面",
+      "textSpace": "none",
+      "notes": "正/3/4/侧/背，服装同恋爱照",
+      "faces": [
+        [
+          0.1238,
+          0.0866,
+          0.0584,
+          0.0876
+        ],
+        [
+          0.3703,
+          0.0824,
+          0.0567,
+          0.085
+        ],
+        [
+          0.6225,
+          0.0953,
+          0.0456,
+          0.0683
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "bride-ref-turnaround.png",
+        "sourceSha256": "5d9984d4298c807e6ad52fb3bd80b1e7e6319515521a548f6b9f9aa5a887e197",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "groom-ref-turnaround",
+      "file": "photos/groom-ref-turnaround.jpg",
+      "width": 1536,
+      "height": 1024,
+      "aspect": "3:2",
+      "orientation": "landscape",
+      "stage": "reference",
+      "stageName": "角色参考",
+      "date": "",
+      "age": {},
+      "people": [
+        "groom"
+      ],
+      "shot": "reference",
+      "era": "studio",
+      "caption": "新郎转面",
+      "textSpace": "none",
+      "notes": "正/3/4/侧/背，服装同恋爱照",
+      "faces": [
+        [
+          0.1213,
+          0.0801,
+          0.0602,
+          0.0904
+        ],
+        [
+          0.3307,
+          0.08,
+          0.0553,
+          0.083
+        ],
+        [
+          0.5598,
+          0.079,
+          0.052,
+          0.0781
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "groom-ref-turnaround.png",
+        "sourceSha256": "75dad5062799829c621cfef095552907fbe8908e5b83ed45add5a8ed74df2d53",
+        "note": "Generated demonstration pool for the owner's original wedding films; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-anniv",
+      "file": "photos/dvdemo-anniv.jpg",
+      "width": 1024,
+      "height": 1280,
+      "orientation": "portrait",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/anniv.png",
+        "sha256": "0d06ce559f65b4f9afbc29d5d6a51923ae505e47b1c547a8cb7d49ff10c89643",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-b-baby",
+      "file": "photos/dvdemo-b-baby.jpg",
+      "width": 1536,
+      "height": 1152,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.3221,
+          0.1812,
+          0.1435,
+          0.1913
+        ],
+        [
+          0.4569,
+          0.3623,
+          0.1012,
+          0.1349
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/b-baby.png",
+        "sha256": "9979796ed610fb609e0aaa9abcd524971e94c733017fcdc75f2e052ff24c454c",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-bday",
+      "file": "photos/dvdemo-bday.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.2692,
+          0.2382,
+          0.231,
+          0.3464
+        ],
+        [
+          0.644,
+          0.2169,
+          0.1784,
+          0.2676
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/bday.png",
+        "sha256": "1f1199e92250b8f98520ef253cb0bfec98e2c5ee0d3ee606aa4db5e9cbe07abf",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-cat",
+      "file": "photos/dvdemo-cat.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.5259,
+          0.1767,
+          0.2716,
+          0.4074
+        ],
+        [
+          0.2535,
+          0.2895,
+          0.2436,
+          0.3654
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/cat.png",
+        "sha256": "18ca4fd48eaced1cbe7ee0280a49dbf2a2b5ff053d7d80f8236e5550c8a4bf3c",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-concert",
+      "file": "photos/dvdemo-concert.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.266,
+          0.2477,
+          0.2303,
+          0.3454
+        ],
+        [
+          0.4942,
+          0.4281,
+          0.2208,
+          0.3312
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/concert.png",
+        "sha256": "f808100f990f83175dbc75cbc777c9a99d9be6dc05bd702b2a93cc1b73ffe9fc",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-eng-a",
+      "file": "photos/dvdemo-eng-a.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.3586,
+          0.1831,
+          0.1439,
+          0.2158
+        ],
+        [
+          0.5782,
+          0.3083,
+          0.1284,
+          0.1926
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/eng-a.png",
+        "sha256": "904afac25511b915f153c803f46568fa64d742070677f15f114c481d331b208b",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-eng-b",
+      "file": "photos/dvdemo-eng-b.jpg",
+      "width": 1024,
+      "height": 1280,
+      "orientation": "portrait",
+      "faces": [
+        [
+          0.4897,
+          0.1859,
+          0.2589,
+          0.2071
+        ],
+        [
+          0.2393,
+          0.3228,
+          0.2434,
+          0.1947
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/eng-b.png",
+        "sha256": "9c7023a47ee1bf3712e3d52e417e48f1ccc3788392b08617a0c34ce99a1ac451",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-eng-family",
+      "file": "photos/dvdemo-eng-family.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.1074,
+          0.2262,
+          0.0968,
+          0.1451
+        ],
+        [
+          0.8063,
+          0.2215,
+          0.094,
+          0.141
+        ],
+        [
+          0.4983,
+          0.2127,
+          0.0909,
+          0.1363
+        ],
+        [
+          0.6831,
+          0.2914,
+          0.087,
+          0.1306
+        ],
+        [
+          0.237,
+          0.3102,
+          0.0861,
+          0.1291
+        ],
+        [
+          0.3827,
+          0.2895,
+          0.0848,
+          0.1273
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/eng-family.png",
+        "sha256": "4b2027d19a03b65bc14d689a11e2c289b4440f71745008d02dc9c204631ec64b",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-flower-a",
+      "file": "photos/dvdemo-flower-a.jpg",
+      "width": 1024,
+      "height": 1280,
+      "orientation": "portrait",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/flower-a.png",
+        "sha256": "e5d76df20a6f6d3d46c4f6c8acb30c751c511e05c0317686f9382b9ffb3be678",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-flower-b",
+      "file": "photos/dvdemo-flower-b.jpg",
+      "width": 1024,
+      "height": 1280,
+      "orientation": "portrait",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/flower-b.png",
+        "sha256": "422c98e8d3c9682bc5c73d4bd02113621a8df88f3f2880165c83913f66fa4474",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-food",
+      "file": "photos/dvdemo-food.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.3056,
+          0.1473,
+          0.1969,
+          0.2953
+        ],
+        [
+          0.5445,
+          0.2463,
+          0.1815,
+          0.2722
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/food.png",
+        "sha256": "5706ec281d3fd5cc118b2da39c8d654e244a998c483f04525b69b5c709f533ae",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-funny",
+      "file": "photos/dvdemo-funny.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.5068,
+          0.1533,
+          0.2786,
+          0.4179
+        ],
+        [
+          0.225,
+          0.2336,
+          0.2546,
+          0.3819
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/funny.png",
+        "sha256": "8e03b79042e590390cabd29ba7bce53596649852990bc4bc39e7f5fab4a8da65",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-keys",
+      "file": "photos/dvdemo-keys.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/keys.png",
+        "sha256": "5c5a258deb8cc92b60b160de33830ea65b657b4189a8ba0e0efa72a59be382b4",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-meal",
+      "file": "photos/dvdemo-meal.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/meal.png",
+        "sha256": "3dcf9fe55ea93109c349b1ad3177dd10f1c5d448704ab3cbf1978f6946110da9",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-newyear",
+      "file": "photos/dvdemo-newyear.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.5172,
+          0.2718,
+          0.2109,
+          0.3163
+        ],
+        [
+          0.3797,
+          0.4448,
+          0.2023,
+          0.3035
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/newyear.png",
+        "sha256": "54fd754dd8695598dcdf9df079a479b6670fcbd3d02e05b9283eb7abda7a0b3d",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-park",
+      "file": "photos/dvdemo-park.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.2644,
+          0.2127,
+          0.2439,
+          0.3658
+        ],
+        [
+          0.5147,
+          0.4055,
+          0.2269,
+          0.3404
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/park.png",
+        "sha256": "80afefc5be9bb7afb81ea28981bd159991181a63d5511df3692228a79b543b09",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-ski",
+      "file": "photos/dvdemo-ski.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.5059,
+          0.2382,
+          0.2189,
+          0.3284
+        ],
+        [
+          0.3357,
+          0.3882,
+          0.1998,
+          0.2997
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/ski.png",
+        "sha256": "d192d5feadef50ea32c728b351754f28290c4745a72f7065abb71da85abdd75e",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-travel",
+      "file": "photos/dvdemo-travel.jpg",
+      "width": 1536,
+      "height": 1024,
+      "orientation": "landscape",
+      "faces": [
+        [
+          0.4815,
+          0.2426,
+          0.2228,
+          0.3342
+        ],
+        [
+          0.3322,
+          0.3939,
+          0.213,
+          0.3194
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/travel.png",
+        "sha256": "46c9bc180b902c2e8a7fb69b0517753789c848c67de250392e85efe17937b28b",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    },
+    {
+      "id": "dvdemo-xmas",
+      "file": "photos/dvdemo-xmas.jpg",
+      "width": 1024,
+      "height": 1280,
+      "orientation": "portrait",
+      "faces": [
+        [
+          0.4417,
+          0.2095,
+          0.4018,
+          0.3214
+        ],
+        [
+          0.2264,
+          0.374,
+          0.3579,
+          0.2863
+        ]
+      ],
+      "provenance": {
+        "kind": "fictional-demo",
+        "sourceName": "demo-gen/xmas.png",
+        "sha256": "173baf710f6db240810c028643102053d4129cc4b40c1482fce34c96b0c283ac",
+        "note": "Generated for the DV Story demo of the owner's original wedding films, from the fictional demo models; not customer media."
+      }
+    }
+  ]
+}

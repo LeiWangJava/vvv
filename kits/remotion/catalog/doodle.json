@@ -1,0 +1,167 @@
+{
+  "id": "doodle",
+  "version": "1.0.0",
+  "compositionId": "VVV-Doodle",
+  "title": "Doodle · 白纸手绘 · 我们结婚啦",
+  "description": "白色水彩纸上的黑色手绘：粉色水彩爱心和 We're married!、跳舞的小新人、唱片卡片、新郎新娘头像、一页页滑过纸面的婚纱照，最后鞠躬致谢，约 2 分 22 秒，卡在 Dance with Me 的节拍上。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "defaultProps": {
+    "couple": {
+      "groom": "林以舟",
+      "bride": "许知夏",
+      "groomEn": "LIN YIZHOU",
+      "brideEn": "XU ZHIXIA",
+      "date": "2026-10-18",
+      "tagline": "我们结婚啦"
+    },
+    "photos": {
+      "thumb": "",
+      "groomSolo": "",
+      "brideSolo": "",
+      "poem": [],
+      "camera": "",
+      "forever": [],
+      "loveBig": "",
+      "loveSmall": "",
+      "soul": [],
+      "soulWide": "",
+      "oneLove": [],
+      "ever": [],
+      "everWide": "",
+      "us": ""
+    },
+    "copy": {
+      "intro_line": "欢迎来到我们的婚礼",
+      "song_title": "我们的歌",
+      "song_sub": "正在播放中…",
+      "poem": "I found you in a crowded world.｜Two roads became one.｜We promise a lifetime together.｜Happiness starts right here.",
+      "camera_line": "Every road leads to you.｜Click — and forever begins.",
+      "title_forever": "Forever Us",
+      "title_love": "Love Always",
+      "love_line": "愿得一心人",
+      "title_soul": "Soul Bound",
+      "title_onelove": "One Love, One Life",
+      "title_ever": "Happily Ever After",
+      "title_us": "Just Us",
+      "thanks": "THANK YOU FOR COMING"
+    },
+    "music": {
+      "src": "music/mixkit-dance-with-me.mp3",
+      "volume": 0.85,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 2.5
+    },
+    "fps": 30
+  },
+  "slots": {
+    "thumb": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple photo for the record card, square crop"
+    },
+    "groomSolo": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "groom solo portrait, portrait orientation"
+    },
+    "brideSolo": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "bride solo portrait, portrait orientation"
+    },
+    "poem": {
+      "kind": "array",
+      "count": 2,
+      "min": 2,
+      "hint": "2 portrait couple shots"
+    },
+    "camera": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "wide couple shot, landscape"
+    },
+    "forever": {
+      "kind": "array",
+      "count": 3,
+      "min": 3,
+      "hint": "3 portrait couple shots"
+    },
+    "loveBig": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple shot, landscape"
+    },
+    "loveSmall": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "portrait couple shot"
+    },
+    "soul": {
+      "kind": "array",
+      "count": 1,
+      "min": 1,
+      "hint": "1 portrait couple shot"
+    },
+    "soulWide": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple shot, landscape"
+    },
+    "oneLove": {
+      "kind": "array",
+      "count": 4,
+      "min": 4,
+      "hint": "4 portrait couple shots, tall and narrow"
+    },
+    "ever": {
+      "kind": "array",
+      "count": 2,
+      "min": 2,
+      "hint": "2 portrait couple shots for the sides"
+    },
+    "everWide": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple shot, landscape, centre"
+    },
+    "us": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "closing couple shot, landscape"
+    }
+  },
+  "sample": {
+    "from": 18,
+    "to": 36
+  },
+  "package": {
+    "name": "@vvv/doodle",
+    "fixture": "examples/doodle-wedding.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

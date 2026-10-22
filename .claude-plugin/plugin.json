@@ -1,0 +1,12 @@
+{
+  "name": "vvv",
+  "version": "0.1.0",
+  "description": "Vibe Vision Video: build editable video templates once and reuse them across projects and coding agents. Make, recreate and continue editable Remotion films; the current library focuses on wedding films.",
+  "author": {
+    "name": "Vibe Vision Video contributors",
+    "email": "contact@vibevision.video"
+  },
+  "homepage": "https://vibevision.video",
+  "repository": "https://github.com/actionow-ai/vvv",
+  "license": "MIT"
+}

@@ -1,0 +1,1115 @@
+{
+  "index": "vvv-template-index/1",
+  "repository": "https://github.com/actionow-ai/vvv",
+  "site": "https://vibevision.video",
+  "templates": [
+    {
+      "id": "album",
+      "kind": "template",
+      "title": "Album · 现代留白·圆角画册",
+      "description": "16:9：新人肖像与恋爱故事、圆角画册拼版、婚纱照相册和落幅，约 3 分 17 秒。9:16：同一视觉语言的竖版短片，约 50 秒。都卡在 Skyline 的节拍上。",
+      "version": "1.0.0",
+      "package": "@vvv/album",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 40,
+          "targetPhotos": 40,
+          "sample": {
+            "from": 35,
+            "to": 50
+          }
+        },
+        {
+          "name": "9:16",
+          "width": 1080,
+          "height": 1920,
+          "minPhotos": 2,
+          "targetPhotos": 37,
+          "sample": {
+            "from": 6,
+            "to": 22
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "opening",
+              "kind": "single",
+              "hint": "full-bleed couple shot, landscape, open sky or sea"
+            },
+            {
+              "name": "bride",
+              "kind": "single",
+              "hint": "bride solo portrait, portrait orientation"
+            },
+            {
+              "name": "groom",
+              "kind": "single",
+              "hint": "groom solo portrait, portrait orientation"
+            },
+            {
+              "name": "duoWide",
+              "kind": "single",
+              "hint": "couple story photo, landscape"
+            },
+            {
+              "name": "duoTall",
+              "kind": "single",
+              "hint": "couple story photo, portrait orientation"
+            },
+            {
+              "name": "storyWide",
+              "kind": "single",
+              "hint": "couple story photo, landscape"
+            },
+            {
+              "name": "storyTall",
+              "kind": "single",
+              "hint": "couple travel photo, portrait orientation"
+            },
+            {
+              "name": "poem",
+              "kind": "array",
+              "count": 4,
+              "hint": "4 portrait couple shots for two tall panels"
+            },
+            {
+              "name": "beachBig",
+              "kind": "single",
+              "hint": "couple shot for a tall panel, portrait"
+            },
+            {
+              "name": "beachSmall",
+              "kind": "array",
+              "count": 2,
+              "hint": "2 shots of the same set, near-square crops"
+            },
+            {
+              "name": "rise",
+              "kind": "array",
+              "count": 3,
+              "hint": "3 portrait shots of one set (tall panels)"
+            },
+            {
+              "name": "drop",
+              "kind": "array",
+              "count": 3,
+              "hint": "3 portrait shots of one set (tall panels)"
+            },
+            {
+              "name": "pairTall",
+              "kind": "single",
+              "hint": "portrait couple shot for a narrow panel"
+            },
+            {
+              "name": "pairWide",
+              "kind": "single",
+              "hint": "landscape shot of the same set, wide panel"
+            },
+            {
+              "name": "panels",
+              "kind": "array",
+              "count": 3,
+              "hint": "3 portrait shots of one set (tall panels)"
+            },
+            {
+              "name": "endless",
+              "kind": "array",
+              "count": 2,
+              "hint": "2 portrait couple shots, evening or night"
+            },
+            {
+              "name": "quoteBig",
+              "kind": "single",
+              "hint": "couple shot for a tall panel, portrait"
+            },
+            {
+              "name": "quoteSmall",
+              "kind": "array",
+              "count": 2,
+              "hint": "2 shots of the same set, near-square crops"
+            },
+            {
+              "name": "foreverMid",
+              "kind": "single",
+              "hint": "portrait couple shot, centre panel"
+            },
+            {
+              "name": "foreverLeft",
+              "kind": "single",
+              "hint": "portrait shot, small left panel"
+            },
+            {
+              "name": "foreverRight",
+              "kind": "single",
+              "hint": "shot of a near-square right panel"
+            },
+            {
+              "name": "glow",
+              "kind": "single",
+              "hint": "full-bleed landscape couple shot, warm light"
+            },
+            {
+              "name": "handwriting",
+              "kind": "single",
+              "hint": "full-bleed landscape, clear space on one side"
+            },
+            {
+              "name": "prints",
+              "kind": "array",
+              "count": 3,
+              "hint": "3 portrait couple shots shown as prints"
+            },
+            {
+              "name": "vertical",
+              "kind": "single",
+              "hint": "full-bleed landscape, clear space on one side"
+            },
+            {
+              "name": "ending",
+              "kind": "single",
+              "hint": "full-bleed landscape couple shot for the close"
+            },
+            {
+              "name": "gallery",
+              "kind": "array",
+              "min": 1,
+              "count": 37,
+              "independent": true,
+              "hint": "wedding photos, grouped by set (outfit)"
+            }
+          ],
+          "unusedSlots": []
+        },
+        "9:16": {
+          "slots": [
+            {
+              "name": "opening",
+              "kind": "single",
+              "hint": "full-bleed couple shot, landscape, open sky or sea"
+            },
+            {
+              "name": "ending",
+              "kind": "single",
+              "hint": "full-bleed landscape couple shot for the close"
+            },
+            {
+              "name": "gallery",
+              "kind": "array",
+              "min": 1,
+              "count": 37,
+              "independent": true,
+              "hint": "wedding photos, grouped by set (outfit)"
+            }
+          ],
+          "unusedSlots": [
+            "bride",
+            "groom",
+            "duoWide",
+            "duoTall",
+            "storyWide",
+            "storyTall",
+            "poem",
+            "beachBig",
+            "beachSmall",
+            "rise",
+            "drop",
+            "pairTall",
+            "pairWide",
+            "panels",
+            "endless",
+            "quoteBig",
+            "quoteSmall",
+            "foreverMid",
+            "foreverLeft",
+            "foreverRight",
+            "glow",
+            "handwriting",
+            "prints",
+            "vertical"
+          ]
+        }
+      },
+      "copy": {
+        "story_a": "Love Story 页 · 第一句",
+        "story_b": "Love Story 页 · 第二句",
+        "poem": "竖排诗句（两列，用｜分隔）",
+        "quote_a": "金句一 · 中文",
+        "one_heart": "三联展开页 · 底部一句",
+        "vow": "Endless Love 页 · 两行（用｜分隔）",
+        "quote_b": "金句二 · 中文",
+        "forever": "FOREVER 页 · 一句",
+        "love_you": "LOVE YOU 页 · 三行（用｜分隔）",
+        "rest_of_life": "竖排手写大字",
+        "my_love": "竖排标题",
+        "gallery_title": "婚纱照段落标题",
+        "gallery_subtitle": "婚纱照段落副标题",
+        "set_s2": "婚纱照·海边 标题｜一句话",
+        "set_s4": "婚纱照·花园 标题｜一句话",
+        "set_s3": "婚纱照·窗边 标题｜一句话",
+        "set_s5": "婚纱照·教堂 标题｜一句话",
+        "set_s7": "婚纱照·旷野 标题｜一句话",
+        "set_s1": "婚纱照·影棚 标题｜一句话",
+        "set_s6": "婚纱照·街角 标题｜一句话",
+        "set_s8": "婚纱照·夜色 标题｜一句话"
+      },
+      "couple": {
+        "groom": "新郎姓名",
+        "bride": "新娘姓名",
+        "groomEn": "新郎英文名或拼音",
+        "brideEn": "新娘英文名或拼音",
+        "date": "婚礼日期",
+        "tagline": "主标题"
+      },
+      "props": {},
+      "music": {
+        "required": true,
+        "src": "music/mixkit-skyline.mp3",
+        "downloadOnly": true
+      },
+      "fixture": "examples/album-wedding.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/album",
+      "previews": [
+        {
+          "format": "16:9",
+          "video": "https://vibevision.video/media/album.mp4",
+          "poster": "https://vibevision.video/media/album.jpg",
+          "width": 1280,
+          "height": 720,
+          "from": 3.0,
+          "to": 26.733333333333334,
+          "fullSeconds": 197.5
+        },
+        {
+          "format": "9:16",
+          "video": "https://vibevision.video/media/album-vertical.mp4",
+          "poster": "https://vibevision.video/media/album-vertical.jpg",
+          "width": 720,
+          "height": 1280,
+          "from": 26.0,
+          "to": 48.6,
+          "fullSeconds": 49.8
+        }
+      ]
+    },
+    {
+      "id": "comedy",
+      "kind": "template",
+      "title": "Comedy · 喜剧开场 · 婚礼即将开始",
+      "description": "恶搞片头、对联开场、宾客须知、新郎「放错片段」、新娘「不信您瞧」、恋爱进度卡在 99%、红金婚纱照、等掌声「信号」的倒计时，约 3 分 32 秒，配 12 个音效。",
+      "version": "1.0.0",
+      "package": "@vvv/comedy",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 10,
+          "targetPhotos": 37,
+          "sample": {
+            "from": 40,
+            "to": 62
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "groomKid",
+              "kind": "single",
+              "hint": "groom childhood photo"
+            },
+            {
+              "name": "groomHero",
+              "kind": "single",
+              "hint": "groom solo portrait today"
+            },
+            {
+              "name": "brideKid",
+              "kind": "single",
+              "hint": "bride childhood photo"
+            },
+            {
+              "name": "brideHero",
+              "kind": "single",
+              "hint": "bride solo portrait today"
+            },
+            {
+              "name": "love",
+              "kind": "array",
+              "count": 4,
+              "hint": "4 dating photos, oldest first"
+            },
+            {
+              "name": "proposal",
+              "kind": "single",
+              "hint": "proposal or engagement photo"
+            },
+            {
+              "name": "finale",
+              "kind": "single",
+              "hint": "couple close-up, shown in a round frame"
+            },
+            {
+              "name": "gallery",
+              "kind": "array",
+              "min": 1,
+              "count": 37,
+              "independent": true,
+              "hint": "wedding photos, grouped by set (outfit)"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {
+        "studio": "片头 · 出品方（恶搞）",
+        "studio_en": "片头 · 英文",
+        "presents": "片头 · 本片由",
+        "starring": "片头 · 倾情主演",
+        "title": "开场 · 大字",
+        "welcome_1": "欢迎 · 上联（右侧对联，7 字左右）",
+        "welcome_2": "欢迎 · 下联（左侧对联）",
+        "welcome_3": "欢迎 · 第 3 句（用｜分两行）",
+        "welcome_4": "欢迎 · 第 4 句（配囍字和新人名字）",
+        "welcome_5": "欢迎 · 第 5 句",
+        "welcome_6": "欢迎 · 第 6 句（用｜分两行）",
+        "thanks": "致谢 · 大字",
+        "arrive_1": "来宾 · 第 1 句",
+        "arrive_2": "来宾 · 第 2 句",
+        "arrive_3": "来宾 · 第 3 句",
+        "arrive_end": "来宾 · 结尾",
+        "rules_title": "宾客须知 · 标题",
+        "rules_stamp": "宾客须知 · 印章",
+        "rule_1": "须知 · 第一条（用｜分两行）",
+        "gag_1": "须知 · 第一条 · 笑点",
+        "rule_2": "须知 · 第二条",
+        "gag_2": "须知 · 第二条 · 笑点",
+        "rule_3": "须知 · 第三条",
+        "gag_3": "须知 · 第三条 · 笑点",
+        "rule_4": "须知 · 第四条",
+        "gag_4": "须知 · 第四条 · 笑点",
+        "rule_5": "须知 · 第五条",
+        "gag_5": "须知 · 第五条 · 笑点",
+        "rules_end": "须知 · 结尾",
+        "groom_call": "新郎 · 有请（用｜分两行）",
+        "groom_wrong_a": "新郎 · 放错片段 · 第 1 句",
+        "groom_wrong_b": "新郎 · 放错片段 · 第 2 句",
+        "groom_wrong_c": "新郎 · 放错片段 · 第 3 句（{age} 换成照片年龄）",
+        "groom_retry": "新郎 · 倒带",
+        "groom_praise": "新郎 · 三句夸奖（用｜分隔）",
+        "groom_role": "新郎 · 名牌称呼",
+        "bride_call": "新娘 · 有请（用｜分两行）",
+        "bride_legend": "新娘 · 传说",
+        "bride_proof": "新娘 · 不信您瞧",
+        "bride_kid_a": "新娘 · 放大镜 · 第 1 句",
+        "bride_kid_b": "新娘 · 放大镜 · 第 2 句",
+        "bride_wow": "新娘 · 登场",
+        "bride_role": "新娘 · 名牌称呼",
+        "love_title": "恋爱进度条 · 标题",
+        "love_steps": "恋爱进度条 · 四个阶段（用｜分隔）",
+        "love_stuck": "恋爱进度条 · 卡住",
+        "love_done": "恋爱进度条 · 完成",
+        "next_a": "婚纱照前 · 第一行",
+        "next_b": "婚纱照前 · 第二行",
+        "gallery_tags": "婚纱照 · 空白处的花字（用｜分隔，轮流使用）",
+        "gallery_blessings": "婚纱照 · 竖排祝福语（用｜分隔，轮流使用）",
+        "count_title": "倒计时 · 标题",
+        "wait_1": "倒计时 · 打断",
+        "wait_2": "倒计时 · 第 1 句",
+        "wait_3": "倒计时 · 第 2 句",
+        "wait_4": "倒计时 · 第 3 句",
+        "wait_5": "倒计时 · 揭晓",
+        "go": "倒计时 · 开",
+        "vo": "配音旁白（填 off 关闭）：旁白稿在 vo.json；把有授权的配音按行放到 public/vo/comedy/<key>.mp3，并在同目录 timing.json 里登记 lead/speech 秒数",
+        "final_a": "结尾 · 第一行",
+        "final_b": "结尾 · 第二行",
+        "set_s4": "婚纱照·花园 标题｜一句话",
+        "set_s2": "婚纱照·海边 标题｜一句话",
+        "set_s6": "婚纱照·街角 标题｜一句话",
+        "set_s3": "婚纱照·窗边 标题｜一句话",
+        "set_s5": "婚纱照·教堂 标题｜一句话",
+        "set_s8": "婚纱照·夜色 标题｜一句话",
+        "set_c2": "中式·红墙 标题｜一句话",
+        "set_c1": "中式·秀禾 标题｜一句话",
+        "set_c3": "中式·喜房 标题｜一句话",
+        "clip_welcome_1": "欢迎第 1 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_welcome_2": "欢迎第 2 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_welcome_3": "欢迎第 3 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_welcome_4": "欢迎第 4 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_welcome_5": "欢迎第 5 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_welcome_6": "欢迎第 6 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_arrive_1": "来宾第 1 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_arrive_2": "来宾第 2 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_arrive_3": "来宾第 3 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_rule_1": "须知第一条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_rule_2": "须知第二条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_rule_3": "须知第三条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_rule_4": "须知第四条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_rule_5": "须知第五条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_groom": "新郎「放错片段」 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_bride": "新娘「不信您瞧」 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）",
+        "clip_signal": "倒计时「等信号」 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+      },
+      "couple": {
+        "groom": "新郎姓名",
+        "bride": "新娘姓名",
+        "groomEn": "新郎英文名或拼音",
+        "brideEn": "新娘英文名或拼音",
+        "date": "婚礼日期",
+        "tagline": "主标题"
+      },
+      "props": {},
+      "music": {
+        "required": true,
+        "src": "music/mixkit-fun-and-games.mp3",
+        "downloadOnly": true
+      },
+      "fixture": "examples/comedy-wedding.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/comedy",
+      "previews": [
+        {
+          "format": "16:9",
+          "video": "https://vibevision.video/media/comedy.mp4",
+          "poster": "https://vibevision.video/media/comedy.jpg",
+          "width": 1280,
+          "height": 720,
+          "from": 62.6,
+          "to": 76.9,
+          "fullSeconds": 212.0
+        }
+      ]
+    },
+    {
+      "id": "doodle",
+      "kind": "template",
+      "title": "Doodle · 白纸手绘 · 我们结婚啦",
+      "description": "白色水彩纸上的黑色手绘：粉色水彩爱心和 We're married!、跳舞的小新人、唱片卡片、新郎新娘头像、一页页滑过纸面的婚纱照，最后鞠躬致谢，约 2 分 22 秒，卡在 Dance with Me 的节拍上。",
+      "version": "1.0.0",
+      "package": "@vvv/doodle",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 21,
+          "targetPhotos": 21,
+          "sample": {
+            "from": 18,
+            "to": 36
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "thumb",
+              "kind": "single",
+              "hint": "couple photo for the record card, square crop"
+            },
+            {
+              "name": "groomSolo",
+              "kind": "single",
+              "hint": "groom solo portrait, portrait orientation"
+            },
+            {
+              "name": "brideSolo",
+              "kind": "single",
+              "hint": "bride solo portrait, portrait orientation"
+            },
+            {
+              "name": "poem",
+              "kind": "array",
+              "count": 2,
+              "hint": "2 portrait couple shots"
+            },
+            {
+              "name": "camera",
+              "kind": "single",
+              "hint": "wide couple shot, landscape"
+            },
+            {
+              "name": "forever",
+              "kind": "array",
+              "count": 3,
+              "hint": "3 portrait couple shots"
+            },
+            {
+              "name": "loveBig",
+              "kind": "single",
+              "hint": "couple shot, landscape"
+            },
+            {
+              "name": "loveSmall",
+              "kind": "single",
+              "hint": "portrait couple shot"
+            },
+            {
+              "name": "soul",
+              "kind": "array",
+              "count": 1,
+              "hint": "1 portrait couple shot"
+            },
+            {
+              "name": "soulWide",
+              "kind": "single",
+              "hint": "couple shot, landscape"
+            },
+            {
+              "name": "oneLove",
+              "kind": "array",
+              "count": 4,
+              "hint": "4 portrait couple shots, tall and narrow"
+            },
+            {
+              "name": "ever",
+              "kind": "array",
+              "count": 2,
+              "hint": "2 portrait couple shots for the sides"
+            },
+            {
+              "name": "everWide",
+              "kind": "single",
+              "hint": "couple shot, landscape, centre"
+            },
+            {
+              "name": "us",
+              "kind": "single",
+              "hint": "closing couple shot, landscape"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {
+        "intro_line": "开场 · 小字",
+        "song_title": "唱片卡片 · 歌名",
+        "song_sub": "唱片卡片 · 小字",
+        "poem": "诗句页 · 四行英文（用｜分隔）",
+        "camera_line": "相机页 · 两行（用｜分隔）",
+        "title_forever": "照片页 · 标题 1",
+        "title_love": "照片页 · 标题 2",
+        "love_line": "照片页 2 · 角落小字",
+        "title_soul": "照片页 · 标题 3",
+        "title_onelove": "照片页 · 标题 4",
+        "title_ever": "照片页 · 标题 5",
+        "title_us": "最后一页 · 标题",
+        "thanks": "结尾 · 感谢"
+      },
+      "couple": {
+        "groom": "新郎姓名",
+        "bride": "新娘姓名",
+        "groomEn": "新郎英文名或拼音",
+        "brideEn": "新娘英文名或拼音",
+        "date": "婚礼日期",
+        "tagline": "主标题"
+      },
+      "props": {},
+      "music": {
+        "required": true,
+        "src": "music/mixkit-dance-with-me.mp3",
+        "downloadOnly": true
+      },
+      "fixture": "examples/doodle-wedding.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/doodle",
+      "previews": [
+        {
+          "format": "16:9",
+          "video": "https://vibevision.video/media/doodle.mp4",
+          "poster": "https://vibevision.video/media/doodle.jpg",
+          "width": 1280,
+          "height": 720,
+          "from": 1.5,
+          "to": 24.5,
+          "fullSeconds": 142.0
+        }
+      ]
+    },
+    {
+      "id": "dv-story",
+      "kind": "template",
+      "title": "DV Story · 我们的故事",
+      "description": "打字开场、DV 取景器里的成长照、PLAY 回放屏上的恋爱故事、35 mm 胶片婚纱照和结尾，约 3 分钟，每个切换和每个打字都卡在 Fifth of February 的节拍上。",
+      "version": "1.0.0",
+      "package": "@vvv/dv-story",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 0,
+          "targetPhotos": 29,
+          "sample": {
+            "from": 60,
+            "to": 80
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "birth1",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "groom baby or early childhood photo"
+            },
+            {
+              "name": "birth2",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "bride baby or early childhood photo"
+            },
+            {
+              "name": "childhood",
+              "kind": "tokens",
+              "min": 0,
+              "count": 4,
+              "hint": "childhood and school photos of both"
+            },
+            {
+              "name": "fate",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "optional: first-meeting photo (else a chat card)"
+            },
+            {
+              "name": "first",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "first photo together"
+            },
+            {
+              "name": "travel",
+              "kind": "tokens",
+              "min": 0,
+              "count": 2,
+              "hint": "travel photos together"
+            },
+            {
+              "name": "birthday",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "birthday photos together"
+            },
+            {
+              "name": "concert",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "concert or show photo"
+            },
+            {
+              "name": "funny",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "silly photos together"
+            },
+            {
+              "name": "friends",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "photos with friends or of a long-distance time"
+            },
+            {
+              "name": "festival",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "holiday or anniversary photos"
+            },
+            {
+              "name": "park",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "amusement park photos"
+            },
+            {
+              "name": "food",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "photos of meals out"
+            },
+            {
+              "name": "cat",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "photos with a pet"
+            },
+            {
+              "name": "ski",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "ski or sports trip photos"
+            },
+            {
+              "name": "friendsWedding",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "photos at a friend's wedding"
+            },
+            {
+              "name": "newYear",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "new year at home photos"
+            },
+            {
+              "name": "flowers",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "photos of flowers or gifts"
+            },
+            {
+              "name": "meals",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "home-cooked meal photos"
+            },
+            {
+              "name": "rituals",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "celebration or anniversary photos"
+            },
+            {
+              "name": "newHome",
+              "kind": "tokens",
+              "min": 0,
+              "count": 1,
+              "hint": "new home photos"
+            },
+            {
+              "name": "engaged",
+              "kind": "tokens",
+              "min": 0,
+              "count": 2,
+              "hint": "engagement photos; \"|\" starts a new page"
+            },
+            {
+              "name": "weddingPhotos",
+              "kind": "tokens",
+              "min": 0,
+              "count": 4,
+              "independent": true,
+              "hint": "wedding photos for the film strip"
+            },
+            {
+              "name": "proposal",
+              "kind": "tokens",
+              "min": 0,
+              "count": 2,
+              "hint": "proposal photos"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {
+        "titleCn": "片头标题 · 中文",
+        "titleEn": "片头标题 · 英文手写",
+        "welcome1": "开场 1",
+        "welcome2": "开场 2",
+        "welcome3": "开场 3（在一起的天数用 [数字]）",
+        "birth1": "新郎出生",
+        "birth2": "新娘出生",
+        "parents1": "感谢父母 1",
+        "parents2": "感谢父母 2",
+        "grateful1": "成长照之后 1",
+        "grateful2": "成长照之后 2",
+        "grateful3": "成长照之后 3",
+        "believe": "相信",
+        "fate": "相识（图左字右）",
+        "chatTime": "相识聊天卡片 · 时间（相识照片留空时显示）",
+        "chatA": "相识聊天卡片 · 他说",
+        "chatB": "相识聊天卡片 · 她说",
+        "together": "在一起",
+        "since": "从此以后",
+        "first": "第一张合照",
+        "travel": "一起去旅行",
+        "birthday": "一起过生日",
+        "concert": "一起去看演唱会",
+        "funny": "一起拍搞怪照片",
+        "friends": "一起和好朋友出去玩",
+        "festival": "一起过节日和纪念日",
+        "park": "一起去游乐场",
+        "food": "一起吃好吃的",
+        "cat": "一起照顾小猫",
+        "ski": "一起去滑雪",
+        "friendsWedding": "一起见证好朋友的幸福",
+        "newYear": "一起回家过年",
+        "wonder": "时常会想",
+        "moments": "被爱的瞬间",
+        "flowers": "爱是鲜花",
+        "meals": "爱是家常饭",
+        "rituals": "爱是仪式感",
+        "newHome": "搬新家",
+        "ask": "求婚前的卡片（可留空）",
+        "decide": "求婚后的卡片（可留空）",
+        "engaged": "订婚",
+        "weddingPhotos": "婚纱照（胶片段）",
+        "proposal": "求婚",
+        "ending": "结尾"
+      },
+      "couple": null,
+      "props": {
+        "proposalFirst": {
+          "type": "boolean",
+          "description": "求婚在订婚和婚纱照之前（参考视频的顺序）"
+        },
+        "endingBeats": {
+          "type": "integer",
+          "description": "结尾卡片的拍数（让片子停在乐句上）"
+        },
+        "playIntroBeats": {
+          "type": "object",
+          "description": "恋爱篇章开头三段文案的拍数"
+        },
+        "typewriterCards": {
+          "type": "boolean",
+          "description": "后半段独立文案使用打字机效果（照片标题不变）"
+        },
+        "typingSfxVolume": {
+          "type": "number",
+          "description": "逐字同步的打字机音量；0 为静音"
+        },
+        "handoverFadeSec": {
+          "type": "number",
+          "description": "DV 取景器连续叠化到 PLAY 的秒数；0 为原磁带闪切"
+        },
+        "music2": {
+          "type": "object"
+        },
+        "stickers": {
+          "type": "boolean",
+          "description": "显示兔子小熊贴纸（关闭后只显示文字）"
+        },
+        "sinceArt": {
+          "type": "string",
+          "description": "「从此以后」卡片上的新人插画（public/ 下 PNG，可留空）"
+        },
+        "introVolume": {
+          "type": "number",
+          "description": "开场文字段的音乐音量（之后升到 100%）"
+        },
+        "beatGrid": {
+          "type": "null | object"
+        },
+        "music2At": {
+          "type": "number"
+        },
+        "music2Trim": {
+          "type": "number"
+        }
+      },
+      "music": {
+        "required": true,
+        "src": "music/mixkit-fifth-of-february.mp3",
+        "downloadOnly": true
+      },
+      "fixture": "examples/dv-our-story.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/dv-story",
+      "previews": [
+        {
+          "format": "16:9",
+          "video": "https://vibevision.video/media/dv-story.mp4",
+          "poster": "https://vibevision.video/media/dv-story.jpg",
+          "width": 1280,
+          "height": 720,
+          "from": 70.0,
+          "to": 90.0,
+          "fullSeconds": 182.533
+        }
+      ]
+    },
+    {
+      "id": "starter",
+      "kind": "template",
+      "title": "节拍相册 · Starter",
+      "description": "开场标题、按音乐节拍切换的相册和结尾，约半分钟。用来演示画幅选择、配乐卡点和相册引擎。",
+      "version": "1.0.0",
+      "package": "@vvv/starter",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 8,
+          "targetPhotos": 14,
+          "sample": {
+            "from": 2,
+            "to": 14
+          }
+        },
+        {
+          "name": "9:16",
+          "width": 1080,
+          "height": 1920,
+          "minPhotos": 8,
+          "targetPhotos": 14,
+          "sample": {
+            "from": 2,
+            "to": 14
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "opening",
+              "kind": "single",
+              "hint": "opening couple photo, landscape works best"
+            },
+            {
+              "name": "gallery",
+              "kind": "array",
+              "min": 6,
+              "count": 12,
+              "max": 24,
+              "hint": "photos for the gallery, any orientation"
+            },
+            {
+              "name": "ending",
+              "kind": "single",
+              "hint": "closing couple photo, landscape works best"
+            }
+          ],
+          "unusedSlots": []
+        },
+        "9:16": {
+          "slots": [
+            {
+              "name": "opening",
+              "kind": "single",
+              "hint": "opening couple photo, landscape works best"
+            },
+            {
+              "name": "gallery",
+              "kind": "array",
+              "min": 6,
+              "count": 12,
+              "max": 24,
+              "hint": "photos for the gallery, any orientation"
+            },
+            {
+              "name": "ending",
+              "kind": "single",
+              "hint": "closing couple photo, landscape works best"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {
+        "kicker": "开场小字",
+        "ending": "结尾一句"
+      },
+      "couple": {
+        "groom": "新郎姓名",
+        "bride": "新娘姓名",
+        "groomEn": "新郎英文名或拼音",
+        "brideEn": "新娘英文名或拼音",
+        "date": "婚礼日期",
+        "tagline": "主标题"
+      },
+      "props": {
+        "beatGrid": {
+          "type": "null | object"
+        }
+      },
+      "music": {
+        "required": true,
+        "src": "music/maple-leaf-rag.ogg",
+        "downloadOnly": false
+      },
+      "fixture": "examples/starter-reel.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/starter",
+      "previews": [
+        {
+          "format": "16:9",
+          "video": "https://vibevision.video/media/starter.mp4",
+          "poster": "https://vibevision.video/media/starter.jpg",
+          "width": 1280,
+          "height": 720,
+          "from": 0.0,
+          "to": 34.9,
+          "fullSeconds": 34.9
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "id": "papercut-frame",
+      "kind": "effect",
+      "title": "Papercut Frame · 红底金角剪纸框",
+      "description": "红底上金色祥云缓慢漂移，照片框四角落下金色剪纸角花。Comedy 模板的婚纱照段用的就是它。按 1920×1080 版面绘制。",
+      "version": "1.0.0",
+      "package": "@vvv/papercut-frame",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 1,
+          "targetPhotos": 1,
+          "sample": {
+            "from": 0,
+            "to": 7.9
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "photo",
+              "kind": "single"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {},
+      "couple": null,
+      "props": {},
+      "music": {
+        "required": false,
+        "src": ""
+      },
+      "fixture": "examples/effect-papercut-frame.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/effects/papercut-frame",
+      "previews": []
+    }
+  ]
+}

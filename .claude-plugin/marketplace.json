@@ -1,0 +1,19 @@
+{
+  "name": "vibevision",
+  "owner": {
+    "name": "Vibe Vision Video contributors",
+    "email": "contact@vibevision.video"
+  },
+  "metadata": {
+    "description": "Vibe Vision Video: reusable, editable video templates and the skill that uses them."
+  },
+  "plugins": [
+    {
+      "name": "vvv",
+      "source": "./",
+      "description": "Make, recreate and continue editable Remotion films from reusable templates; the current library focuses on wedding films.",
+      "homepage": "https://vibevision.video",
+      "license": "MIT"
+    }
+  ]
+}

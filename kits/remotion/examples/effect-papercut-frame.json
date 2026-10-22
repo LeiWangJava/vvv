@@ -1,0 +1,18 @@
+{
+  "template": "papercut-frame",
+  "props": {
+    "photos": {
+      "photo": "couple-08-wedding-s2-seaside-03"
+    },
+    "copy": {},
+    "music": {
+      "src": "",
+      "volume": 0.8,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0,
+      "fadeOutSec": 0
+    },
+    "fps": 30,
+    "format": "16:9"
+  }
+}

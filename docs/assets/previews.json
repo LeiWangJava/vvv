@@ -1,0 +1,416 @@
+[
+  {
+    "template": "doodle",
+    "format": "16:9",
+    "video": "doodle.mp4",
+    "poster": "doodle.jpg",
+    "sourceRangeSeconds": [
+      1.5,
+      24.5
+    ],
+    "sourceFramesInclusive": [
+      45,
+      734
+    ],
+    "compositionId": "VVV-Doodle",
+    "fullCompositionSeconds": 142.0,
+    "fixture": "kits/remotion/examples/doodle-wedding.json",
+    "entryPoint": "kits/remotion/examples/cases.tsx",
+    "posterOffsetSeconds": 5.5,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "audio": "Dance with Me by Ahjay Stelino (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed",
+    "content": "fictional generated demo photographs and original doodle artwork",
+    "mediaTerms": "Photos and artwork MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md",
+    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "decode": "passed",
+    "sourceFingerprintFile": "template-source-2026-10-21-doodle.json",
+    "validationFile": "preview-validation-2026-10-21.json",
+    "sha256": "42f96a2a01f1f8e071bc8af1d4b3bdd0efc555c9330be5cff28c6eb99166bbf3",
+    "posterSha256": "f2cae76e0f5fd16d0f9cbe62f0912880ca2597580221aad67cbf11ca48fa8c46",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "100",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_frames": "690"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "1",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "1080"
+        }
+      ],
+      "format": {
+        "duration": "23.018000",
+        "size": "2759636"
+      }
+    },
+    "sourceVideoSha256": "0152369948a5fd5bf91699ef65a253b58fda0c4abe998374362460c033bf6893",
+    "processing": {
+      "videoFilter": "scale=1280:720:flags=lanczos,fade=t=out:st=22.40000000:d=0.6",
+      "audioFilter": "afade=t=in:st=0:d=0.12,afade=t=out:st=22.40000000:d=0.6,alimiter=limit=0.794:attack=5:release=50:level=disabled:latency=1",
+      "videoCodec": "libx264 high profile, preset slow, yuv420p",
+      "videoCrf": 22,
+      "audioBitrate": "160k",
+      "movflags": "+faststart",
+      "posterJpegQuality": 85,
+      "sourceRenderCrf": 16
+    }
+  },
+  {
+    "template": "album",
+    "format": "16:9",
+    "video": "album.mp4",
+    "poster": "album.jpg",
+    "sourceRangeSeconds": [
+      3.0,
+      26.733333333333334
+    ],
+    "sourceFramesInclusive": [
+      90,
+      801
+    ],
+    "fixture": "kits/remotion/examples/album-wedding.json",
+    "entryPoint": "kits/remotion/examples/cases.tsx",
+    "fps": 30,
+    "audio": "Skyline by Eugenio Mininni (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed",
+    "content": "fictional generated demo photographs",
+    "mediaTerms": "Photos MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md and kits/remotion/public/music/sources.json",
+    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 24 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "decode": "passed",
+    "sourceFingerprintFile": "template-source-2026-10-21-album.json",
+    "compositionId": "VVV-Album",
+    "fullCompositionSeconds": 197.5,
+    "posterOffsetSeconds": 0.6,
+    "width": 1280,
+    "height": 720,
+    "validationFile": "preview-validation-2026-10-21.json",
+    "sha256": "15a062011785101cdc9528cef3ac9110800ab487473da3c45db6c68bfb41b411",
+    "posterSha256": "23d1b67e28c8dabdb2e5c137b10615fd6f4a19cc936180bb2a922ac3bde38865",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "100",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_frames": "712"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "1",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "1114"
+        }
+      ],
+      "format": {
+        "duration": "23.744000",
+        "size": "4647575"
+      }
+    },
+    "sourceVideoSha256": "0a9a84347ff1633cce44863c079c2fc492073ef43a18d8f0fd89a4f540d96b49",
+    "processing": {
+      "videoFilter": "scale=1280:720:flags=lanczos,fade=t=out:st=23.13333333:d=0.6",
+      "audioFilter": "afade=t=in:st=0:d=0.12,afade=t=out:st=23.13333333:d=0.6,alimiter=limit=0.794:attack=5:release=50:level=disabled:latency=1",
+      "videoCodec": "libx264 high profile, preset slow, yuv420p",
+      "videoCrf": 24,
+      "audioBitrate": "160k",
+      "movflags": "+faststart",
+      "posterJpegQuality": 85,
+      "sourceRenderCrf": 16
+    }
+  },
+  {
+    "template": "album",
+    "format": "9:16",
+    "video": "album-vertical.mp4",
+    "poster": "album-vertical.jpg",
+    "sourceRangeSeconds": [
+      26.0,
+      48.6
+    ],
+    "sourceFramesInclusive": [
+      780,
+      1457
+    ],
+    "fixture": "kits/remotion/examples/album-wedding.json",
+    "entryPoint": "kits/remotion/examples/cases.tsx",
+    "fps": 30,
+    "audio": "Skyline by Eugenio Mininni (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed",
+    "content": "fictional generated demo photographs",
+    "mediaTerms": "Photos MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md and kits/remotion/public/music/sources.json",
+    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "decode": "passed",
+    "sourceFingerprintFile": "template-source-2026-10-21-album.json",
+    "compositionId": "VVV-Album-Vertical",
+    "fullCompositionSeconds": 49.8,
+    "posterOffsetSeconds": 19.5,
+    "width": 720,
+    "height": 1280,
+    "validationFile": "preview-validation-2026-10-21.json",
+    "sha256": "5e60a19f852aef3c981cf945d4de35ee332bb373287e5f8537d361dd73fae950",
+    "posterSha256": "ea109119c3982795afaac9abc794d9f8a4169cf0ac6b77282eb0a33fc39a4477",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "100",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_frames": "678"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "1",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "1061"
+        }
+      ],
+      "format": {
+        "duration": "22.613000",
+        "size": "3505497"
+      }
+    },
+    "sourceVideoSha256": "3918c40f168ffcdb96e1227260b3e780f6cd6e979d3a85ce9e76c5b6fb75e5ab",
+    "processing": {
+      "videoFilter": "scale=720:1280:flags=lanczos,fade=t=out:st=22.00000000:d=0.6",
+      "audioFilter": "afade=t=in:st=0:d=0.12,afade=t=out:st=22.00000000:d=0.6,alimiter=limit=0.794:attack=5:release=50:level=disabled:latency=1",
+      "videoCodec": "libx264 high profile, preset slow, yuv420p",
+      "videoCrf": 22,
+      "audioBitrate": "160k",
+      "movflags": "+faststart",
+      "posterJpegQuality": 85,
+      "sourceRenderCrf": 16
+    }
+  },
+  {
+    "template": "dv-story",
+    "format": "16:9",
+    "video": "dv-story.mp4",
+    "poster": "dv-story.jpg",
+    "sourceRangeSeconds": [
+      70.0,
+      90.0
+    ],
+    "sourceFramesInclusive": [
+      2100,
+      2699
+    ],
+    "compositionId": "VVV-DVStory",
+    "fullCompositionSeconds": 182.533,
+    "fixture": "kits/remotion/examples/dv-our-story.json",
+    "entryPoint": "kits/remotion/examples/cases.tsx",
+    "posterOffsetSeconds": 17.5,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "audio": "Fifth of February by Michael Ramir C. (Mixkit Stock Music Free License), used in the video; the audio file is not redistributed. Synthesized key taps.",
+    "content": "fictional generated demo photographs; drawn chat card; original stickers",
+    "mediaTerms": "Photos and artwork MIT; music Mixkit Stock Music Free License; see MEDIA_LICENSE.md",
+    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "decode": "passed",
+    "sourceFingerprintFile": "template-source-2026-10-21-dv.json",
+    "validationFile": "preview-validation-2026-10-21.json",
+    "sha256": "e52224ccee2bdeaaf31067fe8f440509aeb809b72750f2be1cb4c9d826fd0cac",
+    "posterSha256": "9f1e483e00dc5b63f1241728fdb5cbf8ff50903c2fe1549a2c3e5cebfbe58e07",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "100",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_frames": "600"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "1",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "939"
+        }
+      ],
+      "format": {
+        "duration": "20.010000",
+        "size": "2328678"
+      }
+    },
+    "sourceVideoSha256": "0822195a14b3f6bdd58bc6576e3fb98014ff54d117eaa22db72a2a01546260d7",
+    "processing": {
+      "videoFilter": "scale=1280:720:flags=lanczos,fade=t=out:st=19.40000000:d=0.6",
+      "audioFilter": "afade=t=in:st=0:d=0.12,afade=t=out:st=19.40000000:d=0.6,alimiter=limit=0.794:attack=5:release=50:level=disabled:latency=1",
+      "videoCodec": "libx264 high profile, preset slow, yuv420p",
+      "videoCrf": 22,
+      "audioBitrate": "160k",
+      "movflags": "+faststart",
+      "posterJpegQuality": 85,
+      "sourceRenderCrf": 16
+    }
+  },
+  {
+    "template": "comedy",
+    "format": "16:9",
+    "video": "comedy.mp4",
+    "poster": "comedy.jpg",
+    "sourceRangeSeconds": [
+      62.6,
+      76.9
+    ],
+    "sourceFramesInclusive": [
+      1878,
+      2306
+    ],
+    "compositionId": "VVV-Comedy",
+    "fullCompositionSeconds": 212.0,
+    "fixture": "kits/remotion/examples/comedy-wedding.json",
+    "entryPoint": "kits/remotion/examples/cases.tsx",
+    "posterOffsetSeconds": 13.4,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "audio": "Fun and Games and When in Love by Ahjay Stelino, and Mixkit sound effects (Mixkit Stock Music / Sound Effects Free Licenses), used in the video; the audio files are not redistributed. No narration.",
+    "content": "fictional generated demo photographs and original paper-cut artwork",
+    "mediaTerms": "Photos and artwork MIT; music and effects Mixkit free licenses; see MEDIA_LICENSE.md",
+    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 22 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope.",
+    "decode": "passed",
+    "sourceFingerprintFile": "template-source-2026-10-21-comedy.json",
+    "validationFile": "preview-validation-2026-10-21.json",
+    "sha256": "0409cfa67a9701a76f289e86cd79815c33e542039da629109cea6e0835d60418",
+    "posterSha256": "120dbc43950e83fd111d9c4775058b0e88dc8acd8f4bac5bdfb2dd36dcb437f0",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "100",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_frames": "429"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "1",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "672"
+        }
+      ],
+      "format": {
+        "duration": "14.314000",
+        "size": "2658395"
+      }
+    },
+    "sourceVideoSha256": "c728d32f7ebd46e90047b9102885c76c4ec063f473232d6044fdd8d8b3bba0c0",
+    "processing": {
+      "videoFilter": "scale=1280:720:flags=lanczos,fade=t=out:st=13.70000000:d=0.6",
+      "audioFilter": "afade=t=in:st=0:d=0.12,afade=t=out:st=13.70000000:d=0.6,alimiter=limit=0.794:attack=5:release=50:level=disabled:latency=1",
+      "videoCodec": "libx264 high profile, preset slow, yuv420p",
+      "videoCrf": 22,
+      "audioBitrate": "160k",
+      "movflags": "+faststart",
+      "posterJpegQuality": 85,
+      "sourceRenderCrf": 16
+    }
+  },
+  {
+    "template": "starter",
+    "format": "16:9",
+    "video": "starter.mp4",
+    "poster": "starter.jpg",
+    "compositionId": "VVV-Starter",
+    "fixture": "kits/remotion/examples/starter-reel.json",
+    "entryPoint": "kits/remotion/examples/cases.tsx",
+    "fps": 30,
+    "audio": "Maple Leaf Rag (1899) by Scott Joplin, recording by Gnissah via Wikimedia Commons (public domain); bundled in kits/remotion/public/music",
+    "content": "fictional generated demo photographs",
+    "mediaTerms": "Photos MIT; music public domain; see MEDIA_LICENSE.md and kits/remotion/public/music/sources.json",
+    "sha256": "bc963430a491d6fdd5381367833556331066437cef1debcf04d67f41c5d56df7",
+    "posterSha256": "778982e93183f4c327c81fb87ac9985f1575e3f591f1dd7f52bd849274b8ab2c",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "100",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_frames": "1047"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "1",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "1637"
+        }
+      ],
+      "format": {
+        "duration": "34.901000",
+        "size": "4766008"
+      }
+    },
+    "sourceVideoSha256": "0e27475f7073c0e7d9aaa29235b415d8d576124ea8d2f5351b6f9cb3fe7a5e9c",
+    "processing": {
+      "videoFilter": "scale=1280:720:flags=lanczos,fade=t=out:st=34.30000000:d=0.6",
+      "audioFilter": "afade=t=in:st=0:d=0.12,afade=t=out:st=34.30000000:d=0.6,alimiter=limit=0.794:attack=5:release=50:level=disabled:latency=1",
+      "videoCodec": "libx264 high profile, preset slow, yuv420p",
+      "videoCrf": 24,
+      "audioBitrate": "160k",
+      "movflags": "+faststart",
+      "posterJpegQuality": 85,
+      "sourceRenderCrf": 16
+    },
+    "sourceRangeSeconds": [
+      0.0,
+      34.9
+    ],
+    "sourceFramesInclusive": [
+      0,
+      1046
+    ],
+    "fullCompositionSeconds": 34.9,
+    "posterOffsetSeconds": 4.0,
+    "width": 1280,
+    "height": 720,
+    "decode": "passed",
+    "sourceFingerprintFile": "template-source-2026-10-21-starter.json",
+    "validationFile": "preview-validation-2026-10-21.json",
+    "evidence": "Rendered at 1080p from the current template code on 2026-10-21; before/after source capture matched. Public 1280x720-class H.264 high-profile CRF 24 encode (AAC 160k, faststart) with 0.12 s audio fade-in, 0.6 s audio/video fade-out and a -2 dBFS sample-peak limiter against AAC overshoot. Source and public files passed format, audio, still-hold (3 s), beat-sync and full-stream decode checks; the public 720px short side has the expected resolution warning. Frames were sampled at every integer second and excerpt boundaries and reviewed as tiled sheets. PCM16 measurements are technical audio checks, not subjective listening or true-peak measurement. See validationFile for exact review scope."
+  }
+]

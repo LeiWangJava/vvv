@@ -1,0 +1,281 @@
+{
+  "id": "album",
+  "version": "1.0.0",
+  "compositionId": "VVV-Album",
+  "title": "Album · 现代留白·圆角画册",
+  "description": "16:9：新人肖像与恋爱故事、圆角画册拼版、婚纱照相册和落幅，约 3 分 17 秒。9:16：同一视觉语言的竖版短片，约 50 秒。都卡在 Skyline 的节拍上。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    },
+    "9:16": {
+      "width": 1080,
+      "height": 1920,
+      "sample": {
+        "from": 6,
+        "to": 22
+      },
+      "slots": [
+        "opening",
+        "gallery",
+        "ending"
+      ]
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "defaultProps": {
+    "couple": {
+      "groom": "林以舟",
+      "bride": "许知夏",
+      "groomEn": "LIN YIZHOU",
+      "brideEn": "XU ZHIXIA",
+      "date": "2026-10-18",
+      "tagline": "我们结婚啦"
+    },
+    "photos": {
+      "opening": "",
+      "bride": "",
+      "groom": "",
+      "duoWide": "",
+      "duoTall": "",
+      "storyWide": "",
+      "storyTall": "",
+      "poem": [],
+      "beachBig": "",
+      "beachSmall": [],
+      "rise": [],
+      "drop": [],
+      "pairTall": "",
+      "pairWide": "",
+      "panels": [],
+      "endless": [],
+      "quoteBig": "",
+      "quoteSmall": [],
+      "foreverMid": "",
+      "foreverLeft": "",
+      "foreverRight": "",
+      "glow": "",
+      "handwriting": "",
+      "prints": [],
+      "vertical": "",
+      "ending": "",
+      "gallery": []
+    },
+    "copy": {
+      "story_a": "从第一眼到永远",
+      "story_b": "和你的每一刻，都是最好的故事",
+      "poem": "愿得一心人｜白首不相离",
+      "quote_a": "你是我的今天，也是我所有的明天",
+      "one_heart": "两个人，一颗心",
+      "vow": "执子之手｜与子偕老",
+      "quote_b": "爱你，比昨天多一点，比明天少一点",
+      "forever": "一生一世一双人",
+      "love_you": "从今往后｜每一个清晨与黄昏｜都有你",
+      "rest_of_life": "余生是你",
+      "my_love": "此生挚爱",
+      "gallery_title": "我们的婚纱照",
+      "gallery_subtitle": "WEDDING GALLERY",
+      "set_s2": "海风｜海风很温柔，你也是",
+      "set_s4": "花开｜在花开的地方，等你",
+      "set_s3": "时光｜光落在你身上的样子，我想记很久",
+      "set_s5": "誓言｜我愿意，在每一个明天",
+      "set_s7": "远方｜去看山，去看海，都和你一起",
+      "set_s1": "纯白｜最简单的颜色，留给最认真的誓言",
+      "set_s6": "街角｜我们的日常，也值得被认真记住",
+      "set_s8": "夜色｜夜很长，我们慢慢走"
+    },
+    "music": {
+      "src": "music/mixkit-skyline.mp3",
+      "volume": 1,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0,
+      "fadeOutSec": 3
+    },
+    "fps": 30
+  },
+  "slots": {
+    "opening": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "full-bleed couple shot, landscape, open sky or sea"
+    },
+    "bride": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "bride solo portrait, portrait orientation"
+    },
+    "groom": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "groom solo portrait, portrait orientation"
+    },
+    "duoWide": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple story photo, landscape"
+    },
+    "duoTall": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple story photo, portrait orientation"
+    },
+    "storyWide": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple story photo, landscape"
+    },
+    "storyTall": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple travel photo, portrait orientation"
+    },
+    "poem": {
+      "kind": "array",
+      "count": 4,
+      "min": 4,
+      "hint": "4 portrait couple shots for two tall panels"
+    },
+    "beachBig": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple shot for a tall panel, portrait"
+    },
+    "beachSmall": {
+      "kind": "array",
+      "count": 2,
+      "min": 2,
+      "hint": "2 shots of the same set, near-square crops"
+    },
+    "rise": {
+      "kind": "array",
+      "count": 3,
+      "min": 3,
+      "hint": "3 portrait shots of one set (tall panels)"
+    },
+    "drop": {
+      "kind": "array",
+      "count": 3,
+      "min": 3,
+      "hint": "3 portrait shots of one set (tall panels)"
+    },
+    "pairTall": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "portrait couple shot for a narrow panel"
+    },
+    "pairWide": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "landscape shot of the same set, wide panel"
+    },
+    "panels": {
+      "kind": "array",
+      "count": 3,
+      "min": 3,
+      "hint": "3 portrait shots of one set (tall panels)"
+    },
+    "endless": {
+      "kind": "array",
+      "count": 2,
+      "min": 2,
+      "hint": "2 portrait couple shots, evening or night"
+    },
+    "quoteBig": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple shot for a tall panel, portrait"
+    },
+    "quoteSmall": {
+      "kind": "array",
+      "count": 2,
+      "min": 2,
+      "hint": "2 shots of the same set, near-square crops"
+    },
+    "foreverMid": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "portrait couple shot, centre panel"
+    },
+    "foreverLeft": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "portrait shot, small left panel"
+    },
+    "foreverRight": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "shot of a near-square right panel"
+    },
+    "glow": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "full-bleed landscape couple shot, warm light"
+    },
+    "handwriting": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "full-bleed landscape, clear space on one side"
+    },
+    "prints": {
+      "kind": "array",
+      "count": 3,
+      "min": 3,
+      "hint": "3 portrait couple shots shown as prints"
+    },
+    "vertical": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "full-bleed landscape, clear space on one side"
+    },
+    "ending": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "full-bleed landscape couple shot for the close"
+    },
+    "gallery": {
+      "kind": "array",
+      "count": 37,
+      "min": 1,
+      "independent": true,
+      "max": 37,
+      "hint": "wedding photos, grouped by set (outfit)"
+    }
+  },
+  "sample": {
+    "from": 35,
+    "to": 50
+  },
+  "package": {
+    "name": "@vvv/album",
+    "fixture": "examples/album-wedding.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

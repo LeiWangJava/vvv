@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Vision Video"
+  short_description: "Build editable video templates once and reuse them across agents"
+  default_prompt: "Use $vvv to make a film from our photos, footage and story with a matching template, or recreate a reference video: confirm names and dates, show me a checked sample, then deliver the film and its editable project."

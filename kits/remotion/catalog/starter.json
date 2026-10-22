@@ -1,0 +1,84 @@
+{
+  "id": "starter",
+  "version": "1.0.0",
+  "compositionId": "VVV-Starter",
+  "title": "节拍相册 · Starter",
+  "description": "开场标题、按音乐节拍切换的相册和结尾，约半分钟。用来演示画幅选择、配乐卡点和相册引擎。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    },
+    "9:16": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 2.5
+  },
+  "defaultProps": {
+    "couple": {
+      "groom": "林以舟",
+      "bride": "许知夏",
+      "groomEn": "LIN YIZHOU",
+      "brideEn": "XU ZHIXIA",
+      "date": "2026-10-18",
+      "tagline": "我们结婚啦"
+    },
+    "photos": {
+      "opening": "",
+      "gallery": [],
+      "ending": ""
+    },
+    "copy": {
+      "kicker": "WE'RE GETTING MARRIED",
+      "ending": "谢谢你，来见证我们的故事"
+    },
+    "music": {
+      "src": "music/maple-leaf-rag.ogg",
+      "volume": 0.85,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.2,
+      "fadeOutSec": 1.5
+    },
+    "fps": 30
+  },
+  "slots": {
+    "opening": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "opening couple photo, landscape works best"
+    },
+    "gallery": {
+      "kind": "array",
+      "count": 12,
+      "min": 6,
+      "max": 24,
+      "hint": "photos for the gallery, any orientation"
+    },
+    "ending": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "closing couple photo, landscape works best"
+    }
+  },
+  "sample": {
+    "from": 2,
+    "to": 14
+  },
+  "package": {
+    "name": "@vvv/starter",
+    "fixture": "examples/starter-reel.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

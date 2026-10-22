@@ -1,0 +1,283 @@
+{
+  "id": "dv-story",
+  "version": "1.0.0",
+  "compositionId": "VVV-DVStory",
+  "title": "DV Story · 我们的故事",
+  "description": "打字开场、DV 取景器里的成长照、PLAY 回放屏上的恋爱故事、35 mm 胶片婚纱照和结尾，约 3 分钟，每个切换和每个打字都卡在 Fifth of February 的节拍上。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "defaultProps": {
+    "copy": {
+      "titleCn": "“我们的故事”",
+      "titleEn": "Our story",
+      "welcome1": "欢迎大家来到我们的婚礼，",
+      "welcome2": "感谢大家百忙之中如约而至💗",
+      "welcome3": "今天是林以舟和许知夏在一起的｜第[1978]天🥰",
+      "birth1": "1997年秋天，｜林以舟出生了…",
+      "birth2": "一年后，｜1998年春天，｜许知夏出生了…",
+      "parents1": "💕感谢父母的关心呵护，",
+      "parents2": "让我们在幸福有爱的家庭中长大💫",
+      "grateful1": "很幸运能成为你们的小孩，",
+      "grateful2": "愿你们平安健康，永远幸福🌸",
+      "grateful3": "接下来，就由我们续写未来的故事……",
+      "believe": "我们一直相信，｜最好的人注定会来到身边。",
+      "fate": "2021年春天，｜命运的齿轮开始转动…",
+      "chatTime": "2021年3月14日 21:07",
+      "chatA": "你好，我是林以舟",
+      "chatB": "你好呀，我是许知夏～",
+      "together": "2021年5月20日，｜我们在一起啦😘",
+      "since": "从此以后，｜我们一起做了很多有意义的事情",
+      "first": "📍我们的第一张合照——银杏街的秋天🍂",
+      "travel": "📍一起去旅行🧳",
+      "birthday": "📍一起过生日🎂",
+      "concert": "📍一起去看演唱会🎤",
+      "funny": "📍一起拍各种搞怪的照片🤪",
+      "friends": "📍一起熬过异地的日子🚄",
+      "festival": "📍一起过大大小小的节日和纪念日🎉",
+      "park": "📍一起去游乐场🎡",
+      "food": "📍一起吃很多好吃的🍜",
+      "cat": "📍一起照顾小猫🐱",
+      "ski": "📍一起去滑雪🏂",
+      "friendsWedding": "📍一起见证好朋友的幸福💐",
+      "newYear": "📍一起回家过年🧧",
+      "wonder": "时常会想，｜到底是什么让两个人做好了结婚的准备💍",
+      "moments": "我想，可能是每个被爱的瞬间✨",
+      "flowers": "💗爱是随时出现的鲜花🌷",
+      "meals": "💗爱是精心准备的家常饭🍲",
+      "rituals": "💗爱是从不缺席的仪式感🎁",
+      "newHome": "2024年10月，我们搬新家啦🏠",
+      "ask": "突然有一天，他问我，｜你准备好了吗？",
+      "decide": "于是我们决定，｜一起拥抱未知的未来💗",
+      "engaged": "2025年国庆，我们订婚啦💍",
+      "weddingPhotos": "2026年春天，｜我们拍了婚纱照📸",
+      "proposal": "2025年5月20日，他求婚啦！",
+      "ending": "我们的故事，终于来到了今天……"
+    },
+    "photos": {
+      "birth1": "@groom-01-childhood-02",
+      "birth2": "@dvdemo-b-baby",
+      "childhood": "@bride-01-childhood-02,@groom-01-childhood-01,@bride-01-childhood-01,@groom-01-childhood-03,@bride-01-childhood-03,@groom-02-school-01,@bride-02-school-01,@groom-02-school-02",
+      "fate": "",
+      "first": "@couple-03-dating-01",
+      "travel": "@couple-06-travel-01,@dvdemo-travel",
+      "birthday": "@couple-03-dating-04,@dvdemo-bday",
+      "concert": "@dvdemo-concert",
+      "funny": "@dvdemo-funny",
+      "friends": "@couple-05-distance-01",
+      "festival": "",
+      "park": "@couple-03-dating-03,@dvdemo-park",
+      "food": "@dvdemo-food",
+      "cat": "@dvdemo-cat",
+      "ski": "@dvdemo-ski",
+      "friendsWedding": "",
+      "newYear": "@dvdemo-newyear",
+      "flowers": "@dvdemo-flower-a,@dvdemo-flower-b",
+      "meals": "@couple-04-daily-01,@dvdemo-meal",
+      "rituals": "@dvdemo-anniv,@dvdemo-xmas",
+      "newHome": "@couple-04-daily-02,@dvdemo-keys",
+      "engaged": "@dvdemo-eng-a,@dvdemo-eng-b|@dvdemo-eng-family",
+      "weddingPhotos": "@couple-08-wedding-s1-studio-01,@couple-08-wedding-s3-interior-01,@couple-08-wedding-s4-garden-02,@couple-08-wedding-s5-chapel-01,@couple-08-wedding-s2-seaside-04,@couple-08-wedding-s6-street-01,@couple-08-wedding-s8-night-02,@couple-08-wedding-s7-highland-02,@couple-08-wedding-s4-garden-01,@couple-09-chinese-c2-redwall-01",
+      "proposal": "@couple-07-proposal-01,@couple-07-proposal-02"
+    },
+    "proposalFirst": true,
+    "endingBeats": 16,
+    "playIntroBeats": {
+      "believe": 6,
+      "fate": 6,
+      "together": 4
+    },
+    "typewriterCards": true,
+    "typingSfxVolume": 0.15,
+    "handoverFadeSec": 2.4,
+    "music": {
+      "src": "music/mixkit-fifth-of-february.mp3",
+      "volume": 0.9,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.05,
+      "fadeOutSec": 1.5
+    },
+    "music2": {
+      "src": "",
+      "volume": 0.9,
+      "atBeat": 116,
+      "fromBeat": 40,
+      "fadeOutSec": 3.5,
+      "crossfadeSec": 2.4
+    },
+    "stickers": true,
+    "sinceArt": "",
+    "introVolume": 1,
+    "fps": 30,
+    "beatGrid": null
+  },
+  "slots": {
+    "birth1": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "groom baby or early childhood photo"
+    },
+    "birth2": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "bride baby or early childhood photo"
+    },
+    "childhood": {
+      "kind": "tokens",
+      "count": 4,
+      "min": 0,
+      "hint": "childhood and school photos of both"
+    },
+    "fate": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "optional: first-meeting photo (else a chat card)"
+    },
+    "first": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "first photo together"
+    },
+    "travel": {
+      "kind": "tokens",
+      "count": 2,
+      "min": 0,
+      "hint": "travel photos together"
+    },
+    "birthday": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "birthday photos together"
+    },
+    "concert": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "concert or show photo"
+    },
+    "funny": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "silly photos together"
+    },
+    "friends": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "photos with friends or of a long-distance time"
+    },
+    "festival": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "holiday or anniversary photos"
+    },
+    "park": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "amusement park photos"
+    },
+    "food": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "photos of meals out"
+    },
+    "cat": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "photos with a pet"
+    },
+    "ski": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "ski or sports trip photos"
+    },
+    "friendsWedding": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "photos at a friend's wedding"
+    },
+    "newYear": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "new year at home photos"
+    },
+    "flowers": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "photos of flowers or gifts"
+    },
+    "meals": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "home-cooked meal photos"
+    },
+    "rituals": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "celebration or anniversary photos"
+    },
+    "newHome": {
+      "kind": "tokens",
+      "count": 1,
+      "min": 0,
+      "hint": "new home photos"
+    },
+    "engaged": {
+      "kind": "tokens",
+      "count": 2,
+      "min": 0,
+      "hint": "engagement photos; \"|\" starts a new page"
+    },
+    "weddingPhotos": {
+      "kind": "tokens",
+      "count": 4,
+      "min": 0,
+      "independent": true,
+      "hint": "wedding photos for the film strip"
+    },
+    "proposal": {
+      "kind": "tokens",
+      "count": 2,
+      "min": 0,
+      "hint": "proposal photos"
+    }
+  },
+  "sample": {
+    "from": 60,
+    "to": 80
+  },
+  "package": {
+    "name": "@vvv/dv-story",
+    "fixture": "examples/dv-our-story.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

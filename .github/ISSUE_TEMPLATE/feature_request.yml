@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an improvement to an editable video workflow.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to make?
+      description: Describe the user problem and current workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Proposed behavior
+      description: Give a concrete input and expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Share only references and media you have permission to publish.

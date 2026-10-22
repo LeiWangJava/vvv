@@ -1,0 +1,41 @@
+node_modules/
+.remotion/
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.work/
+out/
+build/
+.superpowers/
+/vvv-skill/
+
+# Local design history and source-project research are not public documentation.
+/docs/plans/
+/docs/proposals/
+/docs/research/
+/scripts/prepare-demo.py
+
+# Local credentials and tool state
+.private-terms
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+.agents/
+.claude/skills/
+.codebuddy/skills/
+.codebuddy/settings.local.json
+
+# Download-only music (Mixkit license); fetched with npm run music, never redistributed.
+kits/remotion/public/music/mixkit-*.mp3
+kits/remotion/public/sfx/mixkit-*.wav
+
+# Built .vvv packages are release artifacts.
+*.vvv
+
+# Other agent tool state and local build output
+.codex/
+.workbuddy/
+dist/
+*.zip

@@ -1,0 +1,208 @@
+{
+  "id": "comedy",
+  "version": "1.0.0",
+  "compositionId": "VVV-Comedy",
+  "title": "Comedy · 喜剧开场 · 婚礼即将开始",
+  "description": "恶搞片头、对联开场、宾客须知、新郎「放错片段」、新娘「不信您瞧」、恋爱进度卡在 99%、红金婚纱照、等掌声「信号」的倒计时，约 3 分 32 秒，配 12 个音效。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3,
+    "tracks": [
+      {
+        "src": "music/mixkit-when-in-love.mp3",
+        "at": 109.9,
+        "from": 110.82
+      }
+    ]
+  },
+  "defaultProps": {
+    "couple": {
+      "groom": "林以舟",
+      "bride": "许知夏",
+      "groomEn": "LIN YIZHOU",
+      "brideEn": "XU ZHIXIA",
+      "date": "2026-10-18",
+      "tagline": "我们结婚啦"
+    },
+    "photos": {
+      "groomKid": "",
+      "groomHero": "",
+      "brideKid": "",
+      "brideHero": "",
+      "love": [],
+      "proposal": "",
+      "finale": "",
+      "gallery": []
+    },
+    "copy": {
+      "studio": "幸福影业",
+      "studio_en": "XINGFU  PICTURES",
+      "presents": "本片由",
+      "starring": "倾情主演",
+      "title": "婚礼即将开始",
+      "welcome_1": "喜结连理佳宴摆",
+      "welcome_2": "满堂亲友贺喜来",
+      "welcome_3": "各位亲友｜各位嘉宾",
+      "welcome_4": "今天他俩结婚啦！",
+      "welcome_5": "欢迎欢迎  热烈欢迎！",
+      "welcome_6": "热热闹闹｜喜气洋洋",
+      "thanks": "非常感谢你们",
+      "arrive_1": "有跑着来的",
+      "arrive_2": "有开车来的",
+      "arrive_3": "还有坐飞机来的",
+      "arrive_end": "一路辛苦啦！",
+      "rules_title": "宾客须知",
+      "rules_stamp": "必读",
+      "rule_1": "请暂时放下｜工作和烦恼",
+      "gag_1": "统统扔掉！",
+      "rule_2": "今天｜一定要笑哦",
+      "gag_2": "笑一笑，菜上得更快",
+      "rule_3": "菜管够｜请尽情享用",
+      "gag_3": "放开吃，别客气！",
+      "rule_4": "喝酒不开车｜开车不喝酒",
+      "gag_4": "回家路上  平平安安",
+      "rule_5": "掌声和尖叫｜请留给新人",
+      "gag_5": "现在就可以练习一下！",
+      "rules_end": "以上，感谢配合",
+      "groom_call": "有请今天的｜男主角",
+      "groom_wrong_a": "就是他！",
+      "groom_wrong_b": "等等……放错了",
+      "groom_wrong_c": "这是 {age} 岁的他",
+      "groom_retry": "重来！",
+      "groom_praise": "阳光帅气｜一身正气｜朝气蓬勃",
+      "groom_role": "新郎",
+      "bride_call": "有请今天的｜女主角",
+      "bride_legend": "传说她｜艳压群芳",
+      "bride_proof": "不信您瞧",
+      "bride_kid_a": "嗯……",
+      "bride_kid_b": "从小就是美人胚子",
+      "bride_wow": "惊艳全场！",
+      "bride_role": "新娘",
+      "love_title": "恋爱加载中……",
+      "love_steps": "相遇｜约会｜一起生活｜一起看世界",
+      "love_stuck": "99%……卡住了？",
+      "love_done": "求婚成功  100%",
+      "next_a": "接下来  请欣赏",
+      "next_b": "两位新人的幸福瞬间",
+      "gallery_tags": "天生一对｜甜度超标｜颜值天花板｜好般配呀｜幸福感满满｜官宣啦",
+      "gallery_blessings": "百年好合｜永结同心｜白头偕老｜佳偶天成｜喜结良缘",
+      "count_title": "婚礼仪式倒计时",
+      "wait_1": "等一下！",
+      "wait_2": "还……还不能开始吗？",
+      "wait_3": "还没收到信号",
+      "wait_4": "信号是什么呀？！",
+      "wait_5": "信号就是 —— 大家的掌声！",
+      "go": "开！",
+      "vo": "on",
+      "final_a": "婚礼仪式",
+      "final_b": "现在开始",
+      "set_s4": "花开｜在花开的地方，等你",
+      "set_s2": "海风｜海风很温柔，你也是",
+      "set_s6": "街角｜我们的日常，也值得被认真记住",
+      "set_s3": "时光｜光落在你身上的样子，我想记很久",
+      "set_s5": "誓言｜我愿意，在每一个明天",
+      "set_s8": "夜色｜夜很长，我们慢慢走",
+      "set_c2": "红墙｜岁岁年年，朝朝暮暮",
+      "set_c1": "良辰｜执子之手，与子偕老",
+      "set_c3": "大喜｜百年好合，永结同心",
+      "clip_welcome_1": "",
+      "clip_welcome_2": "",
+      "clip_welcome_3": "",
+      "clip_welcome_4": "",
+      "clip_welcome_5": "",
+      "clip_welcome_6": "",
+      "clip_arrive_1": "",
+      "clip_arrive_2": "",
+      "clip_arrive_3": "",
+      "clip_rule_1": "",
+      "clip_rule_2": "",
+      "clip_rule_3": "",
+      "clip_rule_4": "",
+      "clip_rule_5": "",
+      "clip_groom": "",
+      "clip_bride": "",
+      "clip_signal": ""
+    },
+    "music": {
+      "src": "music/mixkit-fun-and-games.mp3",
+      "volume": 0.75,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.1,
+      "fadeOutSec": 2
+    },
+    "fps": 30
+  },
+  "slots": {
+    "groomKid": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "groom childhood photo"
+    },
+    "groomHero": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "groom solo portrait today"
+    },
+    "brideKid": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "bride childhood photo"
+    },
+    "brideHero": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "bride solo portrait today"
+    },
+    "love": {
+      "kind": "array",
+      "count": 4,
+      "min": 4,
+      "hint": "4 dating photos, oldest first"
+    },
+    "proposal": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "proposal or engagement photo"
+    },
+    "finale": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "couple close-up, shown in a round frame"
+    },
+    "gallery": {
+      "kind": "array",
+      "count": 37,
+      "min": 1,
+      "max": 37,
+      "independent": true,
+      "hint": "wedding photos, grouped by set (outfit)"
+    }
+  },
+  "sample": {
+    "from": 40,
+    "to": 62
+  },
+  "package": {
+    "name": "@vvv/comedy",
+    "fixture": "examples/comedy-wedding.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

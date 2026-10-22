@@ -1,0 +1,285 @@
+{
+  "note": "Narration script only; no voice or recording ships with VVV. Record or synthesize each line with a voice you are licensed to use, save it as public/vo/comedy/<key>.mp3, and enter its leading silence and speech length in public/vo/comedy/timing.json. {groom}, {bride} and {age} are replaced with the couple's details; [excited], [shouting] and similar marks are delivery notes.",
+  "lines": [
+    {
+      "key": "ident",
+      "text": "[excited] 幸福影业出品！{groom}、{bride}，倾情主演！",
+      "speed": 1.1
+    },
+    {
+      "key": "title",
+      "text": "[excited] 婚礼马上就开始喽！大伙儿都坐稳当了啊！",
+      "speed": 1.1
+    },
+    {
+      "key": "welcome_1",
+      "text": "[excited] 喜结连理佳宴摆——",
+      "speed": 1.1
+    },
+    {
+      "key": "welcome_2",
+      "text": "满堂亲友贺喜来！",
+      "speed": 1.1
+    },
+    {
+      "key": "welcome_3",
+      "text": "[excited] 各位亲友，各位嘉宾！",
+      "speed": 1.15
+    },
+    {
+      "key": "welcome_4",
+      "text": "今儿个，他俩结婚啦！",
+      "speed": 1.15
+    },
+    {
+      "key": "welcome_5",
+      "text": "[excited] 欢迎欢迎，热烈欢迎！",
+      "speed": 1.15
+    },
+    {
+      "key": "welcome_6",
+      "text": "热热闹闹，喜气洋洋！",
+      "speed": 1.15
+    },
+    {
+      "key": "thanks",
+      "text": "真心感谢大伙儿捧场！",
+      "speed": 1.1
+    },
+    {
+      "key": "arrive_1",
+      "text": "有跑着来的——",
+      "speed": 1.1
+    },
+    {
+      "key": "arrive_2",
+      "text": "有开车来的——",
+      "speed": 1.1
+    },
+    {
+      "key": "arrive_3",
+      "text": "[surprised] 还有坐飞机来的！",
+      "speed": 1.15
+    },
+    {
+      "key": "arrive_end",
+      "text": "辛苦啦老铁们！",
+      "speed": 1.1
+    },
+    {
+      "key": "rules",
+      "text": "宾客须知，都听好喽！",
+      "speed": 1.1
+    },
+    {
+      "key": "rule_1",
+      "text": "第一条：工作和烦恼，统统撇一边儿去！",
+      "speed": 1.1
+    },
+    {
+      "key": "rule_2",
+      "text": "第二条：今儿必须得乐！",
+      "speed": 1.15
+    },
+    {
+      "key": "rule_2_punch",
+      "text": "笑一笑，菜上得更快！",
+      "speed": 1.15
+    },
+    {
+      "key": "rule_3",
+      "text": "第三条：菜管够，可劲儿造！",
+      "speed": 1.1
+    },
+    {
+      "key": "rule_3_punch",
+      "text": "放开吃，别客气！",
+      "speed": 1.1
+    },
+    {
+      "key": "rule_4",
+      "text": "第四条：喝酒不开车，开车不喝酒，记住没？",
+      "speed": 1.1
+    },
+    {
+      "key": "rule_5",
+      "text": "第五条：掌声和尖叫，都留给新人！来，练练！",
+      "speed": 1.15
+    },
+    {
+      "key": "rules_end",
+      "text": "[laughing] 以上，感谢配合哈！",
+      "speed": 1.1
+    },
+    {
+      "key": "groom_call",
+      "text": "[shouting] 有请——今天的男主角！",
+      "speed": 1.15
+    },
+    {
+      "key": "groom_a",
+      "text": "[excited] 就是他！",
+      "speed": 1.1
+    },
+    {
+      "key": "groom_b",
+      "text": "[surprised] 哎？放错了！这是{age}岁的他！",
+      "speed": 1.2
+    },
+    {
+      "key": "groom_b_clip",
+      "text": "[laughing] 哎？肯定是酒喝多了，放错片段了！",
+      "speed": 1.2
+    },
+    {
+      "key": "praise_1",
+      "text": "阳光帅气！",
+      "speed": 1.1
+    },
+    {
+      "key": "praise_2",
+      "text": "一身正气！",
+      "speed": 1.1
+    },
+    {
+      "key": "praise_3",
+      "text": "朝气蓬勃！",
+      "speed": 1.1
+    },
+    {
+      "key": "groom_name",
+      "text": "[excited] 新郎官儿——{groom}！",
+      "speed": 1.05
+    },
+    {
+      "key": "bride_call",
+      "text": "[shouting] 有请——今天的女主角！",
+      "speed": 1.15
+    },
+    {
+      "key": "bride_legend",
+      "text": "传说她，艳压群芳！",
+      "speed": 1.15
+    },
+    {
+      "key": "bride_proof",
+      "text": "不信？您瞅瞅！",
+      "speed": 1.2
+    },
+    {
+      "key": "bride_kid_a",
+      "text": "[curious] 嗯……我瞅瞅……",
+      "speed": 1.15
+    },
+    {
+      "key": "bride_kid_b",
+      "text": "[surprised] 哎呀妈呀！美人胚子！",
+      "speed": 1.15
+    },
+    {
+      "key": "bride_wow",
+      "text": "[excited] 惊艳全场！",
+      "speed": 1.1
+    },
+    {
+      "key": "bride_name",
+      "text": "[excited] 新娘子——{bride}！",
+      "speed": 1.05
+    },
+    {
+      "key": "love",
+      "text": "恋爱进度，加载中……",
+      "speed": 1.1
+    },
+    {
+      "key": "love_stuck",
+      "text": "[confused] 哎？咋还卡住了呢？",
+      "speed": 1.15
+    },
+    {
+      "key": "love_done",
+      "text": "[excited] 百分之百！求婚成功！",
+      "speed": 1.1
+    },
+    {
+      "key": "next",
+      "text": "[moved] 接下来，请欣赏——两位新人的幸福瞬间。",
+      "speed": 1.0
+    },
+    {
+      "key": "count_10",
+      "text": "[shouting] 十！",
+      "speed": 1.1
+    },
+    {
+      "key": "count_9",
+      "text": "[shouting] 九！",
+      "speed": 1.1
+    },
+    {
+      "key": "count_8",
+      "text": "[shouting] 八！",
+      "speed": 1.1
+    },
+    {
+      "key": "count_7",
+      "text": "[shouting] 七！",
+      "speed": 1.1
+    },
+    {
+      "key": "count_6",
+      "text": "[shouting] 六！",
+      "speed": 1.1
+    },
+    {
+      "key": "wait_1",
+      "text": "[shouting] 等一下！",
+      "speed": 1.15
+    },
+    {
+      "key": "wait_2",
+      "text": "[nervous] 还不能开始吗？",
+      "speed": 1.2
+    },
+    {
+      "key": "wait_3",
+      "text": "信号还没来呢！",
+      "speed": 1.2
+    },
+    {
+      "key": "wait_4",
+      "text": "[confused] 信号是啥呀？",
+      "speed": 1.2
+    },
+    {
+      "key": "wait_5",
+      "text": "[excited] 信号就是——大家的掌声！",
+      "speed": 1.1
+    },
+    {
+      "key": "count_3",
+      "text": "[shouting] 三！",
+      "speed": 1.1
+    },
+    {
+      "key": "count_2",
+      "text": "[shouting] 二！",
+      "speed": 1.1
+    },
+    {
+      "key": "count_1",
+      "text": "[shouting] 一！",
+      "speed": 1.1
+    },
+    {
+      "key": "go",
+      "text": "[shouting] 开！",
+      "speed": 1.1
+    },
+    {
+      "key": "final",
+      "text": "[excited] 婚礼仪式，现在开始！祝新人百年好合！",
+      "speed": 1.05
+    }
+  ]
+}

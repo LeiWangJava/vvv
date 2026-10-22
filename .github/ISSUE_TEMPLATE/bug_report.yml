@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem with the skill, helpers, or Remotion kit.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use synthetic media and remove credentials, local account details, and private paths from reports. For suspected vulnerabilities, follow SECURITY.md instead of posting exploit details here.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Skill instructions or installation
+        - Project helper
+        - Image workflow
+        - Remotion kit or rendering
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Repository commit or tag, OS, Python/Node versions, and relevant agent/CLI version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Include the command, template, and smallest shareable input that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and relevant diagnostics
+      description: Include error codes or a short redacted log; avoid uploading full account or generation logs.
+    validations:
+      required: true

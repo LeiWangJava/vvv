@@ -1,0 +1,44 @@
+{
+  "template": "starter",
+  "props": {
+    "couple": {
+      "groom": "林以舟",
+      "bride": "许知夏",
+      "groomEn": "LIN YIZHOU",
+      "brideEn": "XU ZHIXIA",
+      "date": "2026-10-18",
+      "tagline": "我们结婚啦"
+    },
+    "photos": {
+      "opening": "couple-08-wedding-s2-seaside-04",
+      "gallery": [
+        "couple-08-wedding-s4-garden-02",
+        "couple-08-wedding-s4-garden-03",
+        "couple-08-wedding-s2-seaside-01",
+        "couple-08-wedding-s3-interior-01",
+        "couple-08-wedding-s3-interior-03",
+        "couple-08-wedding-s5-chapel-01",
+        "couple-08-wedding-s5-chapel-02",
+        "couple-08-wedding-s7-highland-02",
+        "couple-08-wedding-s6-street-01",
+        "couple-08-wedding-s6-street-03",
+        "couple-09-chinese-c2-redwall-01",
+        "couple-08-wedding-s1-studio-02"
+      ],
+      "ending": "couple-08-wedding-s8-night-02"
+    },
+    "copy": {
+      "kicker": "WE'RE GETTING MARRIED",
+      "ending": "谢谢你，来见证我们的故事"
+    },
+    "music": {
+      "src": "music/maple-leaf-rag.ogg",
+      "volume": 0.85,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.2,
+      "fadeOutSec": 1.5
+    },
+    "fps": 30,
+    "format": "16:9"
+  }
+}

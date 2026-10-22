@@ -1,0 +1,61 @@
+{
+  "id": "papercut-frame",
+  "version": "1.0.0",
+  "kind": "effect",
+  "compositionId": "VVV-Effect-PapercutFrame",
+  "title": "Papercut Frame · 红底金角剪纸框",
+  "description": "红底上金色祥云缓慢漂移，照片框四角落下金色剪纸角花。Comedy 模板的婚纱照段用的就是它。按 1920×1080 版面绘制。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": false
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "effect": {
+    "source": "src/effects/papercut-frame",
+    "exports": [
+      "RedBackdrop",
+      "GoldCorners"
+    ]
+  },
+  "defaultProps": {
+    "photos": {
+      "photo": ""
+    },
+    "copy": {},
+    "music": {
+      "src": "",
+      "volume": 0.8,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0,
+      "fadeOutSec": 0
+    },
+    "fps": 30
+  },
+  "slots": {
+    "photo": {
+      "kind": "single",
+      "count": 1,
+      "min": 1
+    }
+  },
+  "sample": {
+    "from": 0,
+    "to": 7.9
+  },
+  "package": {
+    "name": "@vvv/papercut-frame",
+    "fixture": "examples/effect-papercut-frame.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

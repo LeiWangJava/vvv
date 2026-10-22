@@ -1,0 +1,562 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "copy": {
+      "type": "object",
+      "properties": {
+        "titleCn": {
+          "type": "string",
+          "description": "片头标题 · 中文"
+        },
+        "titleEn": {
+          "type": "string",
+          "description": "片头标题 · 英文手写"
+        },
+        "welcome1": {
+          "type": "string",
+          "description": "开场 1"
+        },
+        "welcome2": {
+          "type": "string",
+          "description": "开场 2"
+        },
+        "welcome3": {
+          "type": "string",
+          "description": "开场 3（在一起的天数用 [数字]）"
+        },
+        "birth1": {
+          "type": "string",
+          "description": "新郎出生"
+        },
+        "birth2": {
+          "type": "string",
+          "description": "新娘出生"
+        },
+        "parents1": {
+          "type": "string",
+          "description": "感谢父母 1"
+        },
+        "parents2": {
+          "type": "string",
+          "description": "感谢父母 2"
+        },
+        "grateful1": {
+          "type": "string",
+          "description": "成长照之后 1"
+        },
+        "grateful2": {
+          "type": "string",
+          "description": "成长照之后 2"
+        },
+        "grateful3": {
+          "type": "string",
+          "description": "成长照之后 3"
+        },
+        "believe": {
+          "type": "string",
+          "description": "相信"
+        },
+        "fate": {
+          "type": "string",
+          "description": "相识（图左字右）"
+        },
+        "chatTime": {
+          "type": "string",
+          "description": "相识聊天卡片 · 时间（相识照片留空时显示）"
+        },
+        "chatA": {
+          "type": "string",
+          "description": "相识聊天卡片 · 他说"
+        },
+        "chatB": {
+          "type": "string",
+          "description": "相识聊天卡片 · 她说"
+        },
+        "together": {
+          "type": "string",
+          "description": "在一起"
+        },
+        "since": {
+          "type": "string",
+          "description": "从此以后"
+        },
+        "first": {
+          "type": "string",
+          "description": "第一张合照"
+        },
+        "travel": {
+          "type": "string",
+          "description": "一起去旅行"
+        },
+        "birthday": {
+          "type": "string",
+          "description": "一起过生日"
+        },
+        "concert": {
+          "type": "string",
+          "description": "一起去看演唱会"
+        },
+        "funny": {
+          "type": "string",
+          "description": "一起拍搞怪照片"
+        },
+        "friends": {
+          "type": "string",
+          "description": "一起和好朋友出去玩"
+        },
+        "festival": {
+          "type": "string",
+          "description": "一起过节日和纪念日"
+        },
+        "park": {
+          "type": "string",
+          "description": "一起去游乐场"
+        },
+        "food": {
+          "type": "string",
+          "description": "一起吃好吃的"
+        },
+        "cat": {
+          "type": "string",
+          "description": "一起照顾小猫"
+        },
+        "ski": {
+          "type": "string",
+          "description": "一起去滑雪"
+        },
+        "friendsWedding": {
+          "type": "string",
+          "description": "一起见证好朋友的幸福"
+        },
+        "newYear": {
+          "type": "string",
+          "description": "一起回家过年"
+        },
+        "wonder": {
+          "type": "string",
+          "description": "时常会想"
+        },
+        "moments": {
+          "type": "string",
+          "description": "被爱的瞬间"
+        },
+        "flowers": {
+          "type": "string",
+          "description": "爱是鲜花"
+        },
+        "meals": {
+          "type": "string",
+          "description": "爱是家常饭"
+        },
+        "rituals": {
+          "type": "string",
+          "description": "爱是仪式感"
+        },
+        "newHome": {
+          "type": "string",
+          "description": "搬新家"
+        },
+        "ask": {
+          "type": "string",
+          "description": "求婚前的卡片（可留空）"
+        },
+        "decide": {
+          "type": "string",
+          "description": "求婚后的卡片（可留空）"
+        },
+        "engaged": {
+          "type": "string",
+          "description": "订婚"
+        },
+        "weddingPhotos": {
+          "type": "string",
+          "description": "婚纱照（胶片段）"
+        },
+        "proposal": {
+          "type": "string",
+          "description": "求婚"
+        },
+        "ending": {
+          "type": "string",
+          "description": "结尾"
+        }
+      },
+      "required": [
+        "titleCn",
+        "titleEn",
+        "welcome1",
+        "welcome2",
+        "welcome3",
+        "birth1",
+        "birth2",
+        "parents1",
+        "parents2",
+        "grateful1",
+        "grateful2",
+        "grateful3",
+        "believe",
+        "fate",
+        "chatTime",
+        "chatA",
+        "chatB",
+        "together",
+        "since",
+        "first",
+        "travel",
+        "birthday",
+        "concert",
+        "funny",
+        "friends",
+        "festival",
+        "park",
+        "food",
+        "cat",
+        "ski",
+        "friendsWedding",
+        "newYear",
+        "wonder",
+        "moments",
+        "flowers",
+        "meals",
+        "rituals",
+        "newHome",
+        "ask",
+        "decide",
+        "engaged",
+        "weddingPhotos",
+        "proposal",
+        "ending"
+      ]
+    },
+    "photos": {
+      "type": "object",
+      "properties": {
+        "birth1": {
+          "type": "string",
+          "description": "新郎出生照"
+        },
+        "birth2": {
+          "type": "string",
+          "description": "新娘出生照"
+        },
+        "childhood": {
+          "type": "string",
+          "description": "成长照（依次闪现）"
+        },
+        "fate": {
+          "type": "string",
+          "description": "相识照片（留空则显示聊天卡片）"
+        },
+        "first": {
+          "type": "string",
+          "description": "第一张合照"
+        },
+        "travel": {
+          "type": "string",
+          "description": "一起去旅行"
+        },
+        "birthday": {
+          "type": "string",
+          "description": "一起过生日"
+        },
+        "concert": {
+          "type": "string",
+          "description": "一起去看演唱会"
+        },
+        "funny": {
+          "type": "string",
+          "description": "一起拍搞怪照片"
+        },
+        "friends": {
+          "type": "string",
+          "description": "一起和好朋友出去玩"
+        },
+        "festival": {
+          "type": "string",
+          "description": "一起过节日和纪念日"
+        },
+        "park": {
+          "type": "string",
+          "description": "一起去游乐场"
+        },
+        "food": {
+          "type": "string",
+          "description": "一起吃好吃的"
+        },
+        "cat": {
+          "type": "string",
+          "description": "一起照顾小猫"
+        },
+        "ski": {
+          "type": "string",
+          "description": "一起去滑雪"
+        },
+        "friendsWedding": {
+          "type": "string",
+          "description": "一起见证好朋友的幸福"
+        },
+        "newYear": {
+          "type": "string",
+          "description": "一起回家过年"
+        },
+        "flowers": {
+          "type": "string",
+          "description": "爱是鲜花"
+        },
+        "meals": {
+          "type": "string",
+          "description": "爱是家常饭"
+        },
+        "rituals": {
+          "type": "string",
+          "description": "爱是仪式感"
+        },
+        "newHome": {
+          "type": "string",
+          "description": "搬新家"
+        },
+        "engaged": {
+          "type": "string",
+          "description": "订婚（最后一页单张配跳舞贴纸）"
+        },
+        "weddingPhotos": {
+          "type": "string",
+          "description": "婚纱照（胶片段）"
+        },
+        "proposal": {
+          "type": "string",
+          "description": "求婚"
+        }
+      },
+      "required": [
+        "birth1",
+        "birth2",
+        "childhood",
+        "fate",
+        "first",
+        "travel",
+        "birthday",
+        "concert",
+        "funny",
+        "friends",
+        "festival",
+        "park",
+        "food",
+        "cat",
+        "ski",
+        "friendsWedding",
+        "newYear",
+        "flowers",
+        "meals",
+        "rituals",
+        "newHome",
+        "engaged",
+        "weddingPhotos",
+        "proposal"
+      ]
+    },
+    "proposalFirst": {
+      "type": "boolean",
+      "description": "求婚在订婚和婚纱照之前（参考视频的顺序）"
+    },
+    "endingBeats": {
+      "type": "integer",
+      "minimum": 4,
+      "maximum": 32,
+      "description": "结尾卡片的拍数（让片子停在乐句上）"
+    },
+    "playIntroBeats": {
+      "type": "object",
+      "properties": {
+        "believe": {
+          "type": "number",
+          "minimum": 2
+        },
+        "fate": {
+          "type": "number",
+          "minimum": 2
+        },
+        "together": {
+          "type": "number",
+          "minimum": 2
+        }
+      },
+      "required": [
+        "believe",
+        "fate",
+        "together"
+      ],
+      "description": "恋爱篇章开头三段文案的拍数"
+    },
+    "typewriterCards": {
+      "type": "boolean",
+      "description": "后半段独立文案使用打字机效果（照片标题不变）"
+    },
+    "typingSfxVolume": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 0.5,
+      "description": "逐字同步的打字机音量；0 为静音"
+    },
+    "handoverFadeSec": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 3,
+      "description": "DV 取景器连续叠化到 PLAY 的秒数；0 为原磁带闪切"
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "public/ 下的音乐路径，如 music/xxx.mp3；留空为无声"
+        },
+        "volume": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "音量"
+        },
+        "trimBeforeSec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "从音乐第几秒开始"
+        },
+        "fadeInSec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "fadeOutSec": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "src",
+        "volume",
+        "trimBeforeSec",
+        "fadeInSec",
+        "fadeOutSec"
+      ]
+    },
+    "music2": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "第二首音乐（public/ 下）；留空为只用一首"
+        },
+        "volume": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "atBeat": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991,
+          "description": "从片子的第几拍开始换歌"
+        },
+        "fromBeat": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991,
+          "description": "第二首从它自己的第几拍进入"
+        },
+        "fadeOutSec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "crossfadeSec": {
+          "type": "number",
+          "minimum": 0.05,
+          "maximum": 5,
+          "description": "两首音乐的交叉淡化秒数"
+        }
+      },
+      "required": [
+        "src",
+        "volume",
+        "atBeat",
+        "fromBeat",
+        "fadeOutSec",
+        "crossfadeSec"
+      ]
+    },
+    "stickers": {
+      "type": "boolean",
+      "description": "显示兔子小熊贴纸（关闭后只显示文字）"
+    },
+    "sinceArt": {
+      "type": "string",
+      "description": "「从此以后」卡片上的新人插画（public/ 下 PNG，可留空）"
+    },
+    "introVolume": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "开场文字段的音乐音量（之后升到 100%）"
+    },
+    "fps": {
+      "type": "integer",
+      "minimum": 24,
+      "maximum": 60,
+      "description": "帧率：预览 30，成片 60"
+    },
+    "format": {
+      "description": "画幅（由工程初始化时选择）",
+      "type": "string"
+    },
+    "beatGrid": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "beats": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "downbeats": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "required": [
+            "beats",
+            "downbeats"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "music2At": {
+      "type": "number"
+    },
+    "music2Trim": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "copy",
+    "photos",
+    "proposalFirst",
+    "endingBeats",
+    "playIntroBeats",
+    "typewriterCards",
+    "typingSfxVolume",
+    "handoverFadeSec",
+    "music",
+    "music2",
+    "stickers",
+    "sinceArt",
+    "introVolume",
+    "fps"
+  ]
+}

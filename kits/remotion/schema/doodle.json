@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "couple": {
+      "type": "object",
+      "properties": {
+        "groom": {
+          "type": "string",
+          "description": "新郎姓名"
+        },
+        "bride": {
+          "type": "string",
+          "description": "新娘姓名"
+        },
+        "groomEn": {
+          "type": "string",
+          "description": "新郎英文名或拼音"
+        },
+        "brideEn": {
+          "type": "string",
+          "description": "新娘英文名或拼音"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "婚礼日期"
+        },
+        "tagline": {
+          "type": "string",
+          "description": "主标题"
+        }
+      },
+      "required": [
+        "groom",
+        "bride",
+        "groomEn",
+        "brideEn",
+        "date",
+        "tagline"
+      ]
+    },
+    "photos": {
+      "type": "object",
+      "properties": {
+        "thumb": {
+          "type": "string",
+          "minLength": 1
+        },
+        "groomSolo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brideSolo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "poem": {
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "camera": {
+          "type": "string",
+          "minLength": 1
+        },
+        "forever": {
+          "minItems": 3,
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "loveBig": {
+          "type": "string",
+          "minLength": 1
+        },
+        "loveSmall": {
+          "type": "string",
+          "minLength": 1
+        },
+        "soul": {
+          "minItems": 1,
+          "maxItems": 1,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "soulWide": {
+          "type": "string",
+          "minLength": 1
+        },
+        "oneLove": {
+          "minItems": 4,
+          "maxItems": 4,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ever": {
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "everWide": {
+          "type": "string",
+          "minLength": 1
+        },
+        "us": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "thumb",
+        "groomSolo",
+        "brideSolo",
+        "poem",
+        "camera",
+        "forever",
+        "loveBig",
+        "loveSmall",
+        "soul",
+        "soulWide",
+        "oneLove",
+        "ever",
+        "everWide",
+        "us"
+      ]
+    },
+    "copy": {
+      "type": "object",
+      "properties": {
+        "intro_line": {
+          "type": "string",
+          "description": "开场 · 小字"
+        },
+        "song_title": {
+          "type": "string",
+          "description": "唱片卡片 · 歌名"
+        },
+        "song_sub": {
+          "type": "string",
+          "description": "唱片卡片 · 小字"
+        },
+        "poem": {
+          "type": "string",
+          "description": "诗句页 · 四行英文（用｜分隔）"
+        },
+        "camera_line": {
+          "type": "string",
+          "description": "相机页 · 两行（用｜分隔）"
+        },
+        "title_forever": {
+          "type": "string",
+          "description": "照片页 · 标题 1"
+        },
+        "title_love": {
+          "type": "string",
+          "description": "照片页 · 标题 2"
+        },
+        "love_line": {
+          "type": "string",
+          "description": "照片页 2 · 角落小字"
+        },
+        "title_soul": {
+          "type": "string",
+          "description": "照片页 · 标题 3"
+        },
+        "title_onelove": {
+          "type": "string",
+          "description": "照片页 · 标题 4"
+        },
+        "title_ever": {
+          "type": "string",
+          "description": "照片页 · 标题 5"
+        },
+        "title_us": {
+          "type": "string",
+          "description": "最后一页 · 标题"
+        },
+        "thanks": {
+          "type": "string",
+          "description": "结尾 · 感谢"
+        }
+      },
+      "required": [
+        "intro_line",
+        "song_title",
+        "song_sub",
+        "poem",
+        "camera_line",
+        "title_forever",
+        "title_love",
+        "love_line",
+        "title_soul",
+        "title_onelove",
+        "title_ever",
+        "title_us",
+        "thanks"
+      ]
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "public/ 下的音乐路径，如 music/xxx.mp3；留空为无声"
+        },
+        "volume": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "音量"
+        },
+        "trimBeforeSec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "从音乐第几秒开始"
+        },
+        "fadeInSec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "fadeOutSec": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "src",
+        "volume",
+        "trimBeforeSec",
+        "fadeInSec",
+        "fadeOutSec"
+      ]
+    },
+    "fps": {
+      "type": "integer",
+      "minimum": 24,
+      "maximum": 60,
+      "description": "帧率：预览 30，成片 60"
+    },
+    "format": {
+      "description": "画幅，例如 16:9 或 9:16（由工程初始化时选择）",
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"
+    }
+  },
+  "required": [
+    "couple",
+    "photos",
+    "copy",
+    "music",
+    "fps"
+  ]
+}

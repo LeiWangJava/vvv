@@ -1,0 +1,11 @@
+{
+  "version": "0.1",
+  "id": "paper-flower",
+  "operation": "generate",
+  "prompt": "A single handmade paper flower sticker for a Doodle video. Pale blue petals, visible paper grain, sage leaves. No text or extra objects; leave a small margin around the complete silhouette.",
+  "references": [],
+  "background": "transparent",
+  "size": "auto",
+  "format": "png",
+  "resize": "none"
+}

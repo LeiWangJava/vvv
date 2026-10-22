@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "id": "paper-flower-blue",
+  "operation": "edit",
+  "prompt": "Change only the flower petals to pale blue. Preserve the silhouette, position, paper texture, leaf colors, and surrounding empty space. Add no text or objects.",
+  "references": [
+    {
+      "path": "public/references/flower.png",
+      "role": "edit-target",
+      "note": "This is the image to edit. Preserve its shape and texture."
+    }
+  ],
+  "background": "auto",
+  "size": "auto",
+  "format": "png",
+  "resize": "none"
+}

@@ -1,0 +1,524 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "couple": {
+      "type": "object",
+      "properties": {
+        "groom": {
+          "type": "string",
+          "description": "新郎姓名"
+        },
+        "bride": {
+          "type": "string",
+          "description": "新娘姓名"
+        },
+        "groomEn": {
+          "type": "string",
+          "description": "新郎英文名或拼音"
+        },
+        "brideEn": {
+          "type": "string",
+          "description": "新娘英文名或拼音"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "婚礼日期"
+        },
+        "tagline": {
+          "type": "string",
+          "description": "主标题"
+        }
+      },
+      "required": [
+        "groom",
+        "bride",
+        "groomEn",
+        "brideEn",
+        "date",
+        "tagline"
+      ]
+    },
+    "photos": {
+      "type": "object",
+      "properties": {
+        "opening": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bride": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "groom": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "duoWide": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "duoTall": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "storyWide": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "storyTall": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "poem": {
+          "minItems": 0,
+          "maxItems": 4,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "beachBig": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "beachSmall": {
+          "minItems": 0,
+          "maxItems": 2,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "rise": {
+          "minItems": 0,
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "drop": {
+          "minItems": 0,
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "pairTall": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "pairWide": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "panels": {
+          "minItems": 0,
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "endless": {
+          "minItems": 0,
+          "maxItems": 2,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "quoteBig": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "quoteSmall": {
+          "minItems": 0,
+          "maxItems": 2,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "foreverMid": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "foreverLeft": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "foreverRight": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "glow": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "handwriting": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "prints": {
+          "minItems": 0,
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "vertical": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": ""
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "ending": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gallery": {
+          "minItems": 1,
+          "maxItems": 37,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "opening",
+        "bride",
+        "groom",
+        "duoWide",
+        "duoTall",
+        "storyWide",
+        "storyTall",
+        "poem",
+        "beachBig",
+        "beachSmall",
+        "rise",
+        "drop",
+        "pairTall",
+        "pairWide",
+        "panels",
+        "endless",
+        "quoteBig",
+        "quoteSmall",
+        "foreverMid",
+        "foreverLeft",
+        "foreverRight",
+        "glow",
+        "handwriting",
+        "prints",
+        "vertical",
+        "ending",
+        "gallery"
+      ]
+    },
+    "copy": {
+      "type": "object",
+      "properties": {
+        "story_a": {
+          "type": "string",
+          "description": "Love Story 页 · 第一句"
+        },
+        "story_b": {
+          "type": "string",
+          "description": "Love Story 页 · 第二句"
+        },
+        "poem": {
+          "type": "string",
+          "description": "竖排诗句（两列，用｜分隔）"
+        },
+        "quote_a": {
+          "type": "string",
+          "description": "金句一 · 中文"
+        },
+        "one_heart": {
+          "type": "string",
+          "description": "三联展开页 · 底部一句"
+        },
+        "vow": {
+          "type": "string",
+          "description": "Endless Love 页 · 两行（用｜分隔）"
+        },
+        "quote_b": {
+          "type": "string",
+          "description": "金句二 · 中文"
+        },
+        "forever": {
+          "type": "string",
+          "description": "FOREVER 页 · 一句"
+        },
+        "love_you": {
+          "type": "string",
+          "description": "LOVE YOU 页 · 三行（用｜分隔）"
+        },
+        "rest_of_life": {
+          "type": "string",
+          "description": "竖排手写大字"
+        },
+        "my_love": {
+          "type": "string",
+          "description": "竖排标题"
+        },
+        "gallery_title": {
+          "type": "string",
+          "description": "婚纱照段落标题"
+        },
+        "gallery_subtitle": {
+          "type": "string",
+          "description": "婚纱照段落副标题"
+        },
+        "set_s2": {
+          "type": "string",
+          "description": "婚纱照·海边 标题｜一句话"
+        },
+        "set_s4": {
+          "type": "string",
+          "description": "婚纱照·花园 标题｜一句话"
+        },
+        "set_s3": {
+          "type": "string",
+          "description": "婚纱照·窗边 标题｜一句话"
+        },
+        "set_s5": {
+          "type": "string",
+          "description": "婚纱照·教堂 标题｜一句话"
+        },
+        "set_s7": {
+          "type": "string",
+          "description": "婚纱照·旷野 标题｜一句话"
+        },
+        "set_s1": {
+          "type": "string",
+          "description": "婚纱照·影棚 标题｜一句话"
+        },
+        "set_s6": {
+          "type": "string",
+          "description": "婚纱照·街角 标题｜一句话"
+        },
+        "set_s8": {
+          "type": "string",
+          "description": "婚纱照·夜色 标题｜一句话"
+        }
+      },
+      "required": [
+        "story_a",
+        "story_b",
+        "poem",
+        "quote_a",
+        "one_heart",
+        "vow",
+        "quote_b",
+        "forever",
+        "love_you",
+        "rest_of_life",
+        "my_love",
+        "gallery_title",
+        "gallery_subtitle",
+        "set_s2",
+        "set_s4",
+        "set_s3",
+        "set_s5",
+        "set_s7",
+        "set_s1",
+        "set_s6",
+        "set_s8"
+      ]
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "public/ 下的音乐路径，如 music/xxx.mp3；留空为无声"
+        },
+        "volume": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "音量"
+        },
+        "trimBeforeSec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "从音乐第几秒开始"
+        },
+        "fadeInSec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "fadeOutSec": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "src",
+        "volume",
+        "trimBeforeSec",
+        "fadeInSec",
+        "fadeOutSec"
+      ]
+    },
+    "fps": {
+      "type": "integer",
+      "minimum": 24,
+      "maximum": 60,
+      "description": "帧率：预览 30，成片 60"
+    },
+    "format": {
+      "description": "画幅，例如 16:9 或 9:16（由工程初始化时选择）",
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"
+    }
+  },
+  "required": [
+    "couple",
+    "photos",
+    "copy",
+    "music",
+    "fps"
+  ]
+}

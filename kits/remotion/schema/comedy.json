@@ -1,0 +1,596 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "couple": {
+      "type": "object",
+      "properties": {
+        "groom": {
+          "type": "string",
+          "description": "新郎姓名"
+        },
+        "bride": {
+          "type": "string",
+          "description": "新娘姓名"
+        },
+        "groomEn": {
+          "type": "string",
+          "description": "新郎英文名或拼音"
+        },
+        "brideEn": {
+          "type": "string",
+          "description": "新娘英文名或拼音"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "婚礼日期"
+        },
+        "tagline": {
+          "type": "string",
+          "description": "主标题"
+        }
+      },
+      "required": [
+        "groom",
+        "bride",
+        "groomEn",
+        "brideEn",
+        "date",
+        "tagline"
+      ]
+    },
+    "photos": {
+      "type": "object",
+      "properties": {
+        "groomKid": {
+          "type": "string",
+          "minLength": 1
+        },
+        "groomHero": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brideKid": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brideHero": {
+          "type": "string",
+          "minLength": 1
+        },
+        "love": {
+          "minItems": 4,
+          "maxItems": 4,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "proposal": {
+          "type": "string",
+          "minLength": 1
+        },
+        "finale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gallery": {
+          "minItems": 1,
+          "maxItems": 37,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "groomKid",
+        "groomHero",
+        "brideKid",
+        "brideHero",
+        "love",
+        "proposal",
+        "finale",
+        "gallery"
+      ]
+    },
+    "copy": {
+      "type": "object",
+      "properties": {
+        "studio": {
+          "type": "string",
+          "description": "片头 · 出品方（恶搞）"
+        },
+        "studio_en": {
+          "type": "string",
+          "description": "片头 · 英文"
+        },
+        "presents": {
+          "type": "string",
+          "description": "片头 · 本片由"
+        },
+        "starring": {
+          "type": "string",
+          "description": "片头 · 倾情主演"
+        },
+        "title": {
+          "type": "string",
+          "description": "开场 · 大字"
+        },
+        "welcome_1": {
+          "type": "string",
+          "description": "欢迎 · 上联（右侧对联，7 字左右）"
+        },
+        "welcome_2": {
+          "type": "string",
+          "description": "欢迎 · 下联（左侧对联）"
+        },
+        "welcome_3": {
+          "type": "string",
+          "description": "欢迎 · 第 3 句（用｜分两行）"
+        },
+        "welcome_4": {
+          "type": "string",
+          "description": "欢迎 · 第 4 句（配囍字和新人名字）"
+        },
+        "welcome_5": {
+          "type": "string",
+          "description": "欢迎 · 第 5 句"
+        },
+        "welcome_6": {
+          "type": "string",
+          "description": "欢迎 · 第 6 句（用｜分两行）"
+        },
+        "thanks": {
+          "type": "string",
+          "description": "致谢 · 大字"
+        },
+        "arrive_1": {
+          "type": "string",
+          "description": "来宾 · 第 1 句"
+        },
+        "arrive_2": {
+          "type": "string",
+          "description": "来宾 · 第 2 句"
+        },
+        "arrive_3": {
+          "type": "string",
+          "description": "来宾 · 第 3 句"
+        },
+        "arrive_end": {
+          "type": "string",
+          "description": "来宾 · 结尾"
+        },
+        "rules_title": {
+          "type": "string",
+          "description": "宾客须知 · 标题"
+        },
+        "rules_stamp": {
+          "type": "string",
+          "description": "宾客须知 · 印章"
+        },
+        "rule_1": {
+          "type": "string",
+          "description": "须知 · 第一条（用｜分两行）"
+        },
+        "gag_1": {
+          "type": "string",
+          "description": "须知 · 第一条 · 笑点"
+        },
+        "rule_2": {
+          "type": "string",
+          "description": "须知 · 第二条"
+        },
+        "gag_2": {
+          "type": "string",
+          "description": "须知 · 第二条 · 笑点"
+        },
+        "rule_3": {
+          "type": "string",
+          "description": "须知 · 第三条"
+        },
+        "gag_3": {
+          "type": "string",
+          "description": "须知 · 第三条 · 笑点"
+        },
+        "rule_4": {
+          "type": "string",
+          "description": "须知 · 第四条"
+        },
+        "gag_4": {
+          "type": "string",
+          "description": "须知 · 第四条 · 笑点"
+        },
+        "rule_5": {
+          "type": "string",
+          "description": "须知 · 第五条"
+        },
+        "gag_5": {
+          "type": "string",
+          "description": "须知 · 第五条 · 笑点"
+        },
+        "rules_end": {
+          "type": "string",
+          "description": "须知 · 结尾"
+        },
+        "groom_call": {
+          "type": "string",
+          "description": "新郎 · 有请（用｜分两行）"
+        },
+        "groom_wrong_a": {
+          "type": "string",
+          "description": "新郎 · 放错片段 · 第 1 句"
+        },
+        "groom_wrong_b": {
+          "type": "string",
+          "description": "新郎 · 放错片段 · 第 2 句"
+        },
+        "groom_wrong_c": {
+          "type": "string",
+          "description": "新郎 · 放错片段 · 第 3 句（{age} 换成照片年龄）"
+        },
+        "groom_retry": {
+          "type": "string",
+          "description": "新郎 · 倒带"
+        },
+        "groom_praise": {
+          "type": "string",
+          "description": "新郎 · 三句夸奖（用｜分隔）"
+        },
+        "groom_role": {
+          "type": "string",
+          "description": "新郎 · 名牌称呼"
+        },
+        "bride_call": {
+          "type": "string",
+          "description": "新娘 · 有请（用｜分两行）"
+        },
+        "bride_legend": {
+          "type": "string",
+          "description": "新娘 · 传说"
+        },
+        "bride_proof": {
+          "type": "string",
+          "description": "新娘 · 不信您瞧"
+        },
+        "bride_kid_a": {
+          "type": "string",
+          "description": "新娘 · 放大镜 · 第 1 句"
+        },
+        "bride_kid_b": {
+          "type": "string",
+          "description": "新娘 · 放大镜 · 第 2 句"
+        },
+        "bride_wow": {
+          "type": "string",
+          "description": "新娘 · 登场"
+        },
+        "bride_role": {
+          "type": "string",
+          "description": "新娘 · 名牌称呼"
+        },
+        "love_title": {
+          "type": "string",
+          "description": "恋爱进度条 · 标题"
+        },
+        "love_steps": {
+          "type": "string",
+          "description": "恋爱进度条 · 四个阶段（用｜分隔）"
+        },
+        "love_stuck": {
+          "type": "string",
+          "description": "恋爱进度条 · 卡住"
+        },
+        "love_done": {
+          "type": "string",
+          "description": "恋爱进度条 · 完成"
+        },
+        "next_a": {
+          "type": "string",
+          "description": "婚纱照前 · 第一行"
+        },
+        "next_b": {
+          "type": "string",
+          "description": "婚纱照前 · 第二行"
+        },
+        "gallery_tags": {
+          "type": "string",
+          "description": "婚纱照 · 空白处的花字（用｜分隔，轮流使用）"
+        },
+        "gallery_blessings": {
+          "type": "string",
+          "description": "婚纱照 · 竖排祝福语（用｜分隔，轮流使用）"
+        },
+        "count_title": {
+          "type": "string",
+          "description": "倒计时 · 标题"
+        },
+        "wait_1": {
+          "type": "string",
+          "description": "倒计时 · 打断"
+        },
+        "wait_2": {
+          "type": "string",
+          "description": "倒计时 · 第 1 句"
+        },
+        "wait_3": {
+          "type": "string",
+          "description": "倒计时 · 第 2 句"
+        },
+        "wait_4": {
+          "type": "string",
+          "description": "倒计时 · 第 3 句"
+        },
+        "wait_5": {
+          "type": "string",
+          "description": "倒计时 · 揭晓"
+        },
+        "go": {
+          "type": "string",
+          "description": "倒计时 · 开"
+        },
+        "vo": {
+          "type": "string",
+          "description": "配音旁白（填 off 关闭）：旁白稿在 vo.json；把有授权的配音按行放到 public/vo/comedy/<key>.mp3，并在同目录 timing.json 里登记 lead/speech 秒数"
+        },
+        "final_a": {
+          "type": "string",
+          "description": "结尾 · 第一行"
+        },
+        "final_b": {
+          "type": "string",
+          "description": "结尾 · 第二行"
+        },
+        "set_s4": {
+          "type": "string",
+          "description": "婚纱照·花园 标题｜一句话"
+        },
+        "set_s2": {
+          "type": "string",
+          "description": "婚纱照·海边 标题｜一句话"
+        },
+        "set_s6": {
+          "type": "string",
+          "description": "婚纱照·街角 标题｜一句话"
+        },
+        "set_s3": {
+          "type": "string",
+          "description": "婚纱照·窗边 标题｜一句话"
+        },
+        "set_s5": {
+          "type": "string",
+          "description": "婚纱照·教堂 标题｜一句话"
+        },
+        "set_s8": {
+          "type": "string",
+          "description": "婚纱照·夜色 标题｜一句话"
+        },
+        "set_c2": {
+          "type": "string",
+          "description": "中式·红墙 标题｜一句话"
+        },
+        "set_c1": {
+          "type": "string",
+          "description": "中式·秀禾 标题｜一句话"
+        },
+        "set_c3": {
+          "type": "string",
+          "description": "中式·喜房 标题｜一句话"
+        },
+        "clip_welcome_1": {
+          "type": "string",
+          "description": "欢迎第 1 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_welcome_2": {
+          "type": "string",
+          "description": "欢迎第 2 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_welcome_3": {
+          "type": "string",
+          "description": "欢迎第 3 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_welcome_4": {
+          "type": "string",
+          "description": "欢迎第 4 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_welcome_5": {
+          "type": "string",
+          "description": "欢迎第 5 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_welcome_6": {
+          "type": "string",
+          "description": "欢迎第 6 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_arrive_1": {
+          "type": "string",
+          "description": "来宾第 1 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_arrive_2": {
+          "type": "string",
+          "description": "来宾第 2 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_arrive_3": {
+          "type": "string",
+          "description": "来宾第 3 句 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_rule_1": {
+          "type": "string",
+          "description": "须知第一条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_rule_2": {
+          "type": "string",
+          "description": "须知第二条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_rule_3": {
+          "type": "string",
+          "description": "须知第三条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_rule_4": {
+          "type": "string",
+          "description": "须知第四条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_rule_5": {
+          "type": "string",
+          "description": "须知第五条笑点 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_groom": {
+          "type": "string",
+          "description": "新郎「放错片段」 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_bride": {
+          "type": "string",
+          "description": "新娘「不信您瞧」 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        },
+        "clip_signal": {
+          "type": "string",
+          "description": "倒计时「等信号」 · 视频片段（可空；public/ 下的路径，可加 @起始秒，如 clips/a.mp4@12.5；版权需自行确认）"
+        }
+      },
+      "required": [
+        "studio",
+        "studio_en",
+        "presents",
+        "starring",
+        "title",
+        "welcome_1",
+        "welcome_2",
+        "welcome_3",
+        "welcome_4",
+        "welcome_5",
+        "welcome_6",
+        "thanks",
+        "arrive_1",
+        "arrive_2",
+        "arrive_3",
+        "arrive_end",
+        "rules_title",
+        "rules_stamp",
+        "rule_1",
+        "gag_1",
+        "rule_2",
+        "gag_2",
+        "rule_3",
+        "gag_3",
+        "rule_4",
+        "gag_4",
+        "rule_5",
+        "gag_5",
+        "rules_end",
+        "groom_call",
+        "groom_wrong_a",
+        "groom_wrong_b",
+        "groom_wrong_c",
+        "groom_retry",
+        "groom_praise",
+        "groom_role",
+        "bride_call",
+        "bride_legend",
+        "bride_proof",
+        "bride_kid_a",
+        "bride_kid_b",
+        "bride_wow",
+        "bride_role",
+        "love_title",
+        "love_steps",
+        "love_stuck",
+        "love_done",
+        "next_a",
+        "next_b",
+        "gallery_tags",
+        "gallery_blessings",
+        "count_title",
+        "wait_1",
+        "wait_2",
+        "wait_3",
+        "wait_4",
+        "wait_5",
+        "go",
+        "vo",
+        "final_a",
+        "final_b",
+        "set_s4",
+        "set_s2",
+        "set_s6",
+        "set_s3",
+        "set_s5",
+        "set_s8",
+        "set_c2",
+        "set_c1",
+        "set_c3",
+        "clip_welcome_1",
+        "clip_welcome_2",
+        "clip_welcome_3",
+        "clip_welcome_4",
+        "clip_welcome_5",
+        "clip_welcome_6",
+        "clip_arrive_1",
+        "clip_arrive_2",
+        "clip_arrive_3",
+        "clip_rule_1",
+        "clip_rule_2",
+        "clip_rule_3",
+        "clip_rule_4",
+        "clip_rule_5",
+        "clip_groom",
+        "clip_bride",
+        "clip_signal"
+      ]
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "public/ 下的音乐路径，如 music/xxx.mp3；留空为无声"
+        },
+        "volume": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "音量"
+        },
+        "trimBeforeSec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "从音乐第几秒开始"
+        },
+        "fadeInSec": {
+          "type": "number",
+          "minimum": 0
+        },
+        "fadeOutSec": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "src",
+        "volume",
+        "trimBeforeSec",
+        "fadeInSec",
+        "fadeOutSec"
+      ]
+    },
+    "fps": {
+      "type": "integer",
+      "minimum": 24,
+      "maximum": 60,
+      "description": "帧率：预览 30，成片 60"
+    },
+    "format": {
+      "description": "画幅，例如 16:9 或 9:16（由工程初始化时选择）",
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"
+    }
+  },
+  "required": [
+    "couple",
+    "photos",
+    "copy",
+    "music",
+    "fps"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "template": "album",
+  "props": {
+    "couple": {
+      "groom": "林以舟",
+      "bride": "许知夏",
+      "groomEn": "LIN YIZHOU",
+      "brideEn": "XU ZHIXIA",
+      "date": "2026-10-18",
+      "tagline": "我们结婚啦"
+    },
+    "photos": {
+      "opening": "couple-08-wedding-s2-seaside-01",
+      "bride": "bride-00-identity",
+      "groom": "groom-00-identity",
+      "duoWide": "couple-03-dating-02",
+      "duoTall": "couple-03-dating-03",
+      "storyWide": "couple-03-dating-01",
+      "storyTall": "couple-06-travel-01",
+      "poem": [
+        "couple-09-chinese-c1-courtyard-01",
+        "couple-09-chinese-c1-courtyard-02",
+        "couple-09-chinese-c1-courtyard-04",
+        "couple-09-chinese-c2-redwall-01"
+      ],
+      "beachBig": "couple-08-wedding-s2-seaside-04",
+      "beachSmall": [
+        "couple-08-wedding-s2-seaside-02",
+        "couple-08-wedding-s2-seaside-05"
+      ],
+      "rise": [
+        "couple-08-wedding-s5-chapel-01",
+        "couple-08-wedding-s5-chapel-02",
+        "couple-08-wedding-s5-chapel-04"
+      ],
+      "drop": [
+        "couple-08-wedding-s4-garden-01",
+        "couple-08-wedding-s4-garden-02",
+        "couple-08-wedding-s4-garden-03"
+      ],
+      "pairTall": "couple-08-wedding-s7-highland-04",
+      "pairWide": "couple-08-wedding-s7-highland-01",
+      "panels": [
+        "couple-08-wedding-s6-street-01",
+        "couple-08-wedding-s6-street-02",
+        "couple-08-wedding-s6-street-04"
+      ],
+      "endless": [
+        "couple-08-wedding-s8-night-02",
+        "couple-08-wedding-s8-night-04"
+      ],
+      "quoteBig": "couple-08-wedding-s3-interior-01",
+      "quoteSmall": [
+        "couple-08-wedding-s3-interior-02",
+        "couple-08-wedding-s3-interior-03"
+      ],
+      "foreverMid": "couple-08-wedding-s7-highland-02",
+      "foreverLeft": "couple-08-wedding-s1-studio-01",
+      "foreverRight": "couple-08-wedding-s3-interior-05",
+      "glow": "couple-08-wedding-s2-seaside-03",
+      "handwriting": "couple-08-wedding-s8-night-03",
+      "prints": [
+        "couple-09-chinese-c2-redwall-03",
+        "couple-09-chinese-c3-chamber-02",
+        "couple-09-chinese-c3-chamber-03"
+      ],
+      "vertical": "couple-08-wedding-s7-highland-03",
+      "ending": "couple-08-wedding-s8-night-01",
+      "gallery": [
+        "couple-08-wedding-s2-seaside-01",
+        "couple-08-wedding-s2-seaside-02",
+        "couple-08-wedding-s2-seaside-03",
+        "couple-08-wedding-s2-seaside-04",
+        "couple-08-wedding-s2-seaside-05",
+        "couple-08-wedding-s4-garden-01",
+        "couple-08-wedding-s4-garden-02",
+        "couple-08-wedding-s4-garden-03",
+        "couple-08-wedding-s4-garden-04",
+        "couple-08-wedding-s4-garden-05",
+        "couple-08-wedding-s3-interior-01",
+        "couple-08-wedding-s3-interior-02",
+        "couple-08-wedding-s3-interior-03",
+        "couple-08-wedding-s3-interior-04",
+        "couple-08-wedding-s3-interior-05",
+        "couple-08-wedding-s5-chapel-01",
+        "couple-08-wedding-s5-chapel-02",
+        "couple-08-wedding-s5-chapel-03",
+        "couple-08-wedding-s5-chapel-04",
+        "couple-08-wedding-s7-highland-01",
+        "couple-08-wedding-s7-highland-02",
+        "couple-08-wedding-s7-highland-03",
+        "couple-08-wedding-s7-highland-04",
+        "couple-08-wedding-s1-studio-01",
+        "couple-08-wedding-s1-studio-02",
+        "couple-08-wedding-s1-studio-03",
+        "couple-08-wedding-s1-studio-04",
+        "couple-08-wedding-s1-studio-05",
+        "couple-08-wedding-s1-studio-06",
+        "couple-08-wedding-s6-street-01",
+        "couple-08-wedding-s6-street-02",
+        "couple-08-wedding-s6-street-03",
+        "couple-08-wedding-s6-street-04",
+        "couple-08-wedding-s8-night-01",
+        "couple-08-wedding-s8-night-02",
+        "couple-08-wedding-s8-night-03",
+        "couple-08-wedding-s8-night-04"
+      ]
+    },
+    "copy": {
+      "story_a": "从第一眼到永远",
+      "story_b": "和你的每一刻，都是最好的故事",
+      "poem": "愿得一心人｜白首不相离",
+      "quote_a": "你是我的今天，也是我所有的明天",
+      "one_heart": "两个人，一颗心",
+      "vow": "执子之手｜与子偕老",
+      "quote_b": "爱你，比昨天多一点，比明天少一点",
+      "forever": "一生一世一双人",
+      "love_you": "从今往后｜每一个清晨与黄昏｜都有你",
+      "rest_of_life": "余生是你",
+      "my_love": "此生挚爱",
+      "gallery_title": "我们的婚纱照",
+      "gallery_subtitle": "WEDDING GALLERY",
+      "set_s2": "海风｜海风很温柔，你也是",
+      "set_s4": "花开｜在花开的地方，等你",
+      "set_s3": "时光｜光落在你身上的样子，我想记很久",
+      "set_s5": "誓言｜我愿意，在每一个明天",
+      "set_s7": "远方｜去看山，去看海，都和你一起",
+      "set_s1": "纯白｜最简单的颜色，留给最认真的誓言",
+      "set_s6": "街角｜我们的日常，也值得被认真记住",
+      "set_s8": "夜色｜夜很长，我们慢慢走"
+    },
+    "music": {
+      "src": "music/mixkit-skyline.mp3",
+      "volume": 1,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0,
+      "fadeOutSec": 3
+    },
+    "fps": 30,
+    "format": "16:9"
+  }
+}

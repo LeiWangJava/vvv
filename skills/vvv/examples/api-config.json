@@ -1,0 +1,14 @@
+{
+  "version": "0.1",
+  "provider": "api",
+  "api": {
+    "base_url": "https://your-image-provider.example/v1",
+    "model": "your-image-model",
+    "key_env": "VVV_IMAGE_API_KEY",
+    "capabilities": {
+      "edit": true,
+      "transparent": true
+    },
+    "timeout": 180
+  }
+}
