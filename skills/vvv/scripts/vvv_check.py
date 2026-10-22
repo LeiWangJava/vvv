@@ -81,7 +81,10 @@ def visual_peaks(changes, rate, edge=0.5, gap=0.3):
             continue
         base = min(smooth[max(0, i - 30):i + 30])
         if smooth[i] >= 2.5 and smooth[i] >= base * 1.8 and smooth[i] >= 0.12 * top:
-            t = (i + 1) / rate
+            # Smoothing spreads one cut over three equal values (exactly equal with Python 3.12's
+            # compensated sum), so place it on the frame whose raw change is largest.
+            j = max(range(i - 1, i + 2), key=changes.__getitem__)
+            t = (j + 1) / rate
             if peaks and t - peaks[-1]['t'] < gap:
                 if smooth[i] > peaks[-1]['s']:
                     peaks[-1] = {'t': t, 's': smooth[i]}
