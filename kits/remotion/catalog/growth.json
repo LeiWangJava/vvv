@@ -1,0 +1,119 @@
+{
+  "id": "growth",
+  "version": "1.0.0",
+  "compositionId": "VVV-Growth",
+  "title": "Growth · 周岁成长记",
+  "description": "周岁成长纪念片：彩色标题、手写信、胶片滚动、一张照片一句话的成长里程碑、照片散落拼贴、发光的第二封信、星空里飞来的照片、闪白进入滚动照片墙。约 2 分钟，全部卡在配乐节拍上。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "defaultProps": {
+    "photos": {
+      "film": [],
+      "milestones": [],
+      "scatter": [],
+      "floating": [],
+      "wall": []
+    },
+    "copy": {
+      "title": "送给一周岁的你",
+      "subtitle": "baby's growth record",
+      "greeting": "亲爱的宝贝，一周岁生日快乐！",
+      "letter": "时间过得好快，转眼就是一整年\n你第一次睁眼、第一次笑、第一次喊妈妈\n每一个瞬间，我们都偷偷记了下来\n等你长大了，再一件一件讲给你听\n谢谢你选择了我们\n这一年，因为你而闪闪发光",
+      "letter2": "你的每一个第一次，我们都在身边\n愿你被这个世界温柔以待\n愿你有勇气，也有退路\n愿你健康、快乐、自由地长大\n爸爸妈妈会一直陪着你\n永远爱你",
+      "ending": "一周岁快乐"
+    },
+    "captions": [
+      "终于等到你\n爸爸妈妈又惊又喜",
+      "我们第一次见面了",
+      "你来到了这个世界",
+      "小小的你\n躺在妈妈怀里",
+      "第一次洗澡\n小脚丫蹬个不停",
+      "睡着的样子\n像个小天使",
+      "第一次出门\n看什么都新鲜",
+      "满月啦",
+      "会抬头了\n每天都在长大",
+      "第一次翻身",
+      "第一次吃辅食\n糊了一脸",
+      "会坐了\n坐得稳稳的",
+      "和爸爸一起读绘本",
+      "第一个新年\n收了好多红包",
+      "开始学爬了",
+      "扶着站起来啦",
+      "第一次看海",
+      "最喜欢的玩具",
+      "会叫妈妈了",
+      "时间很快\n一转眼就一周岁了"
+    ],
+    "music": {
+      "src": "music/mixkit-first-kiss.mp3",
+      "volume": 0.85,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 2
+    },
+    "fps": 30
+  },
+  "slots": {
+    "film": {
+      "kind": "array",
+      "count": 9,
+      "min": 3,
+      "max": 15,
+      "hint": "film-strip frames, portrait photos work best"
+    },
+    "milestones": {
+      "kind": "array",
+      "count": 20,
+      "min": 6,
+      "max": 30,
+      "hint": "one milestone per photo in time order (pregnancy test, ultrasound, birth, first bath ... first birthday); each gets captions[i]"
+    },
+    "scatter": {
+      "kind": "array",
+      "count": 16,
+      "min": 6,
+      "max": 24,
+      "independent": true,
+      "hint": "collage photos, any orientation; may repeat other slots"
+    },
+    "floating": {
+      "kind": "array",
+      "count": 14,
+      "min": 6,
+      "max": 20,
+      "independent": true,
+      "hint": "photos flying through the starfield; may repeat other slots"
+    },
+    "wall": {
+      "kind": "array",
+      "count": 30,
+      "min": 9,
+      "max": 45,
+      "independent": true,
+      "hint": "photo-wall tiles; may repeat other slots"
+    }
+  },
+  "sample": {
+    "from": 28,
+    "to": 42
+  },
+  "package": {
+    "name": "@vvv/growth",
+    "fixture": "examples/growth-birthday.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

@@ -950,6 +950,104 @@
       ]
     },
     {
+      "id": "growth",
+      "kind": "template",
+      "title": "Growth · 周岁成长记",
+      "description": "周岁成长纪念片：彩色标题、手写信、胶片滚动、一张照片一句话的成长里程碑、照片散落拼贴、发光的第二封信、星空里飞来的照片、闪白进入滚动照片墙。约 2 分钟，全部卡在配乐节拍上。",
+      "version": "1.0.0",
+      "package": "@vvv/growth",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 9,
+          "targetPhotos": 30,
+          "sample": {
+            "from": 28,
+            "to": 42
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "film",
+              "kind": "array",
+              "min": 3,
+              "count": 9,
+              "max": 15,
+              "hint": "film-strip frames, portrait photos work best"
+            },
+            {
+              "name": "milestones",
+              "kind": "array",
+              "min": 6,
+              "count": 20,
+              "max": 30,
+              "hint": "one milestone per photo in time order (pregnancy test, ultrasound, birth, first bath ... first birthday); each gets captions[i]"
+            },
+            {
+              "name": "scatter",
+              "kind": "array",
+              "min": 6,
+              "count": 16,
+              "max": 24,
+              "independent": true,
+              "hint": "collage photos, any orientation; may repeat other slots"
+            },
+            {
+              "name": "floating",
+              "kind": "array",
+              "min": 6,
+              "count": 14,
+              "max": 20,
+              "independent": true,
+              "hint": "photos flying through the starfield; may repeat other slots"
+            },
+            {
+              "name": "wall",
+              "kind": "array",
+              "min": 9,
+              "count": 30,
+              "max": 45,
+              "independent": true,
+              "hint": "photo-wall tiles; may repeat other slots"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {
+        "title": "片头标题",
+        "subtitle": "标题下的小字",
+        "greeting": "开场一句（手写打字）",
+        "letter": "第一封信（每行一句，换行分隔）",
+        "letter2": "第二封信（第一行先慢慢写出，其余逐行发光出现）",
+        "ending": "结尾一句"
+      },
+      "couple": null,
+      "props": {
+        "captions": {
+          "type": "array",
+          "description": "里程碑文案，按顺序对应 photos.milestones；\\n 换行"
+        },
+        "beatGrid": {
+          "type": "null | object"
+        }
+      },
+      "music": {
+        "required": true,
+        "src": "music/mixkit-first-kiss.mp3",
+        "downloadOnly": true
+      },
+      "fixture": "examples/growth-birthday.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/growth",
+      "previews": []
+    },
+    {
       "id": "starter",
       "kind": "template",
       "title": "节拍相册 · Starter",
