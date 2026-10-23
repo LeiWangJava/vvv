@@ -4,12 +4,12 @@ Build a template once and reuse it across projects and coding agents. A VVV temp
 
 ## Make a video
 
-- [Getting started](getting-started.md): first sample, your own photos, agent installation, music and full export.
+- [Getting started](getting-started.md): install the skill, say what you want, review the sample, get the film.
 - [Templates](templates.md): the five templates, styles to choose from, formats, previews and the effect.
 - [Capabilities](capabilities.md): what the agent can do, including recreating a reference video, and where the boundaries are.
 - [Media walkthrough](../examples/media-workflow.md): inspect a video, sample frames and cut a range.
 - [Examples](../examples/README.md): fixtures, agent briefs and image requests to adapt.
-- [Troubleshooting](troubleshooting.md): error codes and common fixes.
+- [Troubleshooting](troubleshooting.md): what the agent handles, and what only you can decide.
 
 ## Agents and hosts
 
@@ -28,4 +28,4 @@ Build a template once and reuse it across projects and coding agents. A VVV temp
 
 [Contributing](../CONTRIBUTING.md) · [Roadmap](../ROADMAP.md) · [Changelog](../CHANGELOG.md) · [Preparing a release](releasing.md)
 
-The [portable skill](../skills/vvv/SKILL.md) carries its own references for [intake](../skills/vvv/references/intake.md), [media processing](../skills/vvv/references/media-processing.md), [story and editing](../skills/vvv/references/story-editing.md), [projects](../skills/vvv/references/projects.md), [recreation](../skills/vvv/references/recreation.md), [brainstorm](../skills/vvv/references/brainstorm.md), [craft](../skills/vvv/references/craft.md), [production](../skills/vvv/references/production.md), [image generation](../skills/vvv/references/image-generation.md), [video generation](../skills/vvv/references/video-generation.md), [review and handoff](../skills/vvv/references/review-handoff.md) and [.vvv packages](../skills/vvv/references/vvv-format.md).
+The [portable skill](../skills/vvv/SKILL.md) carries its own references for [intake](../skills/vvv/references/intake.md), [media processing](../skills/vvv/references/media-processing.md), [story and editing](../skills/vvv/references/story-editing.md), [projects](../skills/vvv/references/projects.md), [recreation](../skills/vvv/references/recreation.md), [brainstorm](../skills/vvv/references/brainstorm.md), [craft](../skills/vvv/references/craft.md), [production](../skills/vvv/references/production.md), [troubleshooting](../skills/vvv/references/troubleshooting.md), [image generation](../skills/vvv/references/image-generation.md), [video generation](../skills/vvv/references/video-generation.md), [review and handoff](../skills/vvv/references/review-handoff.md) and [.vvv packages](../skills/vvv/references/vvv-format.md).

@@ -226,7 +226,8 @@
   "beatMaps": "Film-time beat maps built like vvv check --project: the fixture track minus trimBeforeSec, plus later tracks from catalog check.tracks (Comedy switches to When in Love at 110.82 s).",
   "changes": [
     "Doodle: hits.json recalibrated with scripts/calibrate.py; the stored hits predated the current page choreography and sat 0.17–0.37 s off.",
-    "Doodle: design-beat warp anchors are dropped within 1.5 beats of measured peaks that sit off the design grid, so those page changes can move onto the music. Full-film beat sync went from 111 ms to 44 ms mean."
+    "Doodle: design-beat warp anchors are dropped within 1.5 beats of measured peaks that sit off the design grid, so those page changes can move onto the music. Full-film beat sync went from 111 ms to 44 ms mean.",
+    "Doodle: the avatar names leave a beat later, finishing as the groom photo slides in; the near-empty paper before the first photo page (about 0.9 s around 20–21 s) is gone."
   ],
   "visualReview": "Frames every 4 s of each public file reviewed as tiled sheets: complete, no black or frozen frames outside the designed intros, Doodle page motion unchanged in character after the warp change."
 }

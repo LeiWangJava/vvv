@@ -79,6 +79,10 @@ async function main() {
 
 main().catch((error) => {
   const [, code = 'MUSIC_FAILED', message = error.message] = /^([A-Z][A-Z0-9_]+): ([\s\S]*)$/.exec(error.message) ?? [];
-  console.log(JSON.stringify({ status: 'failed', code, message }));
+  // What the agent does next, so it recovers without relaying the error to the user.
+  const next = code === 'MUSIC_HASH'
+    ? { action: 'ask_user', say: 'The default music download did not match its record. Do you have a track you have the rights to use instead?' }
+    : { action: 'fix', hint: 'Retry npm run music once. If it fails again, ask the user for a track they have the rights to, set music.src in inputs.json and run npm run beats.' };
+  console.log(JSON.stringify({ status: 'failed', code, message, next }));
   process.exitCode = 1;
 });

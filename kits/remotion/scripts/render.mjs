@@ -97,6 +97,8 @@ async function main() {
 main().catch((error) => {
   console.error(error.stack ?? error);
   const [, code = 'RENDER_FAILED', message = error.message] = /^([A-Z][A-Z0-9_]+): ([\s\S]*)$/.exec(error.message) ?? [];
-  console.log(JSON.stringify({ status: 'failed', code, message, mode }));
+  // What the agent does next, so it recovers without relaying the error to the user.
+  const next = { action: 'fix', hint: 'Run vvv.py doctor --project on this project; if every check passes, fix the source or inputs.json from the message and render again.' };
+  console.log(JSON.stringify({ status: 'failed', code, message, mode, next }));
   process.exitCode = 1;
 });

@@ -31,20 +31,30 @@ A VVV film is worth watching when:
 | An existing VVV project or render | **Continue** | [Production and continuation](references/production.md) |
 | A `.vvv` file (template, project or effect) | **Open the package** | [.vvv packages](references/vvv-format.md): `verify` first, then `init`, `unpack` or `add` |
 
+## Set up without the user
+
+The user only briefs, watches samples and gives feedback; environment and commands are your job. Before the first project command of a session, run `python3 scripts/vvv.py doctor` (add `--project DIR` once a project exists). Every failed check, and every failed helper command, carries `next`:
+
+- `run`: run `command` yourself (in `cwd` when given), then retry what failed.
+- `ask_user`: the fix needs the user's permission or material; ask `say` in one sentence, in the user's language.
+- `fix`: work it out from the message and `hint`.
+
+Never hand the user a command to type, a stack trace or an error code.
+
 Routes combine: a brainstorm often lands on a template, and a recreation can become one. Ask the user only when the answer changes the film (audience, a missing fact, the format, the treatment); make routine choices yourself and say what you chose.
 
 ### Template
 
-`--kit KIT` is optional: the helpers use `$VVV_KIT`, then the `kits/remotion` beside this skill (a clone or the Claude Code plugin); `KIT_REQUIRED` means neither exists, so ask the user where the kit is or to set `VVV_KIT`.
+`--kit KIT` is optional: the helpers use `$VVV_KIT`, then the `kits/remotion` beside this skill (a clone or the Claude Code plugin). When neither exists, `doctor` gives the clone command.
 
 1. `python3 scripts/vvv.py templates` lists each template with its description, formats and per-format `minPhotos`/`targetPhotos`. Choose by purpose, then format (16:9 for a screen, 9:16 for a phone); ask if you don't know where it will play.
 2. `python3 scripts/vvv.py describe --template ID [--format F]` prints one compact JSON: photo needs, slots with hints, editable copy fields, other props, music, sample window, fixture and next commands. Read it instead of the template source.
 3. `init --photos ...` with the user's photos, or `init --example` for a demo render from the template's own inputs and photos.
-4. Review the contact sheet and slot mapping, and replace every line of demo copy. Fetch the default music with `npm run music`, or add the user's track and run `npm run beats`.
+4. Review the contact sheet and slot mapping, and replace every line of demo copy. Run `doctor --project DIR` and apply its steps (`npm ci`, `npm run music`), or add the user's track and run `npm run beats`.
 5. `validate` (it lists only the checks that did not pass, plus a `passed` count; `--verbose` shows all), then sample the hardest range, `check` it and look at it.
 6. Render the full film, `check` again, then deliver.
 
-Helper errors are one JSON object, `{"status": "failed", "code": "...", "message": "..."}`; act on the code.
+Helper errors are one JSON object, `{"status": "failed", "code", "message", "next"}`; follow `next`.
 
 ### Recreation
 
@@ -76,6 +86,7 @@ Fix failures first; passing is the floor, not approval. Then look, read and list
 |---|---|
 | Planning beats, motion, holds, text and formats; fixing "boring" or "generic" | [Craft](references/craft.md) |
 | Commands, project files, template slots, music, adding a template | [Templates and projects](references/projects.md) |
+| A failure whose `next` is not enough | [Troubleshooting](references/troubleshooting.md) |
 | Sorting mixed inputs, links, large folders | [Intake](references/intake.md) |
 | Selecting shots, scene plans, captions, sound, format variants | [Story and editing](references/story-editing.md) |
 | Probing media, cutting clips, extracting audio or frames | [Media processing](references/media-processing.md) |

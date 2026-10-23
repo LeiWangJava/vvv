@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 — 2026-10-23
+
+- **The agent sets everything up.** `vvv.py doctor` checks Python, Pillow, Node.js, npm, the kit and, with `--project`, a project's dependencies, downloads and inputs; every gap comes with its fix. Every helper failure, and `npm run music`/`sample`/`render` failures, now carry `next`: a command for the agent to run, one sentence to ask the user, or a hint. The skill tells the agent to run `doctor` first and never hand the user a command.
+- **Shorter user docs.** Getting started is now install, ask, review and receive; the error-by-error guide moved into the skill as an agent reference.
+- **Complete demo films.** Every preview is the full film (Album, Comedy, Doodle and DV Story at 960 × 540), checked with `vvv check` over its whole length.
+- **Doodle:** page changes in the last third had drifted up to half a beat off the music; recalibrated, full-film beat sync went from 111 ms to 44 ms mean. The empty paper before the first photo page is gone.
+- **`vvv check`** placed cuts one frame early on Python 3.12 and later; fixed.
+
 ## 0.1.0 — 2026-10-22
 
 The first public release of Vibe Vision Video: build editable video templates once and reuse them across projects and coding agents.

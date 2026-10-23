@@ -27,7 +27,7 @@
     "decode": "passed",
     "sourceFingerprintFile": "template-source-2026-10-23-doodle.json",
     "validationFile": "preview-validation-2026-10-23.json",
-    "sha256": "ad00484bce526c8ad0d300f94a2adfe9df126c6b9e35c1850f25b61a40104256",
+    "sha256": "5f192b20aeae5ba234f5473055fb07b9ff457e44bc7fec4a2a8a8cd9b1c66345",
     "posterSha256": "f2cae76e0f5fd16d0f9cbe62f0912880ca2597580221aad67cbf11ca48fa8c46",
     "metadata": {
       "programs": [],
@@ -41,7 +41,7 @@
           "height": 540,
           "pix_fmt": "yuv420p",
           "r_frame_rate": "30/1",
-          "bit_rate": "337943",
+          "bit_rate": "337920",
           "duration": "142.000000"
         },
         {
@@ -58,8 +58,8 @@
       "format": {
         "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
         "duration": "142.016000",
-        "size": "8379179",
-        "bit_rate": "472013"
+        "size": "8378887",
+        "bit_rate": "471996"
       }
     },
     "sourceVideoSha256": "0152369948a5fd5bf91699ef65a253b58fda0c4abe998374362460c033bf6893",

@@ -33,13 +33,11 @@ fi
 
 Open that directory as the workspace and ask WorkBuddy to use the **vvv** skill. The CodeBuddy IDE and CLI read the same `.codebuddy/skills/` folder (and `~/.codebuddy/skills/` for every project). A copied installation is a snapshot; update it when the source changes.
 
-## Prepare the environment
+## Make a film
 
-Follow [Getting started](getting-started.md) for the Python environment and a first project. Projects need Node.js 26, `npm ci` and, for Mixkit soundtracks, `npm run music`. Keep helper, project and asset paths explicit, and keep WorkBuddy's normal command and file permissions.
+WorkBuddy sets up the environment itself: the skill tells it to run `vvv doctor` first and follow its steps, asking you only before installing system software such as Node.js. Your computer needs Python 3.9+, Node.js and npm for rendering. A first prompt using only local photos, without image generation:
 
-A first prompt using only local photos, without image generation:
-
-> 使用 vvv 技能和 `/absolute/path/to/vvv/kits/remotion` 里的模板，用 album 模板做一条 9:16 的照片短片：每套服装先放一张照片，先建好工程并渲染第一组切换附近的样片，跑 `vvv check`，再交付成片和源码。当前不要调用生图服务。
+> 使用 vvv 技能和 `/absolute/path/to/vvv/kits/remotion` 里的模板，用 album 模板做一条 9:16 的照片短片，照片在 ./photos。先给我看检查过的样片，再交付成片和工程。当前不要调用生图服务。
 
 ## Image generation in WorkBuddy
 

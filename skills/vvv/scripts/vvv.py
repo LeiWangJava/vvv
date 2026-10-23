@@ -23,7 +23,8 @@ FAILED_CODES = {'validate': 'VALIDATION_FAILED', 'inspect': 'VALIDATION_FAILED',
 class JSONParser(argparse.ArgumentParser):
     """Argument errors are failures like any other: one JSON object on stdout."""
     def error(self, message):
-        emit({'status': 'failed', 'code': 'INVALID_ARGUMENTS', 'message': f'{self.prog}: {message}'})
+        emit({'status': 'failed', 'code': 'INVALID_ARGUMENTS', 'message': f'{self.prog}: {message}',
+              'next': run(sys.executable, SCRIPT, *self.prog.split()[1:], '--help')})
         raise SystemExit(2)
 
 
@@ -82,6 +83,71 @@ def default_kit():
 
 KIT_HINT = ('Pass --kit, or set VVV_KIT to the kit directory (kits/remotion in a clone of '
             'https://github.com/actionow-ai/vvv); the Claude Code plugin bundles it.')
+SCRIPT = str(Path(__file__).resolve())
+REQUIREMENTS = str(Path(__file__).resolve().parents[1] / 'requirements.txt')
+
+
+def run(*command, cwd=None, then=None):
+    """A next step the agent runs itself."""
+    step = {'action': 'run', 'command': list(command)}
+    if cwd:
+        step['cwd'] = str(cwd)
+    if then:
+        step['then'] = then
+    return step
+
+
+def ask_user(say):
+    """A next step only the user can take (permission, a system install, missing material); say it in one sentence."""
+    return {'action': 'ask_user', 'say': say}
+
+
+def fix(hint):
+    """A next step the agent works out itself from the message (inputs, source or a new path)."""
+    return {'action': 'fix', 'hint': hint}
+
+
+def next_step(code, args):
+    """What the agent does after a failure, so it recovers without relaying the error to the user."""
+    project = getattr(args, 'project', None)
+    project = Path(project).expanduser().resolve() if project and not str(project).endswith('.vvv') else None
+    command = getattr(args, 'command', None)
+    steps = {
+        'DEPENDENCY_MISSING': run(sys.executable, '-m', 'pip', 'install', '-r', REQUIREMENTS,
+                                  then='If pip refuses (an externally managed Python), create a virtual environment '
+                                       'and use its python for every vvv.py command.'),
+        'KIT_REQUIRED': run(sys.executable, SCRIPT, 'doctor'),
+        'KIT_NOT_FOUND': run(sys.executable, SCRIPT, 'doctor'),
+        'NODE_MISSING': ask_user('Rendering needs Node.js 22 or newer on this computer. May I install it?'),
+        'DEPENDENCIES_MISSING': run('npm', 'ci', cwd=project, then=f'Rerun {command}.') if project else None,
+        'DOWNLOAD_PENDING': run('npm', 'run', 'music', cwd=project, then=f'Rerun {command}.') if project else None,
+        'UNKNOWN_TEMPLATE': run(sys.executable, SCRIPT, 'templates'),
+        'UNSUPPORTED_FORMAT': fix('Run describe for the template to see its formats; pick one or another template.'),
+        'INSUFFICIENT_PHOTOS': fix('Ask the user for more photos, choose a template whose minPhotos fits, '
+                                   'or pass --allow-repeat if repeating photos is acceptable.'),
+        'NO_USABLE_PHOTOS': ask_user('None of these files are usable photos. Could you send the photos as JPG, PNG or HEIC?'),
+        'PHOTOS_REQUIRED': fix('Pass --photos with the user\'s photos, or --example for a demo render.'),
+        'VALIDATION_FAILED': fix('Fix each failed check (inputs.json, photos or music), then run validate again.'),
+        'CHECK_FAILED': fix('Fix the failed checks in the source or inputs (see references/craft.md), '
+                            're-render the affected range and check again.'),
+        'DESTINATION_EXISTS': fix('Choose a new output path; never overwrite an existing file.'),
+        'INVALID_ARGUMENTS': run(sys.executable, SCRIPT, *([command] if command else []), '--help'),
+        'TOOL_MISSING': (run('npm', 'ci', cwd=project, then='Rerun the command.') if project else
+                         fix('Run the command with --project, or pass --ffmpeg and --ffprobe.')),
+        'PACKAGE_INVALID': ask_user('This .vvv package failed verification, so I will not use it. Do you have another copy?'),
+        'INTERNAL_ERROR': fix('Rerun with VVV_DEBUG=1 for a traceback; if it persists, report it at '
+                              'https://github.com/actionow-ai/vvv/issues.'),
+    }
+    return steps.get(code)
+
+
+def with_next(result, args):
+    """Attach the next step to a failure that does not carry one."""
+    if result.get('status') == 'failed' and 'next' not in result:
+        step = next_step(result.get('code'), args)
+        if step:
+            result = {**result, 'next': step}
+    return result
 
 
 def positive(value):
@@ -113,6 +179,9 @@ def main(argv=None):
             pass
     parser = JSONParser(description=__doc__)
     commands = parser.add_subparsers(dest='command', required=True)
+    doctor = commands.add_parser('doctor', help='Check what rendering needs; every gap comes with its fix. Run it first.')
+    doctor.add_argument('--kit', type=Path, help='The kit directory; defaults to $VVV_KIT or the bundled kits/remotion.')
+    doctor.add_argument('--project', type=Path, help='Also check a project: dependencies, downloads and inputs.')
     templates = commands.add_parser('templates', help='List the templates and formats a kit provides.')
     templates.add_argument('--kit', type=Path, help='The kit directory; defaults to $VVV_KIT or the bundled kits/remotion.')
     describe = commands.add_parser('describe', help='Everything needed to fill one template\'s inputs, as one record.')
@@ -179,6 +248,12 @@ def main(argv=None):
             sub.add_argument('--from', dest='start', type=nonnegative)
             sub.add_argument('--to', dest='end', type=positive)
     args = parser.parse_args(argv)
+    if args.command == 'doctor':
+        # Before the other imports: it must work when Pillow is missing.
+        from vvv_doctor import doctor as check_environment
+        result = check_environment(args.kit or default_kit(), args.project, run, ask_user, fix, SCRIPT, REQUIREMENTS)
+        emit(result)
+        return 1 if result['status'] == 'failed' else 0
     try:
         # Imported after parsing so --help works before the dependencies are installed.
         from vvv_project import create_project, describe_template, inspect_project, list_templates, validate_project
@@ -264,7 +339,7 @@ def main(argv=None):
                                   'message': 'Run npm run music in the project first: '
                                              + '; '.join(c['message'] for c in validation['checks'] if c['status'] == 'pending'),
                                   **{k: v for k, v in validation.items() if k != 'status'}}
-                emit(summarize(args.command, validation))
+                emit(with_next(summarize(args.command, validation), args))
                 return 1
             node = shutil.which('node')
             if not node:
@@ -279,31 +354,29 @@ def main(argv=None):
                 if args.end is not None:
                     command += ['--to', str(args.end)]
             return subprocess.run(command, cwd=project, check=False).returncode
-        emit(summarize(args.command, result))
+        emit(with_next(summarize(args.command, result), args))
         return 1 if result.get('status') == 'failed' else 0
     except ModuleNotFoundError as error:
         if error.name != 'PIL':
-            return internal(error)
-        requirements = Path(__file__).resolve().parents[1] / 'requirements.txt'
-        emit({'status': 'failed', 'code': 'DEPENDENCY_MISSING',
-              'message': f'Pillow is not installed for {sys.executable}. '
-                         f'Install it with: {sys.executable} -m pip install -r {requirements}'})
+            return internal(error, args)
+        emit(with_next({'status': 'failed', 'code': 'DEPENDENCY_MISSING',
+                        'message': f'Pillow is not installed for {sys.executable}.'}, args))
         return 1
     except (OSError, ValueError, KeyError, TypeError) as error:
-        emit(failure(error))
+        emit(with_next(failure(error), args))
         return 1
     except Exception as error:  # MediaError from the check command carries a machine-readable code.
         if type(error).__name__ != 'MediaError':
-            return internal(error)
-        emit(failure(error))
+            return internal(error, args)
+        emit(with_next(failure(error), args))
         return 1
 
 
-def internal(error):
+def internal(error, args=None):
     if os.environ.get('VVV_DEBUG') == '1':
         traceback.print_exc()
-    emit({'status': 'failed', 'code': 'INTERNAL_ERROR',
-          'message': f'{type(error).__name__}: {error}. Rerun with VVV_DEBUG=1 for a traceback.'})
+    emit(with_next({'status': 'failed', 'code': 'INTERNAL_ERROR',
+                    'message': f'{type(error).__name__}: {error}. Rerun with VVV_DEBUG=1 for a traceback.'}, args))
     return 1
 
 

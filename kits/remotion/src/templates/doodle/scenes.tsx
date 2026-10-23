@@ -443,7 +443,9 @@ export const Avatars: React.FC<{ c: Ctx; E: number }> = ({ c, E }) => {
   const bl = txt("bride", "caveat", 64, 1220, 650, "ct");
   const gn = txt(c.groom, "songB", 44, 700, 740, "ct", INK, 8, 470);
   const bn = txt(c.bride, "songB", 44, 1220, 740, "ct", INK, 8, 470);
-  const o = exits(E);
+  // There are no photos here, so the names stay a beat longer than a page's words would: they finish
+  // leaving as the groom's photo starts sliding in, and the paper is never bare before the first page.
+  const o = { icon: E - Bt(3), text: E - Bt(2) };
   return (
     <>
       <Anim box={g.box} at={B(20)} out={o.icon} enter="pop" exit="shrink" dur={Bt(1)}>{g.el}</Anim>

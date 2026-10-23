@@ -31,7 +31,7 @@ Every published preview is the complete film. Album (16:9 and 9:16), Comedy, Doo
 | Comedy | 3:32 | 14 ms | Measured against both tracks; the soundtrack switches at 110.8 s |
 | Starter | 0:35 | passed | 2026-10-21 render, 1280 × 720 |
 
-All previews pass the audio and 3-second still checks. Frames sampled every 4 s were reviewed as tiled sheets for completeness, framing and readable captions. The Doodle avatar-to-photo handover still leaves near-empty paper for about 0.9 s (around 20–21 s); it is an open refinement item in the template timing.
+All previews pass the audio and 3-second still checks. Frames sampled every 4 s were reviewed as tiled sheets for completeness, framing and readable captions. The Doodle avatar-to-photo handover, which used to leave near-empty paper for about 0.9 s around 20–21 s, was fixed on 2026-10-23 and reviewed at 5 frames per second.
 
 ## What remains outside these claims
 

@@ -281,6 +281,39 @@ class ProjectTests(unittest.TestCase):
         self.assertEqual((status, report['code']), (1, 'KIT_REQUIRED'))
         self.assertIn('VVV_KIT', report['message'])
 
+    def test_failures_tell_the_agent_what_to_do_next(self):
+        project = self.populated()
+        cases = [(['init', '--kit', str(self.kit), '--template', 'missing', '--photos', str(self.photos),
+                   '--output', str(self.base / 'x')], 'UNKNOWN_TEMPLATE', 'run'),
+                 (['init', '--kit', str(self.kit)], 'INVALID_ARGUMENTS', 'run'),
+                 (['templates', '--kit', str(self.base / 'nowhere')], 'KIT_NOT_FOUND', 'run'),
+                 (['sample', '--project', str(project)], 'DEPENDENCIES_MISSING', 'run')]
+        for arguments, code, action in cases:
+            with self.subTest(arguments=arguments):
+                _, report = self.vvv(*arguments)
+                self.assertEqual((report['code'], report['next']['action']), (code, action))
+        _, report = self.vvv('sample', '--project', str(project))
+        self.assertEqual((report['next']['command'], report['next']['cwd']), (['npm', 'ci'], str(project.resolve())))
+
+    def test_doctor_reports_each_gap_with_its_fix(self):
+        import contextlib, io
+        from unittest.mock import patch
+        import vvv
+        code, report = self.vvv('doctor', '--kit', str(self.kit))
+        self.assertEqual(code, 0 if report['status'] == 'passed' else 1)
+        self.assertEqual([c['code'] for c in report['checks']][:2], ['PYTHON', 'PILLOW'])
+        self.assertTrue(all('next' in c for c in report['checks'] if c['status'] == 'failed'))
+        output = io.StringIO()
+        with patch('shutil.which', return_value=None), contextlib.redirect_stdout(output):
+            status = vvv.main(['doctor', '--kit', str(self.base / 'nowhere'), '--project', str(self.populated())])
+        report = json.loads(output.getvalue())
+        failed = {c['code']: c['next'] for c in report['checks'] if c['status'] == 'failed'}
+        self.assertEqual(status, 1)
+        self.assertEqual(failed['NODE']['action'], 'ask_user')
+        self.assertEqual(failed['KIT']['command'][:2], ['git', 'clone'])
+        self.assertEqual(failed['PROJECT_DEPENDENCIES']['command'], ['npm', 'ci'])
+        self.assertEqual(report['next'], list(failed.values()))
+
     def test_evidence_refuses_an_existing_output_before_measuring(self):
         project = self.populated()
         existing = self.base / 'check.json'
