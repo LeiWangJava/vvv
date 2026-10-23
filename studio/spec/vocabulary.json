@@ -1,0 +1,135 @@
+{
+  "$comment": "统一词表：照片画像、坑位需求卡、需求表只能使用这里的 id。新增场景先加到这里，再在需求卡里引用。",
+  "version": "1.0.0",
+  "events": [
+    { "id": "wedding", "label": "婚礼" },
+    { "id": "first-birthday", "label": "周岁宴" },
+    { "id": "full-month", "label": "满月宴" }
+  ],
+  "roles": [
+    { "id": "groom", "label": "新郎", "events": ["wedding"] },
+    { "id": "bride", "label": "新娘", "events": ["wedding"] },
+    { "id": "baby", "label": "宝宝", "events": ["first-birthday", "full-month"] },
+    { "id": "father", "label": "爸爸", "events": ["first-birthday", "full-month"] },
+    { "id": "mother", "label": "妈妈", "events": ["first-birthday", "full-month"] },
+    { "id": "groom-parents", "label": "男方父母", "events": ["wedding"] },
+    { "id": "bride-parents", "label": "女方父母", "events": ["wedding"] },
+    { "id": "grandparents", "label": "祖辈", "events": ["wedding", "first-birthday", "full-month"] },
+    { "id": "siblings", "label": "兄弟姐妹", "events": ["wedding", "first-birthday", "full-month"] },
+    { "id": "friends", "label": "亲友", "events": ["wedding", "first-birthday", "full-month"] },
+    { "id": "pet", "label": "宠物", "events": ["wedding", "first-birthday", "full-month"] }
+  ],
+  "roleGroups": [
+    { "id": "couple", "label": "新人合影", "members": ["groom", "bride"], "events": ["wedding"] },
+    { "id": "parents-baby", "label": "爸妈和宝宝", "members": ["father", "mother", "baby"], "events": ["first-birthday", "full-month"] },
+    { "id": "family", "label": "全家福", "members": ["grandparents"], "events": ["wedding", "first-birthday", "full-month"], "note": "两代以上同框" }
+  ],
+  "shots": [
+    { "id": "closeup", "label": "特写", "note": "脸占画面高度 1/3 以上" },
+    { "id": "half", "label": "半身" },
+    { "id": "full", "label": "全身" },
+    { "id": "wide", "label": "远景 / 环境", "note": "人物小，场景为主" },
+    { "id": "group", "label": "多人合影", "note": "三人及以上" },
+    { "id": "detail", "label": "物件特写", "note": "戒指、小手小脚、B 超单、蛋糕等，没有完整人脸" }
+  ],
+  "moods": [
+    { "id": "calm", "label": "安静温柔" },
+    { "id": "joyful", "label": "开心" },
+    { "id": "solemn", "label": "隆重正式" },
+    { "id": "funny", "label": "搞笑" },
+    { "id": "touching", "label": "感动" }
+  ],
+  "phases": {
+    "wedding": [
+      { "id": "childhood", "label": "童年" },
+      { "id": "school", "label": "求学" },
+      { "id": "meet", "label": "相识" },
+      { "id": "dating", "label": "恋爱" },
+      { "id": "proposal", "label": "求婚" },
+      { "id": "engagement", "label": "订婚" },
+      { "id": "prewedding", "label": "婚纱照" },
+      { "id": "wedding-day", "label": "婚礼当天" }
+    ],
+    "first-birthday": [
+      { "id": "pregnancy", "label": "孕期" },
+      { "id": "birth", "label": "出生" },
+      { "id": "m0", "label": "0–1 个月" },
+      { "id": "m1-3", "label": "1–3 个月" },
+      { "id": "m4-6", "label": "4–6 个月" },
+      { "id": "m7-9", "label": "7–9 个月" },
+      { "id": "m10-12", "label": "10–12 个月" },
+      { "id": "birthday", "label": "周岁" }
+    ],
+    "full-month": [
+      { "id": "pregnancy", "label": "孕期" },
+      { "id": "birth", "label": "出生" },
+      { "id": "d1-7", "label": "第一周" },
+      { "id": "d8-30", "label": "第二到四周" },
+      { "id": "full-month", "label": "满月" }
+    ]
+  },
+  "scenes": [
+    { "id": "childhood-photo", "label": "童年照", "events": ["wedding"], "phase": "childhood" },
+    { "id": "school-photo", "label": "学生时代", "events": ["wedding"], "phase": "school" },
+    { "id": "graduation", "label": "毕业照", "events": ["wedding"], "phase": "school" },
+    { "id": "first-meet", "label": "相识", "events": ["wedding"], "phase": "meet" },
+    { "id": "dating-daily", "label": "恋爱日常", "events": ["wedding"], "phase": "dating" },
+    { "id": "travel", "label": "旅行", "events": ["wedding", "first-birthday"] },
+    { "id": "festival", "label": "节日（春节、生日、圣诞等）", "events": ["wedding", "first-birthday", "full-month"] },
+    { "id": "proposal", "label": "求婚", "events": ["wedding"], "phase": "proposal" },
+    { "id": "engagement", "label": "订婚", "events": ["wedding"], "phase": "engagement" },
+    { "id": "rings", "label": "戒指", "events": ["wedding"] },
+    { "id": "prewedding-studio", "label": "婚纱照·内景", "events": ["wedding"], "phase": "prewedding" },
+    { "id": "prewedding-outdoor", "label": "婚纱照·外景", "events": ["wedding"], "phase": "prewedding" },
+    { "id": "prewedding-chinese", "label": "婚纱照·中式", "events": ["wedding"], "phase": "prewedding" },
+    { "id": "pickup", "label": "迎亲", "events": ["wedding"], "phase": "wedding-day" },
+    { "id": "tea-ceremony", "label": "敬茶 / 改口", "events": ["wedding"], "phase": "wedding-day" },
+    { "id": "ceremony", "label": "仪式", "events": ["wedding"], "phase": "wedding-day" },
+    { "id": "pregnancy-test", "label": "验孕", "events": ["first-birthday", "full-month"], "phase": "pregnancy" },
+    { "id": "ultrasound", "label": "B 超", "events": ["first-birthday", "full-month"], "phase": "pregnancy" },
+    { "id": "maternity", "label": "孕妇照 / 孕肚", "events": ["first-birthday", "full-month"], "phase": "pregnancy" },
+    { "id": "delivery", "label": "出生 / 产房", "events": ["first-birthday", "full-month"], "phase": "birth" },
+    { "id": "birth-record", "label": "出生手环 / 出生证明 / 脚印", "events": ["first-birthday", "full-month"], "phase": "birth" },
+    { "id": "newborn-shoot", "label": "新生儿写真", "events": ["first-birthday", "full-month"] },
+    { "id": "sleeping", "label": "睡觉", "events": ["first-birthday", "full-month"] },
+    { "id": "bath", "label": "洗澡", "events": ["first-birthday", "full-month"] },
+    { "id": "feeding", "label": "喂奶 / 吃饭", "events": ["first-birthday", "full-month"] },
+    { "id": "hands-feet", "label": "小手小脚", "events": ["first-birthday", "full-month"] },
+    { "id": "held-by-family", "label": "被家人抱着", "events": ["first-birthday", "full-month"] },
+    { "id": "full-month-shoot", "label": "满月照", "events": ["first-birthday", "full-month"], "phase": "full-month" },
+    { "id": "haircut", "label": "剃满月头", "events": ["full-month"], "phase": "full-month" },
+    { "id": "hundred-days", "label": "百天", "events": ["first-birthday"], "phase": "m1-3" },
+    { "id": "first-smile", "label": "第一次笑", "events": ["first-birthday", "full-month"] },
+    { "id": "rollover", "label": "翻身", "events": ["first-birthday"] },
+    { "id": "sitting", "label": "会坐", "events": ["first-birthday"] },
+    { "id": "first-food", "label": "第一口辅食", "events": ["first-birthday"] },
+    { "id": "crawling", "label": "会爬", "events": ["first-birthday"] },
+    { "id": "standing", "label": "扶站", "events": ["first-birthday"] },
+    { "id": "walking", "label": "学走路", "events": ["first-birthday"] },
+    { "id": "outing", "label": "出门 / 出游", "events": ["first-birthday", "full-month"] },
+    { "id": "playing", "label": "玩耍 / 玩具", "events": ["first-birthday"] },
+    { "id": "zhuazhou", "label": "抓周", "events": ["first-birthday"], "phase": "birthday" },
+    { "id": "birthday-cake", "label": "生日蛋糕", "events": ["first-birthday"], "phase": "birthday" },
+    { "id": "birthday-shoot", "label": "周岁照", "events": ["first-birthday"], "phase": "birthday" },
+    { "id": "family-portrait", "label": "全家福", "events": ["wedding", "first-birthday", "full-month"] },
+    { "id": "with-grandparents", "label": "与祖辈", "events": ["wedding", "first-birthday", "full-month"] },
+    { "id": "pet", "label": "宠物", "events": ["wedding", "first-birthday", "full-month"] }
+  ],
+  "displaySizes": [
+    { "id": "full", "label": "全屏", "minShortSidePx": 1080 },
+    { "id": "half", "label": "半屏", "minShortSidePx": 720 },
+    { "id": "card", "label": "卡片（约占画面 40%）", "minShortSidePx": 600 },
+    { "id": "tile", "label": "照片墙格子", "minShortSidePx": 360 },
+    { "id": "thumb", "label": "小图", "minShortSidePx": 240 }
+  ],
+  "textSpace": ["none", "left", "right", "top", "bottom"],
+  "qualityFlags": [
+    { "id": "blurry", "label": "模糊" },
+    { "id": "eyes-closed", "label": "闭眼（宝宝睡觉照除外）" },
+    { "id": "screenshot", "label": "截图 / 聊天记录" },
+    { "id": "low-res", "label": "分辨率过低" },
+    { "id": "heavy-filter", "label": "重度滤镜 / 贴纸" },
+    { "id": "watermark", "label": "有水印或平台标识" },
+    { "id": "near-duplicate", "label": "与另一张几乎一样" }
+  ]
+}

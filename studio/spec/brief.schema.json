@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vibevision.video/studio/brief.schema.json",
+  "title": "客户需求表",
+  "description": "每单一份。所有事实只来自客户；没有就留空，Agent 不能猜。",
+  "type": "object",
+  "required": ["event", "orderId", "deliverables", "facts", "consent"],
+  "additionalProperties": false,
+  "properties": {
+    "event": { "enum": ["wedding", "first-birthday", "full-month"] },
+    "orderId": { "type": "string" },
+    "deliverables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["usage", "template"],
+        "additionalProperties": false,
+        "properties": {
+          "usage": { "enum": ["main-film", "loop-screen", "vertical"], "description": "宴会主片 / 签到屏循环 / 竖版请柬或喜报" },
+          "template": { "type": "string", "description": "模板 id 或 .vvv 路径" },
+          "format": { "type": "string", "pattern": "^[1-9][0-9]*:[1-9][0-9]*$" },
+          "screen": { "type": "string", "description": "场地屏幕分辨率或比例，例如 3840x1080；不知道就留空" },
+          "targetSeconds": { "type": "number", "minimum": 5 }
+        }
+      }
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "name"],
+        "additionalProperties": false,
+        "properties": {
+          "role": { "type": "string", "description": "vocabulary.json 里的 roles id" },
+          "name": { "type": "string" },
+          "nameEn": { "type": "string" },
+          "nickname": { "type": "string" },
+          "referencePhotos": { "type": "array", "items": { "type": "string" }, "description": "能看清这个人的照片文件名，用于人脸聚类命名" }
+        }
+      }
+    },
+    "facts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "eventDate": { "type": "string", "format": "date" },
+        "eventTime": { "type": "string", "description": "开席时间，例如 18:08" },
+        "venue": { "type": "string" },
+        "venueHall": { "type": "string" },
+        "babyBirth": {
+          "type": "object",
+          "description": "周岁宴、满月宴用",
+          "additionalProperties": false,
+          "properties": {
+            "datetime": { "type": "string", "description": "出生日期时间，例如 2025-10-24 06:18" },
+            "weightKg": { "type": "number" },
+            "heightCm": { "type": "number" },
+            "zodiac": { "type": "string" },
+            "place": { "type": "string" }
+          }
+        },
+        "story": {
+          "type": "array",
+          "description": "客户提供的故事节点，用来写文案和排里程碑",
+          "items": {
+            "type": "object",
+            "required": ["text"],
+            "additionalProperties": false,
+            "properties": {
+              "date": { "type": "string" },
+              "text": { "type": "string" },
+              "scene": { "type": "string", "description": "vocabulary.json 里的 scenes id，可选" },
+              "photos": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "messages": {
+          "type": "object",
+          "description": "客户自己写的寄语、誓词、致谢，原样使用",
+          "additionalProperties": { "type": "string" }
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "tone": { "type": "array", "items": { "enum": ["calm", "joyful", "solemn", "funny", "touching"] } },
+        "colors": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "photos": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source": { "type": "string", "description": "压缩包或文件夹路径" },
+        "mustUse": { "type": "array", "items": { "type": "string" } },
+        "doNotUse": { "type": "array", "items": { "type": "string" } },
+        "avoidPeople": { "type": "array", "items": { "type": "string" }, "description": "不希望出现的人" },
+        "avoidTopics": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "music": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source": { "enum": ["template-default", "client-file", "suno-paid", "library-licensed"] },
+        "file": { "type": "string" },
+        "license": { "type": "string", "description": "授权说明；没有授权的音乐不进成片" }
+      }
+    },
+    "consent": {
+      "type": "object",
+      "required": ["portrait"],
+      "additionalProperties": false,
+      "properties": {
+        "portrait": { "type": "boolean", "description": "同意在本片中使用照片中人物的肖像" },
+        "cloudVision": { "type": "boolean", "default": false, "description": "同意把照片发给云端模型看图" },
+        "aiStylize": { "type": "boolean", "default": false, "description": "同意以照片为参考生成画风重绘图" },
+        "aiVoice": { "type": "boolean", "default": false },
+        "publicRelease": { "type": "boolean", "default": false, "description": "成片是否会公开发布到平台" },
+        "signedBy": { "type": "string" },
+        "signedOn": { "type": "string", "format": "date" }
+      }
+    },
+    "deadline": { "type": "string", "format": "date" }
+  }
+}

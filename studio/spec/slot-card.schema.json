@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vibevision.video/studio/slot-card.schema.json",
+  "title": "坑位需求卡",
+  "description": "每个模板一份，随 .vvv 打包。告诉填坑脚本每个坑位要什么样的照片。取值一律来自 vocabulary.json。",
+  "type": "object",
+  "required": [
+    "template",
+    "version",
+    "event",
+    "slots"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "template": {
+      "type": "string",
+      "description": "模板 id，与 catalog/<id>.json 一致"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "event": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "wedding",
+          "first-birthday",
+          "full-month"
+        ]
+      },
+      "minItems": 1
+    },
+    "sections": {
+      "type": "array",
+      "description": "可选：模板分段，供复核页按段展示",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "slots"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "slots": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "slots": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "$ref": "#/$defs/slot"
+      }
+    },
+    "styles": {
+      "type": "object",
+      "description": "画风预设：名字 → 生图提示词。坑位的 generation.style 引用这里的名字",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "slot": {
+      "type": "object",
+      "required": [
+        "label",
+        "display",
+        "people"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string",
+          "description": "给人看的名字，例如 里程碑卡片"
+        },
+        "display": {
+          "type": "object",
+          "required": [
+            "size",
+            "aspect"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "size": {
+              "enum": [
+                "full",
+                "half",
+                "card",
+                "tile",
+                "thumb"
+              ]
+            },
+            "aspect": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "裁切后宽高比的范围 [最小, 最大]；照片会被裁进这个范围"
+            },
+            "faceZone": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "minItems": 4,
+              "maxItems": 4,
+              "description": "人脸必须落在裁切框内的区域 [x0, y0, x1, y1]，0–1"
+            },
+            "holdSeconds": {
+              "type": "number",
+              "minimum": 0,
+              "description": "单张在画面上的大约停留时间"
+            },
+            "brightness": {
+              "enum": [
+                "dark",
+                "light",
+                "any"
+              ],
+              "default": "any",
+              "description": "背景是暗还是亮，用来避开反差太大的照片"
+            },
+            "textSpace": {
+              "enum": [
+                "none",
+                "left",
+                "right",
+                "top",
+                "bottom"
+              ],
+              "default": "none"
+            }
+          }
+        },
+        "people": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "require": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "必须出现的角色或角色组"
+            },
+            "prefer": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "forbid": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "不能出现的角色，例如新郎坑禁止新娘单人"
+            },
+            "count": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "画面里人数范围 [最少, 最多]"
+            },
+            "allowNone": {
+              "type": "boolean",
+              "default": false,
+              "description": "允许没有人脸（物件、B 超、风景）"
+            }
+          }
+        },
+        "shots": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "closeup",
+              "half",
+              "full",
+              "wide",
+              "group",
+              "detail"
+            ]
+          }
+        },
+        "scenes": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "prefer": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "avoid": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "phase": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "prefer": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "order": {
+              "enum": [
+                "chronological",
+                "any"
+              ],
+              "default": "any",
+              "description": "数组坑位是否必须按拍摄时间排序"
+            },
+            "spread": {
+              "type": "boolean",
+              "default": false,
+              "description": "数组坑位是否要尽量覆盖每个时间阶段"
+            }
+          }
+        },
+        "moods": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "calm",
+              "joyful",
+              "solemn",
+              "funny",
+              "touching"
+            ]
+          }
+        },
+        "copy": {
+          "type": "object",
+          "description": "与这个坑位绑定的文字",
+          "required": [
+            "field"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "field": {
+              "type": "string",
+              "description": "inputs.json 里的字段路径，数组坑位用 captions[i] 这种写法"
+            },
+            "maxChars": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "maxLines": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "role": {
+              "enum": [
+                "caption",
+                "title",
+                "lyric",
+                "voiceover"
+              ],
+              "default": "caption"
+            }
+          }
+        },
+        "reuse": {
+          "enum": [
+            "never",
+            "section",
+            "any"
+          ],
+          "default": "never",
+          "description": "never：不与其他 never 坑位共用同一张照片（any 坑位仍可复用它）；section：只要求本段内不重复；any：可以复用任何照片"
+        },
+        "generation": {
+          "type": "object",
+          "description": "这个坑位允许用 AI 生图到什么程度。默认 none：只能放客户的真实照片。",
+          "required": [
+            "mode"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "mode": {
+              "enum": [
+                "none",
+                "decor",
+                "fill",
+                "stylize"
+              ],
+              "description": "none 只用真实照片；decor 装饰画面（背景、贴纸、标题美术，不含人物）；fill 没有合适照片时补一张不含真实人物的意象画面（如蛋糕、气球、小脚丫剪影）；stylize 以客户照片为参考重绘成模板画风（水彩、插画、黏土），需客户同意"
+            },
+            "style": {
+              "type": "string",
+              "description": "画风预设名，对应模板 README 里的提示词"
+            },
+            "size": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 64
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "生成尺寸 [宽, 高] 像素"
+            }
+          }
+        },
+        "distinctNeighbors": {
+          "type": "boolean",
+          "default": true,
+          "description": "相邻两个坑位不能放近似重复的照片"
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "default": 3,
+          "description": "坑位重要程度，越高越先分到好照片"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

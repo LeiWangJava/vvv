@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vibevision.video/studio/casting.schema.json",
+  "title": "填坑结果",
+  "description": "GPT 写出的每个坑位的选择，交给检查脚本和复核页。确认后写进工程的 inputs.json。",
+  "type": "object",
+  "required": ["template", "orderId", "slots"],
+  "additionalProperties": false,
+  "properties": {
+    "template": { "type": "string" },
+    "orderId": { "type": "string" },
+    "slots": {
+      "type": "object",
+      "description": "键是坑位名；数组坑位用 name[0]、name[1] 这样逐格列出",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["source", "reason", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "photo": { "type": "string", "description": "照片 id（source 为 photo 或 stylized 时必填）" },
+          "source": { "enum": ["photo", "generated-decor", "generated-fill", "stylized"] },
+          "generated": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "file": { "type": "string" },
+              "prompt": { "type": "string" },
+              "referencePhotos": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "alternatives": { "type": "array", "items": { "type": "string" }, "maxItems": 3 },
+          "copy": { "type": "string", "description": "绑定的文字" },
+          "copySource": { "enum": ["client", "drafted", "none"], "description": "client 来自客户原话或需求表事实；drafted 由 GPT 起草待确认" },
+          "reason": { "type": "string", "description": "一句话说明为什么选这张" },
+          "confidence": { "enum": ["high", "medium", "low"] },
+          "locked": { "type": "boolean", "default": false, "description": "人工锁定后不再自动调整" }
+        }
+      }
+    },
+    "unused": { "type": "array", "items": { "type": "string" } },
+    "questions": { "type": "array", "items": { "type": "string" }, "description": "需要问客户的事实" }
+  }
+}
