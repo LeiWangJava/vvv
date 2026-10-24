@@ -16,7 +16,7 @@ description: Use when making a wedding, first-birthday (周岁宴) or full-month
 | `spec/vocabulary.json` | 统一词表：角色、景别、场景、时间阶段。所有标注只能用这里的 id |
 | `spec/*.schema.json` | 需求表、坑位需求卡、填坑结果的格式 |
 | `slot-cards/<模板id>.slots.json` | 每个模板的坑位需求卡：每个坑要什么照片、配多长的字、能不能生图 |
-| `client/*.md` | 发给客户的需求问卷与照片清单（婚礼 / 周岁宴 / 满月宴） |
+| `client/*.docx`、`client/*-微信版.txt` | 发给客户的需求问卷：Word 版可直接勾选，微信版复制到微信里填写。改内容请改 `client/questionnaires.py` 后运行 `build_questionnaires.py` 重新生成 |
 | `scripts/studio_profile.py` | 照片进件与技术画像、缩略图总览 |
 | `scripts/studio_cast.py` | `candidates` 排候选、`check` 检查、`apply` 写进工程 |
 
