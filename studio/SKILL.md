@@ -36,13 +36,11 @@ description: Use when making a wedding, first-birthday (周岁宴) or full-month
 
 ### 1. 需求表 → 关卡 1
 
-把客户填的问卷整理成 `brief.json`（格式见 `spec/brief.schema.json`）。按 `deliverables` 选模板；没有指定就按下表推荐：
+把客户填的问卷整理成 `brief.json`（格式见 `spec/brief.schema.json`）。按 `deliverables` 选模板。
 
-| 活动 | 宴会主片 | 签到屏循环 | 竖版 |
-|---|---|---|---|
-| 婚礼 | album / dv-story / doodle / comedy | （建设中） | album 9:16 |
-| 周岁宴 | growth | （建设中） | （建设中） |
-| 满月宴 | （建设中，暂用 growth 短版） | （建设中） | （建设中） |
+**能用的模板 = `slot-cards/` 里有需求卡的模板。** 列出 `slot-cards/*.slots.json`，按每份的 `event` 字段筛出这类活动可用的模板；模板包（`.vvv`）在 `C:\Users\leiwang\source\vvv-templates\`，文件名与需求卡的 `template` 一致。
+
+客户要的模板没有需求卡时，**不要自己编需求卡、也不要退回按文件名顺序填坑**：告诉人"这个模板还没交付需求卡"，改推荐一个有需求卡的模板，或者等模板交付。模板和需求卡由模板制作方（Claude）统一交付。
 
 缺必填项（名字、日期、场地、肖像授权；满月宴还有出生日期时间、体重、身高）时**不要开工**：列出缺什么，并写一条可以直接发给客户的追问消息。
 
