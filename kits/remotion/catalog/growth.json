@@ -56,10 +56,10 @@
       "时间很快\n一转眼就一周岁了"
     ],
     "music": {
-      "src": "music/mixkit-first-kiss.mp3",
+      "src": "music/maple-leaf-rag.ogg",
       "volume": 0.85,
       "trimBeforeSec": 0,
-      "fadeInSec": 0.3,
+      "fadeInSec": 0.2,
       "fadeOutSec": 2
     },
     "fps": 30

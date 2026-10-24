@@ -48,10 +48,10 @@
       "一百天啦"
     ],
     "music": {
-      "src": "music/mixkit-first-kiss.mp3",
+      "src": "music/maple-leaf-rag.ogg",
       "volume": 0.85,
       "trimBeforeSec": 0,
-      "fadeInSec": 0.3,
+      "fadeInSec": 0.2,
       "fadeOutSec": 2
     },
     "fps": 30

@@ -2,7 +2,7 @@
 
 A 100-days (百天) film for the 百日宴. It is the Growth film (`../growth/film.tsx`, sections described
 in `../growth/README.md`) with fewer photos, 100-day copy and a milestone line from pregnancy to day 100.
-About 1:45 at 110 BPM with 12 milestones; each extra milestone adds 4 beats.
+About 2:04 at 94 BPM with 12 milestones; each extra milestone adds 4 beats.
 
 | Slot | Photos (min–max, default) | What fits |
 |---|---|---|
@@ -12,7 +12,7 @@ About 1:45 at 110 BPM with 12 milestones; each extra milestone adds 4 beats.
 | `floating` | 6–18, 12 | Bright photos with a large subject; may repeat |
 | `wall` | 9–36, 24 | Any photos in time order, family photos late; may repeat |
 
-Copy: `title` 送给百天的你, `subtitle`, `greeting`, `letter`, `letter2`, `ending` 百天快乐. Music defaults to
-Mixkit "First Kiss" (fetched by `npm run music`); any licensed track works after `npm run beats`.
+Copy: `title` 送给百天的你, `subtitle`, `greeting`, `letter`, `letter2`, `ending` 百天快乐. Music defaults to the bundled
+public-domain *Maple Leaf Rag* (94 BPM, no download); any licensed track works after `npm run beats`.
 
 Slot card for Codex: `studio/slot-cards/hundred.slots.json` (event `hundred-days`).

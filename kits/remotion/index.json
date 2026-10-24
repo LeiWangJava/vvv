@@ -1040,8 +1040,8 @@
       },
       "music": {
         "required": true,
-        "src": "music/mixkit-first-kiss.mp3",
-        "downloadOnly": true
+        "src": "music/maple-leaf-rag.ogg",
+        "downloadOnly": false
       },
       "fixture": "examples/growth-birthday.json",
       "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/growth",
@@ -1138,8 +1138,8 @@
       },
       "music": {
         "required": true,
-        "src": "music/mixkit-first-kiss.mp3",
-        "downloadOnly": true
+        "src": "music/maple-leaf-rag.ogg",
+        "downloadOnly": false
       },
       "fixture": "examples/hundred-100days.json",
       "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/hundred",

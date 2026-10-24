@@ -25,7 +25,7 @@ comes from the project's own photos and every line from `copy` / `captions`.
 | 10 | Photo wall | 32 | `photos.wall` (9–45) | Three rows of photos scroll in alternating directions; every 8 beats the wall pulses (zoom + bloom). |
 | 11 | Ending | 8 | `copy.ending` | The wall dims, a colorful ending line pops in, fade to black. |
 
-Length: 116 beats plus 4 per milestone photo. With 20 milestones at 110 BPM, about 1:58.
+Length: 116 beats plus 4 per milestone photo. With 20 milestones at 94 BPM, about 2:26.
 
 ## Inputs
 
@@ -35,7 +35,7 @@ Length: 116 beats plus 4 per milestone photo. With 20 milestones at 110 BPM, abo
   photo. `\n` breaks a caption line. A missing caption leaves the right side empty.
 - Copy: `title`, `subtitle`, `greeting`, `letter`, `lead`, `letter2`, `ending`.
 - Music: any track the owner has rights to; run `npm run beats -- public/music/<file>` so cuts follow
-  it. The default is Mixkit "First Kiss" (110 BPM), fetched by `npm run music`.
+  it. The default is the bundled public-domain *Maple Leaf Rag* (94 BPM), so nothing has to be downloaded.
 
 ## Craft notes
 

@@ -108,7 +108,11 @@ python scripts/studio_cast.py apply --cards slot-cards/<模板>.slots.json --cas
 
 然后按 vvv 技能的流程：`doctor` → 装依赖、取音乐 → `validate` → 渲染样片 → `check` → 自己看帧。
 
-**关卡 4**：把样片给人确认，再渲染成片、打包交付。
+**分辨率**：`npm run sample` 和 `npm run render` 默认 `--scale 0.5`，出来是 960×540，只适合自己快速检查。**给人看的样片和成片一律加 `-- --scale 1`**（1920×1080），例如 `npm run render -- --scale 1`；否则在电脑或大屏上会明显发糊。
+
+**配乐**：渲染前确认 `inputs.json` 里 `music.src` 指向的文件真的在 `public/music/` 里，并告诉人用的是哪首歌。渲染后看 `check` 的 AUDIO：平均音量低于 -24 dBFS，或开头几秒几乎没声音，要在关卡 4 主动说明，并提出换歌或调 `music.volume`、`music.trimBeforeSec`（跳过安静的前奏）。
+
+**关卡 4**：把 1080p 样片给人确认，说明用的是哪首配乐，再渲染成片、打包交付。
 
 ## 规则
 

@@ -41,5 +41,5 @@ export const hundred = makeGrowthTemplate({
   slots: hundredSlots,
   copy: COPY,
   captions: DEMO_CAPTIONS,
-  music: { src: "music/mixkit-first-kiss.mp3", volume: 0.85, trimBeforeSec: 0, fadeInSec: 0.3, fadeOutSec: 2 },
+  music: { src: "music/maple-leaf-rag.ogg", volume: 0.85, trimBeforeSec: 0, fadeInSec: 0.2, fadeOutSec: 2 },
 });
