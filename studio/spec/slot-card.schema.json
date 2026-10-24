@@ -26,7 +26,8 @@
         "enum": [
           "wedding",
           "first-birthday",
-          "full-month"
+          "full-month",
+          "hundred-days"
         ]
       },
       "minItems": 1

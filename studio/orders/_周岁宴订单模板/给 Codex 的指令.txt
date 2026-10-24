@@ -1,7 +1,7 @@
-用 wedding-studio 技能做一单周岁宴视频。
+用 wedding-studio 技能做一单[活动：周岁宴 / 百天宴]视频。
 
 订单文件夹：[这一单文件夹的完整路径，例如 C:\Users\leiwang\source\vvv-orders\20261108-张满满]
-模板：C:\Users\leiwang\source\vvv-templates\growth.vvv
+模板：C:\Users\leiwang\source\vvv-templates\[模板文件：周岁宴用 growth.vvv，百天宴用 hundred.vvv]
 客户问卷：订单文件夹里的「客户问卷」文件
 照片：订单文件夹里的 photos（压缩包或照片都可以）
 

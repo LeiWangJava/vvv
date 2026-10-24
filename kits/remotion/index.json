@@ -1048,6 +1048,104 @@
       "previews": []
     },
     {
+      "id": "hundred",
+      "kind": "template",
+      "title": "Hundred · 百天纪念",
+      "description": "百天纪念片：彩色标题、手写信、胶片滚动、从孕期到第一百天的里程碑卡片、照片散落拼贴、发光的第二封信、星空飞照片、闪白进入滚动照片墙。约 1 分 45 秒，全部卡在配乐节拍上。",
+      "version": "1.0.0",
+      "package": "@vvv/hundred",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 9,
+          "targetPhotos": 24,
+          "sample": {
+            "from": 28,
+            "to": 42
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "film",
+              "kind": "array",
+              "min": 3,
+              "count": 6,
+              "max": 12,
+              "hint": "film-strip frames: newborn close-ups, portrait photos work best"
+            },
+            {
+              "name": "milestones",
+              "kind": "array",
+              "min": 6,
+              "count": 12,
+              "max": 24,
+              "hint": "one milestone per photo in time order from pregnancy to day 100; each gets captions[i]"
+            },
+            {
+              "name": "scatter",
+              "kind": "array",
+              "min": 6,
+              "count": 12,
+              "max": 20,
+              "independent": true,
+              "hint": "collage photos, any orientation; may repeat other slots"
+            },
+            {
+              "name": "floating",
+              "kind": "array",
+              "min": 6,
+              "count": 12,
+              "max": 18,
+              "independent": true,
+              "hint": "bright photos with a large subject; may repeat other slots"
+            },
+            {
+              "name": "wall",
+              "kind": "array",
+              "min": 9,
+              "count": 24,
+              "max": 36,
+              "independent": true,
+              "hint": "photo-wall tiles in time order; may repeat other slots"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {
+        "title": "片头标题",
+        "subtitle": "标题下的小字",
+        "greeting": "开场一句（手写打字）",
+        "letter": "第一封信（每行一句，换行分隔）",
+        "letter2": "第二封信（第一行先慢慢写出，其余逐行发光出现）",
+        "ending": "结尾一句"
+      },
+      "couple": null,
+      "props": {
+        "captions": {
+          "type": "array",
+          "description": "里程碑文案，按顺序对应 photos.milestones；\\n 换行"
+        },
+        "beatGrid": {
+          "type": "null | object"
+        }
+      },
+      "music": {
+        "required": true,
+        "src": "music/mixkit-first-kiss.mp3",
+        "downloadOnly": true
+      },
+      "fixture": "examples/hundred-100days.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/hundred",
+      "previews": []
+    },
+    {
       "id": "starter",
       "kind": "template",
       "title": "节拍相册 · Starter",

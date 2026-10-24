@@ -116,6 +116,8 @@ def baby_phase(event: str, days: int | None) -> str | None:
         return 'pregnancy'
     if event == 'full-month':
         return 'birth' if days == 0 else 'd1-7' if days <= 7 else 'd8-30' if days <= 30 else 'full-month'
+    if event == 'hundred-days':
+        return 'birth' if days == 0 else 'd1-30' if days <= 30 else 'd31-60' if days <= 60 else 'd61-99' if days <= 98 else 'day100'
     months = days / 30.44
     if days == 0:
         return 'birth'
@@ -171,8 +173,8 @@ def main() -> None:
     ap.add_argument('--photos', required=True, type=Path)
     ap.add_argument('--out', required=True, type=Path)
     ap.add_argument('--sheets', required=True, type=Path)
-    ap.add_argument('--event', choices=['wedding', 'first-birthday', 'full-month'], default='wedding')
-    ap.add_argument('--birthday', help='baby birth date YYYY-MM-DD (first-birthday / full-month)')
+    ap.add_argument('--event', choices=['wedding', 'first-birthday', 'full-month', 'hundred-days'], default='wedding')
+    ap.add_argument('--birthday', help='baby birth date YYYY-MM-DD (first-birthday / full-month / hundred-days)')
     args = ap.parse_args()
     if not args.photos.is_dir():
         fail('PHOTOS_MISSING', f'{args.photos} is not a folder.', 'Pass the folder that holds the photos or the zip.')

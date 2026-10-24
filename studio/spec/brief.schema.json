@@ -7,7 +7,7 @@
   "required": ["event", "orderId", "deliverables", "facts", "consent"],
   "additionalProperties": false,
   "properties": {
-    "event": { "enum": ["wedding", "first-birthday", "full-month"] },
+    "event": { "enum": ["wedding", "first-birthday", "full-month", "hundred-days"] },
     "orderId": { "type": "string" },
     "deliverables": {
       "type": "array",

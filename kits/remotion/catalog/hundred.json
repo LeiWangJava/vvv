@@ -1,0 +1,111 @@
+{
+  "id": "hundred",
+  "version": "1.0.0",
+  "compositionId": "VVV-Hundred",
+  "title": "Hundred · 百天纪念",
+  "description": "百天纪念片：彩色标题、手写信、胶片滚动、从孕期到第一百天的里程碑卡片、照片散落拼贴、发光的第二封信、星空飞照片、闪白进入滚动照片墙。约 1 分 45 秒，全部卡在配乐节拍上。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "defaultProps": {
+    "photos": {
+      "film": [],
+      "milestones": [],
+      "scatter": [],
+      "floating": [],
+      "wall": []
+    },
+    "copy": {
+      "title": "送给百天的你",
+      "subtitle": "baby's first 100 days",
+      "greeting": "亲爱的宝贝，百天快乐！",
+      "letter": "一百天前，你来到我们身边\n从那天起，日子有了新的意义\n你的每一个哈欠、每一次微笑\n我们都舍不得错过\n谢谢你让我们成为爸爸妈妈",
+      "letter2": "你的第一百天，我们都在身边\n愿你吃得香、睡得甜\n愿你被这个世界温柔以待\n愿你健康、快乐、平安地长大\n爸爸妈妈永远爱你",
+      "ending": "百天快乐"
+    },
+    "captions": [
+      "终于等到你\n爸爸妈妈又惊又喜",
+      "我们第一次见面了",
+      "你来到了这个世界",
+      "小小的你\n躺在妈妈怀里",
+      "第一次洗澡",
+      "睡着的样子\n像个小天使",
+      "满月啦",
+      "会追着声音看了",
+      "第一次对我们笑",
+      "小手抓住了爸爸的手指",
+      "会抬头了",
+      "一百天啦"
+    ],
+    "music": {
+      "src": "music/mixkit-first-kiss.mp3",
+      "volume": 0.85,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 2
+    },
+    "fps": 30
+  },
+  "slots": {
+    "film": {
+      "kind": "array",
+      "count": 6,
+      "min": 3,
+      "max": 12,
+      "hint": "film-strip frames: newborn close-ups, portrait photos work best"
+    },
+    "milestones": {
+      "kind": "array",
+      "count": 12,
+      "min": 6,
+      "max": 24,
+      "hint": "one milestone per photo in time order from pregnancy to day 100; each gets captions[i]"
+    },
+    "scatter": {
+      "kind": "array",
+      "count": 12,
+      "min": 6,
+      "max": 20,
+      "independent": true,
+      "hint": "collage photos, any orientation; may repeat other slots"
+    },
+    "floating": {
+      "kind": "array",
+      "count": 12,
+      "min": 6,
+      "max": 18,
+      "independent": true,
+      "hint": "bright photos with a large subject; may repeat other slots"
+    },
+    "wall": {
+      "kind": "array",
+      "count": 24,
+      "min": 9,
+      "max": 36,
+      "independent": true,
+      "hint": "photo-wall tiles in time order; may repeat other slots"
+    }
+  },
+  "sample": {
+    "from": 28,
+    "to": 42
+  },
+  "package": {
+    "name": "@vvv/hundred",
+    "fixture": "examples/hundred-100days.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

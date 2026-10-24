@@ -261,7 +261,7 @@ def cmd_check(a) -> None:
             for (k1, t1), (k2, t2) in zip(times, times[1:]):
                 if t2 < t1:
                     errors.append(f'{k2}: 拍摄时间 {t2[:10]} 早于前一格 {k1} 的 {t1[:10]}，应按时间排序')
-        limit = 2 if event == 'full-month' else 3
+        limit = 2 if event in ('full-month', 'hundred-days') else 3
         for g, n in group_count.items():
             if n > limit:
                 errors.append(f'{name}: 同一组近似照片用了 {n} 张（上限 {limit}）')

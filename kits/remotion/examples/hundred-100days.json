@@ -1,0 +1,114 @@
+{
+  "template": "hundred",
+  "props": {
+    "photos": {
+      "film": [
+        "bride-01-childhood-02",
+        "groom-02-school-01",
+        "bride-02-school-01",
+        "groom-02-school-02",
+        "bride-02-school-02",
+        "couple-03-dating-03"
+      ],
+      "milestones": [
+        "dvdemo-b-baby",
+        "groom-01-childhood-01",
+        "bride-01-childhood-01",
+        "groom-01-childhood-02",
+        "groom-01-childhood-03",
+        "bride-01-childhood-03",
+        "dvdemo-bday",
+        "dvdemo-park",
+        "dvdemo-food",
+        "dvdemo-funny",
+        "dvdemo-newyear",
+        "dvdemo-xmas"
+      ],
+      "scatter": [
+        "bride-02-school-01",
+        "groom-02-school-02",
+        "bride-02-school-02",
+        "couple-03-dating-03",
+        "dvdemo-b-baby",
+        "groom-01-childhood-01",
+        "bride-01-childhood-01",
+        "groom-01-childhood-02",
+        "groom-01-childhood-03",
+        "bride-01-childhood-03",
+        "dvdemo-bday",
+        "dvdemo-park"
+      ],
+      "floating": [
+        "groom-02-school-01",
+        "bride-02-school-01",
+        "groom-02-school-02",
+        "bride-02-school-02",
+        "couple-03-dating-03",
+        "dvdemo-b-baby",
+        "groom-01-childhood-01",
+        "bride-01-childhood-01",
+        "groom-01-childhood-02",
+        "groom-01-childhood-03",
+        "bride-01-childhood-03",
+        "dvdemo-bday"
+      ],
+      "wall": [
+        "bride-01-childhood-02",
+        "groom-02-school-01",
+        "bride-02-school-01",
+        "groom-02-school-02",
+        "bride-02-school-02",
+        "couple-03-dating-03",
+        "dvdemo-b-baby",
+        "groom-01-childhood-01",
+        "bride-01-childhood-01",
+        "groom-01-childhood-02",
+        "groom-01-childhood-03",
+        "bride-01-childhood-03",
+        "dvdemo-bday",
+        "dvdemo-park",
+        "dvdemo-food",
+        "dvdemo-funny",
+        "dvdemo-newyear",
+        "dvdemo-xmas",
+        "couple-06-travel-01",
+        "dvdemo-flower-a",
+        "dvdemo-cat",
+        "dvdemo-eng-family",
+        "couple-04-daily-02",
+        "dvdemo-ski"
+      ]
+    },
+    "copy": {
+      "title": "送给百天的你",
+      "subtitle": "baby's first 100 days",
+      "greeting": "亲爱的宝贝，百天快乐！",
+      "letter": "一百天前，你来到我们身边\n从那天起，日子有了新的意义\n你的每一个哈欠、每一次微笑\n我们都舍不得错过\n谢谢你让我们成为爸爸妈妈",
+      "letter2": "你的第一百天，我们都在身边\n愿你吃得香、睡得甜\n愿你被这个世界温柔以待\n愿你健康、快乐、平安地长大\n爸爸妈妈永远爱你",
+      "ending": "百天快乐"
+    },
+    "captions": [
+      "终于等到你\n爸爸妈妈又惊又喜",
+      "我们第一次见面了",
+      "你来到了这个世界",
+      "小小的你\n躺在妈妈怀里",
+      "第一次洗澡",
+      "睡着的样子\n像个小天使",
+      "满月啦",
+      "会追着声音看了",
+      "第一次对我们笑",
+      "小手抓住了爸爸的手指",
+      "会抬头了",
+      "一百天啦"
+    ],
+    "music": {
+      "src": "music/mixkit-first-kiss.mp3",
+      "volume": 0.85,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 2
+    },
+    "fps": 30,
+    "format": "16:9"
+  }
+}

@@ -8,6 +8,7 @@ Reproducible wedding films using the kit's editable scene code and explicitly se
 - `comedy-wedding.json`: the Comedy opener, 212 seconds on *Fun and Games* and *When in Love* with twelve effects; no clips or narration.
 - `starter-reel.json`: the Starter reel with fourteen demo photos; the demo inputs of its package.
 - `growth-birthday.json`: the Growth first-birthday film with demo photos standing in for a baby's; about two minutes on *First Kiss*.
+- `hundred-100days.json`: the Hundred 100-days film, the same film with twelve milestones; about 1:45 on *First Kiss*.
 - `effect-papercut-frame.json`: input for the `VVV-Effect-PapercutFrame` demo.
 
 `cases.tsx` registers these compositions without changing a normal project's `src/Root.tsx`. From `kits/remotion`:
