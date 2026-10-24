@@ -6,7 +6,7 @@ build_questionnaires.py turns this into two files per event:
 Keep the wording here; never edit the generated files by hand.
 """
 
-SEND_PHOTOS = '请用原图发送：用网盘或微信"文件"发送，不要直接发聊天里的图片（会被压缩，拍摄时间和画质都会丢）。苹果手机的照片可以直接发，我们会转换格式。'
+SEND_PHOTOS = '照片怎么发最快：推荐用网盘（百度网盘、夸克网盘、阿里云盘都可以）。在网盘 App 里点"上传" → 选"照片"，可以按日期整段全选 → 上传完成后，选中这些照片点"分享"，把链接发给我们，几十上百张一次就发完了，原图和拍摄时间都会保留。不要在微信聊天里一张张发图片：每次最多 9 张，还会被压缩，拍摄时间也会丢。'
 
 CONSENT = [
     '同意在本视频中使用照片中人物的肖像（必选）',
