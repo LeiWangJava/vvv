@@ -7,7 +7,9 @@ description: Use when making a wedding, first-birthday (周岁宴) or full-month
 
 把客户需求和照片压缩包变成检查过的样片。**由你（Agent）亲自决定每个坑位放哪张照片、配哪句话**；脚本只负责排候选和检查硬性错误；照片不够或模板需要特定画风时，用你自带的生图能力补画面。人只在 4 个关卡确认。
 
-依赖：vvv 技能（`../vvv/scripts/vvv.py`），Python 3.9+ 和 Pillow。本技能目录下：
+依赖：vvv 技能（`../vvv/scripts/vvv.py`），Python 3.9+。第一次使用先装 Python 包：`python -m pip install pillow jsonschema pillow-heif`（Windows 上命令是 `python`，macOS / Linux 是 `python3`）。渲染所需的 Node.js 和 npm 由 vvv 的 `doctor` 检查。模板用 `.vvv` 包初始化工程，不需要单独的模板库；`doctor` 报"没有模板库"可以忽略。
+
+订单文件夹里如果没有 `brief.json`，就从客户填好的问卷（`客户问卷*` 文件，文字、文档或截图都可以）整理出来，参考 `brief.example.json`。本技能目录下：
 
 | 路径 | 用途 |
 |---|---|

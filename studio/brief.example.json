@@ -1,0 +1,32 @@
+{
+  "event": "first-birthday",
+  "orderId": "2026-1108-zhang",
+  "deliverables": [
+    { "usage": "main-film", "template": "C:\\Users\\leiwang\\source\\vvv-templates\\growth.vvv", "format": "16:9", "screen": "3840x1080", "targetSeconds": 150 }
+  ],
+  "people": [
+    { "role": "baby", "name": "张小满", "nickname": "满满", "referencePhotos": ["IMG_2031.jpg"] },
+    { "role": "father", "name": "张明", "referencePhotos": ["IMG_1802.jpg"] },
+    { "role": "mother", "name": "李悦", "referencePhotos": ["IMG_1802.jpg"] }
+  ],
+  "facts": {
+    "eventDate": "2026-11-08",
+    "eventTime": "11:58",
+    "venue": "（示例）某某酒店",
+    "venueHall": "三楼宴会厅",
+    "babyBirth": { "datetime": "2025-11-02 06:18", "weightKg": 3.2, "heightCm": 50 },
+    "story": [
+      { "date": "2025-03", "text": "知道你来了，爸爸妈妈又惊又喜", "scene": "pregnancy-test" },
+      { "date": "2025-11-02", "text": "你来到了这个世界", "scene": "delivery" },
+      { "date": "2026-03", "text": "第一次翻身", "scene": "rollover" },
+      { "date": "2026-05", "text": "第一口辅食，糊了一脸", "scene": "first-food" },
+      { "date": "2026-09", "text": "扶着沙发站起来了", "scene": "standing" }
+    ],
+    "messages": { "toBaby": "愿你健康快乐地长大", "toGuests": "谢谢大家来见证满满的一周岁" }
+  },
+  "style": { "tone": ["joyful", "touching"], "notes": "喜欢暖色" },
+  "photos": { "source": "photos", "mustUse": [], "doNotUse": [], "avoidPeople": [], "avoidTopics": [] },
+  "music": { "source": "template-default" },
+  "consent": { "portrait": true, "cloudVision": true, "aiStylize": false, "aiVoice": false, "publicRelease": false, "signedBy": "李悦", "signedOn": "2026-10-24" },
+  "deadline": "2026-11-05"
+}

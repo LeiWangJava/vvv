@@ -1,0 +1,12 @@
+用 wedding-studio 技能做一单周岁宴视频。
+
+订单文件夹：C:\Users\leiwang\source\vvv-orders\[订单文件夹名]
+模板：C:\Users\leiwang\source\vvv-templates\growth.vvv
+客户问卷：订单文件夹里的「客户问卷」文件
+照片：订单文件夹里的 photos（压缩包或照片都可以）
+
+按技能里的 6 个步骤做，每个关卡停下来给我确认：
+1. 先根据问卷整理 brief.json，缺必填项就列出来并写一条发给客户的追问消息
+2. 照片画像做完后，给我看主角身份确认
+3. 填坑并通过 check 后，把低置信度的坑位、你起草的文案、生成的图片列给我复核
+4. 先渲染样片并跑 vvv check，给我看过再渲染成片
