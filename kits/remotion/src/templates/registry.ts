@@ -7,6 +7,7 @@ import dvStoryCatalog from '../../catalog/dv-story.json';
 import starterCatalog from '../../catalog/starter.json';
 import growthCatalog from '../../catalog/growth.json';
 import hundredCatalog from '../../catalog/hundred.json';
+import showtimeCatalog from '../../catalog/showtime.json';
 import papercutFrameCatalog from '../../catalog/papercut-frame.json';
 import { album } from './album';
 import { comedy } from './comedy';
@@ -15,6 +16,7 @@ import { dvStory } from './dv-story';
 import { starter } from './starter';
 import { growth } from './growth';
 import { hundred } from './hundred';
+import { showtime } from './showtime';
 import { papercutFrameDemo } from '../effects/papercut-frame/demo';
 
 /** One line per template or effect demo. Adding one: its folder, its catalog file, and an entry here. */
@@ -26,5 +28,6 @@ export const TEMPLATES: Record<string, { definition: Definition; catalog: Catalo
   starter: { definition: starter, catalog: starterCatalog },
   growth: { definition: growth, catalog: growthCatalog },
   hundred: { definition: hundred, catalog: hundredCatalog },
+  showtime: { definition: showtime, catalog: showtimeCatalog },
   'papercut-frame': { definition: papercutFrameDemo, catalog: papercutFrameCatalog },
 };

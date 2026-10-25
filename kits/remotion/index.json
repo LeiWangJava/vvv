@@ -1146,6 +1146,177 @@
       "previews": []
     },
     {
+      "id": "showtime",
+      "kind": "template",
+      "title": "Showtime · 喜剧开场·大屏卡点版",
+      "description": "婚宴大屏喜剧开场：婚礼频道雪花屏开播，卡通新郎新娘在红色舞台上跟着节拍跳舞，金色大字逐句弹出欢迎词、拍照美颜、鼓掌、吃好喝好、别灌新郎的笑点，红白快闪倒计时，新郎新娘各一段“搞错人”的小时候照片笑点，杂志版婚纱照、相框幻灯片、圆形相框致谢收尾。约 2 分 50 秒，配乐和音效为原创合成，随模板打包。",
+      "version": "1.0.0",
+      "package": "@vvv/showtime",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 8,
+          "targetPhotos": 12,
+          "sample": {
+            "from": 56,
+            "to": 70
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "couple1",
+              "kind": "single",
+              "hint": "合照，取景器拍照那一下（横图最好）"
+            },
+            {
+              "name": "groomKid",
+              "kind": "single",
+              "hint": "新郎小时候的照片，“搞错人”笑点用"
+            },
+            {
+              "name": "groomHero",
+              "kind": "single",
+              "hint": "新郎单人正装照，竖图，金框名牌"
+            },
+            {
+              "name": "coupleA",
+              "kind": "single",
+              "hint": "新郎介绍后的合照，横图全屏"
+            },
+            {
+              "name": "brideKid",
+              "kind": "single",
+              "hint": "新娘小时候的照片，放大镜笑点用"
+            },
+            {
+              "name": "brideHero",
+              "kind": "single",
+              "hint": "新娘单人婚纱照，竖图，金框名牌"
+            },
+            {
+              "name": "coupleB",
+              "kind": "single",
+              "hint": "新娘介绍后的合照，横图全屏"
+            },
+            {
+              "name": "mag",
+              "kind": "array",
+              "min": 3,
+              "count": 9,
+              "independent": true,
+              "hint": "杂志版婚纱照，三页每页三张竖图；可与其他坑位重复"
+            },
+            {
+              "name": "slides",
+              "kind": "array",
+              "min": 4,
+              "count": 12,
+              "independent": true,
+              "hint": "白色圆角相框幻灯片，横竖都可以；可与其他坑位重复"
+            },
+            {
+              "name": "finale",
+              "kind": "single",
+              "hint": "结尾圆形相框里的合照，两个人的脸在中间"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {
+        "ident_search": "片头 · 搜索信号（雪花屏下方）",
+        "ident_bars": "片头 · 彩条上的字",
+        "ident_channel": "片头 · 频道名（新人名字下面）",
+        "ident_go": "片头 · 两行大字（用｜分行）",
+        "w1": "欢迎 · 第 1 句（｜分两行）",
+        "w2": "欢迎 · 第 2 句",
+        "w3": "欢迎 · 第 3 句",
+        "w4": "欢迎 · 第 4 句",
+        "w5": "欢迎 · 第 5 句",
+        "g1": "笑点 · 指向观众",
+        "w6": "欢迎 · 第 6 句",
+        "w7": "拍照 · 第 1 句",
+        "snap": "拍照 · 咔嚓（照片下方）",
+        "w8": "拍照 · 第 2 句",
+        "w9": "掌声 · 第 1 句",
+        "w10": "掌声 · 第 2 句",
+        "g2": "笑点 · 掌声",
+        "w11": "须知 · 第 1 句",
+        "w12": "须知 · 左右两个词（｜分隔）",
+        "w13": "须知 · 左右两个词",
+        "w14": "须知 · 左右两个词",
+        "g3": "笑点 · 美食雨",
+        "w15": "须知 · 劝酒",
+        "w16": "须知 · 不然",
+        "g4": "笑点 · 新郎喝多（右侧两行）",
+        "c0": "倒计时 · 开始",
+        "x1": "倒计时 · 快闪 1（红）",
+        "x2": "倒计时 · 快闪 2（白）",
+        "x3": "倒计时 · 快闪 3（红）",
+        "x4": "倒计时 · 快闪 4（白）",
+        "x5": "倒计时 · 快闪 5（红）",
+        "x6": "倒计时 · 快闪 6（白）",
+        "x7": "倒计时 · 快闪 7（红）",
+        "x8": "倒计时 · 快闪 8（白）",
+        "hl": "倒计时 · 名字之后（白）",
+        "gi1": "新郎 · 第 1 句",
+        "gi2": "新郎 · 第 2 句",
+        "gi3": "新郎 · 夸奖 1（左右两个词）",
+        "gi4": "新郎 · 夸奖 2",
+        "gi5": "新郎 · 夸奖 3",
+        "gi6": "新郎 · 夸奖 4",
+        "gcall": "新郎 · 有请",
+        "gfake": "新郎 · 搞错人（三句：小时候照片 → 定格 → 倒带）",
+        "greal": "新郎 · 真正登场",
+        "groom_role": "新郎 · 名牌称呼",
+        "bi1": "新娘 · 第 1 句",
+        "bi2": "新娘 · 第 2 句",
+        "bi3": "新娘 · 夸奖 1（左右两个词）",
+        "bi4": "新娘 · 夸奖 2",
+        "bi5": "新娘 · 夸奖 3",
+        "bi6": "新娘 · 夸奖 4",
+        "bi7": "新娘 · 夸奖 5",
+        "bname": "新娘 · 名字（{bride} 自动换成新娘名字）",
+        "bcall": "新娘 · 有请",
+        "bfake": "新娘 · 放大镜（两句）",
+        "bride_role": "新娘 · 名牌称呼",
+        "coupleA_cap": "新郎之后的合照 · 字",
+        "coupleB_cap": "新娘之后的合照 · 字",
+        "witness": "见证（两句）",
+        "mag_title": "婚纱照杂志 · 手写标题（三页用｜分隔）",
+        "mag_cap": "婚纱照杂志 · 底部大字（三页用｜分隔）",
+        "count": "婚纱照之间 · 倒计时标题",
+        "finale": "结尾 · 感谢"
+      },
+      "couple": {
+        "groom": "新郎姓名",
+        "bride": "新娘姓名",
+        "groomEn": "新郎英文名或拼音",
+        "brideEn": "新娘英文名或拼音",
+        "date": "婚礼日期",
+        "tagline": "主标题"
+      },
+      "props": {
+        "beatGrid": {
+          "type": "null | object"
+        }
+      },
+      "music": {
+        "required": true,
+        "src": "music/showtime-party.ogg",
+        "downloadOnly": false
+      },
+      "fixture": "examples/showtime-wedding.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/showtime",
+      "previews": []
+    },
+    {
       "id": "starter",
       "kind": "template",
       "title": "节拍相册 · Starter",

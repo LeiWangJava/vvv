@@ -7,6 +7,7 @@ import { comedy } from '../src/templates/comedy';
 import { starter } from '../src/templates/starter';
 import { growth } from '../src/templates/growth';
 import { hundred } from '../src/templates/hundred';
+import { showtime } from '../src/templates/showtime';
 import notebook from './doodle-wedding.json';
 import wedding from './album-wedding.json';
 import tape from './dv-our-story.json';
@@ -14,6 +15,7 @@ import festive from './comedy-wedding.json';
 import reel from './starter-reel.json';
 import birthday from './growth-birthday.json';
 import hundredDays from './hundred-100days.json';
+import showtimeWedding from './showtime-wedding.json';
 import { papercutFrameDemo } from '../src/effects/papercut-frame/demo';
 import papercut from './effect-papercut-frame.json';
 
@@ -31,6 +33,8 @@ const Cases: React.FC = () => <>
     durationInFrames={Math.ceil(growth.seconds(birthday.props as any) * 30)} calculateMetadata={growth.calculateMetadata} />
   <Composition id="VVV-Hundred" component={hundred.component} defaultProps={hundredDays.props as any} fps={30} width={1920} height={1080}
     durationInFrames={Math.ceil(hundred.seconds(hundredDays.props as any) * 30)} calculateMetadata={hundred.calculateMetadata} />
+  <Composition id="VVV-Showtime" component={showtime.component} defaultProps={showtimeWedding.props as any} fps={30} width={1920} height={1080}
+    durationInFrames={Math.ceil(showtime.seconds(showtimeWedding.props as any) * 30)} calculateMetadata={showtime.calculateMetadata} />
   <Composition id="VVV-Effect-PapercutFrame" component={papercutFrameDemo.component} defaultProps={papercut.props as any} fps={30} width={1920} height={1080}
     durationInFrames={Math.ceil(papercutFrameDemo.seconds(papercut.props as any) * 30)} />
 </>;

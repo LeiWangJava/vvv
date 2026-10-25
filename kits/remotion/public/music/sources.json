@@ -14,6 +14,20 @@
       "bpm": 94
     },
     {
+      "file": "showtime-party.ogg",
+      "title": "Showtime Party (original)",
+      "author": "VVV, synthesized by scripts/make-showtime-audio.py",
+      "source": "kits/remotion/scripts/make-showtime-audio.py",
+      "license": "MIT (original work)",
+      "distribution": "bundled",
+      "bytes": 3957766,
+      "sha256": "c6a1504bf5780ce6a808fd903782fda244623962509fae15c1eecc09edadefac",
+      "bpm": 128,
+      "templates": [
+        "showtime"
+      ]
+    },
+    {
       "file": "mixkit-skyline.mp3",
       "title": "Skyline",
       "author": "Eugenio Mininni",

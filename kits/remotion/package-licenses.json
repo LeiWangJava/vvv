@@ -4,7 +4,10 @@
   "rules": [
     {
       "id": "mixkit-download-only",
-      "match": ["public/music/mixkit-*.mp3", "public/sfx/mixkit-*.wav"],
+      "match": [
+        "public/music/mixkit-*.mp3",
+        "public/sfx/mixkit-*.wav"
+      ],
       "license": "Mixkit Stock Music / Sound Effects Free License",
       "source": "https://mixkit.co/license/",
       "redistribute": false,
@@ -12,80 +15,127 @@
     },
     {
       "id": "font-files",
-      "match": ["public/fonts/files/**"],
+      "match": [
+        "public/fonts/files/**"
+      ],
       "license": "OFL-1.1",
       "source": "Google Fonts; per-file source, hash and license in font-sources.json",
       "redistribute": true
     },
     {
       "id": "font-licenses",
-      "match": ["public/fonts/licenses/**"],
+      "match": [
+        "public/fonts/licenses/**"
+      ],
       "license": "OFL-1.1",
       "source": "Official license text of each packaged font family",
       "redistribute": true
     },
     {
       "id": "maple-leaf-rag",
-      "match": ["public/music/maple-leaf-rag.ogg"],
+      "match": [
+        "public/music/maple-leaf-rag.ogg"
+      ],
       "license": "Public domain",
       "source": "Scott Joplin, Maple Leaf Rag (1899), recording by Gnissah, Wikimedia Commons",
       "redistribute": true
     },
     {
+      "id": "showtime-audio",
+      "match": [
+        "public/music/showtime-party.ogg",
+        "public/sfx/showtime/*.ogg"
+      ],
+      "license": "MIT",
+      "source": "Original music and sound effects synthesized by scripts/make-showtime-audio.py for the Showtime template",
+      "redistribute": true
+    },
+    {
       "id": "music-data",
-      "match": ["public/music/*.beats.json", "public/music/sources.json", "public/music/README.md"],
+      "match": [
+        "public/music/*.beats.json",
+        "public/music/sources.json",
+        "public/music/README.md"
+      ],
       "license": "MIT",
       "source": "Beat maps measured by scripts/analyze-music.mjs and track records; the Mixkit audio itself is not included",
       "redistribute": true
     },
     {
       "id": "key-taps",
-      "match": ["public/sfx/dvstory-key-*.wav"],
+      "match": [
+        "public/sfx/dvstory-key-*.wav"
+      ],
       "license": "MIT",
       "source": "Synthesized by scripts/make-key-sfx.py",
       "redistribute": true
     },
     {
       "id": "template-artwork",
-      "match": ["public/assets/**"],
+      "match": [
+        "public/assets/**"
+      ],
       "license": "MIT",
       "source": "VVV template artwork (Doodle XY-62, DV Story, paper-cut XY-39); the owner confirmed redistribution rights on 2026-10-10",
       "redistribute": true
     },
     {
       "id": "demo-photos",
-      "kinds": ["template", "effect"],
-      "match": ["public/photos/**"],
+      "kinds": [
+        "template",
+        "effect"
+      ],
+      "match": [
+        "public/photos/**"
+      ],
       "license": "MIT",
       "source": "Fictional generated demonstration photos and VVV render stills; provenance per item in assets.json",
       "redistribute": true
     },
     {
       "id": "user-media",
-      "kinds": ["project"],
-      "match": ["public/photos/**", "public/clips/**", "public/vo/**/*.mp3", "public/music/**", "public/sfx/**"],
+      "kinds": [
+        "project"
+      ],
+      "match": [
+        "public/photos/**",
+        "public/clips/**",
+        "public/vo/**/*.mp3",
+        "public/music/**",
+        "public/sfx/**"
+      ],
       "license": "Owner's material",
       "source": "Supplied by the project owner; their rights and consent govern any further use",
       "redistribute": "owner"
     },
     {
       "id": "narration-timing",
-      "match": ["public/vo/**"],
+      "match": [
+        "public/vo/**"
+      ],
       "license": "MIT",
       "source": "Narration timing data; no voice recordings ship with VVV",
       "redistribute": true
     },
     {
       "id": "project-notes",
-      "kinds": ["project"],
-      "match": ["creative/**", "out/*.report.json", "PROJECT.md"],
+      "kinds": [
+        "project"
+      ],
+      "match": [
+        "creative/**",
+        "out/*.report.json",
+        "PROJECT.md"
+      ],
       "license": "Owner's material",
       "source": "Brief, decisions, contact sheets and render reports of this project",
       "redistribute": "owner"
     },
     {
       "id": "preview-video",
-      "match": ["preview/*.mp4"],
+      "match": [
+        "preview/*.mp4"
+      ],
       "license": "MIT (picture); Mixkit Stock Music Free License (audio)",
       "source": "Rendered VVV template preview; the soundtrack keeps the terms of its track in public/music/sources.json (Mixkit tracks: Mixkit Stock Music Free License)",
       "redistribute": true,
@@ -93,7 +143,20 @@
     },
     {
       "id": "vvv-source",
-      "match": ["src/**", "catalog/**", "scripts/**", "examples/**", "schema/**", "preview/**", "check/**", "*.json", "*.md", "*.ts", "LICENSE", ".gitignore"],
+      "match": [
+        "src/**",
+        "catalog/**",
+        "scripts/**",
+        "examples/**",
+        "schema/**",
+        "preview/**",
+        "check/**",
+        "*.json",
+        "*.md",
+        "*.ts",
+        "LICENSE",
+        ".gitignore"
+      ],
       "license": "MIT",
       "source": "VVV code, data, documentation and render evidence",
       "redistribute": true

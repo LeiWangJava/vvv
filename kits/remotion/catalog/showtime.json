@@ -1,0 +1,193 @@
+{
+  "id": "showtime",
+  "version": "1.0.0",
+  "compositionId": "VVV-Showtime",
+  "title": "Showtime · 喜剧开场·大屏卡点版",
+  "description": "婚宴大屏喜剧开场：婚礼频道雪花屏开播，卡通新郎新娘在红色舞台上跟着节拍跳舞，金色大字逐句弹出欢迎词、拍照美颜、鼓掌、吃好喝好、别灌新郎的笑点，红白快闪倒计时，新郎新娘各一段“搞错人”的小时候照片笑点，杂志版婚纱照、相框幻灯片、圆形相框致谢收尾。约 2 分 50 秒，配乐和音效为原创合成，随模板打包。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "defaultProps": {
+    "couple": {
+      "groom": "林以舟",
+      "bride": "许知夏",
+      "groomEn": "LIN YIZHOU",
+      "brideEn": "XU ZHIXIA",
+      "date": "2026-10-18",
+      "tagline": "我们结婚啦"
+    },
+    "photos": {
+      "couple1": "",
+      "groomKid": "",
+      "groomHero": "",
+      "coupleA": "",
+      "brideKid": "",
+      "brideHero": "",
+      "coupleB": "",
+      "mag": [],
+      "slides": [],
+      "finale": ""
+    },
+    "copy": {
+      "ident_search": "正在搜索婚礼信号…",
+      "ident_bars": "信号调试中",
+      "ident_channel": "婚礼频道",
+      "ident_go": "前方高能｜婚礼即将开始",
+      "w1": "尊敬的各位｜来宾朋友们",
+      "w2": "大家好",
+      "w3": "欢迎光临｜我们的婚礼",
+      "w4": "为了不耽误｜大家干饭",
+      "w5": "请大家｜尽快入座",
+      "g1": "说的就是你｜还没坐好的",
+      "w6": "我们的婚礼｜即将开始",
+      "w7": "请拿出手机",
+      "snap": "咔嚓！拍好啦",
+      "w8": "记得要帮我们｜美颜哦",
+      "w9": "当你开心｜感动的时候",
+      "w10": "请为我们｜鼓掌欢呼",
+      "g2": "掌声在哪里？",
+      "w11": "请暂时放下",
+      "w12": "您的工作｜您的烦恼",
+      "w13": "只需记得｜高高兴兴",
+      "w14": "吃好｜喝好",
+      "g3": "放开吃｜别客气",
+      "w15": "手下留情｜别灌新郎太多酒哦",
+      "w16": "不然他会……",
+      "g4": "当场表演｜醉拳",
+      "c0": "现在婚礼｜进入倒计时",
+      "x1": "小哥哥",
+      "x2": "小姐姐",
+      "x3": "亲朋好友们",
+      "x4": "接下来",
+      "x5": "这是一个",
+      "x6": "重要时刻",
+      "x7": "请你们",
+      "x8": "千万别眨眼",
+      "hl": "高光时刻",
+      "gi1": "首先介绍",
+      "gi2": "今天的新郎",
+      "gi3": "品貌｜非凡",
+      "gi4": "玉树｜临风",
+      "gi5": "一表｜人才",
+      "gi6": "才华｜横溢",
+      "gcall": "掌声有请｜新郎登场",
+      "gfake": "就是他！｜等等……搞错了！｜再来一次",
+      "greal": "这才是｜新郎",
+      "groom_role": "新郎",
+      "bi1": "接下来介绍",
+      "bi2": "美丽的新娘",
+      "bi3": "美丽｜大方",
+      "bi4": "貌美｜如花",
+      "bi5": "气质｜端庄",
+      "bi6": "一笑｜倾城",
+      "bi7": "再笑｜倾国",
+      "bname": "新娘｜{bride}",
+      "bcall": "掌声有请｜新娘登场",
+      "bfake": "嗯……这是小时候？｜从小就是美人胚子",
+      "bride_role": "新娘",
+      "coupleA_cap": "天生一对",
+      "coupleB_cap": "郎才女貌",
+      "witness": "下面一起见证｜我们的幸福时刻吧",
+      "mag_title": "Love & Marriage｜Sweet Moment｜Forever Love",
+      "mag_cap": "HAPPY MOMENT｜WE ARE MARRIED｜LOVE FOREVER",
+      "count": "婚礼进入倒计时",
+      "finale": "感谢见证我们的幸福时刻"
+    },
+    "music": {
+      "src": "music/showtime-party.ogg",
+      "volume": 0.9,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0.05,
+      "fadeOutSec": 2.5
+    },
+    "fps": 30
+  },
+  "slots": {
+    "couple1": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "合照，取景器拍照那一下（横图最好）"
+    },
+    "groomKid": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "新郎小时候的照片，“搞错人”笑点用"
+    },
+    "groomHero": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "新郎单人正装照，竖图，金框名牌"
+    },
+    "coupleA": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "新郎介绍后的合照，横图全屏"
+    },
+    "brideKid": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "新娘小时候的照片，放大镜笑点用"
+    },
+    "brideHero": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "新娘单人婚纱照，竖图，金框名牌"
+    },
+    "coupleB": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "新娘介绍后的合照，横图全屏"
+    },
+    "mag": {
+      "kind": "array",
+      "count": 9,
+      "min": 3,
+      "max": 9,
+      "independent": true,
+      "hint": "杂志版婚纱照，三页每页三张竖图；可与其他坑位重复"
+    },
+    "slides": {
+      "kind": "array",
+      "count": 12,
+      "min": 4,
+      "max": 12,
+      "independent": true,
+      "hint": "白色圆角相框幻灯片，横竖都可以；可与其他坑位重复"
+    },
+    "finale": {
+      "kind": "single",
+      "count": 1,
+      "min": 1,
+      "hint": "结尾圆形相框里的合照，两个人的脸在中间"
+    }
+  },
+  "sample": {
+    "from": 56,
+    "to": 70
+  },
+  "package": {
+    "name": "@vvv/showtime",
+    "fixture": "examples/showtime-wedding.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}
