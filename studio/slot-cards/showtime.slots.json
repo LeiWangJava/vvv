@@ -1,12 +1,12 @@
 {
   "template": "showtime",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "event": [
     "wedding"
   ],
   "slots": {
     "couple1": {
-      "label": "取景器拍照的合照",
+      "label": "拍照之后的全屏合照",
       "display": {
         "size": "full",
         "aspect": [
@@ -27,8 +27,8 @@
         "prefer": [
           "dating-daily",
           "travel",
-          "prewedding-outdoor",
           "prewedding-studio",
+          "prewedding-outdoor",
           "prewedding-chinese"
         ]
       },
@@ -40,83 +40,10 @@
       },
       "reuse": "never",
       "priority": 3,
-      "note": "横图，全屏放大后模糊对焦再“咔嚓”"
-    },
-    "groomKid": {
-      "label": "新郎小时候（搞错人笑点）",
-      "display": {
-        "size": "half",
-        "aspect": [
-          0.6,
-          1.9
-        ]
-      },
-      "people": {
-        "require": [
-          "groom"
-        ],
-        "count": [
-          1,
-          2
-        ]
-      },
-      "scenes": {
-        "prefer": [
-          "childhood-photo"
-        ]
-      },
-      "phase": {
-        "prefer": [
-          "childhood"
-        ]
-      },
-      "reuse": "never",
-      "priority": 5,
-      "note": "越萌越好；会被定格变黑白并打红叉"
-    },
-    "groomHero": {
-      "label": "新郎正装单人照",
-      "display": {
-        "size": "half",
-        "aspect": [
-          0.62,
-          0.9
-        ]
-      },
-      "people": {
-        "require": [
-          "groom"
-        ],
-        "forbid": [
-          "bride"
-        ],
-        "count": [
-          1,
-          1
-        ]
-      },
-      "shots": [
-        "half",
-        "full"
-      ],
-      "scenes": {
-        "prefer": [
-          "prewedding-outdoor",
-          "prewedding-studio",
-          "prewedding-chinese"
-        ]
-      },
-      "phase": {
-        "prefer": [
-          "prewedding"
-        ]
-      },
-      "reuse": "never",
-      "priority": 5,
-      "note": "竖图，金框里配名牌"
+      "note": "横图全屏 2 秒"
     },
     "coupleA": {
-      "label": "新郎之后的合照",
+      "label": "新郎介绍后的全屏合照",
       "display": {
         "size": "full",
         "aspect": [
@@ -127,79 +54,6 @@
       "people": {
         "require": [
           "couple"
-        ]
-      },
-      "shots": [
-        "half",
-        "full",
-        "wide"
-      ],
-      "scenes": {
-        "prefer": [
-          "prewedding-outdoor",
-          "prewedding-studio",
-          "prewedding-chinese"
-        ]
-      },
-      "phase": {
-        "prefer": [
-          "prewedding"
-        ]
-      },
-      "reuse": "never",
-      "priority": 4
-    },
-    "brideKid": {
-      "label": "新娘小时候（放大镜）",
-      "display": {
-        "size": "half",
-        "aspect": [
-          0.6,
-          1.9
-        ]
-      },
-      "people": {
-        "require": [
-          "bride"
-        ],
-        "count": [
-          1,
-          2
-        ]
-      },
-      "scenes": {
-        "prefer": [
-          "childhood-photo"
-        ]
-      },
-      "phase": {
-        "prefer": [
-          "childhood"
-        ]
-      },
-      "reuse": "never",
-      "priority": 5,
-      "note": "可爱的小时候照片，夸“从小就是美人胚子”，不丑化"
-    },
-    "brideHero": {
-      "label": "新娘婚纱单人照",
-      "display": {
-        "size": "half",
-        "aspect": [
-          0.62,
-          0.9
-        ]
-      },
-      "people": {
-        "require": [
-          "bride"
-        ],
-        "forbid": [
-          "groom"
-        ],
-        "count": [
-          1,
-          1
         ]
       },
       "shots": [
@@ -208,8 +62,8 @@
       ],
       "scenes": {
         "prefer": [
-          "prewedding-outdoor",
           "prewedding-studio",
+          "prewedding-outdoor",
           "prewedding-chinese"
         ]
       },
@@ -219,11 +73,11 @@
         ]
       },
       "reuse": "never",
-      "priority": 5,
-      "note": "竖图，金框里配名牌"
+      "priority": 3,
+      "note": "横图全屏近 4 秒"
     },
     "coupleB": {
-      "label": "新娘之后的合照",
+      "label": "新娘片段后的全屏合照",
       "display": {
         "size": "full",
         "aspect": [
@@ -238,13 +92,12 @@
       },
       "shots": [
         "half",
-        "full",
-        "wide"
+        "full"
       ],
       "scenes": {
         "prefer": [
-          "prewedding-outdoor",
           "prewedding-studio",
+          "prewedding-outdoor",
           "prewedding-chinese"
         ]
       },
@@ -254,15 +107,17 @@
         ]
       },
       "reuse": "never",
-      "priority": 4
+      "priority": 3,
+      "kind": "array",
+      "note": "2 张横图，各约 1.8 秒"
     },
     "mag": {
-      "label": "杂志版婚纱照",
+      "label": "杂志页婚纱照",
       "display": {
         "size": "half",
         "aspect": [
-          0.62,
-          0.9
+          0.55,
+          0.8
         ]
       },
       "people": {
@@ -276,8 +131,8 @@
       ],
       "scenes": {
         "prefer": [
-          "prewedding-outdoor",
           "prewedding-studio",
+          "prewedding-outdoor",
           "prewedding-chinese"
         ]
       },
@@ -289,28 +144,31 @@
       "reuse": "any",
       "priority": 3,
       "kind": "array",
-      "note": "9 张竖图，每三张一页，同一页尽量同一套服装"
+      "note": "7 张竖图：第一页 3 张 + 换上的 1 张，翻页后 3 张；同页尽量同一套服装"
     },
-    "slides": {
-      "label": "相框幻灯片",
+    "pairs": {
+      "label": "白框并排婚纱照",
       "display": {
         "size": "half",
         "aspect": [
           0.6,
-          1.9
+          1.2
         ]
       },
       "people": {
-        "prefer": [
-          "couple",
-          "groom",
-          "bride"
+        "require": [
+          "couple"
         ]
       },
+      "shots": [
+        "full",
+        "half",
+        "close"
+      ],
       "scenes": {
         "prefer": [
-          "prewedding-outdoor",
           "prewedding-studio",
+          "prewedding-outdoor",
           "prewedding-chinese"
         ]
       },
@@ -322,7 +180,42 @@
       "reuse": "any",
       "priority": 2,
       "kind": "array",
-      "note": "12 张，横竖都可以，按套系排"
+      "note": "10 张，两两一组：左边偏横、右边偏竖"
+    },
+    "singles": {
+      "label": "白框单张婚纱照",
+      "display": {
+        "size": "full",
+        "aspect": [
+          1.5,
+          1.9
+        ]
+      },
+      "people": {
+        "require": [
+          "couple"
+        ]
+      },
+      "shots": [
+        "half",
+        "full"
+      ],
+      "scenes": {
+        "prefer": [
+          "prewedding-studio",
+          "prewedding-outdoor",
+          "prewedding-chinese"
+        ]
+      },
+      "phase": {
+        "prefer": [
+          "prewedding"
+        ]
+      },
+      "reuse": "any",
+      "priority": 2,
+      "kind": "array",
+      "note": "5 张横图"
     },
     "finale": {
       "label": "结尾圆形相框",

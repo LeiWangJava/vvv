@@ -46,6 +46,8 @@ export const POSES = {
   kickR: P([100, 20], [60, 60], 6, -10, 4, [0, 0], [-60, 60]),
   shrug: P([30, 100], [30, 100], 0, 0, 10),
   think: P([10, 8], [24, -142], 0, 0, 12),
+  selfie: P([20, 30], [128, -72], -4, 0, -10),
+  sit: P([40, -60], [40, -60], 0, 120, 6, [80, -90], [80, -90]),
 };
 export type PoseName = keyof typeof POSES;
 
@@ -65,6 +67,10 @@ export const MOVES: Record<string, PoseName[]> = {
   kick: ["kickL", "stand", "kickR", "stand"],
   shrug: ["shrug", "stand"],
   think: ["think", "think"],
+  selfie: ["selfie", "selfie"],
+  hipL: ["hipL", "stand"],
+  cheerB: ["cheerB", "cheerA"],
+  sit: ["sit", "sit"],
 };
 
 const mix = (a: number, b: number, k: number) => a + (b - a) * k;
@@ -76,7 +82,7 @@ export const blend = (a: Pose, b: Pose, k: number): Pose => ({
 
 /** Pose at `beat` (fractional) of a move; each pose holds its beat and eases into the next over the last 40%. */
 export function poseAt(move: string, beat: number, phase = 0): Pose {
-  const list = MOVES[move] ?? MOVES.idle;
+  const list = MOVES[move] ?? ((POSES as Record<string, Pose>)[move] ? [move, move] : MOVES.idle);
   const b = Math.max(0, beat + phase);
   const i = Math.floor(b);
   const f = b - i;

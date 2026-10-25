@@ -47,42 +47,40 @@
           "type": "string",
           "minLength": 1
         },
-        "groomKid": {
-          "type": "string",
-          "minLength": 1
-        },
-        "groomHero": {
-          "type": "string",
-          "minLength": 1
-        },
         "coupleA": {
           "type": "string",
           "minLength": 1
         },
-        "brideKid": {
-          "type": "string",
-          "minLength": 1
-        },
-        "brideHero": {
-          "type": "string",
-          "minLength": 1
-        },
         "coupleB": {
-          "type": "string",
-          "minLength": 1
-        },
-        "mag": {
-          "minItems": 3,
-          "maxItems": 9,
+          "minItems": 1,
+          "maxItems": 2,
           "type": "array",
           "items": {
             "type": "string",
             "minLength": 1
           }
         },
-        "slides": {
-          "minItems": 4,
-          "maxItems": 12,
+        "mag": {
+          "minItems": 3,
+          "maxItems": 7,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "pairs": {
+          "minItems": 2,
+          "maxItems": 10,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "singles": {
+          "minItems": 1,
+          "maxItems": 5,
           "type": "array",
           "items": {
             "type": "string",
@@ -96,35 +94,20 @@
       },
       "required": [
         "couple1",
-        "groomKid",
-        "groomHero",
         "coupleA",
-        "brideKid",
-        "brideHero",
         "coupleB",
         "mag",
-        "slides",
+        "pairs",
+        "singles",
         "finale"
       ]
     },
     "copy": {
       "type": "object",
       "properties": {
-        "ident_search": {
+        "clip_open": {
           "type": "string",
-          "description": "片头 · 搜索信号（雪花屏下方）"
-        },
-        "ident_bars": {
-          "type": "string",
-          "description": "片头 · 彩条上的字"
-        },
-        "ident_channel": {
-          "type": "string",
-          "description": "片头 · 频道名（新人名字下面）"
-        },
-        "ident_go": {
-          "type": "string",
-          "description": "片头 · 两行大字（用｜分行）"
+          "description": "电影片段 · 开场（0–22.8 秒，约 22.8 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
         "w1": {
           "type": "string",
@@ -146,21 +129,17 @@
           "type": "string",
           "description": "欢迎 · 第 5 句"
         },
-        "g1": {
+        "clip_1": {
           "type": "string",
-          "description": "笑点 · 指向观众"
+          "description": "电影片段 · 第 1 段（32.4–35.87 秒，约 3.5 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
         "w6": {
           "type": "string",
-          "description": "欢迎 · 第 6 句"
+          "description": "开始 · 第 1 句"
         },
         "w7": {
           "type": "string",
           "description": "拍照 · 第 1 句"
-        },
-        "snap": {
-          "type": "string",
-          "description": "拍照 · 咔嚓（照片下方）"
         },
         "w8": {
           "type": "string",
@@ -174,13 +153,13 @@
           "type": "string",
           "description": "掌声 · 第 2 句"
         },
-        "g2": {
+        "clip_2": {
           "type": "string",
-          "description": "笑点 · 掌声"
+          "description": "电影片段 · 第 2 段（46.17–48.83 秒，约 2.7 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
         "w11": {
           "type": "string",
-          "description": "须知 · 第 1 句"
+          "description": "须知 · 散开的词（｜分隔）"
         },
         "w12": {
           "type": "string",
@@ -194,21 +173,25 @@
           "type": "string",
           "description": "须知 · 左右两个词"
         },
-        "g3": {
-          "type": "string",
-          "description": "笑点 · 美食雨"
-        },
         "w15": {
           "type": "string",
-          "description": "须知 · 劝酒"
+          "description": "须知 · 左右两个词"
+        },
+        "clip_3": {
+          "type": "string",
+          "description": "电影片段 · 第 3 段（55.97–57.77 秒，约 1.8 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
         "w16": {
           "type": "string",
-          "description": "须知 · 不然"
+          "description": "劝酒 · 第 1 句"
         },
-        "g4": {
+        "w17": {
           "type": "string",
-          "description": "笑点 · 新郎喝多（右侧两行）"
+          "description": "劝酒 · 第 2 句"
+        },
+        "clip_4": {
+          "type": "string",
+          "description": "电影片段 · 第 4 段（不然他会……）（61.53–64.85 秒，约 3.3 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
         "c0": {
           "type": "string",
@@ -216,79 +199,107 @@
         },
         "x1": {
           "type": "string",
-          "description": "倒计时 · 快闪 1（红）"
+          "description": "快闪 1（红）"
         },
         "x2": {
           "type": "string",
-          "description": "倒计时 · 快闪 2（白）"
+          "description": "快闪 2（白）"
         },
         "x3": {
           "type": "string",
-          "description": "倒计时 · 快闪 3（红）"
+          "description": "快闪 3（红）"
         },
         "x4": {
           "type": "string",
-          "description": "倒计时 · 快闪 4（白）"
+          "description": "快闪 4（白）"
         },
         "x5": {
           "type": "string",
-          "description": "倒计时 · 快闪 5（红）"
+          "description": "快闪 5（白）"
         },
         "x6": {
           "type": "string",
-          "description": "倒计时 · 快闪 6（白）"
+          "description": "快闪 6（红）"
         },
         "x7": {
           "type": "string",
-          "description": "倒计时 · 快闪 7（红）"
+          "description": "快闪 7（白）"
         },
         "x8": {
           "type": "string",
-          "description": "倒计时 · 快闪 8（白）"
+          "description": "快闪 8（红）"
         },
-        "hl": {
+        "x9": {
           "type": "string",
-          "description": "倒计时 · 名字之后（白）"
+          "description": "快闪 9（白）"
+        },
+        "x10": {
+          "type": "string",
+          "description": "快闪 10（红）"
+        },
+        "x11": {
+          "type": "string",
+          "description": "快闪 11（白）"
+        },
+        "x12": {
+          "type": "string",
+          "description": "快闪 12（红）"
+        },
+        "x13": {
+          "type": "string",
+          "description": "日期之前"
+        },
+        "x14": {
+          "type": "string",
+          "description": "名字之后 · 1（白）"
+        },
+        "x15": {
+          "type": "string",
+          "description": "名字之后 · 2（红）"
+        },
+        "x16": {
+          "type": "string",
+          "description": "名字之后 · 3（白）"
         },
         "gi1": {
           "type": "string",
-          "description": "新郎 · 第 1 句"
+          "description": "新郎 · 第 1 句（左右两个词）"
         },
         "gi2": {
           "type": "string",
-          "description": "新郎 · 第 2 句"
+          "description": "新郎 · 夸奖 1"
         },
         "gi3": {
           "type": "string",
-          "description": "新郎 · 夸奖 1（左右两个词）"
+          "description": "新郎 · 夸奖 2"
         },
         "gi4": {
           "type": "string",
-          "description": "新郎 · 夸奖 2"
+          "description": "新郎 · 夸奖 3"
         },
         "gi5": {
           "type": "string",
-          "description": "新郎 · 夸奖 3"
+          "description": "新郎 · 夸奖 4"
         },
         "gi6": {
           "type": "string",
-          "description": "新郎 · 夸奖 4"
+          "description": "新郎 · 滚动大字"
         },
-        "gcall": {
+        "clip_groom": {
           "type": "string",
-          "description": "新郎 · 有请"
+          "description": "电影片段 · 新郎登场（89.63–98.83 秒，约 9.2 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
-        "gfake": {
+        "g1": {
           "type": "string",
-          "description": "新郎 · 搞错人（三句：小时候照片 → 定格 → 倒带）"
+          "description": "新郎 · 搞错了"
         },
-        "greal": {
+        "g2": {
           "type": "string",
-          "description": "新郎 · 真正登场"
+          "description": "新郎 · 真正的新郎"
         },
-        "groom_role": {
+        "clip_5": {
           "type": "string",
-          "description": "新郎 · 名牌称呼"
+          "description": "电影片段 · 第 5 段（105.93–109.4 秒，约 3.5 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
         "bi1": {
           "type": "string",
@@ -296,99 +307,92 @@
         },
         "bi2": {
           "type": "string",
-          "description": "新娘 · 第 2 句"
+          "description": "新娘 · 夸奖 1（左右两个词）"
         },
         "bi3": {
           "type": "string",
-          "description": "新娘 · 夸奖 1（左右两个词）"
+          "description": "新娘 · 夸奖 2"
         },
         "bi4": {
           "type": "string",
-          "description": "新娘 · 夸奖 2"
+          "description": "新娘 · 夸奖 3"
         },
         "bi5": {
           "type": "string",
-          "description": "新娘 · 夸奖 3"
+          "description": "新娘 · 夸奖 4"
         },
         "bi6": {
           "type": "string",
-          "description": "新娘 · 夸奖 4"
+          "description": "新娘 · 夸奖 5"
         },
         "bi7": {
           "type": "string",
-          "description": "新娘 · 夸奖 5"
-        },
-        "bname": {
-          "type": "string",
           "description": "新娘 · 名字（{bride} 自动换成新娘名字）"
         },
-        "bcall": {
+        "clip_bride": {
           "type": "string",
-          "description": "新娘 · 有请"
+          "description": "电影片段 · 新娘登场（116.97–132.23 秒，约 15.3 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
-        "bfake": {
+        "clip_6": {
           "type": "string",
-          "description": "新娘 · 放大镜（两句）"
+          "description": "电影片段 · 第 6 段（135.83–138.97 秒，约 3.1 秒；填 clips/文件名.mp4，可加 @起始秒 和 #sound 用片段原声）"
         },
-        "bride_role": {
+        "h1": {
           "type": "string",
-          "description": "新娘 · 名牌称呼"
+          "description": "见证 · 第 1 句"
         },
-        "coupleA_cap": {
+        "h2": {
           "type": "string",
-          "description": "新郎之后的合照 · 字"
+          "description": "见证 · 第 2 句"
         },
-        "coupleB_cap": {
+        "mag_script": {
           "type": "string",
-          "description": "新娘之后的合照 · 字"
-        },
-        "witness": {
-          "type": "string",
-          "description": "见证（两句）"
-        },
-        "mag_title": {
-          "type": "string",
-          "description": "婚纱照杂志 · 手写标题（三页用｜分隔）"
+          "description": "婚纱照杂志 · 手写标题"
         },
         "mag_cap": {
           "type": "string",
-          "description": "婚纱照杂志 · 底部大字（三页用｜分隔）"
+          "description": "婚纱照杂志 · 底部大字（换图前｜换图后）"
+        },
+        "mag_header": {
+          "type": "string",
+          "description": "婚纱照杂志 · 第二页顶部的字"
         },
         "count": {
           "type": "string",
-          "description": "婚纱照之间 · 倒计时标题"
+          "description": "婚纱照之间 · 标题"
         },
         "finale": {
           "type": "string",
           "description": "结尾 · 感谢"
+        },
+        "sfx": {
+          "type": "string",
+          "description": "模板音效（开 / 关；用整轨原配乐时填 关）"
         }
       },
       "required": [
-        "ident_search",
-        "ident_bars",
-        "ident_channel",
-        "ident_go",
+        "clip_open",
         "w1",
         "w2",
         "w3",
         "w4",
         "w5",
-        "g1",
+        "clip_1",
         "w6",
         "w7",
-        "snap",
         "w8",
         "w9",
         "w10",
-        "g2",
+        "clip_2",
         "w11",
         "w12",
         "w13",
         "w14",
-        "g3",
         "w15",
+        "clip_3",
         "w16",
-        "g4",
+        "w17",
+        "clip_4",
         "c0",
         "x1",
         "x2",
@@ -398,17 +402,24 @@
         "x6",
         "x7",
         "x8",
-        "hl",
+        "x9",
+        "x10",
+        "x11",
+        "x12",
+        "x13",
+        "x14",
+        "x15",
+        "x16",
         "gi1",
         "gi2",
         "gi3",
         "gi4",
         "gi5",
         "gi6",
-        "gcall",
-        "gfake",
-        "greal",
-        "groom_role",
+        "clip_groom",
+        "g1",
+        "g2",
+        "clip_5",
         "bi1",
         "bi2",
         "bi3",
@@ -416,17 +427,16 @@
         "bi5",
         "bi6",
         "bi7",
-        "bname",
-        "bcall",
-        "bfake",
-        "bride_role",
-        "coupleA_cap",
-        "coupleB_cap",
-        "witness",
-        "mag_title",
+        "clip_bride",
+        "clip_6",
+        "h1",
+        "h2",
+        "mag_script",
         "mag_cap",
+        "mag_header",
         "count",
-        "finale"
+        "finale",
+        "sfx"
       ]
     },
     "music": {
@@ -474,27 +484,6 @@
       "description": "画幅，例如 16:9 或 9:16（由工程初始化时选择）",
       "type": "string",
       "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"
-    },
-    "beatGrid": {
-      "anyOf": [
-        {
-          "type": "object",
-          "properties": {
-            "beats": {
-              "type": "array",
-              "items": {
-                "type": "number"
-              }
-            }
-          },
-          "required": [
-            "beats"
-          ]
-        },
-        {
-          "type": "null"
-        }
-      ]
     }
   },
   "required": [

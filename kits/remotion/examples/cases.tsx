@@ -34,7 +34,7 @@ const Cases: React.FC = () => <>
   <Composition id="VVV-Hundred" component={hundred.component} defaultProps={hundredDays.props as any} fps={30} width={1920} height={1080}
     durationInFrames={Math.ceil(hundred.seconds(hundredDays.props as any) * 30)} calculateMetadata={hundred.calculateMetadata} />
   <Composition id="VVV-Showtime" component={showtime.component} defaultProps={showtimeWedding.props as any} fps={30} width={1920} height={1080}
-    durationInFrames={Math.ceil(showtime.seconds(showtimeWedding.props as any) * 30)} calculateMetadata={showtime.calculateMetadata} />
+    durationInFrames={Math.ceil(showtime.seconds(showtimeWedding.props as any) * 30)} />
   <Composition id="VVV-Effect-PapercutFrame" component={papercutFrameDemo.component} defaultProps={papercut.props as any} fps={30} width={1920} height={1080}
     durationInFrames={Math.ceil(papercutFrameDemo.seconds(papercut.props as any) * 30)} />
 </>;
