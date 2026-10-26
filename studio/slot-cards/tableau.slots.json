@@ -1,0 +1,81 @@
+{
+  "template": "tableau",
+  "version": "1.0.0",
+  "event": [
+    "photo-series"
+  ],
+  "sections": [
+    {
+      "id": "series",
+      "label": "组图（一张图 8 拍；第 5 张起是配乐高潮）",
+      "slots": [
+        "pictures"
+      ]
+    }
+  ],
+  "slots": {
+    "pictures": {
+      "label": "组图画面（一张图一个镜头，可配一行字幕）",
+      "display": {
+        "size": "full",
+        "aspect": [
+          0.45,
+          2.0
+        ],
+        "faceZone": [
+          0.08,
+          0.06,
+          0.92,
+          0.82
+        ],
+        "holdSeconds": 3.2,
+        "brightness": "any",
+        "textSpace": "bottom"
+      },
+      "people": {
+        "prefer": [
+          "protagonist",
+          "extras"
+        ],
+        "allowNone": true
+      },
+      "shots": [
+        "wide",
+        "full",
+        "group",
+        "half"
+      ],
+      "scenes": {
+        "prefer": [
+          "staged-tableau",
+          "documentary"
+        ]
+      },
+      "phase": {
+        "prefer": [
+          "setup",
+          "climax"
+        ],
+        "order": "any"
+      },
+      "moods": [
+        "solemn",
+        "funny",
+        "calm"
+      ],
+      "copy": {
+        "field": "captions[i]",
+        "maxChars": 20,
+        "maxLines": 1,
+        "role": "caption"
+      },
+      "generation": {
+        "mode": "none"
+      },
+      "reuse": "never",
+      "distinctNeighbors": true,
+      "priority": 5,
+      "note": "全部图片按客户的文件编号顺序填入（studio_profile.py --event photo-series 已按文件名自然排序，#1 就是第一张），不要按内容或拍摄时间重排，也不要挑选或删减；客户给 5–10 张就全部用上，多于 10 张时停下来问人。第 5 张落在配乐高潮上，客户没指定顺序时才建议把最有冲击力的一张放第 5 张，并写进 questions 请人确认。字幕默认全部留空（参考片没有字）；只有客户在问卷里写了某张图的字幕才填，原样使用，copySource 写 client。横图 16:9 铺满画面；竖图会整张显示在模糊背景上，不算问题。"
+    }
+  }
+}

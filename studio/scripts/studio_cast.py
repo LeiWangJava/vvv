@@ -261,6 +261,12 @@ def cmd_check(a) -> None:
             for (k1, t1), (k2, t2) in zip(times, times[1:]):
                 if t2 < t1:
                     errors.append(f'{k2}: 拍摄时间 {t2[:10]} 早于前一格 {k1} 的 {t1[:10]}，应按时间排序')
+        if event == 'photo-series':
+            # a photo series plays in the client's file order (profile index); every picture is used
+            order = [(key, by_id[e['photo']]['index']) for key, _, e in rows if e.get('photo') in by_id]
+            for (k1, i1), (k2, i2) in zip(order, order[1:]):
+                if i2 < i1:
+                    errors.append(f'{k2}: 组图要按客户编号顺序，#{i2} 排在了 #{i1} 后面')
         limit = 2 if event in ('full-month', 'hundred-days') else 3
         for g, n in group_count.items():
             if n > limit:

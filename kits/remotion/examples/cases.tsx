@@ -8,6 +8,7 @@ import { starter } from '../src/templates/starter';
 import { growth } from '../src/templates/growth';
 import { hundred } from '../src/templates/hundred';
 import { showtime } from '../src/templates/showtime';
+import { tableau } from '../src/templates/tableau';
 import notebook from './doodle-wedding.json';
 import wedding from './album-wedding.json';
 import tape from './dv-our-story.json';
@@ -16,6 +17,7 @@ import reel from './starter-reel.json';
 import birthday from './growth-birthday.json';
 import hundredDays from './hundred-100days.json';
 import showtimeWedding from './showtime-wedding.json';
+import tableauSeries from './tableau-series.json';
 import { papercutFrameDemo } from '../src/effects/papercut-frame/demo';
 import papercut from './effect-papercut-frame.json';
 
@@ -35,6 +37,10 @@ const Cases: React.FC = () => <>
     durationInFrames={Math.ceil(hundred.seconds(hundredDays.props as any) * 30)} calculateMetadata={hundred.calculateMetadata} />
   <Composition id="VVV-Showtime" component={showtime.component} defaultProps={showtimeWedding.props as any} fps={30} width={1920} height={1080}
     durationInFrames={Math.ceil(showtime.seconds(showtimeWedding.props as any) * 30)} />
+  <Composition id="VVV-Tableau" component={tableau.component} defaultProps={tableauSeries.props as any} fps={30} width={1920} height={1080}
+    durationInFrames={Math.ceil(tableau.seconds(tableauSeries.props as any) * 30)} calculateMetadata={tableau.calculateMetadata} />
+  <Composition id="VVV-Tableau-Vertical" component={tableau.component} defaultProps={{ ...tableauSeries.props, format: '9:16', captions: ['字幕示例：第一张图', '', '第三张图下面的一句', '', '第五张，配乐进入高潮', ''] } as any} fps={30} width={1080} height={1920}
+    durationInFrames={Math.ceil(tableau.seconds(tableauSeries.props as any) * 30)} calculateMetadata={tableau.calculateMetadata} />
   <Composition id="VVV-Effect-PapercutFrame" component={papercutFrameDemo.component} defaultProps={papercut.props as any} fps={30} width={1920} height={1080}
     durationInFrames={Math.ceil(papercutFrameDemo.seconds(papercut.props as any) * 30)} />
 </>;

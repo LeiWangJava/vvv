@@ -10,6 +10,7 @@ Reproducible wedding films using the kit's editable scene code and explicitly se
 - `growth-birthday.json`: the Growth first-birthday film with demo photos standing in for a baby's; about 2:26 on the bundled *Maple Leaf Rag*.
 - `hundred-100days.json`: the Hundred 100-days film, the same film with twelve milestones; about 2:04 on *Maple Leaf Rag*.
 - `showtime-wedding.json`: the Showtime big-screen comic opener, about 2:50 on its own bundled *Showtime Party*, with twelve synthesized effects.
+- `tableau-series.json`: the Tableau surreal photo-series short, six demo photos, 19.6 seconds on its own bundled *Tableau Tick*. `VVV-Tableau-Vertical` shows the 9:16 frame with sample subtitles.
 - `effect-papercut-frame.json`: input for the `VVV-Effect-PapercutFrame` demo.
 
 `cases.tsx` registers these compositions without changing a normal project's `src/Root.tsx`. From `kits/remotion`:

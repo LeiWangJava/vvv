@@ -8,6 +8,7 @@ import starterCatalog from '../../catalog/starter.json';
 import growthCatalog from '../../catalog/growth.json';
 import hundredCatalog from '../../catalog/hundred.json';
 import showtimeCatalog from '../../catalog/showtime.json';
+import tableauCatalog from '../../catalog/tableau.json';
 import papercutFrameCatalog from '../../catalog/papercut-frame.json';
 import { album } from './album';
 import { comedy } from './comedy';
@@ -17,6 +18,7 @@ import { starter } from './starter';
 import { growth } from './growth';
 import { hundred } from './hundred';
 import { showtime } from './showtime';
+import { tableau } from './tableau';
 import { papercutFrameDemo } from '../effects/papercut-frame/demo';
 
 /** One line per template or effect demo. Adding one: its folder, its catalog file, and an entry here. */
@@ -29,5 +31,6 @@ export const TEMPLATES: Record<string, { definition: Definition; catalog: Catalo
   growth: { definition: growth, catalog: growthCatalog },
   hundred: { definition: hundred, catalog: hundredCatalog },
   showtime: { definition: showtime, catalog: showtimeCatalog },
+  tableau: { definition: tableau, catalog: tableauCatalog },
   'papercut-frame': { definition: papercutFrameDemo, catalog: papercutFrameCatalog },
 };

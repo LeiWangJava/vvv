@@ -28,6 +28,20 @@
       ]
     },
     {
+      "file": "tableau-tick.ogg",
+      "title": "Tableau Tick (original)",
+      "author": "VVV, synthesized by scripts/make-tableau-audio.py",
+      "source": "kits/remotion/scripts/make-tableau-audio.py",
+      "license": "MIT (original work)",
+      "distribution": "bundled",
+      "bytes": 696812,
+      "sha256": "fdf3ab1efd17ff1967f97a1a86455dfa475b7934072ef16e3350e3b73fd9d921",
+      "bpm": 150,
+      "templates": [
+        "tableau"
+      ]
+    },
+    {
       "file": "mixkit-skyline.mp3",
       "title": "Skyline",
       "author": "Eugenio Mininni",

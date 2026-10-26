@@ -1422,6 +1422,86 @@
           "fullSeconds": 34.9
         }
       ]
+    },
+    {
+      "id": "tableau",
+      "kind": "template",
+      "title": "Tableau · 荒诞纪实组图",
+      "description": "荒诞纪实风组图短片：一张图一个画面，每张 8 拍（3.2 秒）缓慢推近加轻微手持晃动，卡拍硬切，胶片颗粒和暗角。自带原创配乐前 32 拍是干净的滴答律动，第 32 拍进入厚重的和弦墙，第 5 张图正好落在高潮上。5–10 张图，约 16–32 秒。",
+      "version": "1.0.0",
+      "package": "@vvv/tableau",
+      "defaultFormat": "16:9",
+      "formats": [
+        {
+          "name": "16:9",
+          "width": 1920,
+          "height": 1080,
+          "minPhotos": 5,
+          "targetPhotos": 6,
+          "sample": {
+            "from": 10,
+            "to": 19
+          }
+        },
+        {
+          "name": "9:16",
+          "width": 1080,
+          "height": 1920,
+          "minPhotos": 5,
+          "targetPhotos": 6,
+          "sample": {
+            "from": 10,
+            "to": 19
+          }
+        }
+      ],
+      "slotsByFormat": {
+        "16:9": {
+          "slots": [
+            {
+              "name": "pictures",
+              "kind": "array",
+              "min": 5,
+              "count": 6,
+              "max": 10,
+              "hint": "the series in story order, landscape 16:9 works best (portrait pictures are shown whole on a blurred copy)"
+            }
+          ],
+          "unusedSlots": []
+        },
+        "9:16": {
+          "slots": [
+            {
+              "name": "pictures",
+              "kind": "array",
+              "min": 5,
+              "count": 6,
+              "max": 10,
+              "hint": "the series in story order, landscape 16:9 works best (portrait pictures are shown whole on a blurred copy)"
+            }
+          ],
+          "unusedSlots": []
+        }
+      },
+      "copy": {},
+      "couple": null,
+      "props": {
+        "captions": {
+          "type": "array",
+          "description": "每张图下方的一行字幕，按顺序对应 photos.pictures；留空不显示"
+        },
+        "beatGrid": {
+          "type": "null | object"
+        }
+      },
+      "music": {
+        "required": true,
+        "src": "music/tableau-tick.ogg",
+        "downloadOnly": false
+      },
+      "fixture": "examples/tableau-series.json",
+      "sourceUrl": "https://github.com/actionow-ai/vvv/tree/main/kits/remotion/src/templates/tableau",
+      "previews": []
     }
   ],
   "effects": [

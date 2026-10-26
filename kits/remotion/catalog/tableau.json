@@ -1,0 +1,60 @@
+{
+  "id": "tableau",
+  "version": "1.0.0",
+  "compositionId": "VVV-Tableau",
+  "title": "Tableau · 荒诞纪实组图",
+  "description": "荒诞纪实风组图短片：一张图一个画面，每张 8 拍（3.2 秒）缓慢推近加轻微手持晃动，卡拍硬切，胶片颗粒和暗角。自带原创配乐前 32 拍是干净的滴答律动，第 32 拍进入厚重的和弦墙，第 5 张图正好落在高潮上。5–10 张图，约 16–32 秒。",
+  "formats": {
+    "16:9": {
+      "width": 1920,
+      "height": 1080
+    },
+    "9:16": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "defaultFormat": "16:9",
+  "music": {
+    "required": true
+  },
+  "check": {
+    "maxStillSeconds": 3
+  },
+  "defaultProps": {
+    "photos": {
+      "pictures": []
+    },
+    "copy": {},
+    "captions": [],
+    "music": {
+      "src": "music/tableau-tick.ogg",
+      "volume": 0.9,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0,
+      "fadeOutSec": 0.4
+    },
+    "fps": 30
+  },
+  "slots": {
+    "pictures": {
+      "kind": "array",
+      "count": 6,
+      "min": 5,
+      "max": 10,
+      "hint": "the series in story order, landscape 16:9 works best (portrait pictures are shown whole on a blurred copy)"
+    }
+  },
+  "sample": {
+    "from": 10,
+    "to": 19
+  },
+  "package": {
+    "name": "@vvv/tableau",
+    "fixture": "examples/tableau-series.json",
+    "authors": [
+      "VVV"
+    ],
+    "license": "MIT"
+  }
+}

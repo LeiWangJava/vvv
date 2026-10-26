@@ -27,7 +27,8 @@
           "wedding",
           "first-birthday",
           "full-month",
-          "hundred-days"
+          "hundred-days",
+          "photo-series"
         ]
       },
       "minItems": 1

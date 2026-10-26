@@ -1,0 +1,25 @@
+{
+  "template": "tableau",
+  "props": {
+    "photos": {
+      "pictures": [
+        "dvdemo-meal",
+        "couple-09-chinese-c3-chamber-01",
+        "dvdemo-newyear",
+        "dvdemo-funny",
+        "couple-08-wedding-s8-night-01",
+        "dvdemo-concert"
+      ]
+    },
+    "copy": {},
+    "captions": [],
+    "music": {
+      "src": "music/tableau-tick.ogg",
+      "volume": 0.9,
+      "trimBeforeSec": 0,
+      "fadeInSec": 0,
+      "fadeOutSec": 0.4
+    },
+    "fps": 30
+  }
+}

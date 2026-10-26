@@ -1,6 +1,6 @@
 {
   "$comment": "统一词表：照片画像、坑位需求卡、需求表只能使用这里的 id。新增场景先加到这里，再在需求卡里引用。",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "events": [
     {
       "id": "wedding",
@@ -17,9 +17,27 @@
     {
       "id": "full-month",
       "label": "满月宴"
+    },
+    {
+      "id": "photo-series",
+      "label": "组图短片"
     }
   ],
   "roles": [
+    {
+      "id": "protagonist",
+      "label": "主角",
+      "events": [
+        "photo-series"
+      ]
+    },
+    {
+      "id": "extras",
+      "label": "配角群像",
+      "events": [
+        "photo-series"
+      ]
+    },
     {
       "id": "groom",
       "label": "新郎",
@@ -210,6 +228,16 @@
     }
   ],
   "phases": {
+    "photo-series": [
+      {
+        "id": "setup",
+        "label": "铺垫（第 1–4 张）"
+      },
+      {
+        "id": "climax",
+        "label": "高潮（第 5 张起）"
+      }
+    ],
     "wedding": [
       {
         "id": "childhood",
@@ -725,6 +753,20 @@
       "events": [
         "first-birthday",
         "hundred-days"
+      ]
+    },
+    {
+      "id": "staged-tableau",
+      "label": "荒诞摆拍场景（写实场景里有一个超现实的道具或情节）",
+      "events": [
+        "photo-series"
+      ]
+    },
+    {
+      "id": "documentary",
+      "label": "写实纪实场景",
+      "events": [
+        "photo-series"
       ]
     }
   ],

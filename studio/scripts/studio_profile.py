@@ -18,6 +18,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import re
 import sys
 import zipfile
 from pathlib import Path
@@ -173,7 +174,7 @@ def main() -> None:
     ap.add_argument('--photos', required=True, type=Path)
     ap.add_argument('--out', required=True, type=Path)
     ap.add_argument('--sheets', required=True, type=Path)
-    ap.add_argument('--event', choices=['wedding', 'first-birthday', 'full-month', 'hundred-days'], default='wedding')
+    ap.add_argument('--event', choices=['wedding', 'first-birthday', 'full-month', 'hundred-days', 'photo-series'], default='wedding')
     ap.add_argument('--birthday', help='baby birth date YYYY-MM-DD (first-birthday / full-month / hundred-days)')
     args = ap.parse_args()
     if not args.photos.is_dir():
@@ -227,7 +228,7 @@ def main() -> None:
             'id': pid, 'file': rel, 'sha256': digest, 'width': w, 'height': h,
             'orientation': 'landscape' if w > h else 'portrait' if h > w else 'square',
             'takenAt': taken, 'ageDays': days,
-            'phase': baby_phase(args.event, days) if args.event != 'wedding' else None,
+            'phase': baby_phase(args.event, days) if args.event not in ('wedding', 'photo-series') else None,
             'sharpness': sharp, 'brightness': round(ImageStat.Stat(gray).mean[0], 1),
             'dhash': f'{dhash(gray):016x}', 'dupGroup': None, 'flags': flags,
             # filled in by the agent after looking at the contact sheets
@@ -236,8 +237,14 @@ def main() -> None:
         image.thumbnail((CELL, CELL))
         images[pid] = image
 
-    # chronological order (undated last, then by file name); index is what the contact sheets print
-    records.sort(key=lambda r: (r['takenAt'] is None, r['takenAt'] or '', r['file']))
+    # chronological order (undated last, then by file name); index is what the contact sheets print.
+    # A photo series (组图短片) is told in the order the client numbered the files, so it sorts by name
+    # (natural order: 2.jpg before 10.jpg) and ignores capture times, which generated images rarely have.
+    if args.event == 'photo-series':
+        natural = lambda s: [int(p) if p.isdigit() else p.lower() for p in re.split(r'(\d+)', s)]
+        records.sort(key=lambda r: natural(r['file']))
+    else:
+        records.sort(key=lambda r: (r['takenAt'] is None, r['takenAt'] or '', r['file']))
     for i, rec in enumerate(records, 1):
         rec['index'] = i
     # near-duplicate groups by dHash

@@ -1,6 +1,6 @@
 ---
 name: wedding-studio
-description: Use when making a wedding, first-birthday (周岁宴), 100-days (百天宴) or full-month (满月宴) banquet video from a client's brief and photo archive with a VVV template — sort and classify the photos, fill the template's photo slots and captions, review, render and deliver, keeping the template itself exactly as delivered. Builds on the vvv skill.
+description: Use when making a wedding, first-birthday (周岁宴), 100-days (百天宴) or full-month (满月宴) banquet video, or a photo-series short (组图短片, e.g. 荒诞纪实组图), from a client's brief and photo archive with a VVV template — sort and classify the photos, fill the template's photo slots and captions, review, render and deliver, keeping the template itself exactly as delivered. Builds on the vvv skill.
 ---
 
 # wedding-studio
@@ -70,14 +70,14 @@ python scripts/studio_lock.py --project <订单>/project --template <模板 .vvv
 
 客户要的模板没有需求卡时，**不要自己编需求卡、也不要退回按文件名顺序填坑**：告诉人"这个模板还没交付需求卡"，改推荐一个有需求卡的模板，或者等模板交付。模板和需求卡由模板制作方（Claude）统一交付。
 
-缺必填项（名字、日期、场地、肖像授权；满月宴还有出生日期时间、体重、身高；周岁宴和百天宴还有宝宝生日）时**不要开工**：列出缺什么，并写一条可以直接发给客户的追问消息。
+缺必填项（名字、日期、场地、肖像授权；满月宴还有出生日期时间、体重、身高；周岁宴和百天宴还有宝宝生日；组图短片只要图片和授权）时**不要开工**：列出缺什么，并写一条可以直接发给客户的追问消息。
 
 **关卡 1**：把需求表要点和所选模板给人确认。
 
 ### 2. 照片进件与画像
 
 ```
-python scripts/studio_profile.py --photos <订单>/photos --out <订单>/photos.json --sheets <订单>/sheets --event <wedding|first-birthday|hundred-days|full-month> [--birthday YYYY-MM-DD]
+python scripts/studio_profile.py --photos <订单>/photos --out <订单>/photos.json --sheets <订单>/sheets --event <wedding|first-birthday|hundred-days|full-month|photo-series> [--birthday YYYY-MM-DD]
 ```
 
 它会解压压缩包、去重、修正旋转、读拍摄时间、算月龄和时间阶段、标出模糊 / 低分辨率 / 近似重复，并生成编号的缩略图总览。
@@ -112,6 +112,7 @@ python scripts/studio_cast.py candidates --cards slot-cards/<模板>.slots.json 
 - **周岁宴**：里程碑每个时间阶段至少一张；"第一次翻身"这类说法只用需求表里的事实；抓周和蛋糕放最后。
 - **百天宴**：里程碑从孕期排到第一百天，每个月至少一张，最后一张放百天照；照片很像，同一组近似照片一段里最多 2 张；"第一次笑"这类说法只用需求表里的事实。
 - **满月宴**：照片很像，同一组近似照片一段里最多 2 张；睡觉、洗澡、被抱、小手小脚轮换着用。
+- **组图短片**（`photo-series`，如 `tableau` 荒诞纪实组图）：客户给的就是成片的每一个画面，**按客户的文件编号顺序全部用上**，不挑、不删、不按内容重排（`studio_profile.py --event photo-series` 已按文件名自然排序）。没有名字、日期、场地这类必填项，需求表的 `facts` 可以只写 `story`；必填只有图片（5–10 张）和授权。字幕只用客户写的，没写就全部留空。`people` 用 `protagonist` / `extras`，`scenes` 用 `staged-tableau` / `documentary`。
 
 ### 4. 检查
 

@@ -51,6 +51,15 @@
       "redistribute": true
     },
     {
+      "id": "tableau-audio",
+      "match": [
+        "public/music/tableau-tick.ogg"
+      ],
+      "license": "MIT",
+      "source": "Original music synthesized by scripts/make-tableau-audio.py for the Tableau template",
+      "redistribute": true
+    },
+    {
       "id": "music-data",
       "match": [
         "public/music/*.beats.json",
